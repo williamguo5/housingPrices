@@ -1,0 +1,8 @@
+East Hills Girls Technology High School|Lucas Rd, Panania NSW, 2213|Government, Secondary, Girls, Non-Denominational
+East Hills Boys High School|Lucas Rd, Panania NSW, 2213|Government, Secondary, Boys, Non-Denominational
+East Hills Public School|Lucas Rd, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+Panania North Public School|Bransgrove Rd, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+Panania Public School|Lawler St, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+Picnic Point High School|Kennedy St, Panania NSW, 2213|Government, Secondary, Coed, Non-Denominational
+St Christopher's Primary School|235 Tower Street, Panania NSW, 2213|Catholic, Primary, Coed, Catholic
+Tower Street Public School|74 Tower St, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational

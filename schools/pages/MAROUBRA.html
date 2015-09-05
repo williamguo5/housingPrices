@@ -1,0 +1,939 @@
+HTTP/1.1 200 OK
+Date: Sat, 05 Sep 2015 11:45:21 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Australian Schools Directory" />
+    <meta name="keywords" content="australian schools directory">
+    <meta name="description" content="australian schools directory">
+    <title>Australian Schools Directory</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/schools.css?v=1.1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/schools-adaptive.css" />
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/schools-ie.css" />
+    <![endif]-->
+    <script src="/js/libs/jquery-1.7.1.min.js"></script>
+    <script src="/js/jquery-ui-1.8.12.custom.min.js"></script>
+    <script src="/js/modernizr.custom.61216.js"></script>
+    <script src="/js/selectivizr-min.js"></script>
+    <script src="/js/schools.js"></script>
+    <script src="/scripts/ajax.js"></script>
+    <script src="/scripts/addShortList.js"></script>
+    <script src="/scripts/searchFunctions.js?ver=1.1""></script>
+    <script>
+    var myAjax = new sack();
+    </script>
+    <meta name="google-site-verification" content="" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+</head>
+<body>
+
+    <div id="container">
+
+        <img src="http://www.australiandirectories.com.au/images/asd_header.png" alt="australian directries.com.au" width="966" height="30" usemap="#Map" border="0" class="map-header" />
+ <map name="Map">
+  <area shape="rect" coords="713,2,808,25" href="http://www.australianaccountantsdirectory.com.au">
+  <area shape="rect" coords="604,0,668,26" href="http://www.australianlawyersdirectory.com.au">
+  <area shape="rect" coords="444,2,554,25" href="http://www.privateschoolsdirectory.com.au">
+  <area shape="rect" coords="340,1,405,27" href="http://www.australianschoolsdirectory.com.au">
+  <area shape="rect" coords="59,8,269,24" href="http://www.australiandirectories.com.au">
+  <area shape="rect" coords="848,3,917,25" href="http://www.australiandentistsdirectory.com.au" />
+</map>
+
+        <div id="top" class="top-no-strip">
+            <div class="top-banner">
+                <div class="top-banner__desktop">
+                    <a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=19&amp;t=1&amp;c=0" onmouseover="window.status='http://www.notredame.edu.au';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/NOtre Dame Banner ND1486_Aust_Schools_Directory_Webbanner_72dpi_Dec13.jpg" alt="" width="966" height="" style="border: 0;" /></a>                </div>
+                <div class="top-banner__mobile">
+                    <a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=19&amp;t=1&amp;c=0" onmouseover="window.status='http://www.notredame.edu.au';return true" onmouseout="window.status='';return true" target="_blank" title="">
+                        <img src="/images/notre_dame_mobile.jpg" alt="The University of Notre Dame Australia" />
+                    </a>
+                </div>
+            </div>
+            <div class="top-header">
+                <a href="/"><img class="top-header__logo" src="/images/asdlogo.png" alt="ASD Logo" /></a>
+                <img class="top-header__tick" src="images/tick.png" alt="Tick" />
+            </div>
+            <!-- <img src="images/image_strip.jpg" alt="Image Strip" /> -->
+        </div><!-- end #top -->
+
+         <style type="text/css">
+#global-nav { margin: 0 0 3px; background-color: #ba0012; }
+#global-nav ul { height: 28px; padding: 0; margin: 0; }
+#global-nav li:hover { background-color: #0a2554; }
+#global-nav ul ul { display: none; height: auto; border-color: #eee #ddd #bbb #ccc; box-shadow: 0 5px 10px #666; }
+#global-nav li { position: relative; float: left; font-size: 12px; line-height: 18px; list-style: none; border-right: 1px solid #fff; }
+#global-nav a { display: block; padding: 5px 20px; color: #fff; text-align: center; text-decoration: none; text-transform: uppercase; }
+#global-nav a:hover { color: #fff; text-decoration: none; }
+#global-nav li:hover ul { position: absolute; display: block; z-index: 999; top: 28px; left: 0; width: 200px; background: #fff; border: 1px solid #ddd; }
+#global-nav li li { float: none; margin: 0; background-image: none; border-style: none; }
+#global-nav ul ul a { padding: 6px 10px; color: #555; font-size: 12px; text-align: left; text-transform: none; border-style: none; }
+#global-nav ul ul li:hover { background-color: #ba0012; }
+#global-nav ul ul li:hover a { color: #fff; }
+</style>
+<div id="global-nav">
+    <ul>
+        <li class="active">
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/search.php">Search For Schools</a>
+            <nav id="global-nav">
+                <ul>
+                    <li>
+                        <a href="/search.php">All Schools Search</a>
+                    </li>
+                    <li>
+                        <a href="/search-name.php">Find School by Name</a>
+                    </li>
+                    <li>
+                        <a href="/search-specialneeds.php">Search By Special Needs</a>
+                    </li>
+                    <li>
+                        <a href="/boarding-schools.php">Boarding Schools Search</a>
+                    </li>
+                    <li>
+                        <a href="/search-alternative.php">Alternative Education</a>
+                    </li>
+                    <li>
+                        <a href="/search-religion.php">Search By Religion</a>
+                    </li>
+                    <li>
+                        <a href="/search-feature.php">Schools with Feature Pages</a>
+                    </li>
+                </ul>
+            </nav><!-- end #global-nav -->
+        </li>
+        <li>
+            <a href="/search-feature.php">FEATURED SCHOOLS</a>
+            <nav id="global-nav">
+                <ul>
+                    <li>
+                        <a href="/search-feature.php">Schools with Feature Pages</a>
+                    </li>
+                </ul>
+            </nav><!-- end #global-nav -->
+        </li>
+        <li>
+            <a href="/educationinformation.php?region=48">Education Information</a>
+            <nav id="global-nav">
+                <ul>
+                    <li>
+                        <a href="/educationinformation.php?region=48">Australian Education System</a>
+                    </li>
+                    <li>
+                        <a href="/educationinformation.php?region=41">State and Territory Education Systems</a>
+                    </li>
+                    <li>
+                        <a href="/educationinformation.php?region=10">Education Glossary</a>
+                    </li>
+                    <li>
+                        <a href="/educationinformation.php?region=12">Education Websites</a>
+                    </li>
+                    <li>
+                        <a href="/educationinformation.php?region=11">School term dates</a>
+                    </li>
+                </ul>
+            </nav><!-- end #global-nav -->
+        </li>
+        <li>
+            <a href="/schools.php">For Schools</a>
+            <nav id="global-nav">
+                <ul>
+                    <li>
+                        <a href="/schools.php">Overview for Schools</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=47">About School Feature Pages</a>
+                    </li>
+                    <!-- <li>
+                        <a href="/school.php?school=1">School Feature Page Demo</a>
+                    </li> -->
+                    <li>
+                        <a href="/schools.php?region=16">Feature Page Cost</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=15">Make a School Feature Page</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=13">About School Details</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=14">About Curriculum Search</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=60">Surveys</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=54">Directory in the News</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=55">Communicator Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="/schools.php?region=59">See our Brochures</a>
+                    </li>
+                    <li>
+                        <a href="/postcode_search.php">First School in Region Check</a>
+                    </li>
+                    <li>
+                        <a href="/school_login.php">School Log-in</a>
+                    </li>
+                </ul>
+            </nav><!-- end #global-nav -->
+        </li>
+        <li>
+            <a href="/shortlist_register.php">My Shortlist</a>
+            <nav id="global-nav">
+                <ul>
+                    <li>
+                        <a href="/shortlist_register.php">Register</a>
+                    </li>
+                    <li>
+                        <a href="/shortlist.php">My Short-List</a>
+                    </li>
+                   
+                </ul>
+            </nav>
+        </li>
+    </ul>
+</div><!-- end #global-nav -->
+
+        <div class="grid">
+
+            <div class="side-bar">
+                <nav class="secondary-nav">
+                    <ul>
+                        <li>
+                            <a class="active" href="search.php">All Schools Search</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="search-name.php">Find School By Name</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="search-specialneeds.php">Search By Special Needs</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="boarding-schools.php">Boarding Schools Search</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="search-alternative.php">Alternative Education</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="search-alternative.php">Search By Religion</a><span class="arrow"></span>
+                        </li>
+                        <li>
+                            <a href="search-feature.php">Schools with Feature Pages</a><span class="arrow"></span>
+                        </li>
+                    </ul>
+                </nav>
+
+                <form name="searchForm" method="post" action="search.php">
+
+                
+                <input type="hidden" id="searchType" name="searchType" value="" />
+                <input name="Boarding" id="Boarding" type="hidden" value="">
+                <input name="Special" id="Special" type="hidden" value="">
+                <input name="Alternative" id="Alternative" type="hidden" value="">
+                <input name="Religion" type="hidden" id="Religion" value="">
+                <input name="noRefine" id="noRefine" type="hidden" value="">
+                <input name="schoolName" id="schoolName" type="hidden" value="">
+                <input name="distanceCalc" id="distanceCalc" type="hidden" value="">
+                <input name="searchWithin" id="searchWithin" type="hidden" value="">
+                <input name="list_state" id="list_state" type="hidden" value="NSW">
+                <input name="list_state2" id="list_state2" type="hidden" value="">
+                <input name="school_id" id="school_id" type="hidden" value="">
+
+                <input name="txtSuburb" type="hidden" id = "txtSuburb" value="MAROUBRA">
+                <input name="search" type="hidden" value="true">
+                <input name="pageNum" type="hidden" id="pageNum" value="1">
+                <input name="searchType" type="hidden" id="searchType" value="">
+                <input name="specialNeeds" type="hidden" id = "specialNeeds" value=""><input name="alternative" type="hidden" id = "alternative" value=""><input name="religion" type="hidden" id = "religion" value=""><input name="type" type="hidden" id = "type" value=""><input name="level" type="hidden" id = "level" value=""><input name="gender" type="hidden" id = "gender" value="">                <input name="flashfile" type="hidden" id="flashfile" value="sydney">
+                <input name="feature" type="hidden" id="feature" value="">
+                <input name="list_region" type="hidden" id="list_region" value="Sydney">
+                <input name="list_subreg" type="hidden" id="list_subreg" value="">
+                <input name="list_subreg2" type="hidden" id="list_subreg2" value=""><br />
+
+                <fieldset class="search">
+                    <legend>Refine Results by</legend>
+                    <div id="filter-service" class="filter">
+                                                <a href="#" onclick="refineSearch('type', 'Government')" class="whiteText">Government (3)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('type', 'Catholic')" class="whiteText">Catholic (5)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('type', 'Independent')" class="whiteText">Independent (4)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('level', 'Primary')" class="whiteText">Primary (8)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('level', 'Secondary')" class="whiteText">Secondary (3)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('level', 'Combined')" class="whiteText">Combined (1)</a>
+                                                <br />
+                                                <a href="#" onclick="refineSearch('gender', 'Coed')" class="whiteText">Coed (11)</a>
+                                                <br />
+                                                Girls (0)
+                                                <br />
+                                                <a href="#" onclick="refineSearch('gender', 'Boys')" class="whiteText">Boys (1)</a>
+                                                <br />
+                                                Boarding Schools (0)
+                                                <br />
+                                                Alternative (0)
+                                                <br />
+                                                Special Needs (0)
+                                                <br />
+                    </div><!-- end #filter-service.filter -->
+                </fieldset><!-- end .search -->
+
+                <fieldset class="search">
+                    <legend>Religion</legend>
+                    <div id="filter-quality" class="filter">
+                                                <a href="#" onclick="refineSearch('Religion', 'Catholic')" class="whiteText">Catholic (5)</a>
+                                                <br>
+                                                <a href="#" onclick="refineSearch('Religion', 'Other Christian')" class="whiteText">Other Christian (1)</a>
+                                                <br>
+                                                <a href="#" onclick="refineSearch('Religion', 'Jewish')" class="whiteText">Jewish (1)</a>
+                                                <br>
+                                                Islamic (0)
+                                                <br>
+                                                Other religions (0)
+                                                <br>
+                                                <a href="#" onclick="refineSearch('Religion', 'Non-Denominational')" class="whiteText">Non-Denominational (5)</a>
+                                            </div><!-- end #filter-quality.filter -->
+                </fieldset><!-- end .search -->
+
+                                <input name="image" type="image" title="backSearch" src="images/btns/back_to_bllue.gif" alt="Back To Search" align="middle" border="0" style="padding: 0 15px;" />
+                                </form>
+
+                <aside class="feature-box">
+                    <h4><img src="images/hdrs/shortlist_wide.gif" alt="My Shortlist" width="278" height="27" /></h4>
+                    <div id="shortlistContent">
+                                                <p>Make and store a short-list of schools</p>
+                        <p><strong>Registered User</strong> - <a href="shortlist.php" class="blueLink">Log-in<br />
+                        </a><strong>New User</strong> - <a href="shortlist_register.php" class="blueLink">Register</a></p>
+                        <br>
+                                            </div>
+                </aside> <!-- eo .feature-box -->
+
+                <!-- <aside class="feature-box">
+                    <h4>Products and Services</h4>
+
+                    <div id="profile-cycle-1">
+
+                        
+                        <div>
+                            <a class="cycle-pic" href="organisation.php?oid=20">
+                                <img src="" alt="" />
+                            </a>
+                            <h5><a class="cycle-pic" href="organisation.php?oid=20">Educational Assessment Australia</a></h5>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="bodySmall">
+                      <div align="center"><a href="organisations-all.php?type=prod">See all Products and Services</a></div>
+                    </div>
+                </aside> <!-- eo .feature-box -->
+
+                <!-- <aside class="feature-box">
+                    <h4>Organisations</h4>
+
+                    <div id="profile-cycle-2">
+
+                        
+                        <div>
+                            <a class="cycle-pic" href="organisation.php?oid=3">
+                                <img src="http://www.australianschoolsdirectory.com.au/scripts/image.php?url=http://www.australianschoolsdirectory.com.au/organisations/1183349477-logos.gif&hmax=120&wmax=false" alt="" />
+                            </a>
+                            <h5><a class="cycle-pic" href="organisation.php?oid=3">Representing Government School Communities</a></h5>
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="bodySmall">
+                      <div align="center"><a href="organisations-all.php">Other Organisations</a></div>
+                    </div>
+                </aside> <!-- eo .feature-box -->
+
+                <aside class="feature-box">
+                    <h4><img src="images/right/products&amp;services_wide.gif" alt="Products and Services" width="278" height="27" /></h4>
+                    <a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=3&amp;t=1&amp;c=0" onmouseover="window.status='http://www.mcdonald.nsw.edu.au/';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/mcdonald Glenn-AN-336x280.gif" alt="" width="300" height="" style="border: 0;" /></a>                    <br /><br />
+                    <a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=62&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/school.php?school=5315&prevf=true';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/Kings-Christian-College 300 X 60.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=31&amp;t=1&amp;c=1" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/4867/citipointe-christian-college-brisbane-carindale';return true" onmouseout="window.status='';return true" target="_self" title="Citipointe Christian College Brisbane"><img src="http://australiandirectories.com.au/mysimpleads/banners/citipointe.png" alt="Citipointe Christian College Brisbane" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=54&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/1847/northholm-grammar-school-arcadia';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/NGS0148-Banner.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=39&amp;t=1&amp;c=0" onmouseover="window.status='http://www.privateschoolsdirectory.com.au/5806/sheldon-college-sheldon';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/Sheldon MiniBanner300X60.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=56&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/8907/plenty-valley-christian-college-victoria-doreen';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/PLENTY VALLEY MiniBanner300X60 - Copy.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=70&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/142/barker-college-hornsby';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/NEW BARKERSAuSchoolsDirectory_miniBanner.png" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=49&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/1654/monte-sant-angelo-mercy-college';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/Monte Banner.png" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=7&amp;t=1&amp;c=1" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/5818/somerset-college-mudgeeraba-gold-coast';return true" onmouseout="window.status='';return true" target="_self" title="Somerset College Queensland"><img src="http://australiandirectories.com.au/mysimpleads/banners/somerset.jpg" alt="Somerset College Queensland" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=66&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/6382/blue-gum-montessori-school-bibra-lake';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/BLUEGUM PastedGraphic-1.png" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=36&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/2172/santa-sabina-college-strathfield';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/Santa-Sabina-College mini banner.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=52&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/9899/tyndale-christian-school-blacktown';return true" onmouseout="window.status='';return true" target="_blank" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/TyndaleBanner.jpg" alt="" width="300" height="" style="border: 0;" /></a><br />&nbsp;<br /><a href="http://australiandirectories.com.au/mysimpleads/mysa_redir.php?a_id=33&amp;t=1&amp;c=0" onmouseover="window.status='http://www.australianschoolsdirectory.com.au/4822/canterbury-college--waterford';return true" onmouseout="window.status='';return true" target="_self" title=""><img src="http://australiandirectories.com.au/mysimpleads/banners/Canterbury-Australian-Schools-Directory-Banner.jpg" alt="" width="300" height="" style="border: 0;" /></a>                </aside> <!-- eo .feature-box -->
+
+                <script type="text/javascript" src="/js/cycle.js"></script>
+                <script type="text/javascript">
+                    $('#profile-cycle-1').cycle({
+                        tag: 'div',
+                        interval: 5000,
+                        transition: 500
+                    });
+
+                    $('#profile-cycle-2').cycle({
+                        tag: 'div',
+                        interval: 5000,
+                        transition: 500
+                    });
+                </script>
+            </div>
+
+            <div class="main">
+
+                <div style="padding: 10px; margin: 20px 0; border: 1px solid #dae7f2; background-color: #ECF3F7; border-radius: 3px;">
+                                        <p><p><strong>You searched for the following locations:</strong> MAROUBRA NSW</p>
+                                        <p>Returned 12 results</p>
+                    
+                </div>
+
+                <div class="old-nav">
+                    <a href="#" onclick="searchForm.submit()" class="old-nav__back-to-search">
+                      <img src="images/btns/back_to_white.gif" alt="Back to Search" />
+                    </a>
+                    <a href="#" onclick="searchMap()" class="old-nav__sho-result">
+                      <img src="images/btns/showResultMap.gif" alt="Show Results On Map" />
+                    </a>
+                </div>
+
+                                <div class="listing-container premium-listing">
+                    <div class="shortlist-add-container" id='shortlist2796'>
+                        <a class="shortlist-add" href="javascript:addShortList2(2796);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a class="clearfix" href="/2796/the-international-french-school-of-sydney-maroubra"><span class="view-page view-feature-page">View feature page</span> The International French School of Sydney</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9344 8692<br>
+                                <!--<a href="school-result-maps.php?school=2796">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(2796)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                758 ANZAC Parade<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="grid listing-section">
+                                                        <a href="/2796/the-international-french-school-of-sydney-maroubra" class="image">
+                               <img src="http://www.australianschoolsdirectory.com.au/scripts/image.php?url=http://www.australianschoolsdirectory.com.au/schools/2796-1300683943-1.jpg&hmax=100&wmax=100">
+                            </a>
+                            
+
+                            <div class="description">
+                                <p class="shortdescription">
+                                    The International French School of Sydney provides an unique bi-lingual education in French and English and caters for students from Preschool to Year 12 offering the French or International Baccalaureates. <a href="/2796/the-international-french-school-of-sydney-maroubra" class="redLink">more</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Independent</li>
+
+                                                                <li>Primary/Secondary Combined</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Non-Denominational</li>
+
+                                                            </ul>
+                        </div>
+                    </div><!-- end .listing -->
+                </div><!-- end .listing-container -->
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1539'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1539);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1539/champagnat-catholic-college-pagewood-maroubra">Champagnat Catholic College Pagewood</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 7333<br>
+                                <!--<a href="school-result-maps.php?school=1539">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1539)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                35 Donovan Avenue<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Catholic</li>
+
+                                                                <li>Secondary</li>
+                                
+                                <li>Boys</li>
+
+                                <li>Catholic</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1545'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1545);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1545/maroubra-bay-public-school-maroubra">Maroubra Bay Public School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 1569<br>
+                                <!--<a href="school-result-maps.php?school=1545">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1545)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                Duncan St<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Government</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Non-Denominational</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1547'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1547);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1547/maroubra-beach-montessori-preschool-maroubra">Maroubra Beach Montessori Preschool</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 3766<br>
+                                <!--<a href="school-result-maps.php?school=1547">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1547)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                469 Malabar Road<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Independent</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Non-Denominational</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1546'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1546);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1546/maroubra-junction-public-school-maroubra">Maroubra Junction Public School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 8333<br>
+                                <!--<a href="school-result-maps.php?school=1546">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1546)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                Storey St<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Government</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Non-Denominational</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1717'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1717);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1717/mt-sinai-college-maroubra">Mt Sinai College</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                (02) 9349 4877<br>
+                                <!--<a href="school-result-maps.php?school=1717">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1717)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                6 Runic Lane<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Independent</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Jewish</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1918'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1918);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1918/our-lady-of-the-annunciation-school-maroubra">Our Lady Of The Annunciation School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 6902<br>
+                                <!--<a href="school-result-maps.php?school=1918">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1918)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                31 Donovan Avenue<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Catholic</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Catholic</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist1917'>
+                        <a class="shortlist-add" href="javascript:addShortList2(1917);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/1917/our-lady-of-the-annunciation-primary-school-maroubra">Our Lady of the Annunciation Primary School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 6902<br>
+                                <!--<a href="school-result-maps.php?school=1917">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(1917)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                31 Donovan Avenue<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Catholic</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Catholic</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist2234'>
+                        <a class="shortlist-add" href="javascript:addShortList2(2234);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/2234/south-sydney-high-school-maroubra">South Sydney High School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9349 3868<br>
+                                <!--<a href="school-result-maps.php?school=2234">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(2234)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                Paine St<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Government</li>
+
+                                                                <li>Secondary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Non-Denominational</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist2255'>
+                        <a class="shortlist-add" href="javascript:addShortList2(2255);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/2255/st-aidens-primary-school-maroubra">St Aiden's Primary School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9344 6364<br>
+                                <!--<a href="school-result-maps.php?school=2255">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(2255)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                214 Maroubra Road<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Catholic</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Catholic</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist2511'>
+                        <a class="shortlist-add" href="javascript:addShortList2(2511);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/2511/st-mary-and-st-joseph-primary-school-maroubra">St Mary And St Joseph Primary School</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9314 0195<br>
+                                <!--<a href="school-result-maps.php?school=2511">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(2511)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                280 Fitzgerald Avenue<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Catholic</li>
+
+                                                                <li>Primary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Catholic</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                                <div class="listing-container">
+                    <div class="shortlist-add-container" id='shortlist2647'>
+                        <a class="shortlist-add" href="javascript:addShortList2(2647);">Add to shortlist</a>
+                    </div><!-- end .shortlist-add-container -->
+
+                    <div class="listing">
+                        <div class="listing-header">
+                            <a href="/2647/st-spyridon-college-maroubra">St Spyridon College</a>
+                        </div><!-- end .listing-header -->
+
+                        <div class="listing-section" style="padding-top: 0; border: none;">
+                            <p class="contact">
+                                02 9311 3340<br>
+                                <!--<a href="school-result-maps.php?school=2647">Show Map</a>-->
+                                <a href="#" onclick="schoolMap(2647)" >Show Map</a>
+                            </p>
+
+                            <p class="address">
+                                1130 Anzac Parade<br>
+                                Maroubra NSW, 2035                            </p>
+                        </div><!-- end .listing-section -->
+
+                        <div class="listing-section attributes">
+                            <ul>
+                                <li>Independent</li>
+
+                                                                <li>Secondary</li>
+                                
+                                <li>Coed</li>
+
+                                <li>Greek Orthodox</li>
+
+                                                            </ul>
+                        </div>
+
+                    </div><!-- end .listing -->
+                </div>
+                
+                <div class="pagination">
+                                    </div>
+
+            </div>
+
+        </div>
+
+        
+<div id="bottom">
+
+            <h2 class="zeta">If you like the <strong>Australian Schools Directory</strong> you will also like</h2>
+
+            <ul id="directories-nav">
+                <li>
+                    <strong>Private Schools Directory</strong><br />
+                    <a href="http://privateschoolsdirectory.com.au" target="_blank">www.privateschoolsdirectory.com.au</a>
+                </li>
+                <li> <strong>Australian Lawyers Directory</strong><br />
+                    <a href="http://australianlawyersdirectory.com.au" target="_blank">www.australianlawyersdirectory.com.au</a>
+
+
+                </li>
+                <!-- <li>
+                    <strong>Australian Staff Directory</strong><br />
+                    <a href="http://australianstaffdirectory.com.au" target="_blank">www.australianstaffdirectory.com.au</a>
+                </li> -->
+                <li><strong>Australian Accountants Directory</strong><br />
+                    <a href="http://australianaccountantsdirectory.com.au" target="_blank">www.australianaccountantsdirectory.com.au</a>
+                                   </li>
+                <!-- <li>
+                    <strong>Australian Restaurants Directory</strong><br />
+                    <a href="http://australianrestaurantsdirectory.com.au" target="_blank">www.australianrestaurantsdirectory.com.au</a>
+                </li> -->
+                <li><strong>Australian Dentists Directory</strong><br />
+                    <a href="http://australiandentistsdirectory.com.au" target="_blank">www.australiandentistsdirectory.com.au</a>
+
+                </li>
+                <li><strong>Australian Doctors Directory</strong><br />
+                    <a href="http://australiandoctorsdirectory.com.au" target="_blank">www.australiandoctorsdirectory.com.au</a>
+
+                </li>
+            </ul>
+
+        </div><!-- #footer -->
+
+        <div id="bottom-nav">
+
+            <ul>
+                <li><a href="/howtousethiswebsite.php">Using this site</a></li>
+                <li><a href="/disclaimer.php">Disclaimer</a></li>
+                <li><a href="/privacy.php">Privacy Policy</a></li>
+                <li><a href="/sitemap.php">Sitemap</a></li>
+                <li><a href="/about.php">About us</a></li>
+                <li><a href="/contact.php">Contact us</a></li>
+                <!--<li><a href="http://onlinefactor.com.au/">Site by</a></li>-->
+            </ul>
+
+            Copyright &copy; Australian Schools Directory 2015        </div><!-- end #bottom-nav -->
+    </div><!-- end #container -->
+
+        
+    </div><!-- end #container -->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-15923374-2', 'australianschoolsdirectory.com.au');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

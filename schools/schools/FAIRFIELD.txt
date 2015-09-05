@@ -1,0 +1,7 @@
+Fairfield Heights Public School|Station St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+Fairfield High School|The Horsley Drive, Fairfield NSW, 2165|Government, Secondary, Coed, Non-Denominational
+Fairfield Public School|68-82 Smart St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+Fairvale Public School|Wolseley St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+Our Lady Of The Rosary Primary School|Vine Street, Fairfield NSW, 2165|Catholic, Primary, Coed, Catholic
+Patrician Brothers College|268 The Horsley, Fairfield NSW, 2165|Catholic, Secondary, Boys, Catholic
+Patrician Brothers School|2 Weston Street, Fairfield NSW, 2165|Catholic, Primary, Boys, Catholic

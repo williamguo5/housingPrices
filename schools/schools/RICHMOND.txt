@@ -1,0 +1,3 @@
+Richmond High School|Lennox St, Richmond NSW, 2753|Government, Secondary, Coed, Non-Denominational
+Richmond Public School|Windsor St, Richmond NSW, 2753|Government, Primary, Coed, Non-Denominational
+St Monica's Primary School|1a Bourke Street, Richmond NSW, 2753|Catholic, Primary, Coed, Catholic

@@ -1,0 +1,6 @@
+Cabramatta High School|Aladore Ave, Cabramatta NSW, 2166|Government, Secondary, Coed, Non-Denominational
+Cabramatta Public School|Levuka St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+Cabramatta West Public School|Broad St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+Harrington Street Public School|Harrington St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+Lansvale East Public School|Riverside Rd, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+Sacred Heart Primary School|4 Gilmore Street, Cabramatta NSW, 2166|Catholic, Primary, Coed, Catholic

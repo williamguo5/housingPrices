@@ -1,0 +1,9 @@
+Al Noori Muslim Primary School|75 Greenacre Road, Greenacre NSW, 2190|Independent, Primary, Coed, Islamic
+Banksia Road Public School|65 Banksia Rd, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+Chullora Public School|Norfolk & Waterloo Rds, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+Greenacre Baptist Christian Community School|38-40 Shellcote Road, Greenacre NSW, 2190|Independent, Primary, Coed, Baptist
+Greenacre Public School|Waterloo Rd, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+Holy Saviour School|80 Waterloo Road, Greenacre NSW, 2190|Catholic, Primary, Coed, Catholic
+Malek Fahd Islamic School|405 Waterloo Road, Greenacre NSW, 2190|Independent, Primary/Secondary Combined, Coed, Islamic
+Mount Lewis Infants School|Noble Ave, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+St John Vianneys Primary School|78 Tempe Street, Greenacre NSW, 2190|Catholic, Primary, Coed, Catholic

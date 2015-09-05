@@ -1,0 +1,5 @@
+Holy Family Primary School|Oxford Road, Ingleburn NSW, 2565|Catholic, Primary, Coed, Catholic
+Ingleburn High School|Oxford Rd, Ingleburn NSW, 2565|Government, Secondary, Coed, Non-Denominational
+Ingleburn North Public School|Macdonald Rd, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational
+Ingleburn Public School|Oxford Rd, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational
+Sackville Street Public School|Sackville & Bradley Sts, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational

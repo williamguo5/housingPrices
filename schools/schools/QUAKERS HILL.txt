@@ -1,0 +1,7 @@
+Barnier Public School|Barnier Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+Hambledon Public School|Bali Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+Mary Immaculate Primary School|125 Barnier Drive, Quakers Hill NSW, 2763|Catholic, Primary, Coed, Catholic
+Quakers Hill High School|Lalor Rd, Quakers Hill NSW, 2763|Government, Secondary, Coed, Non-Denominational
+Quakers Hill Public School|Medlow Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+St John Paul II Catholic College - Quaker's Hill Campus|Eastern Road, Quakers Hill NSW, 2763|Independent, Secondary, Coed, Catholic
+Wyndham College|Nirimba Precinct Eastern Rd, Quakers Hill NSW, 2763|Government, Secondary, Coed, Non-Denominational

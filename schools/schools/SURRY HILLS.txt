@@ -1,0 +1,6 @@
+Sydney Distance Education Primary School|1 Collins St, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+Sydney Girls High School|Moore Park, Surry Hills NSW, 2010|Government, Secondary, Girls, Non-Denominational
+Bourke Street Public School|590 Bourke St, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+Cleveland Street Intensive English High School|Cnr Chalmers & Cleveland Sts, Surry Hills NSW, 2010|Government, Secondary, Coed, Non-Denominational
+Crown Street Public School|356 Crown Street, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+Sydney Boys High School|Moore Park, Surry Hills NSW, 2010|Government, Secondary, Boys, Non-Denominational

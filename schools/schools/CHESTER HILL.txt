@@ -1,0 +1,5 @@
+Bob Hughes Christian School|40 Hectar Street, Chester Hill NSW, 2162|Independent, Primary/Secondary Combined, Coed, Christian
+Chester Hill High School|Kenward Ave, Chester Hill NSW, 2162|Government, Secondary, Coed, Non-Denominational
+Chester Hill North Public School|Campbell Hill Rd, Chester Hill NSW, 2162|Government, Primary, Coed, Non-Denominational
+Chester Hill Public School|Proctor Pde, Chester Hill NSW, 2162|Government, Primary, Coed, Non-Denominational
+Salamah College|40 Hector Street, Chester Hill NSW, 2162|Independent, Primary/Secondary Combined, Coed, Islamic

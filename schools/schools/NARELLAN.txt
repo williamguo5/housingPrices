@@ -1,0 +1,4 @@
+Selective School|Waterworth Drive, Narellan NSW, 2567|Government, Secondary, Coed, Non-Denominational
+Elderslie High School|Hilder St, Narellan NSW, 2567|Government, Secondary, Coed, Non-Denominational
+Magdalene Catholic High School|Lot 1051 Smeaton Grange Road, Narellan NSW, 2567|Catholic, Secondary, Coed, Catholic
+Narellan Public School|Hume Hwy, Narellan NSW, 2567|Government, Primary, Coed, Non-Denominational

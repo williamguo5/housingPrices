@@ -1,0 +1,13 @@
+Brigidine College Randwick|Aoelia Street, Randwick NSW, 2031|Catholic, Secondary, Girls, Catholic
+Centennial Park School|Level 1/78 Avoca Street, Randwick NSW, 2031|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+Claremont College|30 Coogee Bay Road, Randwick NSW, 2031|Independent, Primary, Coed, Anglican
+Coogee Boys Preparatory School|Alison Road, Randwick NSW, 2031|Independent, Primary, Boys, Non-Denominational
+Emanuel School|20 Stanley Street, Randwick NSW, 2031|Independent, Primary/Secondary Combined, Co-ed, Jewish
+Marcellin College|195 Alison Road, Randwick NSW, 2031|Catholic, Secondary, Boys, Catholic
+Open High School|78 Avoca St, Randwick NSW, 2031|Government, Secondary, Coed, Non-Denominational
+Our Lady Of The Sacred Heart Primary School|193 Avoca Street, Randwick NSW, 2031|Catholic, Primary, Coed, Catholic
+Rainbow Street Public School|Rainbow St, Randwick NSW, 2031|Government, Primary, Coed, Non-Denominational
+Randwick Boys High School|Rainbow & Avoca Sts, Randwick NSW, 2031|Government, Secondary, Boys, Non-Denominational
+Randwick Girls High School|Barker St, Randwick NSW, 2031|Government, Secondary, Girls, Non-Denominational
+Randwick Public School|Cowper St, Randwick NSW, 2031|Government, Primary, Coed, Non-Denominational
+St Margaret Marys School|Corner Avoca Street & Clovelly Road, Randwick NSW, 2031|Catholic, Primary, Coed, Catholic

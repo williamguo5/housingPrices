@@ -1,0 +1,7 @@
+Caringbah High School|111-129 Willarong Rd, Caringbah NSW, 2229|Government, Secondary, Coed, Non-Denominational
+Caringbah North Public School|125 Cawarra Rd, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+Caringbah Public School|Port Hacking Rd, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+De La Salle College|389 Port Hacking Road, Caringbah NSW, 2229|Catholic, Secondary, Boys, Catholic
+Endeavour Sports High School|Taren Pt Rd & The Boulevarde, Caringbah NSW, 2229|Government, Secondary, Coed, Non-Denominational
+Laguna Street Public School|204 Caringbah Road, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+Our Lady Of Fatima Primary School|389 Port Hacking Road South, Caringbah NSW, 2229|Catholic, Primary, Coed, Catholic

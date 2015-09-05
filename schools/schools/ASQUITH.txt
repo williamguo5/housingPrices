@@ -1,0 +1,4 @@
+Asquith Boys High School|Jersey St, Asquith NSW, 2077|Government, Secondary, Boys, Non-Denominational
+Asquith Girls High School|Stokes Ave, Asquith NSW, 2077|Government, Secondary, Girls, Non-Denominational
+Asquith Public School|Dudley St, Asquith NSW, 2077|Government, Primary, Coed, Non-Denominational
+St Patrick's Primary School|1 Royston Parade, Asquith NSW, 2077|Catholic, Primary, Coed, Catholic

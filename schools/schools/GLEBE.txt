@@ -1,0 +1,5 @@
+|255 Broadway, Glebe NSW, 2037|Independent, Secondary, Coed, Non-Denominational
+St Scholastica's College|4 Avenue Road, Glebe NSW, 2037|Catholic, Secondary, Girls, Catholic, Boarding
+Glebe Public School|Derwent St, Glebe NSW, 2037|Government, Primary, Coed, Non-Denominational
+St James' Primary School|2 Woolley Street, Glebe NSW, 2037|Catholic, Primary, Coed, Catholic
+Sydney Secondary College Blackwattle Bay Campus|Taylor St, Glebe NSW, 2037|Government, Senior, Coed, Non-Denominational

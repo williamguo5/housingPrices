@@ -1,0 +1,4 @@
+Rooty Hill High School|North Pde, Rooty Hill NSW, 2766|Government, Secondary, Coed, Non-Denominational
+Rooty Hill Public School|Rooty Hill Rd North, Rooty Hill NSW, 2766|Government, Primary, Coed, Non-Denominational
+St Agnes Catholic High School|Evans Road, Rooty Hill NSW, 2766|Catholic, Secondary, Coed, Catholic
+St Aidan's Primary School|1-5 Adelaide Street, Rooty Hill NSW, 2766|Catholic, Primary, Coed, Catholic

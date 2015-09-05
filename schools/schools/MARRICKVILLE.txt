@@ -1,0 +1,7 @@
+Casimir Catholic College|200 Livingstone Road, Marrickville NSW, 2204|Catholic, Secondary, Coed, Catholic
+Ferncourt Public School|Premier St, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+Marrickville High School|Northcote St, Marrickville NSW, 2204|Government, Secondary, Coed, Non-Denominational
+Marrickville Public School|Chapel St, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+Marrickville West Public School|Livingstone Rd, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+St Brigid's Primary School|17 Fletcher Street, Marrickville NSW, 2204|Catholic, Primary, Coed, Catholic
+Wilkins Public School|Park Rd, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational

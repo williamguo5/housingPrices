@@ -1,0 +1,8 @@
+Cronulla High School|Captain Cook Drive, Cronulla NSW, 2230|Government, Secondary, Coed, Non-Denominational
+Burraneer Bay Public School|161-165 Burraneer Bay Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+Cronulla Public School|18-24 Burraneer Bay Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+Cronulla South Public School|Ewos Pde, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+De La Salle College|2 Cross Road, Cronulla NSW, 2230|Catholic, Secondary, Coed, Catholic
+Our Lady Of Mercy College|62-66 Dominic Street, Cronulla NSW, 2230|Catholic, Secondary, Girls, Catholic
+St Aloysius Primary School|7-17 Giddings Avenue, Cronulla NSW, 2230|Catholic, Primary, Coed, Catholic
+Woolooware Public School|Wills Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational

@@ -1,0 +1,7 @@
+Catherine McAuley High School|2 Darcy Road, Wentworthville NSW, 2145|Catholic, Secondary, Girls, Catholic
+Darcy Road Public School|Darcy Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+Our Lady Of Mt Carmel Primary School|Bennett Street, Wentworthville NSW, 2145|Catholic, Primary, Coed, Catholic
+Pendle Hill High School|Knox St, Wentworthville NSW, 2145|Government, Secondary, Coed, Non-Denominational
+Pendle Hill Public School|Pendle Way, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+Toongabbie East Public School|Harris Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+Wentworthville Public School|Cnr Station St & Fullagar Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational

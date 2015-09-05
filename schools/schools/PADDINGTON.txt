@@ -1,0 +1,4 @@
+Glenmore Road Public School|Glenmore Rd, Paddington NSW, 2021|Government, Primary, Coed, Non-Denominational
+Paddington Public School|Oxford St, Paddington NSW, 2021|Government, Primary, Coed, Non-Denominational
+St Francis of Assisi Primary School|64 Gordon Street, Paddington NSW, 2021|Catholic, Primary, Coed, Catholic
+Sydney Grammar School|7-11 Alma Street, Paddington NSW, 2021|Independent, Primary, Boys, Non-Denominational

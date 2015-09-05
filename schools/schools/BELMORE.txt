@@ -1,0 +1,5 @@
+All Saints Grammar School|31 Forsyth Street, Belmore NSW, 2192|Independent, Secondary, Coed, Greek Orthodox
+Belmore Boys High School|Burwood Rd, Belmore NSW, 2192|Government, Secondary, Boys, Non-Denominational
+Belmore North Public School|Burwood Rd, Belmore NSW, 2192|Government, Primary, Coed, Non-Denominational
+Belmore South Public School|Nelson Ave & Canterbury Rd, Belmore NSW, 2192|Government, Primary, Coed, Non-Denominational
+St Joseph's School|6 Wilson Avenue, Belmore NSW, 2192|Catholic, Primary, Coed, Catholic

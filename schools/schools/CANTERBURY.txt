@@ -1,0 +1,4 @@
+Canterbury Boys High School|Holden St, Canterbury NSW, 2193|Government, Secondary, Boys, Non-Denominational
+Canterbury Girls High School|Church St, Canterbury NSW, 2193|Government, Secondary, Girls, Non-Denominational
+Canterbury Public School|Church St, Canterbury NSW, 2193|Government, Primary, Coed, Non-Denominational
+Canterbury South Public School|High St, Canterbury NSW, 2193|Government, Primary, Coed, Non-Denominational

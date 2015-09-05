@@ -1,0 +1,5 @@
+St Luke's Grammar School|210 Headland Road, Dee Why NSW, 2099|Independent, Primary/Secondary Combined, Coed, Anglican
+Dee Why Public School|Regent St, Dee Why NSW, 2099|Government, Primary, Coed, Non-Denominational
+Fisher Road School|115 Fisher Rd, Dee Why NSW, 2099|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+Narraweena Public School|McIntosh Rd, Dee Why NSW, 2099|Government, Primary, Coed, Non-Denominational
+St Kevin's Primary School|72 Pacific Parade, Dee Why NSW, 2099|Catholic, Primary, Coed, Catholic

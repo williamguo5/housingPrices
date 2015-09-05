@@ -1,0 +1,9 @@
+Sydney Adventist School Auburn|3 Macquarie Road, Auburn NSW, 2144|Independent, Primary, Coed, Seventh Day Adventist
+Alpha Omega Senior College|1-5 Harrow Road, Auburn NSW, 2144|Independent, Secondary, Coed, Non-Denominational
+Auburn Girls High School|Hunter St & Braemar Ave, Auburn NSW, 2144|Government, Secondary, Girls, Non-Denominational
+Auburn North Public School|100 Adderley St, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+Auburn Public School|Auburn Rd & Beatrice St, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+Auburn West Public School|Chiswick Rd, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+St John's Primary School|77 Queen Street, Auburn NSW, 2144|Catholic, Primary, Coed, Catholic
+St Joseph The Worker Primary School|2 New Street, Auburn NSW, 2144|Catholic, Primary, Coed, Catholic
+Sule College|26-28 Kerr Parade, Auburn NSW, 2144|Independent, Primary, Coed, Islamic

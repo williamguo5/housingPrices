@@ -1,0 +1,5 @@
+Kegworth Public School|60 Tebbutt St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+Leichhardt Public School|Marion St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+Orange Grove Public School|Perry St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+St Columbas Primary School|215 Elswick Street, Leichhardt NSW, 2040|Catholic, Primary, Coed, Catholic
+Sydney Secondary College Leichhardt Campus|Balmain Rd, Leichhardt NSW, 2040|Government, Secondary, Coed, Non-Denominational

@@ -1,0 +1,5 @@
+Minerva School|Eton St, Sutherland NSW, 2232|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+St Patrick's College|551 President Avenue, Sutherland NSW, 2232|Catholic, Secondary, Coed, Catholic
+St Patrick's Primary School|Belmont Street, Sutherland NSW, 2232|Catholic, Primary, Coed, Catholic
+Sutherland North Public School|Auburn St, Sutherland NSW, 2232|Government, Primary, Coed, Non-Denominational
+Sutherland Public School|Eton St, Sutherland NSW, 2232|Government, Primary, Coed, Non-Denominational

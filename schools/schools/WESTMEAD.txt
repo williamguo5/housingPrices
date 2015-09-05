@@ -1,0 +1,5 @@
+Parramatta Marist High School|2 Darcy Road, Westmead NSW, 2145|Catholic, Secondary, Boys, Catholic
+Redbank School|Institute Rd, Westmead NSW, 2145|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+Sacred Heart Primary School|12 Ralph Street, Westmead NSW, 2145|Catholic, Primary, Coed, Catholic
+Westmead Christian Grammar School|2 Bridge Road, Westmead NSW, 2145|Independent, Primary, Coed, Christian
+Westmead Public School|Hawkesbury Rd, Westmead NSW, 2145|Government, Primary, Coed, Non-Denominational

@@ -1,0 +1,8 @@
+Cumberland High School|183 Pennant Hills Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+Carlingford High School|North Rocks Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+Carlingford Public School|Rickard St, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+Carlingford West Public School|Felton Rd, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+James Ruse Agricultural High School|Felton Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+Murray Farm Public School|Tracey Ave, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+Roselea Public School|North Rocks Rd, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+St Gerard's Primary School|543 North Rocks Road, Carlingford NSW, 2118|Catholic, Primary, Coed, Catholic

@@ -1,0 +1,6 @@
+Macquarie Grammar School|225 Clarence Street, Sydney NSW, 2000|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+Australian Pacific College|189 Kent Street, Sydney NSW, 2000|Independent, Secondary, Coed, Non-Denominational
+Conservatorium High School|Macquarie St, Sydney NSW, 2000|Government, Secondary, Coed, Non-Denominational
+Fort Street Public School|Observatory Hill, Sydney NSW, 2000|Government, Primary, Coed, Non-Denominational
+St Andrew's Cathedral School|Sydney Square, Sydney NSW, 2000|Independent, Primary/Secondary Combined, Coed, Anglican
+St Mary's Cathedral College|2 St Marys Road, Sydney NSW, 2000|Catholic, Primary/Secondary Combined, Boys, Catholic

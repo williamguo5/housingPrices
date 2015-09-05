@@ -1,0 +1,8 @@
+Bethel Christian School|106-114 Mount Druitt Road, Mount Druitt NSW, 2770|Independent, Secondary, Coed, Christian
+Chifley College Mount Druitt Campus|Stuart St, Mount Druitt NSW, 2770|Government, Secondary, Coed, Non-Denominational
+Chifley College Senior Campus|North Pde, Mount Druitt NSW, 2770|Government, Secondary, Coed, Non-Denominational
+Colyton Public School|Nelson St, Mount Druitt NSW, 2770|Government, Primary, Coed, Non-Denominational
+Loyola Senior High|91 North Parade, Mount Druitt NSW, 2770|Catholic, Secondary, Coed, Catholic
+Mount Druitt Public School|Belmore Ave, Mount Druitt NSW, 2770|Government, Primary, Coed, Non-Denominational
+Sacred Heart Primary School|25 Nelson Street, Mount Druitt NSW, 2770|Catholic, Primary, Coed, Catholic
+St Bishoy Coptic Orthodox College|59 Methven Street, Mount Druitt NSW, 2770|Independent, Primary, Coed, Coptic Orthodox

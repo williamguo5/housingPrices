@@ -1,0 +1,5 @@
+Kingswood Park Public School|Caloola Ave, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+Penrith High School|High St, Penrith NSW, 2750|Government, Secondary, Coed, Non-Denominational
+Penrith Public School|51 High St, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+Penrith South Public School|Jamison Rd, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+St Nichola's Of Myra Primary School|30-36 Higgins Street, Penrith NSW, 2750|Catholic, Primary, Coed, Catholic
