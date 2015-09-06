@@ -1,0 +1,1301 @@
+ACACIA GARDENS|Quakers Hill East Public School|14 Chase Drive, Acacia Gardens NSW, 2763|Government, Primary, Coed, Non-Denominational
+ALEXANDRIA|Alexandria Park Community School|Park Road, Alexandria NSW, 2015|Government, Primary/Secondary Combined, Coed, Non-Denominational
+ALFORDS POINT|Alfords Point Public School|Brushwood Drive, Alfords Point NSW, 2234|Government, Primary, Coed, Non-Denominational
+ALLAMBIE HEIGHTS|Allambie Heights Public School|Allambie Rd, Allambie Heights NSW, 2100|Government, Primary, Coed, Non-Denominational
+AMBARVALE|Ambarvale Public School|Copperfield Drive, Ambarvale NSW, 2560|Government, Primary, Coed, Non-Denominational
+AMBARVALE|Thomas Acres Public School|Crisparkle Drive, Ambarvale NSW, 2560|Government, Primary, Coed, Non-Denominational
+AMBARVALE|Thomas Reddall High School|Cnr Woodhouse Drive & Jaggers Place, Ambarvale NSW, 2560|Government, Secondary, Coed, Non-Denominational
+ANNANDALE|Annandale North Public School|206 Johnston Street, Annandale NSW, 2038|Government, Primary, Coed, Non-Denominational
+ANNANDALE|Annandale Public School|25 Johnston St, Annandale NSW, 2038|Government, Primary, Coed, Non-Denominational
+ANNANDALE|St Brendan's Primary School|30-34 Collins Street, Annandale NSW, 2038|Catholic, Primary, Coed, Catholic
+ANNANGROVE|Annangrove Public School|Annangrove Rd, Annangrove NSW, 2156|Government, Primary, Coed, Non-Denominational
+ARCADIA|Northholm Grammar School|79 Cobah Road, Arcadia NSW, 2159|Independent, Primary/Secondary Combined, Coed, Inter-Denominational
+ARCADIA|Arcadia Public School|Arcadia Rd, Arcadia NSW, 2159|Government, Primary, Coed, Non-Denominational
+ARNCLIFFE|Arncliffe Public School|Princes Hwy, Arncliffe NSW, 2205|Government, Primary, Coed, Non-Denominational
+ARNCLIFFE|Arncliffe West Infants School|Loftus St, Arncliffe NSW, 2205|Government, Primary, Coed, Non-Denominational
+ARNCLIFFE|Athelstane Public School|Athelstane Ave, Arncliffe NSW, 2205|Government, Primary, Coed, Non-Denominational
+ARNCLIFFE|Cairnsfoot School|22 Loftus St, Arncliffe NSW, 2205|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+ARNCLIFFE|Kingdom Culture Christian School Ltd|Corner of Kembla and Hirst Streets, Arncliffe NSW, 2205|Independent, Primary, Coed, Christian
+ARNCLIFFE|St Francis Xaviers Primary School|8 Forest Road, Arncliffe NSW, 2205|Catholic, Primary, Coed, Catholic
+ARTARMON|Artarmon Public School|McMillan Rd, Artarmon NSW, 2064|Government, Primary, Coed, Non-Denominational
+ASHBURY|Ashbury Public School|Trevenar St, Ashbury NSW, 2193|Government, Primary, Coed, Non-Denominational
+ASHCROFT|Ashcroft High School|Maxwells Ave, Ashcroft NSW, 2168|Government, Secondary, Coed, Non-Denominational
+ASHCROFT|Ashcroft Public School|Sheriff St, Ashcroft NSW, 2168|Government, Primary, Coed, Non-Denominational
+ASHFIELD|Bethlehem College|18 Bland Street, Ashfield NSW, 2131|Catholic, Secondary, Girls, Catholic
+ASHFIELD|Ashfield Boys High School|117 Liverpool Rd, Ashfield NSW, 2131|Government, Secondary, Boys, Non-Denominational
+ASHFIELD|Ashfield Public School|Liverpool Rd, Ashfield NSW, 2131|Government, Primary, Coed, Non-Denominational
+ASHFIELD|De La Salle College|24 Bland Street, Ashfield NSW, 2131|Catholic, Secondary, Boys, Catholic
+ASHFIELD|St Vincent's Primary School|30-34 Charlotte Street, Ashfield NSW, 2131|Catholic, Primary, Coed, Catholic
+ASHFIELD|Yeo Park Infants School|Victoria St, Ashfield NSW, 2131|Government, Primary, Coed, Non-Denominational
+ASQUITH|Asquith Boys High School|Jersey St, Asquith NSW, 2077|Government, Secondary, Boys, Non-Denominational
+ASQUITH|Asquith Girls High School|Stokes Ave, Asquith NSW, 2077|Government, Secondary, Girls, Non-Denominational
+ASQUITH|Asquith Public School|Dudley St, Asquith NSW, 2077|Government, Primary, Coed, Non-Denominational
+ASQUITH|St Patrick's Primary School|1 Royston Parade, Asquith NSW, 2077|Catholic, Primary, Coed, Catholic
+AUBURN|Sydney Adventist School Auburn|3 Macquarie Road, Auburn NSW, 2144|Independent, Primary, Coed, Seventh Day Adventist
+AUBURN|Alpha Omega Senior College|1-5 Harrow Road, Auburn NSW, 2144|Independent, Secondary, Coed, Non-Denominational
+AUBURN|Auburn Girls High School|Hunter St & Braemar Ave, Auburn NSW, 2144|Government, Secondary, Girls, Non-Denominational
+AUBURN|Auburn North Public School|100 Adderley St, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+AUBURN|Auburn Public School|Auburn Rd & Beatrice St, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+AUBURN|Auburn West Public School|Chiswick Rd, Auburn NSW, 2144|Government, Primary, Coed, Non-Denominational
+AUBURN|St John's Primary School|77 Queen Street, Auburn NSW, 2144|Catholic, Primary, Coed, Catholic
+AUBURN|St Joseph The Worker Primary School|2 New Street, Auburn NSW, 2144|Catholic, Primary, Coed, Catholic
+AUBURN|Sule College|26-28 Kerr Parade, Auburn NSW, 2144|Independent, Primary, Coed, Islamic
+AUSTINMER|Austinmer Public School|90 Lawrence Hargrave Drive, Austinmer NSW, 2515|Government, Primary, Coed, Non-Denominational
+AVALON|Barrenjoey High School|Coonanga Road, Avalon NSW, 2107|Government, Secondary, Coed, Non-Denominational, General school also caters to, General Disabilities
+AVALON|Barrenjoey Montessori School|2 Tasman Road, Avalon NSW, 2107|Independent, Primary, Coed, Non-Denominational, Montessori
+AVALON|Maria Regina Primary School|42 Central Road, Avalon NSW, 2107|Catholic, Primary, Coed, Catholic
+BALGOWLAH|Northern Beaches Secondary College Balgowlah Boys Campus|Maretimo St, Balgowlah NSW, 2093|Government, Secondary, Boys, Non-Denominational
+BALGOWLAH|Balgowlah Heights Public School|Lewis St, Balgowlah NSW, 2093|Government, Primary, Coed, Non-Denominational
+BALGOWLAH|Manly West Public School|Griffith St, Balgowlah NSW, 2093|Government, Primary, Coed, Non-Denominational
+BALGOWLAH|St Cecilia's Primary School|Wanganella Street, Balgowlah NSW, 2093|Catholic, Primary, Coed, Catholic
+BALMAIN EAST|Nicholson Street Public School|Nicholson St, Balmain East NSW, 2041|Government, Primary, Coed, Non-Denominational
+BALMAIN|Balmain Public School|Eaton St, Balmain NSW, 2041|Government, Primary, Coed, Non-Denominational
+BALMAIN|Birchgrove Public School|Birchgrove Rd, Balmain NSW, 2041|Government, Primary, Coed, Non-Denominational
+BALMAIN|Father John Therry School|Eaton Street, Balmain NSW, 2041|Catholic, Primary, Coed, Catholic
+BALMAIN|Inner Sydney Montessori School (Balmain campus)|44 Smith Street, Balmain NSW, 2041|Independent, Primary, Coed, Non-Denominational
+BANGOR|Inaburra School|75 Billa Road, Bangor NSW, 2234|Independent, Primary/Secondary Combined, Coed, Christian
+BANGOR|Bangor Public School|Menai Rd, Bangor NSW, 2234|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|St Euphemia College|202 Stacey Street, Bankstown NSW, 2200|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+BANKSTOWN|Al Amanah College|2 Winspear Avenue, Bankstown NSW, 2200|Independent, Primary, Coed, Islamic
+BANKSTOWN|Bankstown Girls High School|Mona St, Bankstown NSW, 2200|Government, Secondary, Girls, Non-Denominational
+BANKSTOWN|Bankstown North Public School|322 Hume Hwy, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|Bankstown Public School|Restwell St, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|Bankstown Senior College|Antwerp St, Bankstown NSW, 2200|Government, Secondary, Coed, Non-Denominational
+BANKSTOWN|Bankstown South Infants School|Stacey St, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|Bankstown West Public School|William St, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|Condell Park Public School|Augusta St, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BANKSTOWN|La Salle Catholic College|544 Chapel Road, Bankstown NSW, 2200|Catholic, Secondary, Coed, Catholic
+BANKSTOWN|St Brendan's Primary School|18 Cambridge Avenue, Bankstown NSW, 2200|Catholic, Primary, Coed, Catholic
+BANKSTOWN|Wattawa Heights Public School|The Avenue, Bankstown NSW, 2200|Government, Primary, Coed, Non-Denominational
+BARDEN RIDGE|Lucas Heights Community School|132 Old Illawarra Rd, Barden Ridge NSW, 2234|Government, Primary/Secondary Combined, Coed, Non-Denominational
+BARDEN RIDGE|Sutherland Shire Christian School|16a Allies Road, Barden Ridge NSW, 2234|Independent, Primary/Secondary Combined, Coed, Christian
+BARDWELL PARK|Bardwell Park Infants School|4 Crewe Lane, Bardwell Park NSW, 2207|Government, Primary, Coed, Non-Denominational
+BASS HILL|Bass High School|Hume Hwy & Arundle Rd, Bass Hill NSW, 2197|Government, Secondary, Coed, Non-Denominational
+BASS HILL|Bass Hill Public School|611 Hume Hwy, Bass Hill NSW, 2197|Government, Primary, Coed, Non-Denominational
+BAULKHAM HILLS|Baulkham Hills High School|Windsor Rd, Baulkham Hills NSW, 2153|Government, Secondary, Coed, Non-Denominational
+BAULKHAM HILLS|Baulkham Hills North Public School|2A Girralong Ave, Baulkham Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+BAULKHAM HILLS|Crestwood High School|17 Chapel Lane, Baulkham Hills NSW, 2153|Government, Secondary, Coed, Non-Denominational
+BAULKHAM HILLS|Crestwood Public School|38 Peel Rd, Baulkham Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+BAULKHAM HILLS|Jasper Road Public School|Jasper Rd, Baulkham Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+BAULKHAM HILLS|Matthew Pearce Public School|Astoria Park Rd, Baulkham Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+BAULKHAM HILLS|Model Farms High School|Gooden Drive, Baulkham Hills NSW, 2153|Government, Secondary, Coed, Non-Denominational
+BAULKHAM HILLS|Our Lady Of Lourdes Primary School|Oakland Avenue, Baulkham Hills NSW, 2153|Catholic, Primary, Coed, Catholic
+BAULKHAM HILLS|St Michael's Primary School|3 Chapel Lane, Baulkham Hills NSW, 2153|Catholic, Primary, Coed, Catholic
+BAULKHAM HILLS|Woodbury|92 Seven Hills Road, Baulkham Hills NSW, 2153|Independent, Primary, Coed, Non-Denominational, Autistic
+BAYVIEW|Loquat Valley Preparatory School|1977 Pittwater Road, Bayview NSW, 2104|Independent, Primary, Coed, Anglican
+BEACON HILL|Beacon Hill Public School|Tristram Rd, Beacon Hill NSW, 2100|Government, Primary, Coed, Non-Denominational
+BEAUMONT HILLS|Beaumont Hills Public School|The Parkway, Beaumont Hills NSW, 2155|Government, Primary, Coed, Non-Denominational
+BEECROFT|Arden Anglican School (Pre-School & Primary School)|39-43 Wongala Crescent, Beecroft NSW, 2119|Independent, Primary/Secondary Combined, Coed, Anglican
+BEECROFT|Beecroft Public School|98 Beecroft Rd, Beecroft NSW, 2119|Government, Primary, Coed, Non-Denominational
+BEECROFT|Cheltenham Girls High School|Beecroft Rd & The Promenade, Beecroft NSW, 2119|Government, Secondary, Girls, Non-Denominational
+BELFIELD|Retaval Belfield|3 Elliott Street, Belfield NSW, 2191|Independent, Primary, Coed, Catholic
+BELFIELD|St Michael's Primary School|24 Margaret Street, Belfield NSW, 2191|Catholic, Primary, Coed, Catholic
+BELLEVUE HILL|Cranbrook School|5 Victoria Road, Bellevue Hill NSW, 2023|Independent, Primary/Secondary Combined, Boys, Anglican, Boarding
+BELLEVUE HILL|The Scots College|Victoria Road, Bellevue Hill NSW, 2023|Independent, Primary/Secondary Combined, Boys, Presbyterian, Boarding
+BELLEVUE HILL|Bellevue Hill Public School|Victoria Rd, Bellevue Hill NSW, 2023|Government, Primary, Coed, Non-Denominational
+BELLEVUE HILL|The Scots College|9 Mansion Road, Bellevue Hill NSW, 2023|Independent, Primary/Secondary Combined, Boys, Presbyterian
+BELMORE|All Saints Grammar School|31 Forsyth Street, Belmore NSW, 2192|Independent, Secondary, Coed, Greek Orthodox
+BELMORE|Belmore Boys High School|Burwood Rd, Belmore NSW, 2192|Government, Secondary, Boys, Non-Denominational
+BELMORE|Belmore North Public School|Burwood Rd, Belmore NSW, 2192|Government, Primary, Coed, Non-Denominational
+BELMORE|Belmore South Public School|Nelson Ave & Canterbury Rd, Belmore NSW, 2192|Government, Primary, Coed, Non-Denominational
+BELMORE|St Joseph's School|6 Wilson Avenue, Belmore NSW, 2192|Catholic, Primary, Coed, Catholic
+BELROSE|Covenant Christian School Sydney|Dell St, Belrose NSW, 2085|Independent, Primary/Secondary Combined, Coed, Christian
+BELROSE|John Colet School|6 Wyatt Avenue, Belrose NSW, 2085|Independent, Primary, Coed, Multi-Faith
+BELROSE|Belrose Public School|Ralston Ave, Belrose NSW, 2085|Government, Primary, Coed, Non-Denominational
+BELROSE|Kamaroi Rudolf Steiner School|220 Forest Way, Belrose NSW, 2085|Independent, Primary, Coed, Non-Denominational, Steiner
+BELROSE|Wakehurst Public School|Glen St, Belrose NSW, 2085|Government, Primary, Coed, Non-Denominational
+BELROSE|Yanginanook School|Bundaleer Street, Belrose NSW, 2085|Independent, Primary, Coed, Christian
+BERALA|Berala Public School|Harrow Rd, Berala NSW, 2141|Government, Primary, Coed, Non-Denominational
+BEROWRA HEIGHTS|St Bernard's Primary School|7 Warrina Street, Berowra Heights NSW, 2082|Catholic, Primary, Coed, Catholic
+BEROWRA HEIGHTS|Wideview Public School|Wideview Rd, Berowra Heights NSW, 2082|Government, Primary, Coed, Non-Denominational
+BEROWRA|Berowra Christian Community School|Cnr King & Berowra Waters Road, Berowra NSW, 2081|Independent, Primary, Coed, Christian
+BEROWRA|Berowra Public School|Hillcrest Rd, Berowra NSW, 2081|Government, Primary, Coed, Non-Denominational
+BEVERLY HILLS|Beverly Hills Girls High School|Broadarrow & King Georges Rds, Beverly Hills NSW, 2209|Government, Secondary, Girls, Non-Denominational
+BEVERLY HILLS|Beverly Hills North Public School|Shorter Ave & King Georges Rd, Beverly Hills NSW, 2209|Government, Primary, Coed, Non-Denominational
+BEVERLY HILLS|Beverly Hills Public School|Stoney Creek & King Georges Rds, Beverly Hills NSW, 2209|Government, Primary, Coed, Non-Denominational
+BEVERLY HILLS|Regina Coeli Primary School|2 Tarrilli Street, Beverly Hills NSW, 2209|Catholic, Primary, Coed, Catholic
+BEXLEY|Bexley North Public School|Kingsland Rd, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
+BEXLEY|Bexley Public School|Forest Rd, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
+BEXLEY|Carlton Public School|60 Cameron St, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
+BEXLEY|Marist College Kogarah|52 Wolseley Street, Bexley NSW, 2207|Catholic, Secondary, Boys, Catholic
+BEXLEY|St Gabriel's Primary School|39 Highgate Street, Bexley NSW, 2207|Catholic, Primary, Coed, Catholic
+BEXLEY|St Mary and St Mina's Coptic Orthodox College|339 Forest Road, Bexley NSW, 2207|Independent, Primary, Boys, Coptic Orthodox
+BEXLEY|Sydney Technical High School|686 Forest Rd, Bexley NSW, 2207|Government, Secondary, Boys, Non-Denominational
+BIDWILL|Blacktown Youth College|39 Mackellar Rd , Bidwill NSW, 2770|Independent, Secondary, Coed, Non-Denominational
+BIDWILL|Bidwill Public School|Bunya Rd, Bidwill NSW, 2770|Government, Primary, Coed, Non-Denominational
+BIDWILL|Chifley College Bidwill Campus|Bunya Rd, Bidwill NSW, 2770|Government, Secondary, Coed, Non-Denominational
+BILGOLA|Bilgola Plateau Public School|Plateau Rd, Bilgola NSW, 2107|Government, Primary, Coed, Non-Denominational
+BIRRONG|Birrong Boys High School|Rodd St, Birrong NSW, 2143|Government, Secondary, Boys, Non-Denominational
+BIRRONG|Birrong Girls High School|Cooper Rd, Birrong NSW, 2143|Government, Secondary, Girls, Non-Denominational
+BIRRONG|Birrong Public School|132 Auburn Rd, Birrong NSW, 2143|Government, Primary, Coed, Non-Denominational
+BLACKETT|Blackett Public School|Boldrewood Rd, Blackett NSW, 2770|Government, Primary, Coed, Non-Denominational
+BLACKETT|Niland School|Niland Cres, Blackett NSW, 2770|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+BLACKTOWN|Tyndale Christian School|58 Douglas Rd, Blacktown NSW, 2148|Independent, Primary/Secondary Combined, Coed, Christian
+BLACKTOWN|Blacktown Boys High School|Sunnyholt Rd & Fifth Ave, Blacktown NSW, 2148|Government, Secondary, Boys, Non-Denominational
+BLACKTOWN|Blacktown Girls High School|Fifth Ave, Blacktown NSW, 2148|Government, Secondary, Girls, Non-Denominational
+BLACKTOWN|Blacktown North Public School|1 Bessemer Street, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Blacktown South Public School|183 Flushcombe Rd, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Blacktown West Public School|Lancaster St, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Coreen School|Hereward Hwy, Blacktown NSW, 2148|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+BLACKTOWN|Evans High School|Walters Rd, Blacktown NSW, 2148|Government, Secondary, Coed, Non-Denominational
+BLACKTOWN|Lynwood Park Public School|Turner St, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Marayong Public School|Davis Rd, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Marayong South Public School|McClean St, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|Mitchell High School|Keyworth Drive, Blacktown NSW, 2148|Government, Secondary, Coed, Non-Denominational
+BLACKTOWN|Nagle College|58a Orwell Street, Blacktown NSW, 2148|Catholic, Secondary, Girls, Catholic
+BLACKTOWN|Shelley Public School|Hadrian Ave, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLACKTOWN|St Michael's Primary School|155 Reservoir Road, Blacktown NSW, 2148|Catholic, Primary, Coed, Catholic
+BLACKTOWN|St Patrick's Primary School|51-59 Allawah Street, Blacktown NSW, 2148|Catholic, Primary, Coed, Catholic
+BLACKTOWN|Walters Road Public School|Walters Rd, Blacktown NSW, 2148|Government, Primary, Coed, Non-Denominational
+BLAIRMOUNT|Blairmount Public School|Badgally Rd, Blairmount NSW, 2559|Government, Primary, Coed, Non-Denominational
+BLAKEHURST|Bald Face Public School|Stuart St, Blakehurst NSW, 2221|Government, Primary, Coed, Non-Denominational
+BLAKEHURST|Blakehurst High School|Woniora Rd, Blakehurst NSW, 2221|Government, Secondary, Coed, Non-Denominational
+BLAKEHURST|Blakehurst Public School|Dewrang St, Blakehurst NSW, 2221|Government, Primary, Coed, Non-Denominational
+BLAKEHURST|Mater Dei Primary School|29 Heath Road, Blakehurst NSW, 2221|Catholic, Primary, Coed, Catholic
+BLIGH PARK|Bede Polding College|Lot 341 Rifle Range Road, Bligh Park NSW, 2756|Catholic, Secondary, Coed, Catholic
+BLIGH PARK|Bligh Park Public School|Alexander St, Bligh Park NSW, 2756|Government, Primary, Coed, Non-Denominational
+BLIGH PARK|Chisholm Catholic School|30 Collith Avenue, Bligh Park NSW, 2756|Catholic, Primary, Coed, Catholic
+BONDI BEACH|Bondi Beach Public School|Campbell Pde, Bondi Beach NSW, 2026|Government, Primary, Coed, Non-Denominational
+BONDI BEACH|Galilee Catholic School|60b Blair Street, Bondi Beach NSW, 2026|Catholic, Primary, Coed, Catholic
+BONDI BEACH|Wairoa School|Brighton Blvd, Bondi Beach NSW, 2026|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+BONDI JUNCTION|Moriah War Memorial College|Queens Park Road, Bondi Junction NSW, 2022|Independent, Primary/Secondary Combined, Coed, Jewish
+BONDI|Bondi Public School|Wellington St, Bondi NSW, 2026|Government, Primary, Coed, Non-Denominational
+BONDI|Montessori East Pre-School and Primary School|8 Wellington Street, Bondi NSW, 2026|Independent, Primary, Coed, Non-Denominational
+BONDI|Yeshiva College Bondi|36 Flood Street, Bondi NSW, 2026|Independent, Secondary, Boys, Jewish
+BONNET BAY|Bonnet Bay Public School|Tudar Rd, Bonnet Bay NSW, 2226|Government, Primary, Coed, Non-Denominational
+BONNYRIGG HEIGHTS|Bonnyrigg Heights Public School|Wilson Rd, Bonnyrigg Heights NSW, 2177|Government, Primary, Coed, Non-Denominational
+BONNYRIGG HEIGHTS|John The Baptist Primary School|Mount Street, Bonnyrigg Heights NSW, 2177|Catholic, Primary, Coed, Catholic
+BONNYRIGG|Bonnyrigg High School|Elizabeth Drive, Bonnyrigg NSW, 2177|Government, Secondary, Coed, Non-Denominational
+BONNYRIGG|Bonnyrigg Public School|Tarlington Pde, Bonnyrigg NSW, 2177|Government, Primary, Coed, Non-Denominational
+BONNYRIGG|Freeman Catholic High School|Mount Street, Bonnyrigg NSW, 2177|Catholic, Secondary, Coed, Catholic
+BONNYRIGG|Our Lady Of Mt Carmel Primary School|230 Humphries Road, Bonnyrigg NSW, 2177|Catholic, Primary, Coed, Catholic
+BOSSLEY PARK|Bossley Park High School|Prairievale Rd, Bossley Park NSW, 2176|Government, Secondary, Coed, Non-Denominational
+BOSSLEY PARK|Bossley Park Public School|Marconi Rd, Bossley Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+BOSSLEY PARK|Mary Immaculate Primary School|110 Mimosa Road, Bossley Park NSW, 2176|Catholic, Primary, Coed, Catholic
+BOSSLEY PARK|Prairievale Public School|Prairievale & Mimosa Rds, Bossley Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+BOTANY|Banksmeadow Public School|Trevelyan & Wiggins Sts, Botany NSW, 2019|Government, Primary, Coed, Non-Denominational
+BOTANY|Botany Public School|1076 Botany Rd, Botany NSW, 2019|Government, Primary, Coed, Non-Denominational
+BOTANY|Pagewood Public School|Page St, Botany NSW, 2019|Government, Primary, Coed, Non-Denominational
+BRADBURY|Bradbury Public School|Jacaranda Ave, Bradbury NSW, 2560|Government, Primary, Coed, Non-Denominational
+BRADBURY|Sherwood Hills Christian School|61 Jacaranda Avenue, Bradbury NSW, 2560|Independent, Primary/Secondary Combined, Coed, Christian
+BRIGHTON-LE-SANDS|St Thomas Mores Primary School|2a Francis Avenue, Brighton-Le-Sands NSW, 2216|Catholic, Primary, Coed, Catholic
+BRONTE|Bronte Public School|Hewlett St, Bronte NSW, 2024|Government, Primary, Coed, Non-Denominational
+BROOKLYN|Brooklyn Public School|106 Brooklyn Rd, Brooklyn NSW, 2083|Government, Primary, Coed, Non-Denominational
+BROOKVALE|St Augustine's College - Sydney|Cnr Alfred Rd & Federal Pde, Brookvale NSW, 2100|Catholic, Primary/Secondary Combined, Boys, Catholic
+BROOKVALE|Brookvale Public School|Old Pittwater Rd, Brookvale NSW, 2100|Government, Primary, Coed, Non-Denominational, General school also caters to, Speech/Language Disorders
+BUNDEENA|Bundeena Public School|Scarborough St, Bundeena NSW, 2230|Government, Primary, Coed, Non-Denominational
+BURWOOD|MLC School|Rowley Street, Burwood NSW, 2134|Independent, Primary/Secondary Combined, Girls, Uniting Church
+BURWOOD|Burwood Public School|Conder St, Burwood NSW, 2134|Government, Primary, Coed, Non-Denominational
+BUSBY|Busby Public School|South Liverpool Rd, Busby NSW, 2168|Government, Primary, Coed, Non-Denominational
+CABRAMATTA|Cabramatta High School|Aladore Ave, Cabramatta NSW, 2166|Government, Secondary, Coed, Non-Denominational
+CABRAMATTA|Cabramatta Public School|Levuka St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+CABRAMATTA|Cabramatta West Public School|Broad St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+CABRAMATTA|Harrington Street Public School|Harrington St, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+CABRAMATTA|Lansvale East Public School|Riverside Rd, Cabramatta NSW, 2166|Government, Primary, Coed, Non-Denominational
+CABRAMATTA|Sacred Heart Primary School|4 Gilmore Street, Cabramatta NSW, 2166|Catholic, Primary, Coed, Catholic
+CAMBRIDGE PARK|Cambridge Park High School|Harrow Rd, Cambridge Park NSW, 2747|Government, Secondary, Coed, Non-Denominational
+CAMBRIDGE PARK|Cambridge Park Public School|Oxford St, Cambridge Park NSW, 2747|Government, Primary, Coed, Non-Denominational
+CAMMERAY|Cammeray Public School|Palmer St, Cammeray NSW, 2062|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|St Patrick's College|4 St Johns Road, Campbelltown NSW, 2560|Independent, Secondary, Girls, Catholic, General school also caters to, Learning Difficulties
+CAMPBELLTOWN|Airds High School|Briar Rd, Campbelltown NSW, 2560|Government, Secondary, Coed, Non-Denominational
+CAMPBELLTOWN|Beverley Park School|Beverley Rd, Campbelltown NSW, 2560|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+CAMPBELLTOWN|Briar Road Public School|Briar Rd, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|Broughton Anglican School|Menangle Road, Campbelltown NSW, 2560|Independent, Primary/Secondary Combined, Coed, Anglican
+CAMPBELLTOWN|Campbelltown East Public School|Waminda Ave, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|Campbelltown North Public School|Thomas St & Rudd Rd, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|Campbelltown Performing Arts High School|Beverley Rd, Campbelltown NSW, 2560|Government, Secondary, Coed, Non-Denominational
+CAMPBELLTOWN|Campbelltown Public School|Lithgow St, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|Kentlyn Public School|Georges River Rd, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPBELLTOWN|Lomandra School|Beverley Rd, Campbelltown NSW, 2560|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+CAMPBELLTOWN|St John The Evangelist Primary School|133 Lindesay Street, Campbelltown NSW, 2560|Catholic, Primary, Coed, Catholic
+CAMPBELLTOWN|St Peter's Anglican Primary School|Howe Street, Campbelltown NSW, 2560|Independent, Primary, Coed, Anglican
+CAMPBELLTOWN|Woodland Road Public School|Woodland Rd, Campbelltown NSW, 2560|Government, Primary, Coed, Non-Denominational
+CAMPERDOWN|Bridge Road School|127 Parramatta Rd, Camperdown NSW, 2050|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+CAMPSIE|Campsie Public School|Harold St, Campsie NSW, 2194|Government, Primary, Coed, Non-Denominational
+CAMPSIE|Harcourt Public School|First Ave, Campsie NSW, 2194|Government, Primary, Coed, Non-Denominational
+CAMPSIE|St Mel's Primary School|14 Duke Street, Campsie NSW, 2194|Catholic, Primary, Coed, Catholic, General school also caters to, Intellectual Disabilities
+CANADA BAY|Lucas Gardens School|Walker St, Canada Bay NSW, 2046|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+CANLEY HEIGHTS|Canley Heights Public School|Cambridge St, Canley Heights NSW, 2166|Government, Primary, Coed, Non-Denominational
+CANLEY VALE|Canley Vale High School|Prospect Rd, Canley Vale NSW, 2166|Government, Secondary, Coed, Non-Denominational
+CANLEY VALE|Canley Vale Public School|Canley Vale Rd, Canley Vale NSW, 2166|Government, Primary, Coed, Non-Denominational
+CANLEY VALE|Lansvale Public School|Chancery St, Canley Vale NSW, 2166|Government, Primary, Coed, Non-Denominational
+CANTERBURY|Canterbury Boys High School|Holden St, Canterbury NSW, 2193|Government, Secondary, Boys, Non-Denominational
+CANTERBURY|Canterbury Girls High School|Church St, Canterbury NSW, 2193|Government, Secondary, Girls, Non-Denominational
+CANTERBURY|Canterbury Public School|Church St, Canterbury NSW, 2193|Government, Primary, Coed, Non-Denominational
+CANTERBURY|Canterbury South Public School|High St, Canterbury NSW, 2193|Government, Primary, Coed, Non-Denominational
+CARINGBAH|Caringbah High School|111-129 Willarong Rd, Caringbah NSW, 2229|Government, Secondary, Coed, Non-Denominational
+CARINGBAH|Caringbah North Public School|125 Cawarra Rd, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+CARINGBAH|Caringbah Public School|Port Hacking Rd, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+CARINGBAH|De La Salle College|389 Port Hacking Road, Caringbah NSW, 2229|Catholic, Secondary, Boys, Catholic
+CARINGBAH|Endeavour Sports High School|Taren Pt Rd & The Boulevarde, Caringbah NSW, 2229|Government, Secondary, Coed, Non-Denominational
+CARINGBAH|Laguna Street Public School|204 Caringbah Road, Caringbah NSW, 2229|Government, Primary, Coed, Non-Denominational
+CARINGBAH|Our Lady Of Fatima Primary School|389 Port Hacking Road South, Caringbah NSW, 2229|Catholic, Primary, Coed, Catholic
+CARLINGFORD|Cumberland High School|183 Pennant Hills Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+CARLINGFORD|Carlingford High School|North Rocks Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+CARLINGFORD|Carlingford Public School|Rickard St, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+CARLINGFORD|Carlingford West Public School|Felton Rd, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+CARLINGFORD|James Ruse Agricultural High School|Felton Rd, Carlingford NSW, 2118|Government, Secondary, Coed, Non-Denominational
+CARLINGFORD|Murray Farm Public School|Tracey Ave, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+CARLINGFORD|Roselea Public School|North Rocks Rd, Carlingford NSW, 2118|Government, Primary, Coed, Non-Denominational
+CARLINGFORD|St Gerard's Primary School|543 North Rocks Road, Carlingford NSW, 2118|Catholic, Primary, Coed, Catholic
+CARLTON|Carlton South Public School|Jubilee Ave, Carlton NSW, 2218|Government, Primary, Coed, Non-Denominational
+CARRAMAR|Carramar Public School|The Horsley Drive, Carramar NSW, 2163|Government, Primary, Coed, Non-Denominational
+CARTWRIGHT|Cartwright Public School|Willan Drive, Cartwright NSW, 2168|Government, Primary, Coed, Non-Denominational
+CASTLE COVE|Castle Cove Public School|Kendall Rd, Castle Cove NSW, 2069|Government, Primary, Coed, Non-Denominational
+CASTLE HILL|Castle Hill High School|Castle St, Castle Hill NSW, 2154|Government, Secondary, Coed, Non-Denominational
+CASTLE HILL|Excelsior Public School|Rondelay Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
+CASTLE HILL|Gilroy College|Marie Street, Castle Hill NSW, 2154|Catholic, Secondary, Coed, Catholic
+CASTLE HILL|Oakhill College|521 Old Northern Road, Castle Hill NSW, 2154|Catholic, Secondary, Coed, Catholic
+CASTLE HILL|Oakhill Drive Public School|Oakhill Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
+CASTLE HILL|Samuel Gilbert Public School|Ridgecrop Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
+CASTLE HILL|St Angela's Primary School|7-13 Victoria Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic
+CASTLE HILL|St Bernadette's Primary School|357 Old Northern Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic
+CASTLE HILL|St Gabriel's School for Hearing Impaired Children|190 Old Northern Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic, Hearing Impaired
+CASTLECRAG|Castlecrag Montessori School|184 Edinburgh Road, Castlecrag NSW, 2068|Independent, Primary, Coed, Non-Denominational, Montessori
+CASTLECRAG|Glenaeon Rudolf Steiner School|117 Edinburgh Road, Castlecrag NSW, 2068|Independent, Primary, Coed, Non-Denominational, Steiner
+CASTLEREAGH|Castlereagh Public School|Post Office Rd, Castlereagh NSW, 2749|Government, Primary, Coed, Non-Denominational
+CASTLEREAGH|The Lakes Christian School|206 East Wilchard Rd, Castlereagh NSW, 2749|Independent, Primary/Secondary Combined, Coed, Christian
+CASULA|All Saints Catholic Senior College|Leacocks Lane, Casula NSW, 2170|Catholic, Secondary, Coed, Catholic
+CASULA|Casula High School|Myall Rd, Casula NSW, 2170|Government, Secondary, Coed, Non-Denominational
+CASULA|Casula Public School|De Meyrick Ave, Casula NSW, 2170|Government, Primary, Coed, Non-Denominational
+CATTAI|Cattai Public School|487 Cattai Rd, Cattai NSW, 2756|Government, Primary, Coed, Non-Denominational
+CECIL HILLS|Cecil Hills High School|Spencer Rd, Cecil Hills NSW, 2171|Government, Secondary, Coed, Non-Denominational
+CECIL HILLS|Cecil Hills Public School|Leopold Place, Cecil Hills NSW, 2171|Government, Primary, Coed, Non-Denominational
+CHATSWOOD|Mercy Catholic College|101 Archer Street, Chatswood NSW, 2067|Catholic, Secondary, Girls, Catholic
+CHATSWOOD|Chatswood High School|Centennial Ave, Chatswood NSW, 2067|Government, Secondary, Coed, Non-Denominational
+CHATSWOOD|Chatswood Public School|Pacific Hwy, Chatswood NSW, 2067|Government, Primary, Coed, Non-Denominational
+CHATSWOOD|Our Lady Of Delours Primary School|94a Archer Street, Chatswood NSW, 2067|Catholic, Primary, Coed, Catholic
+CHATSWOOD|St Pius X College|35 Anderson Street, Chatswood NSW, 2067|Catholic, Primary/Secondary Combined, Boys, Catholic
+CHERRYBROOK|Tangara School For Girls|77-97 Franklin Road, Cherrybrook NSW, 2126|Independent, Primary/Secondary Combined, Girls, Catholic
+CHERRYBROOK|Cherrybrook Public School|131 New Line Rd, Cherrybrook NSW, 2126|Government, Primary, Coed, Non-Denominational
+CHERRYBROOK|Cherrybrook Technology High School|28-44 Purchase Rd, Cherrybrook NSW, 2126|Government, Secondary, Coed, Non-Denominational
+CHERRYBROOK|John Purchase Public School|Purchase Rd, Cherrybrook NSW, 2126|Government, Primary, Coed, Non-Denominational
+CHESTER HILL|Bob Hughes Christian School|40 Hectar Street, Chester Hill NSW, 2162|Independent, Primary/Secondary Combined, Coed, Christian
+CHESTER HILL|Chester Hill High School|Kenward Ave, Chester Hill NSW, 2162|Government, Secondary, Coed, Non-Denominational
+CHESTER HILL|Chester Hill North Public School|Campbell Hill Rd, Chester Hill NSW, 2162|Government, Primary, Coed, Non-Denominational
+CHESTER HILL|Chester Hill Public School|Proctor Pde, Chester Hill NSW, 2162|Government, Primary, Coed, Non-Denominational
+CHESTER HILL|Salamah College|40 Hector Street, Chester Hill NSW, 2162|Independent, Primary/Secondary Combined, Coed, Islamic
+CHIFLEY|Chifley Public School|Mitchell St, Chifley NSW, 2036|Government, Primary, Coed, Non-Denominational
+CHIFLEY|Matraville Sports High School|Anzac Pde, Chifley NSW, 2036|Government, Secondary, Coed, Non-Denominational
+CHIPPENDALE|Darlington Public School|Golden Grove St, Chippendale NSW, 2008|Government, Primary, Coed, Non-Denominational
+CHIPPING NORTON|Chipping Norton Public School|Central Ave, Chipping Norton NSW, 2170|Government, Primary, Coed, Non-Denominational
+CLAREMONT MEADOWS|Claremont Meadows Public School|Sunflower Drive, Claremont Meadows NSW, 2747|Government, Primary, Coed, Non-Denominational
+CLAYMORE|Claymore Public School|Dobell Rd, Claymore NSW, 2559|Government, Primary, Coed, Non-Denominational
+CLOVELLY|St Anthony's Primary School|58-60 Arden Street, Clovelly NSW, 2031|Catholic, Primary, Coed, Catholic
+COBBITTY|Macarthur Anglican School|Cobbitty Road, Cobbitty NSW, 2570|Independent, Primary/Secondary Combined, Coed, Anglican
+COBBITTY|Aspect Marcarthur School|229 Macquarie Grove Road, Cobbitty NSW, 2570|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+COBBITTY|Cobbitty Public School|Cobbitty Rd, Cobbitty NSW, 2570|Government, Primary, Coed, Non-Denominational
+COLEDALE|Coledale Public School|Lawrence Hargrave Drive, Coledale NSW, 2515|Government, Primary, Coed, Non-Denominational
+COLLAROY|Pittwater House|70 South Creek Road, Collaroy NSW, 2097|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+COLYTON|Bennett Road Public School|100-114 Bennett Rd, Colyton NSW, 2760|Government, Primary, Coed, Non-Denominational
+COMO|Como Public School|Genoa St, Como NSW, 2226|Government, Primary, Coed, Non-Denominational
+COMO|Como West Public School|Wolger & Warraba Sts, Como NSW, 2226|Government, Primary, Coed, Non-Denominational
+COMO|St Joseph's Primary School|Oyster Bay Road, Como NSW, 2226|Catholic, Primary, Coed, Catholic
+CONCORD WEST|Concord West Public School|Concord Rd, Concord West NSW, 2138|Government, Primary, Coed, Non-Denominational
+CONCORD WEST|Rivendell School|Thomas Walker Est, Concord West NSW, 2138|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+CONCORD WEST|St Ambrose's Primary School|Stuart Street, Concord West NSW, 2138|Catholic, Primary, Coed, Catholic
+CONCORD|Concord High School|Stanley St, Concord NSW, 2137|Government, Secondary, Coed, Non-Denominational
+CONCORD|Concord Public School|Burwood Rd, Concord NSW, 2137|Government, Primary, Coed, Non-Denominational
+CONCORD|Mortlake Public School|Brays Rd, Concord NSW, 2137|Government, Primary, Coed, Non-Denominational
+CONCORD|St Mary's School|60 Burton Street, Concord NSW, 2137|Catholic, Primary, Coed, Catholic
+CONDELL PARK|Condell Park Christian School|32 Lancelot Street, Condell Park NSW, 2200|Independent, Primary/Secondary Combined, Coed, Christian
+CONDELL PARK|Condell Park High School|Third Ave, Condell Park NSW, 2200|Government, Secondary, Coed, Non-Denominational
+COOGEE|Coogee Public School|Byron St & Coogee Bay Rd, Coogee NSW, 2034|Government, Primary, Coed, Non-Denominational
+COOGEE|St Brigid's Primary School|160 Coogee Bay Road, Coogee NSW, 2034|Catholic, Primary, Coed, Catholic
+COWAN|Cowan Public School|Chandler Ave, Cowan NSW, 2081|Government, Primary, Coed, Non-Denominational
+CRANEBROOK|St Paul's Grammar School|52 Taylor Road, Cranebrook NSW, 2749|Independent, Primary/Secondary Combined, Coed, Christian, General school also caters to, Emotional Behavioural
+CRANEBROOK|Braddock Public School|Laycock St, Cranebrook NSW, 2749|Government, Primary, Coed, Non-Denominational
+CRANEBROOK|Corpus Christi Primary School|Andromeda Drive, Cranebrook NSW, 2749|Catholic, Primary, Coed, Catholic
+CRANEBROOK|Cranebrook High School|Hosking St, Cranebrook NSW, 2749|Government, Secondary, Coed, Non-Denominational
+CRANEBROOK|Henry Fulton Public School|Vincent Rd, Cranebrook NSW, 2749|Government, Primary, Coed, Non-Denominational
+CRANEBROOK|Samuel Terry Public School|Grays Lane, Cranebrook NSW, 2749|Government, Primary, Coed, Non-Denominational
+CREMORNE|Redlands (SCECGS Redlands)|272 Military Road, Cremorne NSW, 2090|Independent, Primary/Secondary Combined, Coed, Church of England
+CROMER|Northern Beaches Secondary College Cromer Campus|120 South Creek Rd, Cromer NSW, 2099|Government, Secondary, Coed, Non-Denominational
+CROMER|Cromer Public School|Carcoola Rd, Cromer NSW, 2099|Government, Primary, Coed, Non-Denominational
+CRONULLA|Cronulla High School|Captain Cook Drive, Cronulla NSW, 2230|Government, Secondary, Coed, Non-Denominational
+CRONULLA|Burraneer Bay Public School|161-165 Burraneer Bay Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+CRONULLA|Cronulla Public School|18-24 Burraneer Bay Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+CRONULLA|Cronulla South Public School|Ewos Pde, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+CRONULLA|De La Salle College|2 Cross Road, Cronulla NSW, 2230|Catholic, Secondary, Coed, Catholic
+CRONULLA|Our Lady Of Mercy College|62-66 Dominic Street, Cronulla NSW, 2230|Catholic, Secondary, Girls, Catholic
+CRONULLA|St Aloysius Primary School|7-17 Giddings Avenue, Cronulla NSW, 2230|Catholic, Primary, Coed, Catholic
+CRONULLA|Woolooware Public School|Wills Rd, Cronulla NSW, 2230|Government, Primary, Coed, Non-Denominational
+CROWS NEST|Greenwich Public School|32 Kingslangley Rd, Crows Nest NSW, 2065|Government, Primary, Coed, Non-Denominational
+CROWS NEST|North Sydney Boys High School|Falcon St, Crows Nest NSW, 2065|Government, Secondary, Boys, Non-Denominational
+CROWS NEST|North Sydney Girls High School|Pacific Hwy, Crows Nest NSW, 2065|Government, Secondary, Girls, Non-Denominational
+CROYDON PARK|Croydon Park Public School|Georges River Rd, Croydon Park NSW, 2133|Government, Primary, Coed, Non-Denominational
+CROYDON PARK|St Francis Xaviers Primary School|41 Leopold Street, Croydon Park NSW, 2133|Catholic, Primary, Coed, Catholic
+CROYDON|Presbyterian Ladies' College, Sydney|Boundary Street, Croydon NSW, 2132|Independent, Primary/Secondary Combined, Girls, Presbyterian, Boarding
+CROYDON|Burwood Girls High School|Queen St, Croydon NSW, 2132|Government, Secondary, Girls, Non-Denominational
+CROYDON|Croydon Public School|39 Young St, Croydon NSW, 2132|Government, Primary, Coed, Non-Denominational
+CROYDON|Holy Innocents Primary School|86-98 Queen Street, Croydon NSW, 2132|Catholic, Primary, Coed, Catholic
+CURRANS HILL|Currans Hill Public School|Tramway Drive, Currans Hill NSW, 2567|Government, Primary, Coed, Non-Denominational
+DACEYVILLE|Daceyville Public School|Joffre Cres, Daceyville NSW, 2032|Government, Primary, Coed, Non-Denominational
+DACEYVILLE|St Michael's Primary School|1 Haig Avenue, Daceyville NSW, 2032|Catholic, Primary, Coed, Catholic
+DARLINGHURST|East Sydney High School|75 William Street, Darlinghurst NSW, 2010|Independent, Secondary, Coed, Non-Denominational, Emotional Behavioural
+DARLINGHURST|SCEGGS Darlinghurst|215 Forbes Street, Darlinghurst NSW, 2010|Independent, Primary/Secondary Combined, Girls, Church of England
+DARLINGHURST|Sydney Grammar School|College Street, Darlinghurst NSW, 2010|Independent, Secondary, Boys, Non-Denominational
+DAVIDSON|Kambora Public School|Woolrych Ave, Davidson NSW, 2085|Government, Primary, Coed, Non-Denominational
+DAVIDSON|St Martin's Primary School|147 Prahran Avenue, Davidson NSW, 2085|Catholic, Primary, Coed, Catholic
+DEAN PARK|William Dean Public School|Yarramundi Drive, Dean Park NSW, 2761|Government, Primary, Coed, Non-Denominational
+DEE WHY|St Luke's Grammar School|210 Headland Road, Dee Why NSW, 2099|Independent, Primary/Secondary Combined, Coed, Anglican
+DEE WHY|Dee Why Public School|Regent St, Dee Why NSW, 2099|Government, Primary, Coed, Non-Denominational
+DEE WHY|Fisher Road School|115 Fisher Rd, Dee Why NSW, 2099|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+DEE WHY|Narraweena Public School|McIntosh Rd, Dee Why NSW, 2099|Government, Primary, Coed, Non-Denominational
+DEE WHY|St Kevin's Primary School|72 Pacific Parade, Dee Why NSW, 2099|Catholic, Primary, Coed, Catholic
+DHARRUK|Dawson Public School|Stuart Rd, Dharruk NSW, 2770|Government, Primary, Coed, Non-Denominational
+DOONSIDE|Mountain View Adventist College|41 Doonside Road, Doonside NSW, 2767|Independent, Primary/Secondary Combined, Coed, Seventh Day Adventist
+DOONSIDE|Crawford Public School|Power St, Doonside NSW, 2767|Government, Primary, Coed, Non-Denominational
+DOONSIDE|Doonside High School|Power St, Doonside NSW, 2767|Government, Secondary, Coed, Non-Denominational
+DOONSIDE|Doonside Public School|Kildare St, Doonside NSW, 2767|Government, Primary, Coed, Non-Denominational
+DOONSIDE|St John Vianneys Primary School|17 Cameron Street, Doonside NSW, 2767|Catholic, Primary, Coed, Catholic
+DOUBLE BAY|Double Bay Public School|William St, Double Bay NSW, 2028|Government, Primary, Coed, Non-Denominational
+DOVER HEIGHTS|Kesser Torah College|Cnr Napier & Blake Streets, Dover Heights NSW, 2030|Independent, Primary/Secondary Combined, Girls, Jewish
+DOVER HEIGHTS|Rose Bay Secondary College|Hardy St, Dover Heights NSW, 2030|Government, Secondary, Coed, Non-Denominational
+DRUMMOYNE|Drummoyne Public School|Rawson Ave, Drummoyne NSW, 2047|Government, Primary, Coed, Non-Denominational
+DRUMMOYNE|St Mark's Primary School|31 Tranmere Street, Drummoyne NSW, 2047|Catholic, Primary, Coed, Catholic
+DUFFYS FOREST|Alexander Primary School|2 Namba Road, Duffys Forest NSW, 2084|Independent, Primary, Coed, Armenian Orthodox
+DULWICH HILL|Dulwich High School of Visual Arts and Design|Seaview St, Dulwich Hill NSW, 2203|Government, Secondary, Coed, Non-Denominational
+DULWICH HILL|Dulwich Hill Public School|Kintore St, Dulwich Hill NSW, 2203|Government, Primary, Coed, Non-Denominational
+DULWICH HILL|St Maroun's College|194-206 Wardell Road, Dulwich Hill NSW, 2203|Catholic, Primary/Secondary Combined, Coed, Catholic
+DULWICH HILL|St Paul Of The Cross Primary School|14-16 May Street, Dulwich Hill NSW, 2203|Catholic, Primary, Coed, Catholic
+DUNDAS|Dundas Public School|Kissing Point Rd, Dundas NSW, 2117|Government, Primary, Coed, Non-Denominational
+DUNDAS|St Bernadette's Primary School|Cox Crescent, Dundas NSW, 2117|Catholic, Primary, Coed, Catholic
+DUNDAS|St Patrick's Marist College|151 Kirby Street, Dundas NSW, 2117|Catholic, Secondary, Coed, Catholic
+DUNDAS|Yates Avenue Public School|Yates Ave, Dundas NSW, 2117|Government, Primary, Coed, Non-Denominational
+DURAL|Pacific Hills Christian School|9 Quarry Road, Dural NSW, 2158|Independent, Primary/Secondary Combined, Coed, Inter-Denominational
+DURAL|Redfield College|855 Old Northern Road, Dural NSW, 2158|Independent, Primary/Secondary Combined, Boys, Catholic
+DURAL|Dural Public School|622 Old Northern Rd, Dural NSW, 2158|Government, Primary, Coed, Non-Denominational
+DURAL|Lorien Novalis School|456 Old Northen Road, Dural NSW, 2158|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Steiner
+DURAL|Warrah School|20 Harris Road, Dural NSW, 2158|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Intellectual Disabilities
+EAGLE VALE|Eagle Vale High School|Drysdale Rd, Eagle Vale NSW, 2558|Government, Secondary, Coed, Non-Denominational
+EAGLE VALE|St Mary's School|Corner Emerald & Aquamarine Drive, Eagle Vale NSW, 2558|Catholic, Primary, Coed, Catholic
+EARLWOOD|Clemton Park Public School|185 Bexley Rd, Earlwood NSW, 2206|Government, Primary, Coed, Non-Denominational
+EARLWOOD|Earlwood Public School|Homer St, Earlwood NSW, 2206|Government, Primary, Coed, Non-Denominational
+EARLWOOD|Our Lady Of Lourdes Primary School|St James Avenue, Earlwood NSW, 2206|Catholic, Primary, Coed, Catholic
+EARLWOOD|Undercliffe Public School|Bayview Ave, Earlwood NSW, 2206|Government, Primary, Coed, Non-Denominational
+EAST LINDFIELD|Lindfield East Public School|Tryon Rd, East Lindfield NSW, 2070|Government, Primary, Coed, Non-Denominational
+EASTERN CREEK|Eastern Creek Public School|Rooty Hill Rd South, Eastern Creek NSW, 2766|Government, Primary, Coed, Non-Denominational
+EASTLAKES|Eastlakes Public School|Florence Ave, Eastlakes NSW, 2018|Government, Primary, Coed, Non-Denominational
+EASTWOOD|Marist College Eastwood|44 Hillview Road, Eastwood NSW, 2122|Catholic, Secondary, Boys, Catholic
+EASTWOOD|Epping Boys High School|213 Vimiera Rd, Eastwood NSW, 2122|Government, Secondary, Boys, Non-Denominational
+EASTWOOD|Denistone East Public School|Lovell Rd, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
+EASTWOOD|Eastwood Heights Public School|Lincoln St, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
+EASTWOOD|Eastwood Public School|Rowe St, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
+EASTWOOD|Kent Road Public School|Kent & Herring Rds, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
+EDENSOR PARK|Edensor Park Public School|Swan & Gwandalan Rds, Edensor Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+EDENSOR PARK|King Public School|Allambie Rd, Edensor Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+EDENSOR PARK|Mar Narsai Assyrian College|673-683 Smithfield Road, Edensor Park NSW, 2176|Independent, Secondary, Coed, Christian
+EDGECLIFF|Ascham School|188 New South Head Road, Edgecliff NSW, 2027|Independent, Primary/Secondary Combined, Girls, Non-Denominational, Boarding
+ELANORA HEIGHTS|Elanora Heights Public School|43 Elanora Road, Elanora Heights NSW, 2101|Government, Primary, Coed, Non-Denominational
+ELDERSLIE|Elderslie Public School|170 Lodges Road, Elderslie NSW, 2570|Government, Primary, Coed, Anglican
+EMERTON|Emerton Public School|Hindemith Ave, Emerton NSW, 2770|Government, Primary, Coed, Non-Denominational
+EMERTON|Holy Family Primary School|Weber Crescent, Emerton NSW, 2770|Catholic, Primary, Coed, Catholic
+ENFIELD|Enfield Public School|Beaumaris St, Enfield NSW, 2136|Government, Primary, Coed, Non-Denominational
+ENFIELD|St Joseph's School|124-126 Liverpool Road, Enfield NSW, 2136|Catholic, Primary, Coed, Catholic
+ENFIELD|Strathfield South High School|Hedges Ave, Enfield NSW, 2136|Government, Secondary, Coed, Non-Denominational
+ENFIELD|Strathfield South Public School|457 Liverpool Rd, Enfield NSW, 2136|Government, Primary, Coed, Non-Denominational
+ENGADINE|Engadine High School|Porter Rd, Engadine NSW, 2233|Government, Secondary, Coed, Non-Denominational
+ENGADINE|Engadine Public School|Waratah Rd, Engadine NSW, 2233|Government, Primary, Coed, Non-Denominational
+ENGADINE|Engadine West Public School|Woronora Rd, Engadine NSW, 2233|Government, Primary, Coed, Non-Denominational
+ENGADINE|Marton Public School|107 Kingswood Rd, Engadine NSW, 2233|Government, Primary, Coed, Non-Denominational
+ENGADINE|Southern Cross Baptist School|104 Anzac Avenue, Engadine NSW, 2233|Independent, Primary/Secondary Combined, Coed, Baptist
+ENGADINE|St John Bosco College|Banksia Avenue, Engadine NSW, 2233|Catholic, Primary/Secondary Combined, Coed, Catholic
+ENGADINE|Yarrawarrah Public School|Old Bush Rd, Engadine NSW, 2233|Government, Primary, Coed, Non-Denominational
+EPPING|Arden Anglican School (Secondary School)|50 Oxford St, Epping NSW, 2121|Independent, Secondary, Coed, Anglican
+EPPING|Epping Heights Public School|Kent St, Epping NSW, 2121|Government, Primary, Coed, Non-Denominational
+EPPING|Epping Public School|Norfolk Rd, Epping NSW, 2121|Government, Primary, Coed, Non-Denominational
+EPPING|Epping West Public School|96 Carlingford Rd, Epping NSW, 2121|Government, Primary, Coed, Non-Denominational
+EPPING|Karonga School|Karonga Close (via Dent St), Epping NSW, 2121|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+EPPING|Our Lady Help Of Christians Primary School|29 Oxford Street, Epping NSW, 2121|Catholic, Primary, Coed, Catholic
+ERMINGTON|Ermington West Public School|Vignes St, Ermington NSW, 2115|Government, Primary, Coed, Non-Denominational
+ERMINGTON|Rydalmere East Public School|Spurway St, Ermington NSW, 2115|Government, Primary, Coed, Non-Denominational
+ERSKINE PARK|Erskine Park High School|Swallow Drive, Erskine Park NSW, 2759|Government, Secondary, Coed, Non-Denominational
+ERSKINE PARK|James Erskine Public School|Peppertree Drive, Erskine Park NSW, 2759|Government, Primary, Coed, Non-Denominational
+ERSKINE PARK|Mamre Christian College|45 Bakers Lane, Erskine Park NSW, 2759|Independent, Primary/Secondary Combined, Coed, Christian
+ERSKINEVILLE|Erskineville Public School|Swanson St, Erskineville NSW, 2043|Government, Primary, Coed, Non-Denominational
+ERSKINEVILLE|St Mary's School|54 Swanson Street, Erskineville NSW, 2043|Catholic, Primary, Coed, Catholic
+ESCHOL PARK|Eschol Park Public School|Eschol Park Drive, Eschol Park NSW, 2558|Government, Primary, Coed, Non-Denominational
+FAIRFIELD EAST|Verona School|135B Fairfield St, Fairfield East NSW, 2165|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+FAIRFIELD EAST|Villawood North Public School|Bligh St, Fairfield East NSW, 2165|Government, Primary, Coed, Non-Denominational
+FAIRFIELD WEST|Fairfield West Public School|Palmerston Rd, Fairfield West NSW, 2165|Government, Primary, Coed, Non-Denominational
+FAIRFIELD WEST|Fairvale High School|Thorney Rd & Maude St, Fairfield West NSW, 2165|Government, Secondary, Coed, Non-Denominational
+FAIRFIELD WEST|Westfields Sports High School|Hamilton Rd, Fairfield West NSW, 2165|Government, Secondary, Coed, Non-Denominational
+FAIRFIELD|Fairfield Heights Public School|Station St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+FAIRFIELD|Fairfield High School|The Horsley Drive, Fairfield NSW, 2165|Government, Secondary, Coed, Non-Denominational
+FAIRFIELD|Fairfield Public School|68-82 Smart St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+FAIRFIELD|Fairvale Public School|Wolseley St, Fairfield NSW, 2165|Government, Primary, Coed, Non-Denominational
+FAIRFIELD|Our Lady Of The Rosary Primary School|Vine Street, Fairfield NSW, 2165|Catholic, Primary, Coed, Catholic
+FAIRFIELD|Patrician Brothers College|268 The Horsley, Fairfield NSW, 2165|Catholic, Secondary, Boys, Catholic
+FAIRFIELD|Patrician Brothers School|2 Weston Street, Fairfield NSW, 2165|Catholic, Primary, Boys, Catholic
+FIVE DOCK|All Hallows School|1 Halley Street, Five Dock NSW, 2046|Catholic, Primary, Coed, Catholic
+FIVE DOCK|Domremy College|121 First Avenue, Five Dock NSW, 2046|Catholic, Secondary, Girls, Catholic, General school also caters to, General Disabilities
+FIVE DOCK|Five Dock Public School|Henry St, Five Dock NSW, 2046|Government, Primary, Coed, Non-Denominational
+FIVE DOCK|Rosebank College|1a Harris Road, Five Dock NSW, 2046|Independent, Secondary, Coed, Catholic
+FIVE DOCK|Russell Lea Infants School|Lithgow St, Five Dock NSW, 2046|Government, Primary, Coed, Non-Denominational
+FOREST LODGE|Forest Lodge Public School|Bridge Rd, Forest Lodge NSW, 2037|Government, Primary, Coed, Non-Denominational
+FORESTVILLE|Aspect Vern Barnett School|41 Cook Street, Forestville NSW, 2087|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Autistic
+FORESTVILLE|Forestville Montessori School|1 Angel Place, Forestville NSW, 2087|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Montessori
+FORESTVILLE|Forestville Public School|Melwood Ave, Forestville NSW, 2087|Government, Primary, Coed, Non-Denominational
+FORESTVILLE|Our Lady Of Good Counsel Primary School|11 Currie Road, Forestville NSW, 2087|Catholic, Primary, Coed, Catholic
+FRENCHS FOREST|Arranounbai School|5 Aquatic Drive, Frenchs Forest NSW, 2086|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+FRENCHS FOREST|Davidson High School|Mimosa St, Frenchs Forest NSW, 2086|Government, Secondary, Coed, Non-Denominational
+FRENCHS FOREST|Frenchs Forest Public School|Ann St, Frenchs Forest NSW, 2086|Government, Primary, Coed, Non-Denominational
+FRENCHS FOREST|Mimosa Public School|Blackbutts Rd & Mimosa St, Frenchs Forest NSW, 2086|Government, Primary, Coed, Non-Denominational
+FRENCHS FOREST|The Forest High School|135 Frenchs Forest Rd, Frenchs Forest NSW, 2086|Government, Secondary, Coed, Non-Denominational
+GALSTON|Galston High School|Galston Rd, Galston NSW, 2159|Government, Secondary, Coed, Non-Denominational
+GALSTON|Galston Public School|School Rd, Galston NSW, 2159|Government, Primary, Coed, Non-Denominational
+GEORGES HALL|Georges River Grammar|53 Georges Crescent, Georges Hall NSW, 2198|Independent, Primary/Secondary Combined, Coed, Anglican
+GEORGES HALL|Georges Hall Public School|Pennington Ave, Georges Hall NSW, 2198|Government, Primary, Coed, Non-Denominational
+GEORGES HALL|HopePoint Christian School|39 Ashcroft Street, Georges Hall NSW, 2198|Independent, Primary, Coed, Christian
+GEORGES HALL|St Mary's School|Rex Road, Georges Hall NSW, 2198|Catholic, Primary, Coed, Catholic
+GIRRAWEEN|Girraween High School|Gilba Rd, Girraween NSW, 2145|Government, Secondary, Coed, Non-Denominational
+GIRRAWEEN|Girraween Public School|Bando Rd, Girraween NSW, 2145|Government, Primary, Coed, Non-Denominational
+GIRRAWEEN|St Anthony's Primary School|216 Targo Road, Girraween NSW, 2145|Catholic, Primary, Coed, Catholic
+GLADESVILLE|Boronia Park Public School|Pittwater Rd, Gladesville NSW, 2111|Government, Primary, Coed, Non-Denominational
+GLADESVILLE|Giant Steps School|23 Punt Road, Gladesville NSW, 2111|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Autistic
+GLADESVILLE|Gladesville Public School|Victoria Rd, Gladesville NSW, 2111|Government, Primary, Coed, Non-Denominational
+GLADESVILLE|Our Lady Queen Of Peace Primary School|Corner Westminster Road & Oxford Street, Gladesville NSW, 2111|Catholic, Primary, Coed, Catholic
+GLADESVILLE|Riverside Girls High School|Huntleys Point Rd, Gladesville NSW, 2111|Government, Secondary, Girls, Non-Denominational
+GLEBE|Australian Performing Arts Grammar School (APGS)|255 Broadway, Glebe NSW, 2037|Independent, Secondary, Coed, Non-Denominational
+GLEBE|St Scholastica's College|4 Avenue Road, Glebe NSW, 2037|Catholic, Secondary, Girls, Catholic, Boarding
+GLEBE|Glebe Public School|Derwent St, Glebe NSW, 2037|Government, Primary, Coed, Non-Denominational
+GLEBE|St James' Primary School|2 Woolley Street, Glebe NSW, 2037|Catholic, Primary, Coed, Catholic
+GLEBE|Sydney Secondary College Blackwattle Bay Campus|Taylor St, Glebe NSW, 2037|Government, Senior, Coed, Non-Denominational
+GLENDENNING|Glendenning Public School|Armitage Drive, Glendenning NSW, 2761|Government, Primary, Coed, Non-Denominational
+GLENDENNING|St Francis of Assisi Primary School|1 Stone Street, Glendenning NSW, 2761|Catholic, Primary, Coed, Catholic
+GLENFIELD|Ajuga School|Roy Watts Rd, Glenfield NSW, 2167|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+GLENFIELD|Campbell House School|Roy Watts Rd, Glenfield NSW, 2167|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+GLENFIELD|Glenfield Park School|Roy Watts Rd, Glenfield NSW, 2167|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+GLENFIELD|Glenfield Public School|Railway Pde, Glenfield NSW, 2167|Government, Primary, Coed, Non-Denominational
+GLENFIELD|Glenwood Public School|Belmont Rd, Glenfield NSW, 2167|Government, Primary, Coed, Non-Denominational
+GLENFIELD|Hurlstone Agricultural High School|Roy Watts Rd, Glenfield NSW, 2167|Government, Secondary, Coed, Non-Denominational, Boarding
+GLENHAVEN|Glenhaven Public School|Glenhaven Rd, Glenhaven NSW, 2156|Government, Primary, Coed, Non-Denominational
+GLENMORE PARK|Bethany Catholic School|34-38 William Howell Drive, Glenmore Park NSW, 2745|Catholic, Primary, Coed, Catholic
+GLENMORE PARK|Caroline Chisholm College|90-98 The Lakes Drive, Glenmore Park NSW, 2745|Catholic, Secondary, Girls, Catholic
+GLENMORE PARK|Glenmore Park High School|Glenmore Parkway, Glenmore Park NSW, 2745|Government, Secondary, Coed, Non-Denominational
+GLENMORE PARK|Glenmore Park Public School|33-41 The Lakes Drive, Glenmore Park NSW, 2745|Government, Primary, Coed, Non-Denominational
+GLENMORE PARK|Surveyors Creek Public School|St Andrews Drive, Glenmore Park NSW, 2745|Government, Primary, Coed, Non-Denominational
+GLENORIE|Glenorie Public School|Old Northern Rd, Glenorie NSW, 2157|Government, Primary, Coed, Non-Denominational
+GLENORIE|Hillside Public School|Cattai Ridge Rd, Glenorie NSW, 2157|Government, Primary, Coed, Non-Denominational
+GLENWOOD|Caddies Creek Public School|Currawong St & Glenwood Park Dr, Glenwood NSW, 2768|Government, Primary, Coed, Non-Denominational
+GLENWOOD|Glenwood High School|Forman Ave & Glenwood Park Dr, Glenwood NSW, 2768|Government, Secondary, Coed, Non-Denominational
+GLENWOOD|Holy Cross Primary School|49 Meurants Lane, Glenwood NSW, 2768|Catholic, Primary, Coed, Catholic
+GLENWOOD|Parklea Public School|Glenwood Park Drive, Glenwood NSW, 2768|Government, Primary, Coed, Non-Denominational
+GORDON|Gordon East Public School|Rosedale Rd, Gordon NSW, 2072|Government, Primary, Coed, Non-Denominational
+GORDON|Ravenswood|Henry Street, Gordon NSW, 2072|Independent, Primary/Secondary Combined, Girls, Uniting Church, Boarding
+GRANVILLE|Blaxcell Street Public School|Blaxcell St, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
+GRANVILLE|Delany College|Grimwood Street, Granville NSW, 2142|Catholic, Secondary, Coed, Catholic
+GRANVILLE|Granville Boys High School|14 Mary St, Granville NSW, 2142|Government, Secondary, Boys, Non-Denominational
+GRANVILLE|Granville East Public School|210 The Trongate, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
+GRANVILLE|Granville Public School|Lena St, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
+GRANVILLE|Holy Family Primary School|199 The Trongate, Granville NSW, 2142|Catholic, Primary, Coed, Catholic
+GRANVILLE|Holy Trinity Primary School|Grimwood Street, Granville NSW, 2142|Catholic, Primary, Coed, Catholic
+GRAYS POINT|Grays Point Public School|109 Angle Rd, Grays Point NSW, 2232|Government, Primary, Coed, Non-Denominational
+GREEN VALLEY|Busby West Public School|Starling St, Green Valley NSW, 2168|Government, Primary, Coed, Non-Denominational
+GREEN VALLEY|Green Valley Islamic College|264 Wilson Road, Green Valley NSW, 2168|Independent, Primary, Coed, Islamic
+GREEN VALLEY|Green Valley Public School|Green Valley Rd, Green Valley NSW, 2168|Government, Primary, Coed, Non-Denominational
+GREEN VALLEY|James Busby High School|Brolga Cresc, Green Valley NSW, 2168|Government, Secondary, Coed, Non-Denominational
+GREENACRE|Al Noori Muslim Primary School|75 Greenacre Road, Greenacre NSW, 2190|Independent, Primary, Coed, Islamic
+GREENACRE|Banksia Road Public School|65 Banksia Rd, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+GREENACRE|Chullora Public School|Norfolk & Waterloo Rds, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+GREENACRE|Greenacre Baptist Christian Community School|38-40 Shellcote Road, Greenacre NSW, 2190|Independent, Primary, Coed, Baptist
+GREENACRE|Greenacre Public School|Waterloo Rd, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+GREENACRE|Holy Saviour School|80 Waterloo Road, Greenacre NSW, 2190|Catholic, Primary, Coed, Catholic
+GREENACRE|Malek Fahd Islamic School|405 Waterloo Road, Greenacre NSW, 2190|Independent, Primary/Secondary Combined, Coed, Islamic
+GREENACRE|Mount Lewis Infants School|Noble Ave, Greenacre NSW, 2190|Government, Primary, Coed, Non-Denominational
+GREENACRE|St John Vianneys Primary School|78 Tempe Street, Greenacre NSW, 2190|Catholic, Primary, Coed, Catholic
+GREENFIELD PARK|Mar Nasai Assyrian College|673 - 683 Smithfield Road, Greenfield Park NSW, 2176|Independent, Secondary, Coed, Christian
+GREENFIELD PARK|St Hurmizd Assyrian Primary School|7-9 Greenfield Park Road, Greenfield Park NSW, 2176|Independent, Primary, Coed, Assyrian
+GREYSTANES|Beresford Road Public School|Beresford Rd, Greystanes NSW, 2145|Government, Primary, Coed, Non-Denominational
+GREYSTANES|Greystanes High School|Beresford Rd, Greystanes NSW, 2145|Government, Secondary, Coed, Non-Denominational
+GREYSTANES|Greystanes Public School|Merrylands Rd, Greystanes NSW, 2145|Government, Primary, Coed, Non-Denominational
+GREYSTANES|Holroyd High School|7 Cumberland Rd, Greystanes NSW, 2145|Government, Secondary, Coed, Non-Denominational
+GREYSTANES|Our Lady Queen Of Peace Primary School|Braeside Road, Greystanes NSW, 2145|Catholic, Primary, Coed, Catholic
+GREYSTANES|Ringrose Public School|Ringrose Ave, Greystanes NSW, 2145|Government, Primary, Coed, Non-Denominational
+GREYSTANES|St Paul's Catholic College|198 Old Prospect Road, Greystanes NSW, 2145|Catholic, Secondary, Boys, Catholic
+GREYSTANES|Widemere Public School|Nemesia St, Greystanes NSW, 2145|Government, Primary, Coed, Non-Denominational
+GUILDFORD WEST|Guildford West Public School|Palmer St, Guildford West NSW, 2161|Government, Primary, Coed, Non-Denominational
+GUILDFORD|Granville South Creative and Performing Arts High School|Rowley Rd, Guildford NSW, 2161|Government, Secondary, Coed, Non-Denominational
+GUILDFORD|Granville South Public School|Woodville Rd, Guildford NSW, 2161|Government, Primary, Coed, Non-Denominational
+GUILDFORD|Guildford Public School|Apia St, Guildford NSW, 2161|Government, Primary, Coed, Non-Denominational
+GUILDFORD|Old Guildford Public School|Woodville Rd, Guildford NSW, 2161|Government, Primary, Coed, Non-Denominational
+GUILDFORD|St Patrick's Primary School|34 Callipoe Street, Guildford NSW, 2161|Catholic, Primary, Coed, Catholic
+GYMEA BAY|Gymea Bay Public School|Gymea Bay Rd, Gymea Bay NSW, 2227|Government, Primary, Coed, Non-Denominational
+GYMEA|Gymea North Public School|Ruby Rd, Gymea NSW, 2227|Government, Primary, Coed, Non-Denominational
+GYMEA|Gymea Technology High School|Hotham Rd & Princes Hwy, Gymea NSW, 2227|Government, Secondary, Coed, Non-Denominational
+GYMEA|Montessori Children's World|99-107 Manchester Road, Gymea NSW, 2227|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Montessori
+GYMEA|St Catherine Laboures Primary School|123 Gymea Bay Road, Gymea NSW, 2227|Catholic, Primary, Coed, Catholic
+GYMEA|Sutherland Shire Montessori School|99-107 Manchester Road, Gymea NSW, 2227|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+HABERFIELD|Dobroyd Point Public School|Waratah St, Haberfield NSW, 2045|Government, Primary, Coed, Non-Denominational
+HABERFIELD|Haberfield Public School|Denman Ave, Haberfield NSW, 2045|Government, Primary, Coed, Non-Denominational
+HABERFIELD|St Joan Of Arc Primary School|88 Dalhousie Street, Haberfield NSW, 2045|Catholic, Primary, Coed, Catholic
+HAMMONDVILLE|Hammondville Public School|Walder Rd, Hammondville NSW, 2170|Government, Primary, Coed, Non-Denominational
+HARRINGTON PARK|Harrington Park Public School|2 Sir Warwick Fairfax Drive, Harrington Park NSW, 2567|Government, Primary, Coed, Non-Denominational
+HARRIS PARK|Maronite College of the Holy Family|23-25 Alice Street, Harris Park NSW, 2150|Catholic, Primary/Secondary Combined, Coed, Catholic
+HARRIS PARK|St Oliver's Primary School|33 Wigram Street, Harris Park NSW, 2150|Catholic, Primary, Coed, Catholic
+HASSALL GROVE|Hassall Grove Public School|Buckwell Drive, Hassall Grove NSW, 2761|Government, Primary, Coed, Non-Denominational
+HASSALL GROVE|St Clare's Catholic High School|175 Buckwell Drive, Hassall Grove NSW, 2761|Catholic, Secondary, Coed, Catholic
+HEATHCOTE|Heathcote East Public School|Mimosa St, Heathcote NSW, 2233|Government, Primary, Coed, Non-Denominational
+HEATHCOTE|Heathcote High School|Wilson Pde, Heathcote NSW, 2233|Government, Secondary, Coed, Non-Denominational
+HEATHCOTE|Heathcote Public School|Oliver St, Heathcote NSW, 2233|Government, Primary, Coed, Non-Denominational
+HEBERSHAM|Hebersham Public School|Andover Cres, Hebersham NSW, 2770|Government, Primary, Coed, Non-Denominational
+HECKENBERG|Heckenberg Public School|Jindabyne St, Heckenberg NSW, 2168|Government, Primary, Coed, Non-Denominational
+HELENSBURGH|Helensburgh Public School|Lukin St, Helensburgh NSW, 2508|Government, Primary, Coed, Non-Denominational
+HELENSBURGH|Holy Cross Primary School|1 McMillan Street, Helensburgh NSW, 2508|Catholic, Primary, Coed, Catholic
+HINCHINBROOK|Good Samaritan Catholic College|401 Hoxton Park Road, Hinchinbrook NSW, 2168|Catholic, Secondary, Coed, Catholic
+HINCHINBROOK|Hinchinbrook Public School|Cnr Hinchinbrook Dr & Keppel Circuit, Hinchinbrook NSW, 2168|Government, Primary, Coed, Non-Denominational
+HINCHINBROOK|Hoxton Park High School|40 Wilson Rd, Hinchinbrook NSW, 2168|Government, Secondary, Coed, Non-Denominational
+HOBARTVILLE|Hobartville Public School|Valder Ave, Hobartville NSW, 2753|Government, Primary, Coed, Non-Denominational
+HOLSWORTHY|Holsworthy High School|Huon Cres, Holsworthy NSW, 2173|Government, Secondary, Coed, Non-Denominational
+HOLSWORTHY|Holsworthy Public School|Infantry Pde, Holsworthy NSW, 2173|Government, Primary, Coed, Non-Denominational
+HOLSWORTHY|St Christopher's School|Heathcote Road, Holsworthy NSW, 2173|Catholic, Primary, Coed, Catholic
+HOMEBUSH WEST|Homebush West Public School|Exeter Rd, Homebush West NSW, 2140|Government, Primary, Coed, Non-Denominational
+HOMEBUSH|Homebush Boys High School|Bridge Rd, Homebush NSW, 2140|Government, Secondary, Boys, Non-Denominational
+HOMEBUSH|Homebush Public School|Rochester St, Homebush NSW, 2140|Government, Primary, Coed, Non-Denominational
+HORNINGSEA PARK|John Edmondson High School|Horningsea Park Dr, Horningsea Park NSW, 2171|Government, Secondary, Coed, Non-Denominational
+HORNSBY|Barker College|91 Pacific Highway, Hornsby NSW, 2077|Independent, Primary/Secondary Combined, Coed, Anglican, Boarding
+HORNSBY|Clarke Road School|Clarke Rd, Hornsby NSW, 2077|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+HORNSBY|Hornsby Girls High School|Edgeworth David Ave, Hornsby NSW, 2077|Government, Secondary, Girls, Non-Denominational
+HORNSBY|Hornsby Heights Public School|Somerville Rd, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational
+HORNSBY|Hornsby North Public School|Ida St, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational
+HORNSBY|Hornsby South Public School|Clarke Rd, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational
+HOXTON PARK|Good Shepherd Primary School|21 Twentieth Avenue, Hoxton Park NSW, 2171|Catholic, Primary, Coed, Catholic
+HOXTON PARK|Greenway Park Public School|Wyattville Drive, Hoxton Park NSW, 2171|Government, Primary, Coed, Non-Denominational
+HOXTON PARK|Holy Spirit Catholic Primary School|Lot 1 Cowpasture Road, Hoxton Park NSW, 2171|Catholic, Primary, Coed, Catholic
+HOXTON PARK|Hoxton Park Public School|Pacific Palms Circuit, Hoxton Park NSW, 2171|Government, Primary, Coed, Non-Denominational
+HUNTERS HILL|Hunters Hill High School|Reiby Rd, Hunters Hill NSW, 2110|Government, Secondary, Coed, Non-Denominational
+HUNTERS HILL|Hunters Hill Public School|17 Alexandra St, Hunters Hill NSW, 2110|Government, Primary, Coed, Non-Denominational
+HUNTERS HILL|St Joseph's College|11 Mark Street, Hunters Hill NSW, 2110|Catholic, Secondary, Boys, Catholic, Boarding
+HUNTERS HILL|Villa Maria School|5-7 Mark Street, Hunters Hill NSW, 2110|Catholic, Primary, Coed, Catholic
+HURLSTONE PARK|Edgeware School|Burnett St & Tennett Pde, Hurlstone Park NSW, 2193|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+HURSTVILLE|Hurstville Adventist School|30 Wright Street, Hurstville NSW, 2220|Independent, Primary, Coed, Seventh Day Adventist
+HURSTVILLE|St George Christian School|70 Bellevue Parade, Hurstville NSW, 2220|Independent, Primary/Secondary Combined, Coed, Christian
+HURSTVILLE|Georges River College Hurstville Boys Campus|Kenwyn St, Hurstville NSW, 2220|Government, Secondary, Boys, Non-Denominational
+HURSTVILLE|Bethany College - Hurstville|2-4 Croydon Road, Hurstville NSW, 2220|Catholic, Secondary, Girls, Catholic
+HURSTVILLE|DANEBANK An Anglican School for Girls|82-98 Park Road, Hurstville NSW, 2220|Independent, Primary/Secondary Combined, Girls, Anglican
+HURSTVILLE|Hurstville Public School|Forest Rd, Hurstville NSW, 2220|Government, Primary, Coed, Non-Denominational
+HURSTVILLE|Hurstville South Public School|Maher St, Hurstville NSW, 2220|Government, Primary, Coed, Non-Denominational
+HURSTVILLE|St Mary's Star Of The Sea Primary School|24-26 Croydon Road, Hurstville NSW, 2220|Catholic, Primary, Coed, Catholic
+HURSTVILLE|Woniora Road School|83-85 Woniora Rd, Hurstville NSW, 2220|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+ILLAWONG|Illawong Public School|Fowler Rd, Illawong NSW, 2234|Government, Primary, Coed, Non-Denominational
+INGLEBURN|Holy Family Primary School|Oxford Road, Ingleburn NSW, 2565|Catholic, Primary, Coed, Catholic
+INGLEBURN|Ingleburn High School|Oxford Rd, Ingleburn NSW, 2565|Government, Secondary, Coed, Non-Denominational
+INGLEBURN|Ingleburn North Public School|Macdonald Rd, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational
+INGLEBURN|Ingleburn Public School|Oxford Rd, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational
+INGLEBURN|Sackville Street Public School|Sackville & Bradley Sts, Ingleburn NSW, 2565|Government, Primary, Coed, Non-Denominational
+INGLESIDE|Hamazkaine (HASG) School|5 Chiltern Road, Ingleside NSW, 2101|Independent, Primary/Secondary Combined, Coed, Christian
+JANNALI|Jannali East Public School|Box Rd, Jannali NSW, 2226|Government, Primary, Coed, Non-Denominational
+JANNALI|Jannali Public School|Sutherland Rd, Jannali NSW, 2226|Government, Primary, Coed, Non-Denominational
+JANNALI|The Jannali High School|Sutherland Rd, Jannali NSW, 2226|Government, Secondary, Coed, Non-Denominational
+KAREELA|Bates Drive School|Bates Drive, Kareela NSW, 2232|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+KAREELA|Kareela Public School|Freya St, Kareela NSW, 2232|Government, Primary, Coed, Non-Denominational
+KEARNS|Kearns Public School|St Lawrence Ave, Kearns NSW, 2558|Government, Primary, Coed, Non-Denominational
+KELLYVILLE RIDGE|Kellyville Ridge Public School|Cnr Singleton Ave & Greenwich St, Kellyville Ridge NSW, 2155|Government, Primary, Coed, Non-Denominational
+KELLYVILLE|Hills Adventist College|4 Gum Nut Cl, Kellyville, Kellyville NSW, 2154|Independent, Primary/Secondary Combined, Coed, Seventh Day Adventist
+KELLYVILLE|William Clarke College|1 Morris Grove, Kellyville NSW, 2155|Independent, Primary/Secondary Combined, Coed, Anglican
+KELLYVILLE|Ironbark Ridge Public School|Withers Rd, Kellyville NSW, 2155|Government, Primary, Coed, Non-Denominational
+KELLYVILLE|Kellyville High School|York Rd, Kellyville NSW, 2155|Government, Secondary, Coed, Non-Denominational
+KELLYVILLE|Kellyville Public School|Windsor Rd, Kellyville NSW, 2155|Government, Primary, Coed, Non-Denominational
+KELLYVILLE|Our Lady Of The Rosary Primary School|8 Diana Avenue, Kellyville NSW, 2155|Catholic, Primary, Coed, Catholic
+KELLYVILLE|Our Lady of the Angels Primary School|1 Wellgate Avenue, Kellyville NSW, 2155|Catholic, Primary, Coed, Catholic
+KELLYVILLE|Sherwood Ridge Public School|Rosebery Rd, Kellyville NSW, 2155|Government, Primary, Coed, Non-Denominational
+KELLYVILLE|Tallowood School|44-68 Redden Dr, Kellyville NSW, 2155|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+KEMPS CREEK|Christadelphian Heritage College|110 Cross Street, Kemps Creek NSW, 2178|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+KEMPS CREEK|Emmaus Catholic College|87-109 Bakers Lane, Kemps Creek NSW, 2178|Catholic, Secondary, Coed, Catholic
+KEMPS CREEK|Kemps Creek Public School|100 Cross St, Kemps Creek NSW, 2178|Government, Primary, Coed, Non-Denominational
+KENSINGTON|Kensington Public School|Doncaster Ave, Kensington NSW, 2033|Government, Primary, Coed, Non-Denominational
+KENSINGTON|Our Lady Of The Rosary Primary School|Grosvenor Street, Kensington NSW, 2033|Catholic, Primary, Coed, Catholic
+KENSINGTON|Our Lady Of The Sacred Heart College|36 Addison Street, Kensington NSW, 2033|Catholic, Secondary, Girls, Catholic
+KENTHURST|The Hills Grammar School|43 Kenthurst Road, Kenthurst NSW, 2156|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+KENTHURST|Kenthurst Public School|Kenthurst Rd, Kenthurst NSW, 2156|Government, Primary, Coed, Non-Denominational
+KENTHURST|Marian College|28 Annangrove Road, Kenthurst NSW, 2156|Catholic, Secondary, Coed, Catholic
+KENTHURST|St Madeleine's Primary School|28 Annangrove Road, Kenthurst NSW, 2156|Catholic, Primary, Coed, Catholic
+KILLARA|Beaumont Road Public School|17 Beaumont Road, Killara NSW, 2071|Government, Primary, Coed, Non-Denominational
+KILLARA|Killara High School|Koola Ave, Killara NSW, 2071|Government, Secondary, Coed, Non-Denominational
+KILLARA|Killara Public School|Ridgeland Ave, Killara NSW, 2071|Government, Primary, Coed, Non-Denominational
+KILLARNEY HEIGHTS|Killarney Heights High School|Starkey St, Killarney Heights NSW, 2087|Government, Secondary, Coed, Non-Denominational
+KILLARNEY HEIGHTS|Killarney Heights Public School|Tralee Ave, Killarney Heights NSW, 2087|Government, Primary, Coed, Non-Denominational
+KINGS LANGLEY|Kings Langley Public School|68 Isaac Smith Pde, Kings Langley NSW, 2147|Government, Primary, Coed, Non-Denominational
+KINGSFORD|St Spyridon College|80 Gardners Rd, Kingsford NSW, 2032|Independent, Primary, Coed, Greek Orthodox
+KINGSGROVE|Kingsgrove North High School|St Albans Rd, Kingsgrove NSW, 2208|Government, Secondary, Coed, Non-Denominational
+KINGSGROVE|Arkana College|334-346 Stoney Creek Road, Kingsgrove NSW, 2208|Independent, Primary, Coed, Islamic
+KINGSGROVE|Kingsgrove High School|Kingsgrove Road, Kingsgrove NSW, 2208|Government, Secondary, Coed, Non-Denominational
+KINGSGROVE|Kingsgrove Public School|Kingsgrove Rd, Kingsgrove NSW, 2208|Government, Primary, Coed, Non-Denominational
+KINGSGROVE|Our Lady Of Fatimah Primary School|51 Caroline Street, Kingsgrove NSW, 2208|Catholic, Primary, Coed, Catholic
+KINGSGROVE|St Ursula's College|67 Caroline Street, Kingsgrove NSW, 2208|Catholic, Secondary, Girls, Catholic
+KINGSWOOD|St Dominic's College|54-94 Gascoine Street, Kingswood NSW, 2747|Independent, Secondary, Boys, Catholic
+KINGSWOOD|Kingswood High School|Bringelly Rd, Kingswood NSW, 2747|Government, Secondary, Coed, Non-Denominational
+KINGSWOOD|Kingswood Public School|Second Ave, Kingswood NSW, 2747|Government, Primary, Coed, Non-Denominational
+KINGSWOOD|Kingswood South Public School|Smith St, Kingswood NSW, 2747|Government, Primary, Coed, Non-Denominational
+KINGSWOOD|St Joseph's School|90-94 Joseph Street, Kingswood NSW, 2747|Catholic, Primary, Coed, Catholic
+KIRRAWEE|Kirrawee High School|21-29 Hunter St, Kirrawee NSW, 2232|Government, Secondary, Coed, Non-Denominational
+KIRRAWEE|Kirrawee Public School|Bath Rd, Kirrawee NSW, 2232|Government, Primary, Coed, Non-Denominational
+KIRRAWEE|Sylvanvale School|2 Mikarie Place, Kirrawee NSW, 2232|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+KIRRIBILLI|Loreto Kirribilli|85 Carabella Street, Kirribilli NSW, 2061|Catholic, Primary/Secondary Combined, Girls, Catholic
+KIRRIBILLI|St Aloysius College|47 Upper Pitt Street, Kirribilli NSW, 2061|Catholic, Secondary, Boys, Catholic
+KOGARAH|James Cook Boys High School|Princes Hwy, Kogarah NSW, 2217|Government, Secondary, Boys, Non-Denominational
+KOGARAH|Kogarah High School|Gladstone St, Kogarah NSW, 2217|Government, Secondary, Coed, Non-Denominational
+KOGARAH|Kogarah Public School|Gladstone St, Kogarah NSW, 2217|Government, Primary, Coed, Non-Denominational
+KOGARAH|Moorefield Girls High School|Princes Hwy, Kogarah NSW, 2217|Government, Secondary, Girls, Non-Denominational
+KOGARAH|St George Girls High School|Victoria St, Kogarah NSW, 2217|Government, Secondary, Girls, Non-Denominational
+KOGARAH|St George School|Marshall St, Kogarah NSW, 2217|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+KOGARAH|St Patrick's Primary School|36 Chapel Street, Kogarah NSW, 2217|Catholic, Primary, Coed, Catholic
+KURNELL|Kurnell Public School|Dampier & Torres Sts, Kurnell NSW, 2231|Government, Primary, Coed, Non-Denominational
+LA PEROUSE|La Perouse Public School|Yarra Rd, La Perouse NSW, 2036|Government, Primary, Coed, Non-Denominational
+LAKEMBA|Al Hikma College|291 Haldon Street, Lakemba NSW, 2195|Independent, Primary, Coed, Non-Denominational
+LAKEMBA|Canterbury Vale School|24 Wangee Road, Lakemba NSW, 2195|Government, Primary, Coed, Anglican
+LAKEMBA|Hampden Park Public School|Hampden Rd, Lakemba NSW, 2195|Government, Primary, Coed, Non-Denominational
+LAKEMBA|Holy Spirit College|39 Croydon Street, Lakemba NSW, 2195|Catholic, Secondary, Coed, Catholic
+LAKEMBA|Lakemba Public School|Alice St, Lakemba NSW, 2195|Government, Primary, Coed, Non-Denominational
+LAKEMBA|Rissalah College|54 Hampden Rd, Lakemba NSW, 2195|Independent, Primary, Coed, Islamic
+LAKEMBA|St Therese's Primary School|2a Yerrick Road, Lakemba NSW, 2195|Catholic, Primary, Coed, Catholic
+LAKEMBA|Wangee Park School|14-16 Wangee Rd, Lakemba NSW, 2195|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+LALOR PARK|Lalor Park Public School|Heffron Rd, Lalor Park NSW, 2147|Government, Primary, Coed, Non-Denominational
+LALOR PARK|St Bernadette's Primary School|18 Wheeler Street, Lalor Park NSW, 2147|Catholic, Primary, Coed, Catholic
+LANE COVE|Currambena School|205 Longueville Road, Lane Cove NSW, 2066|Independent, Primary, Coed, Non-Denominational
+LANE COVE|Lane Cove Public School|Austin St & Longueville Rd, Lane Cove NSW, 2066|Government, Primary, Coed, Non-Denominational
+LANE COVE|Lane Cove West Public School|Avalon Ave, Lane Cove NSW, 2066|Government, Primary, Coed, Non-Denominational
+LANE COVE|Mowbray Public School|Mowbray Rd West, Lane Cove NSW, 2066|Government, Primary, Coed, Non-Denominational
+LANE COVE|Saint Ignatius' College, Riverview|Tambourine Bay Road, Lane Cove NSW, 2066|Catholic, Primary/Secondary Combined, Boys, Catholic, Boarding
+LANE COVE|St Ignatius College|Riverview Road, Lane Cove NSW, 2066|Catholic, Primary, Boys, Catholic
+LANE COVE|St Michael's Primary School|187 Longueville Road, Lane Cove NSW, 2066|Catholic, Primary, Coed, Catholic
+LANSDOWNE|Lansdowne Public School|Cundle Rd & Macquarie St, Lansdowne NSW, 2430|Government, Primary, Coed, Non-Denominational
+LEICHHARDT|Kegworth Public School|60 Tebbutt St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+LEICHHARDT|Leichhardt Public School|Marion St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+LEICHHARDT|Orange Grove Public School|Perry St, Leichhardt NSW, 2040|Government, Primary, Coed, Non-Denominational
+LEICHHARDT|St Columbas Primary School|215 Elswick Street, Leichhardt NSW, 2040|Catholic, Primary, Coed, Catholic
+LEICHHARDT|Sydney Secondary College Leichhardt Campus|Balmain Rd, Leichhardt NSW, 2040|Government, Secondary, Coed, Non-Denominational
+LETHBRIDGE PARK|Lethbridge Park Public School|Copeland Rd, Lethbridge Park NSW, 2770|Government, Primary, Coed, Non-Denominational
+LEUMEAH|Leumeah High School|Junction Rd, Leumeah NSW, 2560|Government, Secondary, Coed, Non-Denominational
+LEUMEAH|Leumeah Public School|Burrendong Rd, Leumeah NSW, 2560|Government, Primary, Coed, Non-Denominational
+LEUMEAH|Qibla College|44-48 Westmoreland Road, Leumeah NSW, 2560|Independent, Primary, Coed, Islamic
+LEWISHAM|Christian Brothers School|68-80 The Boulevarde, Lewisham NSW, 2049|Catholic, Primary/Secondary Combined, Boys, Catholic
+LEWISHAM|Lewisham Public School|The Boulevarde, Lewisham NSW, 2049|Government, Primary, Coed, Non-Denominational
+LEWISHAM|The John Berne School|1 Thomas Street, Lewisham NSW, 2049|Catholic, Secondary, Coed, Catholic, General school also caters to, Emotional Behavioural
+LIDCOMBE|Lidcombe Public School|Mills Street, Lidcombe NSW, 2141|Government, Primary, Coed, Non-Denominational
+LIDCOMBE|St Joachim's Primary School|7 Mary Street, Lidcombe NSW, 2141|Catholic, Primary, Coed, Catholic
+LILLI PILLI|Lilli Pilli Public School|Lilli Pilli Point Rd, Lilli Pilli NSW, 2229|Government, Primary, Coed, Non-Denominational
+LILYFIELD|Inner Sydney Montessori School (Lilyfield campus)|10 Trevor St, Lilyfield NSW, 2040|Independent, Primary, Coed, Non-Denominational
+LINDFIELD|Newington College Lindfield K–6|26 Northcote Road, Lindfield NSW, 2070|Independent, Primary, Boys, Uniting Church
+LINDFIELD|Cromehurst School|8 Nelson Rd, Lindfield NSW, 2070|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+LINDFIELD|Highfields Preparatory & Kindergarten School|18 Highfield Road, Lindfield NSW, 2070|Independent, Primary, Coed, Non-Denominational
+LINDFIELD|Holy Family Primary School|2-4 Highfield Road, Lindfield NSW, 2070|Catholic, Primary, Coed, Catholic
+LINDFIELD|Lindfield Montessori Preschool|9 Moore Ave, Lindfield NSW, 2070|Independent, Primary, Coed, Non-Denominational
+LINDFIELD|Lindfield Public School|Pacific Hwy, Lindfield NSW, 2070|Government, Primary, Coed, Non-Denominational
+LIVERPOOL|Al Amanah College|55 Speed Street, Liverpool NSW, 2170|Independent, Primary/Secondary Combined, Coed, Islamic
+LIVERPOOL|All Saints Catholic Boys College|43 Bigge Street, Liverpool NSW, 2170|Catholic, Secondary, Boys, Catholic
+LIVERPOOL|All Saints Catholic Girls College|Bigge Street, Liverpool NSW, 2170|Catholic, Secondary, Girls, Catholic
+LIVERPOOL|All Saints Catholic Primary School|44 George Street, Liverpool NSW, 2170|Catholic, Primary, Coed, Catholic
+LIVERPOOL|Liverpool Boys High School|Forbes St, Liverpool NSW, 2170|Government, Secondary, Boys, Non-Denominational
+LIVERPOOL|Liverpool Girls High School|Forbes St, Liverpool NSW, 2170|Government, Secondary, Girls, Non-Denominational
+LIVERPOOL|Liverpool Public School|Railway St, Liverpool NSW, 2170|Government, Primary, Coed, Non-Denominational
+LIVERPOOL|Liverpool West Public School|79-81 Hoxton Park Rd, Liverpool NSW, 2170|Government, Primary, Coed, Non-Denominational
+LIVERPOOL|Mainsbridge School|Flowerdale Rd, Liverpool NSW, 2170|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+LIVERPOOL|Marsden Road Public School|Marsden Rd, Liverpool NSW, 2170|Government, Primary, Coed, Non-Denominational
+LLANDILO|Llandilo Public School|Seventh Ave, Llandilo NSW, 2747|Government, Primary, Coed, Non-Denominational
+LLANDILO|Xavier College|1170 Ninth Avenue, Llandilo NSW, 2749|Catholic, Secondary, Coed, Catholic
+LOFTUS|Cook School|Rawson Ave, Loftus NSW, 2232|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+LOFTUS|Loftus Public School|Tenth Ave, Loftus NSW, 2232|Government, Primary, Coed, Non-Denominational
+LONDONDERRY|Londonderry Public School|Londonderry Rd, Londonderry NSW, 2753|Government, Primary, Coed, Non-Denominational
+LUDDENHAM|Holy Family Primary School|Lot 32 Willowdene Avenue, Luddenham NSW, 2745|Catholic, Primary, Coed, Catholic
+LUDDENHAM|Luddenham Public School|24 Jamieson St, Luddenham NSW, 2745|Government, Primary, Coed, Non-Denominational
+LUGARNO|Lugarno Public School|Old Forest Rd, Lugarno NSW, 2210|Government, Primary, Coed, Non-Denominational
+LURNEA|Lurnea High School|Hillview Pde, Lurnea NSW, 2170|Government, Secondary, Coed, Non-Denominational
+LURNEA|Lurnea Public School|West & Reilly Sts, Lurnea NSW, 2170|Government, Primary, Coed, Non-Denominational
+LURNEA|St Francis Xaviers Primary School|71 Webster Road, Lurnea NSW, 2170|Catholic, Primary, Coed, Catholic
+MACQUARIE FIELDS|Macarthur Adventist College|12 Victoria Road, Macquarie Fields NSW, 2564|Independent, Primary/Secondary Combined, Coed, Seventh Day Adventist
+MACQUARIE FIELDS|Curran Public School|Melaleuca Drive, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational
+MACQUARIE FIELDS|Eden College|30a Victoria Rd, Macquarie Fields NSW, 2564|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+MACQUARIE FIELDS|Guise Public School|Eucalyptus Drive, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational
+MACQUARIE FIELDS|James Meehan High School|Harold St, Macquarie Fields NSW, 2564|Government, Secondary, Coed, Non-Denominational
+MACQUARIE FIELDS|Macquarie Fields High School|2 Harold St, Macquarie Fields NSW, 2564|Government, Secondary, Coed, Non-Denominational
+MACQUARIE FIELDS|Macquarie Fields Public School|Fields Rd, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational
+MALABAR|Malabar Public School|Franklin St, Malabar NSW, 2036|Government, Primary, Coed, Non-Denominational
+MALABAR|St Andrew's Primary School|12-18 Prince Edward Street, Malabar NSW, 2036|Catholic, Primary, Coed, Catholic
+MANLY VALE|Northern Beaches Secondary College Mackellar Girls Campus|Campbell Pde & Quirk Rd, Manly Vale NSW, 2093|Government, Secondary, Girls, Non-Denominational
+MANLY VALE|Manly Vale Public School|Sunshine St, Manly Vale NSW, 2093|Government, Primary, Coed, Non-Denominational
+MANLY VALE|St Kieran's Primary School|63 Gordon Street, Manly Vale NSW, 2093|Catholic, Primary, Coed, Catholic
+MANLY|Stella Maris College|52 Eurobin Avenue, Manly NSW, 2095|Independent, Secondary, Girls, Catholic
+MANLY|Manly Village Public School|Darley Rd, Manly NSW, 2095|Government, Primary, Coed, Non-Denominational
+MANLY|Royal Far West School|Wentworth St, Manly NSW, 2095|Government, Primary/Secondary Combined, Coed, Non-Denominational, General Disabilities
+MANLY|St Mary's School|Corner Denison & Whistler Streets, Manly NSW, 2095|Catholic, Primary, Coed, Catholic
+MANLY|St Paul's Catholic College|Darley Road, Manly NSW, 2095|Catholic, Secondary, Boys, Catholic
+MARAYLYA|Maraylya Public School|Neich Rd, Maraylya NSW, 2765|Government, Primary, Coed, Non-Denominational
+MARAYONG|St Andrews College|116 Quakers Road, Marayong NSW, 2148|Catholic, Secondary, Coed, Catholic
+MARAYONG|Marayong Heights Public School|Guerie St, Marayong NSW, 2148|Government, Primary, Coed, Non-Denominational
+MARAYONG|St Andrew's College|50 Breakfast Road, Marayong NSW, 2148|Catholic, Secondary, Coed, Catholic
+MARAYONG|St Andrew's Primary School|36 Breakfast Road, Marayong NSW, 2148|Catholic, Primary, Coed, Catholic
+MAROOTA|Maroota Public School|Old Northern Rd, Maroota NSW, 2756|Government, Primary, Coed, Non-Denominational
+MAROUBRA|The International French School of Sydney|758 ANZAC Parade, Maroubra NSW, 2035|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+MAROUBRA|Champagnat Catholic College Pagewood|35 Donovan Avenue, Maroubra NSW, 2035|Catholic, Secondary, Boys, Catholic
+MAROUBRA|Maroubra Bay Public School|Duncan St, Maroubra NSW, 2035|Government, Primary, Coed, Non-Denominational
+MAROUBRA|Maroubra Beach Montessori Preschool|469 Malabar Road, Maroubra NSW, 2035|Independent, Primary, Coed, Non-Denominational
+MAROUBRA|Maroubra Junction Public School|Storey St, Maroubra NSW, 2035|Government, Primary, Coed, Non-Denominational
+MAROUBRA|Mt Sinai College|6 Runic Lane, Maroubra NSW, 2035|Independent, Primary, Coed, Jewish
+MAROUBRA|Our Lady Of The Annunciation School|31 Donovan Avenue, Maroubra NSW, 2035|Catholic, Primary, Coed, Catholic
+MAROUBRA|Our Lady of the Annunciation Primary School|31 Donovan Avenue, Maroubra NSW, 2035|Catholic, Primary, Coed, Catholic
+MAROUBRA|South Sydney High School|Paine St, Maroubra NSW, 2035|Government, Secondary, Coed, Non-Denominational
+MAROUBRA|St Aiden's Primary School|214 Maroubra Road, Maroubra NSW, 2035|Catholic, Primary, Coed, Catholic
+MAROUBRA|St Mary And St Joseph Primary School|280 Fitzgerald Avenue, Maroubra NSW, 2035|Catholic, Primary, Coed, Catholic
+MAROUBRA|St Spyridon College|1130 Anzac Parade, Maroubra NSW, 2035|Independent, Secondary, Coed, Greek Orthodox
+MARRICKVILLE|Casimir Catholic College|200 Livingstone Road, Marrickville NSW, 2204|Catholic, Secondary, Coed, Catholic
+MARRICKVILLE|Ferncourt Public School|Premier St, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+MARRICKVILLE|Marrickville High School|Northcote St, Marrickville NSW, 2204|Government, Secondary, Coed, Non-Denominational
+MARRICKVILLE|Marrickville Public School|Chapel St, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+MARRICKVILLE|Marrickville West Public School|Livingstone Rd, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+MARRICKVILLE|St Brigid's Primary School|17 Fletcher Street, Marrickville NSW, 2204|Catholic, Primary, Coed, Catholic
+MARRICKVILLE|Wilkins Public School|Park Rd, Marrickville NSW, 2204|Government, Primary, Coed, Non-Denominational
+MARSDEN PARK|Australian Christian College - Marsden Park|69 Farm Road, Marsden Park NSW, 2765|Independent, Primary/Secondary Combined, Coed, Christian
+MARSDEN PARK|Marsden Park Public School|Garfield Rd West, Marsden Park NSW, 2765|Government, Primary, Coed, Non-Denominational
+MARSFIELD|St Anthony's Primary School|Cnr Balaclava & Agincourt Roads, Marsfield NSW, 2122|Catholic, Primary, Coed, Catholic
+MASCOT|J J Cahill Memorial High School|Sutherland St, Mascot NSW, 2018|Government, Secondary, Coed, Non-Denominational
+MASCOT|Mascot Public School|King St, Mascot NSW, 2020|Government, Primary, Coed, Non-Denominational
+MASCOT|St Therese's Primary School|43 Sutherland Street, Mascot NSW, 2020|Catholic, Primary, Coed, Catholic
+MATRAVILLE|Matraville Public School|310 Bunnerong Rd, Matraville NSW, 2036|Government, Primary, Coed, Non-Denominational
+MATRAVILLE|Matraville Soldiers Settlement Public School|Menin Rd, Matraville NSW, 2036|Government, Primary, Coed, Non-Denominational
+MATRAVILLE|St Agnes Primary School|511 Bunnerong Road, Matraville NSW, 2036|Catholic, Primary, Coed, Catholic
+MCGRATHS HILL|Windsor High School|Mulgrave & Windsor Rds, Mcgraths Hill NSW, 2756|Government, Secondary, Coed, Non-Denominational
+MEADOWBANK|Italian Bilingual School|30-32 See St, Meadowbank NSW, 2114|Independent, Primary, Coed, Non-Denominational
+MEADOWBANK|St Michael's Primary School|53 Maxim Street, Meadowbank NSW, 2114|Catholic, Primary, Coed, Catholic
+MENAI|Aquinas College|Anzac Road, Menai NSW, 2234|Catholic, Secondary, Coed, Catholic
+MENAI|Holy Family Primary School|1d Anzac Road, Menai NSW, 2234|Catholic, Primary, Coed, Catholic
+MENAI|Menai High School|Gerald Rd, Menai NSW, 2234|Government, Secondary, Coed, Non-Denominational
+MENAI|Menai Public School|4R Hall Drive, Menai NSW, 2234|Government, Primary, Coed, Non-Denominational
+MENAI|Tharawal Public School|Gerald Rd, Menai NSW, 2234|Government, Primary, Coed, Non-Denominational
+MERRYLANDS|Cerdon College|Sherwood Road, Merrylands NSW, 2160|Catholic, Secondary, Girls, Catholic
+MERRYLANDS|Chapel School|102 Kenyons Road, Merrylands NSW, 2160|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+MERRYLANDS|Fowler Road School|Cnr Fowler Road & Matthew Street, Merrylands NSW, 2160|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+MERRYLANDS|Hilltop Road Public School|Hilltop Rd, Merrylands NSW, 2160|Government, Primary, Coed, Non-Denominational
+MERRYLANDS|Holroyd School|Willara Ave, Merrylands NSW, 2160|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+MERRYLANDS|Merrylands East Public School|Myee St, Merrylands NSW, 2160|Government, Primary, Coed, Non-Denominational
+MERRYLANDS|Merrylands High School|Bristol St, Merrylands NSW, 2160|Government, Secondary, Coed, Non-Denominational
+MERRYLANDS|Merrylands Public School|Fowler Rd, Merrylands NSW, 2160|Government, Primary, Coed, Non-Denominational
+MERRYLANDS|Sherwood Grange Public School|Bruce St, Merrylands NSW, 2160|Government, Primary, Coed, Non-Denominational
+MERRYLANDS|St Margaret Marys Primary School|7 Chetwynd Road, Merrylands NSW, 2160|Catholic, Primary, Coed, Catholic
+MIDDLE COVE|Glenaeon Rudolf Steiner School|5a Glenroy Avenue, Middle Cove NSW, 2068|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+MIDDLE DURAL|Middle Dural Public School|Old Northern Rd, Middle Dural NSW, 2158|Government, Primary, Coed, Non-Denominational
+MIDDLETON GRANGE|Thomas Hassall Anglican College|125 Kingsford Smith Avenue, Middleton Grange NSW, 2171|Independent, Primary/Secondary Combined, Coed, Anglican
+MIDDLETON GRANGE|Middleton Grange Public School|Hall Circuit, Middleton Grange NSW, 2171|Government, Primary, Coed, Anglican
+MILLER|Miller High School|Cabramatta Ave, Miller NSW, 2168|Government, Secondary, Coed, Non-Denominational
+MILLER|Miller Public School|Miller Rd & Shropshire St, Miller NSW, 2168|Government, Primary, Coed, Non-Denominational
+MILPERRA|Milperra Public School|Pozieres Ave, Milperra NSW, 2214|Government, Primary, Coed, Non-Denominational
+MILPERRA|Mount St Joseph School|273 Horsley Road, Milperra NSW, 2214|Independent, Secondary, Girls, Catholic
+MILSONS POINT|St Aloysius College|32 Burton Street, Milsons Point NSW, 2061|Catholic, Primary, Boys, Catholic
+MINCHINBURY|Minchinbury Public School|McFarlane Drive, Minchinbury NSW, 2770|Government, Primary, Coed, Non-Denominational
+MINTO|Campbellfield Public School|Townson Ave, Minto NSW, 2566|Government, Primary, Coed, Non-Denominational
+MINTO|Iqra Grammar College|10 Benham Rd, Minto NSW, 2566|Independent, Primary/Secondary Combined, Coed, Islamic
+MINTO|Minto Public School|Pembroke & Redfern Rds, Minto NSW, 2566|Government, Primary, Coed, Non-Denominational
+MINTO|Passfield Park School|Guernsey Ave & Mossglen Ave, Minto NSW, 2566|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+MINTO|Sarah Redfern High School|Cnr Monaghan St & Pembroke Rd, Minto NSW, 2566|Government, Secondary, Coed, Non-Denominational, General school also caters to, General Disabilities
+MINTO|Sarah Redfern Public School|Stafford St & Guernsey Rd, Minto NSW, 2566|Government, Primary, Coed, Non-Denominational
+MINTO|The Grange Public School|Benham Rd, Minto NSW, 2566|Government, Primary, Coed, Non-Denominational
+MIRANDA|Miranda North Public School|162B The Boulevarde, Miranda NSW, 2228|Government, Primary, Coed, Non-Denominational
+MIRANDA|Miranda Public School|Kingsway, Miranda NSW, 2228|Government, Primary, Coed, Non-Denominational
+MIRANDA|Our Lady Star Of The Sea Primary School|44 Kiora Road, Miranda NSW, 2228|Catholic, Primary, Coed, Catholic
+MIRANDA|Port Hacking High School|Kingsway, Miranda NSW, 2228|Government, Secondary, Coed, Non-Denominational
+MONA VALE|Mona Vale Public School|Waratah St, Mona Vale NSW, 2103|Government, Primary, Coed, Non-Denominational
+MONA VALE|Pittwater High School|Pittwater Rd & Mona St, Mona Vale NSW, 2103|Government, Secondary, Coed, Non-Denominational
+MONA VALE|Sacred Heart Catholic Primary|Cnr Waratah & Keenan Streets, Mona Vale NSW, 2103|Catholic, Primary, Coed, Catholic
+MOORE PARK|Brent Street|122 Lang Rd, Moore Park NSW, 2021|Independent, Secondary, Coed, Non-Denominational
+MOOREBANK|Moorebank High School|Bangalow Ave, Moorebank NSW, 2170|Government, Secondary, Coed, Non-Denominational
+MOOREBANK|Newbridge Heights Public School|Lewin & Magree Cres, Moorebank NSW, 2170|Government, Primary, Coed, Non-Denominational
+MOOREBANK|Nuwarra Public School|McKay Ave, Moorebank NSW, 2170|Government, Primary, Coed, Non-Denominational
+MOOREBANK|St Joseph's School|35-45 Nuwarra Road, Moorebank NSW, 2170|Catholic, Primary, Coed, Catholic
+MORTDALE|Carinya School|Colebourne Ave, Mortdale NSW, 2223|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+MORTDALE|Marist College|65 Victoria Avenue, Mortdale NSW, 2223|Catholic, Secondary, Boys, Catholic
+MORTDALE|Mortdale Public School|Colebourne Ave, Mortdale NSW, 2223|Government, Primary, Coed, Non-Denominational
+MORTDALE|Penshurst West Public School|Forest Rd & Scott St, Mortdale NSW, 2223|Government, Primary, Coed, Non-Denominational
+MOSMAN|Mosman Church Of England Preparatory School|75 Shadforth Street, Mosman NSW, 2088|Independent, Primary, Boys, Anglican
+MOSMAN|Queenwood|47 Mandolong Road, Mosman NSW, 2088|Independent, Primary/Secondary Combined, Girls, Non-Denominational
+MOSMAN|Beauty Point Public School|17 Medusa St, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
+MOSMAN|Blessed Sacrement Primary School|2 Queen Street, Mosman NSW, 2088|Catholic, Primary, Coed, Catholic
+MOSMAN|Middle Harbour Public School|8 Hale Rd, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
+MOSMAN|Mosman High School|Military Rd, Mosman NSW, 2088|Government, Secondary, Coed, Non-Denominational
+MOSMAN|Mosman Public School|27 Belmont Rd, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
+MOSMAN|Sacred Heart Primary School|8 Cardinal Street, Mosman NSW, 2088|Catholic, Primary, Coed, Catholic
+MOUNT ANNAN|Mount Annan Christian College|347 Narellan Road, Mount Annan NSW, 2567|Independent, Primary/Secondary Combined, Coed, Christian
+MOUNT ANNAN|Mount Annan High School|248 Welling Drive, Mount Annan NSW, 2567|Government, Secondary, Coed, Non-Denominational
+MOUNT ANNAN|Mount Annan Public School|Stenhouse Drive, Mount Annan NSW, 2567|Government, Primary, Coed, Non-Denominational
+MOUNT COLAH|Mount Colah Public School|Telopea St, Mount Colah NSW, 2079|Government, Primary, Coed, Non-Denominational
+MOUNT DRUITT|Bethel Christian School|106-114 Mount Druitt Road, Mount Druitt NSW, 2770|Independent, Secondary, Coed, Christian
+MOUNT DRUITT|Chifley College Mount Druitt Campus|Stuart St, Mount Druitt NSW, 2770|Government, Secondary, Coed, Non-Denominational
+MOUNT DRUITT|Chifley College Senior Campus|North Pde, Mount Druitt NSW, 2770|Government, Secondary, Coed, Non-Denominational
+MOUNT DRUITT|Colyton Public School|Nelson St, Mount Druitt NSW, 2770|Government, Primary, Coed, Non-Denominational
+MOUNT DRUITT|Loyola Senior High|91 North Parade, Mount Druitt NSW, 2770|Catholic, Secondary, Coed, Catholic
+MOUNT DRUITT|Mount Druitt Public School|Belmore Ave, Mount Druitt NSW, 2770|Government, Primary, Coed, Non-Denominational
+MOUNT DRUITT|Sacred Heart Primary School|25 Nelson Street, Mount Druitt NSW, 2770|Catholic, Primary, Coed, Catholic
+MOUNT DRUITT|St Bishoy Coptic Orthodox College|59 Methven Street, Mount Druitt NSW, 2770|Independent, Primary, Coed, Coptic Orthodox
+MOUNT KURING-GAI|Mount Kuring-gai Public School|Leeming St, Mount Kuring-Gai NSW, 2080|Government, Primary, Coed, Non-Denominational
+MOUNT PRITCHARD|Les Powell School|Townview & Hoff Sts, Mount Pritchard NSW, 2170|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+MOUNT PRITCHARD|Mount Pritchard East Public School|Townview Rd, Mount Pritchard NSW, 2170|Government, Primary, Coed, Non-Denominational
+MOUNT PRITCHARD|Mount Pritchard Public School|Meadows Rd, Mount Pritchard NSW, 2170|Government, Primary, Coed, Non-Denominational
+MULGOA|Mulgoa Public School|Mulgoa Rd, Mulgoa NSW, 2745|Government, Primary, Coed, Non-Denominational
+MULGOA|Nepean District Christian School|836 Mulgoa Road, Mulgoa NSW, 2745|Independent, Primary/Secondary Combined, Coed, Christian
+NARELLAN VALE|Narellan Vale Public School|Waterworth Drive, Narellan Vale NSW, 2567|Government, Primary, Coed, Non-Denominational
+NARELLAN VALE|St Clare's Primary School|59 Holdsworth Drive, Narellan Vale NSW, 2567|Catholic, Primary, Coed, Catholic
+NARELLAN|Elizabeth Macarthur High School Community & Selective School|Waterworth Drive, Narellan NSW, 2567|Government, Secondary, Coed, Non-Denominational
+NARELLAN|Elderslie High School|Hilder St, Narellan NSW, 2567|Government, Secondary, Coed, Non-Denominational
+NARELLAN|Magdalene Catholic High School|Lot 1051 Smeaton Grange Road, Narellan NSW, 2567|Catholic, Secondary, Coed, Catholic
+NARELLAN|Narellan Public School|Hume Hwy, Narellan NSW, 2567|Government, Primary, Coed, Non-Denominational
+NAREMBURN|Naremburn School|250 Willoughby Rd, Naremburn NSW, 2065|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+NARRABEEN|Narrabeen Lakes Public School|1299 Pittwater Rd, Narrabeen NSW, 2101|Government, Primary, Coed, Non-Denominational
+NARRABEEN|St Joseph's School|108 Ocean Street, Narrabeen NSW, 2101|Catholic, Primary, Coed, Catholic
+NARRAWEENA|St John's Catholic School|166 Alfred Street, Narraweena NSW, 2099|Catholic, Primary, Coed, Catholic
+NARWEE|Narwee Public School|Broadarrow Rd, Narwee NSW, 2209|Government, Primary, Coed, Non-Denominational
+NEUTRAL BAY|Cameragal Montessori School|Montpellier Street, Neutral Bay NSW, 2089|Independent, Primary, Coed, Non-Denominational, Montessori
+NEUTRAL BAY|Neutral Bay Public School|Ben Boyd Rd, Neutral Bay NSW, 2089|Government, Primary, Coed, Non-Denominational
+NEWPORT|Newport Public School|Stuart St, Newport NSW, 2106|Government, Primary, Coed, Non-Denominational
+NEWTOWN|The Athena School|26 Oxford Street, Newtown NSW, 2042|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+NEWTOWN|Australia Street Infants|Australia Street, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
+NEWTOWN|Camdenville Public School|Laura St, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
+NEWTOWN|Newtown High School of Performing Arts|King St, Newtown NSW, 2042|Government, Secondary, Coed, Non-Denominational
+NEWTOWN|Newtown North Public School|Carillon Ave, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
+NEWTOWN|Newtown Public School|Norfolk St, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
+NEWTOWN|St Pius Primary School|209 Edgeware Road, Newtown NSW, 2042|Catholic, Primary, Coed, Catholic
+NORMANHURST|Loreto Normanhurst|91-93 Pennant Hills Road, Normanhurst NSW, 2076|Independent, Secondary, Girls, Catholic, Boarding
+NORMANHURST|Normanhurst Boys High School|Pennant Hills Rd, Normanhurst NSW, 2076|Government, Secondary, Boys, Non-Denominational
+NORMANHURST|Normanhurst Public School|Normanhurst Rd, Normanhurst NSW, 2076|Government, Primary, Coed, Non-Denominational
+NORTH BALGOWLAH|Balgowlah North Public School|10 Manning St, North Balgowlah NSW, 2093|Government, Primary, Coed, Non-Denominational
+NORTH BONDI|Reddam House|56 Mitchell Street, North Bondi NSW, 2026|Independent, Secondary, Coed, Non-Denominational
+NORTH CURL CURL|Northern Beaches Secondary College Manly Selective Campus|138 Abbott Rd, North Curl Curl NSW, 2099|Government, Secondary, Coed, Non-Denominational
+NORTH CURL CURL|Curl Curl North Public School|Playfair Rd, North Curl Curl NSW, 2099|Government, Primary, Coed, Non-Denominational
+NORTH EPPING|Epping North Public School|Boundary Rd, North Epping NSW, 2121|Government, Primary, Coed, Non-Denominational
+NORTH NARRABEEN|Narrabeen North Public School|Namona St, North Narrabeen NSW, 2101|Government, Primary, Coed, Non-Denominational
+NORTH NARRABEEN|Narrabeen Sports High School|10 Namona St, North Narrabeen NSW, 2101|Government, Secondary, Coed, Non-Denominational
+NORTH PARRAMATTA|Tara Anglican School For Girls|Masons Drive, North Parramatta NSW, 2151|Independent, Primary/Secondary Combined, Girls, Anglican, Boarding
+NORTH PARRAMATTA|The King's School|87-129 Pennant Hills Road, North Parramatta NSW, 2151|Independent, Primary/Secondary Combined, Boys, Anglican, Boarding
+NORTH PARRAMATTA|Burnside Public School|1 Masons Drive, North Parramatta NSW, 2151|Government, Primary, Coed, Non-Denominational
+NORTH PARRAMATTA|Garfield Barwick School (Royal Institute for Deaf & Blind Children)|106 Pennant Hills Rd, North Parramatta NSW, 2151|Independent, Primary/Secondary Combined, Coed, Non-Denominational, General school also caters to, Hearing Impaired
+NORTH PARRAMATTA|Parramatta North Public School|Albert St, North Parramatta NSW, 2151|Government, Primary, Coed, Non-Denominational
+NORTH PARRAMATTA|Redeemer Baptist School|2-12 Masons Drive, North Parramatta NSW, 2151|Independent, Primary/Secondary Combined, Coed, Baptist
+NORTH PARRAMATTA|St Monica's Primary School|10 Daking Street, North Parramatta NSW, 2151|Catholic, Primary, Coed, Catholic
+NORTH PARRAMATTA|The B'Nai Yacov School|114-116 Victoria Road, North Parramatta NSW, 2151|Independent, Primary, Coed, Jewish
+NORTH ROCKS|RIDBC Alice Betteridge School|361-365 North Rocks Road, North Rocks NSW, 2151|Independent, Primary/Secondary Combined, Coed, Non-Denominational, General school also caters to, Multiple Disabilities
+NORTH ROCKS|Christ The King Primary School|2-8 Statham Avenue, North Rocks NSW, 2151|Catholic, Primary, Coed, Catholic
+NORTH ROCKS|Muirfield High School|Barclay Rd, North Rocks NSW, 2151|Government, Secondary, Coed, Non-Denominational
+NORTH ROCKS|North Rocks Public School|359 North Rocks Rd, North Rocks NSW, 2151|Government, Primary, Coed, Non-Denominational
+NORTH ROCKS|Thomas Pattison School (Royal Institute for Deaf & Blind Children)|361-365 North Rocks Road, North Rocks NSW, 2151|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Hearing Impaired
+NORTH RYDE|Arndell School|Badajoz Rd, North Ryde NSW, 2113|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+NORTH RYDE|Holy Spirit Primary School|195 Coxs Road, North Ryde NSW, 2113|Catholic, Primary, Coed, Catholic
+NORTH RYDE|North Ryde Public School|Coxs Rd, North Ryde NSW, 2113|Government, Primary, Coed, Non-Denominational
+NORTH RYDE|Ryde East Public School|12 Twin Rd, North Ryde NSW, 2113|Government, Primary, Coed, Non-Denominational
+NORTH RYDE|The Children’s House Montessori School|109 Cressy Rd, North Ryde NSW, 2113|Independent, Primary, Coed, Non-Denominational
+NORTH RYDE|Truscott Street Public School|Truscott St, North Ryde NSW, 2113|Government, Primary, Coed, Non-Denominational
+NORTH ST MARYS|Chifley College Dunheved Campus|Maple Rd, North St Marys NSW, 2760|Government, Secondary, Coed, Non-Denominational
+NORTH STRATHFIELD|The McDonald College|17 George Street, North Strathfield NSW, 2137|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Boarding
+NORTH STRATHFIELD|Strathfield North Public School|Concord Rd, North Strathfield NSW, 2137|Government, Primary, Coed, Non-Denominational
+NORTH SYDNEY|Marist College North Shore|270 Miller Street, North Sydney NSW, 2060|Catholic, Secondary, Boys, Catholic
+NORTH SYDNEY|Monte Sant' Angelo Mercy College|128 Miller Street, North Sydney NSW, 2060|Independent, Secondary, Girls, Catholic
+NORTH SYDNEY|Wenona School|176 Walker Street, North Sydney NSW, 2060|Independent, Primary/Secondary Combined, Girls, Non-Denominational, Boarding
+NORTH SYDNEY|St Mary's School|40 Ridge Street, North Sydney NSW, 2060|Catholic, Primary, Coed, Catholic
+NORTH SYDNEY|Sydney Church Of England Grammar School (SHORE)|Blue Street, North Sydney NSW, 2060|Independent, Primary/Secondary Combined, Boys, Anglican, Boarding
+NORTH TURRAMURRA|Ku-ring-gai Creative Arts High School|Bobbin Head Rd, North Turramurra NSW, 2074|Government, Secondary, Coed, Non-Denominational
+NORTH TURRAMURRA|Turramurra North Public School|237 Bobbin Head Rd, North Turramurra NSW, 2074|Government, Primary, Coed, Non-Denominational
+NORTHBRIDGE|Northbridge Public School|Sailors Bay Rd, Northbridge NSW, 2063|Government, Primary, Coed, Non-Denominational
+NORTHBRIDGE|St Philip Neri Primary School|67 Baringa Road, Northbridge NSW, 2063|Catholic, Primary, Coed, Catholic
+NORTHBRIDGE|Sydney Church Of England Grammar School (SHORE)|55 Sailors Bay Road, Northbridge NSW, 2063|Independent, Primary, Boys, Anglican
+NORTHMEAD|Northmead Creative and Performing Arts High School|Campbell St, Northmead NSW, 2152|Government, Secondary, Coed, Non-Denominational
+NORTHMEAD|Northmead Public School|Moxhams Rd, Northmead NSW, 2152|Government, Primary, Coed, Non-Denominational
+NORTHMEAD|The Hills School|Mary St, Northmead NSW, 2152|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+OAKHURST|Richard Johnson Anglican School|93 Hyatts Road, Oakhurst NSW, 2761|Independent, Primary/Secondary Combined, Coed, Anglican
+OAKVILLE|Arndell Anglican College|118 Wolseley Road, Oakville NSW, 2765|Independent, Primary/Secondary Combined, Coed, Anglican
+OAKVILLE|Oakville Public School|Oakville Rd, Oakville NSW, 2765|Government, Primary, Coed, Non-Denominational
+OATLANDS|Oatlands Public School|Belmore St East, Oatlands NSW, 2117|Government, Primary, Coed, Non-Denominational
+OATLEY|Georges River College Oatley Senior Campus|Oatley Ave & Hurstville Rd, Oatley NSW, 2223|Government, Secondary, Coed, Non-Denominational
+OATLEY|Oatley Public School|Letitia St, Oatley NSW, 2223|Government, Primary, Coed, Non-Denominational
+OATLEY|Oatley West Public School|Oatley Park Ave, Oatley NSW, 2223|Government, Primary, Coed, Non-Denominational
+OATLEY|St Joseph's School|21 Rosa Street, Oatley NSW, 2223|Catholic, Primary, Coed, Catholic
+ORAN PARK|St Justin's Catholic Primary School|102 Oran Park Drive, Oran Park NSW, 2570|Catholic, Primary, Coed, Catholic
+ORCHARD HILLS|Montgrove College|140 Bringelly Road, Orchard Hills NSW, 2748|Independent, Primary/Secondary Combined, Girls, Catholic
+ORCHARD HILLS|Penrith Anglican College|338-365 Wentworth Road, Orchard Hills NSW, 2748|Independent, Primary/Secondary Combined, Coed, Anglican
+ORCHARD HILLS|Orchard Hills Public School|79-101 Kingswood Rd, Orchard Hills NSW, 2748|Government, Primary, Coed, Non-Denominational
+ORCHARD HILLS|Penrith Christian School|1 Simeon Road, Orchard Hills NSW, 2748|Independent, Primary/Secondary Combined, Coed, Christian
+OTFORD|Otford Public School|Station Rd, Otford NSW, 2508|Government, Primary, Coed, Non-Denominational
+OXFORD FALLS|Oxford Falls Grammar School|1078 Oxford Falls Road, Oxford Falls NSW, 2100|Independent, Primary/Secondary Combined, Coed, Christian
+OYSTER BAY|Oyster Bay Public School|Short St, Oyster Bay NSW, 2225|Government, Primary, Coed, Non-Denominational
+OYSTER BAY|St Joseph's School|210 Oyster Bay Road, Oyster Bay NSW, 2225|Catholic, Primary, Coed, Catholic
+PADDINGTON|Glenmore Road Public School|Glenmore Rd, Paddington NSW, 2021|Government, Primary, Coed, Non-Denominational
+PADDINGTON|Paddington Public School|Oxford St, Paddington NSW, 2021|Government, Primary, Coed, Non-Denominational
+PADDINGTON|St Francis of Assisi Primary School|64 Gordon Street, Paddington NSW, 2021|Catholic, Primary, Coed, Catholic
+PADDINGTON|Sydney Grammar School|7-11 Alma Street, Paddington NSW, 2021|Independent, Primary, Boys, Non-Denominational
+PADSTOW|Caroline Chisholm School|Napoli St, Padstow NSW, 2211|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+PADSTOW|Padstow Heights Public School|Chamberlain Rd, Padstow NSW, 2211|Government, Primary, Coed, Non-Denominational
+PADSTOW|Padstow North Public School|Halcyon Ave & Watson Rd, Padstow NSW, 2211|Government, Primary, Coed, Non-Denominational
+PADSTOW|Padstow Park Public School|Segers Ave, Padstow NSW, 2211|Government, Primary, Coed, Non-Denominational
+PADSTOW|St Therese's Primary School|48 Chamberlain Road, Padstow NSW, 2211|Catholic, Primary, Coed, Catholic
+PANANIA|East Hills Girls Technology High School|Lucas Rd, Panania NSW, 2213|Government, Secondary, Girls, Non-Denominational
+PANANIA|East Hills Boys High School|Lucas Rd, Panania NSW, 2213|Government, Secondary, Boys, Non-Denominational
+PANANIA|East Hills Public School|Lucas Rd, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+PANANIA|Panania North Public School|Bransgrove Rd, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+PANANIA|Panania Public School|Lawler St, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+PANANIA|Picnic Point High School|Kennedy St, Panania NSW, 2213|Government, Secondary, Coed, Non-Denominational
+PANANIA|St Christopher's Primary School|235 Tower Street, Panania NSW, 2213|Catholic, Primary, Coed, Catholic
+PANANIA|Tower Street Public School|74 Tower St, Panania NSW, 2213|Government, Primary, Coed, Non-Denominational
+PARRAMATTA|Our Lady Of Mercy College Parramatta|Victoria Road, Parramatta NSW, 2150|Catholic, Secondary, Girls, Catholic
+PARRAMATTA|Arthur Phillip High School|Smith St, Parramatta NSW, 2150|Government, Secondary, Coed, Non-Denominational
+PARRAMATTA|Macarthur Girls High School|Macarthur St, Parramatta NSW, 2150|Government, Secondary, Girls, Non-Denominational
+PARRAMATTA|Parramatta East Public School|Brabyn St, Parramatta NSW, 2150|Government, Primary, Coed, Non-Denominational
+PARRAMATTA|Parramatta High School|Great Western Hwy & Pitt St, Parramatta NSW, 2150|Government, Secondary, Coed, Non-Denominational
+PARRAMATTA|Parramatta Public School|Macquarie St, Parramatta NSW, 2150|Government, Primary, Coed, Non-Denominational
+PARRAMATTA|Parramatta West Public School|Auburn & Young Sts, Parramatta NSW, 2150|Government, Primary, Coed, Non-Denominational
+PARRAMATTA|Rowland Hassall School|Hassall St, Parramatta NSW, 2150|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+PARRAMATTA|St Patrick's Primary School|Villiers Street, Parramatta NSW, 2150|Catholic, Primary, Coed, Catholic
+PARRAMATTA|Warrakirri College|17-21 Macquarie St, Parramatta NSW, 2150|Independent, Secondary, Coed, Non-Denominational, Emotional Behavioural
+PEAKHURST|Georges River College Peakhurst Campus|Samuel & Rona Sts, Peakhurst NSW, 2210|Government, Secondary, Coed, Non-Denominational
+PEAKHURST|Aspect South East Sydney School|Monterra Avenue South, Peakhurst NSW, 2210|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Autistic
+PEAKHURST|Peakhurst Public School|Bonds Rd, Peakhurst NSW, 2210|Government, Primary, Coed, Non-Denominational
+PEAKHURST|Peakhurst South Public School|Pindari Rd, Peakhurst NSW, 2210|Government, Primary, Coed, Non-Denominational
+PEAKHURST|Peakhurst West Public School|Ogilvy St, Peakhurst NSW, 2210|Government, Primary, Coed, Non-Denominational
+PENNANT HILLS|Mount St Benedict College|449c Pennant Hills Road, Pennant Hills NSW, 2120|Independent, Secondary, Girls, Catholic
+PENNANT HILLS|Pennant Hills High School|Laurence St, Pennant Hills NSW, 2120|Government, Secondary, Coed, Non-Denominational
+PENNANT HILLS|Pennant Hills Public School|Ramsay & Weemala Rds, Pennant Hills NSW, 2120|Government, Primary, Coed, Non-Denominational
+PENNANT HILLS|St Agatha's Parish Primary School|7 Trebor Road, Pennant Hills NSW, 2120|Catholic, Primary, Coed, Catholic
+PENRITH|Kingswood Park Public School|Caloola Ave, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+PENRITH|Penrith High School|High St, Penrith NSW, 2750|Government, Secondary, Coed, Non-Denominational
+PENRITH|Penrith Public School|51 High St, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+PENRITH|Penrith South Public School|Jamison Rd, Penrith NSW, 2750|Government, Primary, Coed, Non-Denominational
+PENRITH|St Nichola's Of Myra Primary School|30-36 Higgins Street, Penrith NSW, 2750|Catholic, Primary, Coed, Catholic
+PENSHURST|Georges River College Penshurst Girls Campus|2 Austral St, Penshurst NSW, 2222|Government, Secondary, Girls, Non-Denominational
+PENSHURST|Hurstville Grove Infants School|81 Landsdowne St, Penshurst NSW, 2222|Government, Primary, Coed, Non-Denominational
+PENSHURST|Penshurst Public School|Arcadia St, Penshurst NSW, 2222|Government, Primary, Coed, Non-Denominational
+PENSHURST|St Declan's Primary School|Cnr Forest Road & Penshurst Street, Penshurst NSW, 2222|Catholic, Primary, Coed, Catholic
+PETERSHAM|Fort Street High School|Parramatta Rd, Petersham NSW, 2049|Government, Secondary, Coed, Non-Denominational
+PETERSHAM|Petersham Public School|25 Hunter St, Petersham NSW, 2049|Government, Primary, Coed, Non-Denominational
+PETERSHAM|Taverners Hill Infants School|Elswick St, Petersham NSW, 2049|Government, Primary, Coed, Non-Denominational
+PICNIC POINT|Picnic Point Public School|Prince & Thomas Sts, Picnic Point NSW, 2213|Government, Primary, Coed, Non-Denominational
+PITT TOWN|Pitt Town Public School|Buckingham St, Pitt Town NSW, 2756|Government, Primary, Coed, Non-Denominational
+PLUMPTON|Good Shepherd Primary School|134 Hyatts Road, Plumpton NSW, 2761|Catholic, Primary, Coed, Catholic
+PLUMPTON|Plumpton High School|Hyatts Rd, Plumpton NSW, 2761|Government, Secondary, Coed, Non-Denominational
+PLUMPTON|Plumpton House School|327 Rooty Hill Road North, Plumpton NSW, 2761|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+PLUMPTON|Plumpton Public School|Bottles Rd, Plumpton NSW, 2761|Government, Primary, Coed, Non-Denominational
+PLUMPTON|Western Grammar School|15 Cannery Road, Plumpton NSW, 2671|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+POTTS POINT|ST VINCENT'S COLLEGE|Rockwall Crescent, Potts Point NSW, 2011|Independent, Secondary, Girls, Catholic, Boarding
+POTTS POINT|Darlinghurst Public School|Womerah Ave, Potts Point NSW, 2011|Government, Primary, Coed, Non-Denominational
+PRESTONS|William Carey Christian School|Bumbera Street, Prestons NSW, 2170|Independent, Primary/Secondary Combined, Coed, Christian
+PRESTONS|Dalmeny Public School|Dalmeny Drive, Prestons NSW, 2170|Government, Primary, Coed, Non-Denominational
+PRESTONS|Prestons Public School|Kurrajong & Box Rds, Prestons NSW, 2170|Government, Primary, Coed, Non-Denominational
+PRESTONS|St Catherine of Sienna Primary School|Dalmeny Drive, Prestons NSW, 2170|Catholic, Primary, Coed, Catholic
+PRESTONS|Sule College|163 Kurrajong Road, Prestons NSW, 2170|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+PUNCHBOWL|Punchbowl Boys High School|Kelly St, Punchbowl NSW, 2196|Government, Secondary, Boys, Non-Denominational
+PUNCHBOWL|Punchbowl Public School|Canterbury Rd, Punchbowl NSW, 2196|Government, Primary, Coed, Non-Denominational
+PUNCHBOWL|St Charbel's College|142 Highclere Avenue, Punchbowl NSW, 2196|Catholic, Primary/Secondary Combined, Coed, Catholic
+PUNCHBOWL|St Jerome's Primary School|Rossmore Avenue, Punchbowl NSW, 2196|Catholic, Primary, Coed, Catholic
+PUNCHBOWL|Wiley Park Girls High School|The Boulevarde, Punchbowl NSW, 2196|Government, Secondary, Girls, Non-Denominational
+PYMBLE|Pymble Ladies' College|Avon Road, Pymble NSW, 2073|Independent, Primary/Secondary Combined, Girls, Uniting Church, Boarding
+PYMBLE|Gordon West Public School|Ryde Rd, Pymble NSW, 2073|Government, Primary, Coed, Non-Denominational
+PYMBLE|Northside Montessori School|42-44 Bobbin Head Road, Pymble NSW, 2073|Independent, Primary, Coed, Non-Denominational, Montessori
+PYMBLE|Pymble Public School|Rushall St, Pymble NSW, 2073|Government, Primary, Coed, Non-Denominational
+PYMBLE|Sacred Heart Catholic School|4 Richard Porter Way, Pymble NSW, 2073|Catholic, Primary, Coed, Catholic
+QUAKERS HILL|Barnier Public School|Barnier Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+QUAKERS HILL|Hambledon Public School|Bali Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+QUAKERS HILL|Mary Immaculate Primary School|125 Barnier Drive, Quakers Hill NSW, 2763|Catholic, Primary, Coed, Catholic
+QUAKERS HILL|Quakers Hill High School|Lalor Rd, Quakers Hill NSW, 2763|Government, Secondary, Coed, Non-Denominational
+QUAKERS HILL|Quakers Hill Public School|Medlow Drive, Quakers Hill NSW, 2763|Government, Primary, Coed, Non-Denominational
+QUAKERS HILL|St John Paul II Catholic College - Quaker's Hill Campus|Eastern Road, Quakers Hill NSW, 2763|Independent, Secondary, Coed, Catholic
+QUAKERS HILL|Wyndham College|Nirimba Precinct Eastern Rd, Quakers Hill NSW, 2763|Government, Secondary, Coed, Non-Denominational
+RABY|Robert Townson High School|Thunderbolt Drive, Raby NSW, 2566|Government, Secondary, Coed, Non-Denominational
+RABY|Robert Townson Public School|Shuttleworth Ave, Raby NSW, 2566|Government, Primary, Coed, Non-Denominational
+RAMSGATE|Ramsgate Public School|Chuter Ave, Ramsgate NSW, 2217|Government, Primary, Coed, Non-Denominational
+RANDWICK|Brigidine College Randwick|Aoelia Street, Randwick NSW, 2031|Catholic, Secondary, Girls, Catholic
+RANDWICK|Centennial Park School|Level 1/78 Avoca Street, Randwick NSW, 2031|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+RANDWICK|Claremont College|30 Coogee Bay Road, Randwick NSW, 2031|Independent, Primary, Coed, Anglican
+RANDWICK|Coogee Boys Preparatory School|Alison Road, Randwick NSW, 2031|Independent, Primary, Boys, Non-Denominational
+RANDWICK|Emanuel School|20 Stanley Street, Randwick NSW, 2031|Independent, Primary/Secondary Combined, Co-ed, Jewish
+RANDWICK|Marcellin College|195 Alison Road, Randwick NSW, 2031|Catholic, Secondary, Boys, Catholic
+RANDWICK|Open High School|78 Avoca St, Randwick NSW, 2031|Government, Secondary, Coed, Non-Denominational
+RANDWICK|Our Lady Of The Sacred Heart Primary School|193 Avoca Street, Randwick NSW, 2031|Catholic, Primary, Coed, Catholic
+RANDWICK|Rainbow Street Public School|Rainbow St, Randwick NSW, 2031|Government, Primary, Coed, Non-Denominational
+RANDWICK|Randwick Boys High School|Rainbow & Avoca Sts, Randwick NSW, 2031|Government, Secondary, Boys, Non-Denominational
+RANDWICK|Randwick Girls High School|Barker St, Randwick NSW, 2031|Government, Secondary, Girls, Non-Denominational
+RANDWICK|Randwick Public School|Cowper St, Randwick NSW, 2031|Government, Primary, Coed, Non-Denominational
+RANDWICK|St Margaret Marys School|Corner Avoca Street & Clovelly Road, Randwick NSW, 2031|Catholic, Primary, Coed, Catholic
+REDFERN|Key College|122 Little Eveleigh Street, Redfern NSW, 2016|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+REDFERN|Redfern Jarjum College|117 Redfern Street, Redfern NSW, 2016|Independent, Primary, Coed, Non-Denominational
+REGENTS PARK|Karningul School|1A Auburn Rd, Regents Park NSW, 2143|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+REGENTS PARK|Regents Park Christian School|59 Regent St, Regents Park NSW, 2143|Independent, Primary/Secondary Combined, Coed, Christian
+REGENTS PARK|Regents Park Public School|1 Auburn Rd, Regents Park NSW, 2143|Government, Primary, Coed, Non-Denominational
+REGENTS PARK|St Peter Chanel Primary School|43 Regent Street, Regents Park NSW, 2143|Catholic, Primary, Coed, Catholic
+REGENTVILLE|Regentville Public School|28-34 Schoolhouse Rd, Regentville NSW, 2745|Government, Primary, Coed, Non-Denominational
+REVESBY HEIGHTS|De La Salle College|9 Ferndale Road, Revesby Heights NSW, 2212|Catholic, Secondary, Boys, Catholic
+REVESBY|Broderick Gillawarna School|36-48 Victoria St, Revesby NSW, 2212|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+REVESBY|Revesby Public School|Victoria St, Revesby NSW, 2212|Government, Primary, Coed, Non-Denominational
+REVESBY|Revesby South Public School|Mars St, Revesby NSW, 2212|Government, Primary, Coed, Non-Denominational
+REVESBY|Sir Joseph Banks High School|Turvey St, Revesby NSW, 2212|Government, Secondary, Coed, Non-Denominational
+REVESBY|St Luke's Primary School|1 Beaconsfield Street, Revesby NSW, 2212|Catholic, Primary, Coed, Catholic
+RICHMOND|Richmond High School|Lennox St, Richmond NSW, 2753|Government, Secondary, Coed, Non-Denominational
+RICHMOND|Richmond Public School|Windsor St, Richmond NSW, 2753|Government, Primary, Coed, Non-Denominational
+RICHMOND|St Monica's Primary School|1a Bourke Street, Richmond NSW, 2753|Catholic, Primary, Coed, Catholic
+RIVERSTONE|Norwest Christian College|Cnr Regent & McCulloch Street, Riverstone NSW, 2765|Independent, Primary/Secondary Combined, Coed, Christian
+RIVERSTONE|Casuarina School|Garfield Rd East & Piccadilly St, Riverstone NSW, 2765|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+RIVERSTONE|Riverstone High School|McCulloch St, Riverstone NSW, 2765|Government, Secondary, Coed, Non-Denominational
+RIVERSTONE|Riverstone Public School|Elizabeth St, Riverstone NSW, 2765|Government, Primary, Coed, Non-Denominational
+RIVERSTONE|St John's Primary School|5 McCulloch Street, Riverstone NSW, 2765|Catholic, Primary, Coed, Catholic
+RIVERWOOD|Hannans Road Public School|Hannans Rd, Riverwood NSW, 2210|Government, Primary, Coed, Non-Denominational
+RIVERWOOD|Riverwood Public School|Union St, Riverwood NSW, 2210|Government, Primary, Coed, Non-Denominational
+RIVERWOOD|Southside Montessori School|35 Lillian Road, Riverwood NSW, 2210|Independent, Primary, Coed, Non-Denominational
+RIVERWOOD|St Joseph's School|Thurlow Street, Riverwood NSW, 2210|Catholic, Primary, Coed, Catholic
+ROCKDALE|Brighton-Le-Sands Public School|Crawford Rd, Rockdale NSW, 2216|Government, Primary, Coed, Non-Denominational
+ROCKDALE|Kyeemagh Infants School|Beehag St, Rockdale NSW, 2216|Government, Primary, Coed, Non-Denominational
+ROCKDALE|Rockdale Public School|Lord St, Rockdale NSW, 2216|Government, Primary, Coed, Non-Denominational
+ROCKDALE|St Dominic Savio School|19 William Street, Rockdale NSW, 2216|Catholic, Primary, Coed, Catholic
+ROCKDALE|St Joseph's School|Watkin Street, Rockdale NSW, 2216|Catholic, Primary, Coed, Catholic
+ROOTY HILL|Rooty Hill High School|North Pde, Rooty Hill NSW, 2766|Government, Secondary, Coed, Non-Denominational
+ROOTY HILL|Rooty Hill Public School|Rooty Hill Rd North, Rooty Hill NSW, 2766|Government, Primary, Coed, Non-Denominational
+ROOTY HILL|St Agnes Catholic High School|Evans Road, Rooty Hill NSW, 2766|Catholic, Secondary, Coed, Catholic
+ROOTY HILL|St Aidan's Primary School|1-5 Adelaide Street, Rooty Hill NSW, 2766|Catholic, Primary, Coed, Catholic
+ROSE BAY|Cranbrook Primary School|6a Kent Road, Rose Bay NSW, 2029|Independent, Primary, Boys, Church of England
+ROSE BAY|Kambala|794 New South Head Road, Rose Bay NSW, 2029|Independent, Primary/Secondary Combined, Girls, Anglican, Boarding
+ROSE BAY|Kincoppal - Rose Bay|New South Head Road, Rose Bay NSW, 2029|Catholic, Primary/Secondary Combined, Coed, Catholic, Boarding
+ROSE BAY|McAuley Primary School|8 Carlislie Street, Rose Bay NSW, 2029|Catholic, Primary, Coed, Catholic
+ROSE BAY|Rose Bay Public School|Albemarle Ave, Rose Bay NSW, 2029|Government, Primary, Coed, Non-Denominational
+ROSEBERY|Gardeners Road Public School|Gardeners Rd, Rosebery NSW, 2018|Government, Primary, Coed, Non-Denominational
+ROSEHILL|Rosehill Public School|Prospect St, Rosehill NSW, 2142|Government, Primary, Coed, Non-Denominational
+ROSELANDS|McCallums Hill Public School|McCallum St, Roselands NSW, 2196|Government, Primary, Coed, Non-Denominational
+ROSEMEADOW|Ambarvale High School|Thomas Rose Drive, Rosemeadow NSW, 2560|Government, Secondary, Coed, Non-Denominational
+ROSEMEADOW|John Therry Catholic High School|Demetrius Road, Rosemeadow NSW, 2560|Catholic, Secondary, Coed, Catholic
+ROSEMEADOW|Mary Brooksbank School|Anthony & Cleopatra Drives, Rosemeadow NSW, 2560|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+ROSEMEADOW|Our Lady Help Of Christians Primary School|Lot 2 Demetrius Road, Rosemeadow NSW, 2560|Catholic, Primary, Coed, Catholic
+ROSEMEADOW|Rosemeadow Public School|Anthony & Copperfield Drives, Rosemeadow NSW, 2560|Government, Primary, Coed, Non-Denominational
+ROSEVILLE|Roseville College - An Anglican School for Girls|27 Bancroft Avenue, Roseville NSW, 2069|Independent, Primary/Secondary Combined, Girls, Anglican
+ROSEVILLE|Roseville Public School|Archbold Rd, Roseville NSW, 2069|Government, Primary, Coed, Non-Denominational
+ROUSE HILL|Rouse Hill Anglican College|Cnr Rouse & Worcester Roads, Rouse Hill NSW, 2155|Independent, Primary/Secondary Combined, Coed, Anglican
+ROUSE HILL|Rouse Hill High School|105 Withers Road, Rouse Hill NSW, 2155|Government, Secondary, Coed, Anglican
+ROUSE HILL|Rouse Hill Public School|Clower Ave, Rouse Hill NSW, 2155|Government, Primary, Coed, Non-Denominational
+ROUSE HILL|St Gregory's Armenian School|Mungerie Road, Rouse Hill NSW, 2155|Catholic, Primary/Secondary Combined, Coed, Catholic
+ROZELLE|Rozelle Public School|Darling St, Rozelle NSW, 2039|Government, Primary, Coed, Non-Denominational
+ROZELLE|Sydney Secondary College Balmain Campus|Terry St, Rozelle NSW, 2039|Government, Secondary, Coed, Non-Denominational
+RUSE|Ruse Public School|Junction Rd, Ruse NSW, 2560|Government, Primary, Coed, Non-Denominational
+RUSE|St Thomas More Primary School|6 St John's Road, Ruse NSW, 2560|Catholic, Primary, Coed, Catholic
+RYDALMERE|Rydalmere Public School|397 Victoria Rd, Rydalmere NSW, 2116|Government, Primary, Coed, Non-Denominational
+RYDALMERE|St Mary's School|1 Myrtle Street, Rydalmere NSW, 2116|Catholic, Primary, Coed, Catholic
+RYDE|Holy Cross College|517 Victoria Road, Ryde NSW, 2112|Catholic, Secondary, Boys, Catholic
+RYDE|Ryde Secondary College|Malvina St, Ryde NSW, 2112|Government, Secondary, Coed, Non-Denominational
+RYDE|Meadowbank Public School|Thistle St, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
+RYDE|Northcross Christian School|Corner Lane Cove Road & Dobson Crescent, Ryde NSW, 2112|Independent, Primary, Coed, Baptist
+RYDE|Putney Public School|Morrison Rd, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
+RYDE|Ryde Public School|Pope St, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
+RYDE|St Charles Primary School|582 Victoria Road, Ryde NSW, 2112|Catholic, Primary, Coed, Catholic
+SADLEIR|Sadleir Public School|Insignia St, Sadleir NSW, 2168|Government, Primary, Coed, Non-Denominational
+SADLEIR|St Therese's Primary School|96 Cartwright Avenue, Sadleir NSW, 2168|Catholic, Primary, Coed, Catholic
+SANS SOUCI|Sans Souci Public School|Rocky Point Rd, Sans Souci NSW, 2219|Government, Primary, Coed, Non-Denominational
+SANS SOUCI|St Finbar's Primary School|21 Broughton Street, Sans Souci NSW, 2219|Catholic, Primary, Coed, Catholic
+SANS SOUCI|St George Christian School|2 Hillview Street, Sans Souci NSW, 2219|Independent, Primary, Coed, Christian
+SCARBOROUGH|Scarborough Public School|Lawrence Hargrave Drive, Scarborough NSW, 2515|Government, Primary, Coed, Non-Denominational
+SCHOFIELDS|Schofields Public School|St Albans Rd, Schofields NSW, 2762|Government, Primary, Coed, Non-Denominational
+SCHOFIELDS|St John Paul II Catholic College - Schofields Campus|85 Hambledon Road, Schofields NSW, 2762|Catholic, Secondary, Coed, Catholic
+SCHOFIELDS|St Joseph's School|78 Alex Avenue, Schofields NSW, 2762|Catholic, Primary, Coed, Catholic
+SEAFORTH|Palm Avenue School|21 Dalwood Ave, Seaforth NSW, 2092|Government, Primary/Secondary Combined, Coed, Non-Denominational, Learning Difficulties
+SEAFORTH|Seaforth Public School|37 Kempbridge Avenue, Seaforth NSW, 2092|Government, Primary, Coed, Non-Denominational
+SEFTON|Immaculate Heart Primary School|10 Kerrinea Road, Sefton NSW, 2162|Catholic, Primary, Coed, Catholic
+SEFTON|Sefton High School|Munro & Hector Sts, Sefton NSW, 2162|Government, Secondary, Coed, Non-Denominational
+SEFTON|Sefton Infants School|180-194 Rodd St, Sefton NSW, 2162|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|Bert Oldfield Public School|Oldfield Rd, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|Our Lady Of Lourdes Primary School|7 Grantham Road, Seven Hills NSW, 1730|Catholic, Primary, Coed, Catholic
+SEVEN HILLS|Seven Hills High School|Johnson Ave, Seven Hills NSW, 2147|Government, Secondary, Coed, Non-Denominational
+SEVEN HILLS|Seven Hills North Public School|45 Beethoven St, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|Seven Hills Public School|2A Lucas Rd, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|Seven Hills West Public School|Lucas Rd & Sackville St, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|The Hills Sports High School|Best Rd, Seven Hills NSW, 2147|Government, Secondary, Coed, Non-Denominational, General school also caters to, Intellectual Disabilities
+SEVEN HILLS|The Meadows Public School|Fuller St, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|Vardys Road Public School|Vardys Rd, Seven Hills NSW, 2147|Government, Primary, Coed, Non-Denominational
+SEVEN HILLS|William Rose School|Cnr Morris St & Lucas Rd, Seven Hills NSW, 2147|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+SHALVEY|Chifley College Shalvey Campus|Noumea St, Shalvey NSW, 2770|Government, Secondary, Coed, Non-Denominational
+SHALVEY|Noumea Public School|Noumea St, Shalvey NSW, 2770|Government, Primary, Coed, Non-Denominational
+SHALVEY|Shalvey Public School|Laver St, Shalvey NSW, 2770|Government, Primary, Coed, Non-Denominational
+SMITHFIELD|Smithfield Public School|O Connell St, Smithfield NSW, 2164|Government, Primary, Coed, Non-Denominational
+SMITHFIELD|St Gertrude's Primary School|1-11 Justin Street, Smithfield NSW, 2164|Catholic, Primary, Coed, Catholic
+SOUTH COOGEE|South Coogee Public School|Moverly Rd, South Coogee NSW, 2034|Government, Primary, Coed, Non-Denominational
+SOUTH HURSTVILLE|Connells Point Public School|Riverview Ave, South Hurstville NSW, 2221|Government, Primary, Coed, Non-Denominational
+SOUTH HURSTVILLE|St Raphael's Primary School|82 George Street, South Hurstville NSW, 2221|Catholic, Primary, Coed, Catholic
+SOUTH PENRITH|Mary MacKillop Primary School|150 Fragar Road, South Penrith NSW, 2750|Catholic, Primary, Coed, Catholic
+SOUTH TURRAMURRA|Turramurra High School|Maxwell St, South Turramurra NSW, 2074|Government, Secondary, Coed, Non-Denominational
+SOUTH WINDSOR|Windsor Park Public School|Rifle Range Rd, South Windsor NSW, 2756|Government, Primary, Coed, Non-Denominational
+SOUTH WINDSOR|Windsor South Public School|Church St, South Windsor NSW, 2756|Government, Primary, Coed, Non-Denominational
+ST ANDREWS|St Andrews Public School|Ballantrae Drive, St Andrews NSW, 2566|Government, Primary, Coed, Non-Denominational
+ST CLAIR|Banks Public School|Banks Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
+ST CLAIR|Blackwell Public School|Blackwell Ave, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
+ST CLAIR|Clairgate Public School|Colorado Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
+ST CLAIR|Holy Spirit Primary School|7-17 Todd Row, St Clair NSW, 2759|Catholic, Primary, Coed, Catholic
+ST CLAIR|St Clair High School|Endeavour Ave, St Clair NSW, 2759|Government, Secondary, Coed, Non-Denominational
+ST CLAIR|St Clair Public School|Timesweep Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
+ST HELENS PARK|St Helens Park Public School|Kellerman Drive, St Helens Park NSW, 2560|Government, Primary, Coed, Non-Denominational
+ST IVES|Brigidine College St Ives|325 Mona Vale Road, St Ives NSW, 2075|Independent, Secondary, Girls, Catholic
+ST IVES|Corpus Christi Primary School|17 Link Road, St Ives NSW, 2075|Catholic, Primary, Coed, Catholic
+ST IVES|Masada College|9-15 Link Road, St Ives NSW, 2075|Independent, Primary/Secondary Combined, Coed, Jewish
+ST IVES|Sir Eric Woodward Memorial School|Ayres & Acron Rds, St Ives NSW, 2075|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+ST IVES|St Ives High School|Yarrabung Rd, St Ives NSW, 2075|Government, Secondary, Coed, Non-Denominational
+ST IVES|St Ives North Public School|87 Memorial Ave, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
+ST IVES|St Ives Park Public School|Woodbury & Acron Rds, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
+ST IVES|St Ives Public School|Horace St, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
+ST IVES|Sydney Grammar School|11-21 Ayres Street, St Ives NSW, 2075|Independent, Primary, Boys, Non-Denominational
+ST JOHNS PARK|King Park Public School|Humphries Rd, St Johns Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+ST JOHNS PARK|St Johns Park High School|Mimosa Rd, St Johns Park NSW, 2176|Government, Secondary, Coed, Non-Denominational
+ST JOHNS PARK|St Johns Park Public School|Sandringham St, St Johns Park NSW, 2176|Government, Primary, Coed, Non-Denominational
+ST LEONARDS|Bradfield Senior College|213 Pacific Hwy, St Leonards NSW, 2065|Government, Secondary, Coed, Non-Denominational
+ST MARYS|Colyton High School|Carpenter St, St Marys NSW, 2760|Government, Secondary, Coed, Non-Denominational
+ST MARYS|Our Lady Of The Rosary Primary School|32b Saddington Street, St Marys NSW, 2760|Catholic, Primary, Coed, Catholic
+ST MARYS|Oxley Park Public School|Adelaide St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
+ST MARYS|St Marys North Public School|Willow Rd, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
+ST MARYS|St Marys Public School|Princess Mary St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
+ST MARYS|St Marys Senior High School|Kalang Ave, St Marys NSW, 2760|Government, Secondary, Coed, Non-Denominational
+ST MARYS|St Marys South Public School|Monfarville St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
+ST PETERS|St Peters Public School|Church St, St Peters NSW, 2044|Government, Primary, Coed, Non-Denominational
+STANHOPE GARDENS|St Marks Catholic College|Perfection Avenue, Stanhope Gardens NSW, 2768|Catholic, Primary/Secondary Combined, Coed, Catholic
+STANMORE|Newington College K-12|Stanmore 7–12: 200 Stanmore Rd, Stanmore K–6: 115 Cambridge St , Stanmore NSW, 2048|Independent, Primary/Secondary Combined, Boys, Uniting Church, Boarding
+STANMORE|Newington College Wyvern House Preparatory School|115 Cambridge Street, Stanmore NSW, 2048|Independent, Primary, Boys, Uniting Church
+STANMORE|St Michael's Primary School|Percival Road, Stanmore NSW, 2048|Catholic, Primary, Coed, Catholic
+STANMORE|Stanmore Public School|Cnr Cambridge and Holt St, Stanmore NSW, 2048|Government, Primary, Coed, Non-Denominational
+STANWELL PARK|Stanwell Park Public School|Stanwell Ave, Stanwell Park NSW, 2508|Government, Primary, Coed, Non-Denominational
+STRATHFIELD SOUTH|St Anne's School|St Annes Square, Strathfield South NSW, 2136|Catholic, Primary, Coed, Catholic
+STRATHFIELD|Meriden|10-12 Redmyre Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Girls, Anglican
+STRATHFIELD|Santa Sabina College|90 The Boulevarde, Strathfield NSW, 2135|Catholic, Primary/Secondary Combined, Coed, Catholic
+STRATHFIELD|Strathfield Girls High School|Albert Rd, Strathfield NSW, 2135|Government, Secondary, Girls, Non-Denominational
+STRATHFIELD|Australian International Academy - Sydney Campus|420 Liverpool Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Coed, Islamic
+STRATHFIELD|Australian International College|420 Liverpool Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Coed, Islamic
+STRATHFIELD|Chalmers Road School|Chalmers Rd, Strathfield NSW, 2135|Government, Primary/Secondary Combined, Coed, Non-Denominational, Intellectual Disabilities
+STRATHFIELD|Santa Maria Del Monte School|The Boulevarde, Strathfield NSW, 2135|Catholic, Primary, Coed, Catholic
+STRATHFIELD|St Martha's Primary School|88 Churchill Avenue, Strathfield NSW, 2135|Catholic, Primary, Coed, Catholic
+STRATHFIELD|St Patrick's College,Strathfield|Francis Street, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Boys, Catholic
+SUMMER HILL|Trinity Grammar School|119 Prospect Road, Summer Hill NSW, 2130|Independent, Primary/Secondary Combined, Boys, Anglican, Boarding
+SUMMER HILL|Summer Hill Public School|Moonbie St, Summer Hill NSW, 2130|Government, Primary, Coed, Non-Denominational
+SURRY HILLS|Sydney Distance Education Primary School|1 Collins St, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+SURRY HILLS|Sydney Girls High School|Moore Park, Surry Hills NSW, 2010|Government, Secondary, Girls, Non-Denominational
+SURRY HILLS|Bourke Street Public School|590 Bourke St, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+SURRY HILLS|Cleveland Street Intensive English High School|Cnr Chalmers & Cleveland Sts, Surry Hills NSW, 2010|Government, Secondary, Coed, Non-Denominational
+SURRY HILLS|Crown Street Public School|356 Crown Street, Surry Hills NSW, 2010|Government, Primary, Coed, Non-Denominational
+SURRY HILLS|Sydney Boys High School|Moore Park, Surry Hills NSW, 2010|Government, Secondary, Boys, Non-Denominational
+SUTHERLAND|Minerva School|Eton St, Sutherland NSW, 2232|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+SUTHERLAND|St Patrick's College|551 President Avenue, Sutherland NSW, 2232|Catholic, Secondary, Coed, Catholic
+SUTHERLAND|St Patrick's Primary School|Belmont Street, Sutherland NSW, 2232|Catholic, Primary, Coed, Catholic
+SUTHERLAND|Sutherland North Public School|Auburn St, Sutherland NSW, 2232|Government, Primary, Coed, Non-Denominational
+SUTHERLAND|Sutherland Public School|Eton St, Sutherland NSW, 2232|Government, Primary, Coed, Non-Denominational
+SYDNEY|Macquarie Grammar School|225 Clarence Street, Sydney NSW, 2000|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+SYDNEY|Australian Pacific College|189 Kent Street, Sydney NSW, 2000|Independent, Secondary, Coed, Non-Denominational
+SYDNEY|Conservatorium High School|Macquarie St, Sydney NSW, 2000|Government, Secondary, Coed, Non-Denominational
+SYDNEY|Fort Street Public School|Observatory Hill, Sydney NSW, 2000|Government, Primary, Coed, Non-Denominational
+SYDNEY|St Andrew's Cathedral School|Sydney Square, Sydney NSW, 2000|Independent, Primary/Secondary Combined, Coed, Anglican
+SYDNEY|St Mary's Cathedral College|2 St Marys Road, Sydney NSW, 2000|Catholic, Primary/Secondary Combined, Boys, Catholic
+SYLVANIA|Sylvania Heights Public School|Lisbon St, Sylvania NSW, 2224|Government, Primary, Coed, Non-Denominational
+SYLVANIA|Sylvania High School|Bellingara Rd, Sylvania NSW, 2224|Government, Secondary, Coed, Non-Denominational
+SYLVANIA|Sylvania Public School|Princes Hwy, Sylvania NSW, 2224|Government, Primary, Coed, Non-Denominational
+TAREN POINT|Taren Point Public School|Woodlands Rd, Taren Point NSW, 2229|Government, Primary, Coed, Non-Denominational
+TELOPEA|Kingsdene Special School|19 Gibbons Street, Telopea NSW, 2117|Independent, Primary/Secondary Combined, Coed, Anglican, Intellectual Disabilities
+TELOPEA|Telopea Public School|Sturt St, Telopea NSW, 2117|Government, Primary, Coed, Non-Denominational
+TEMPE|Tempe High School|Unwins Bridge Rd, Tempe NSW, 2044|Government, Secondary, Coed, Non-Denominational
+TEMPE|Tempe Public School|Unwins Bridge Rd, Tempe NSW, 2044|Government, Primary, Coed, Non-Denominational
+TERREY HILLS|German International School Sydney|33 Myoora Road, Terrey Hills NSW, 2084|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+TERREY HILLS|Kinma School|127 Coolowie Road, Terrey Hills NSW, 2084|Independent, Primary, Coed, Non-Denominational, Other Alternative Education
+TERREY HILLS|Northern Beaches Christian School|1 Echunga Road, Terrey Hills NSW, 2084|Independent, Primary/Secondary Combined, Coed, Christian
+TERREY HILLS|Sydney Japanese School|112 Booralie Road, Terrey Hills NSW, 2084|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+TERREY HILLS|Terrey Hills Public School|Cooyong Rd, Terrey Hills NSW, 2084|Government, Primary, Coed, Non-Denominational
+THIRROUL|St Michael's Primary School|Lower Main Road, Thirroul NSW, 2515|Catholic, Primary, Coed, Catholic
+THIRROUL|Thirroul Public School|Roxburgh Ave, Thirroul NSW, 2515|Government, Primary, Coed, Non-Denominational
+THORNLEIGH|Normanhurst West Public School|Dartford Rd, Thornleigh NSW, 2120|Government, Primary, Coed, Non-Denominational
+THORNLEIGH|Thornleigh West Public School|Giblett Ave, Thornleigh NSW, 2120|Government, Primary, Coed, Non-Denominational
+TOONGABBIE|Metella Road Public School|Metella Rd, Toongabbie NSW, 2146|Government, Primary, Coed, Non-Denominational
+TOONGABBIE|Toongabbie Christian School|30-40 Metella Road, Toongabbie NSW, 2146|Independent, Primary/Secondary Combined, Coed, Christian
+TOONGABBIE|Toongabbie Public School|Fitzwilliam Rd, Toongabbie NSW, 2146|Government, Primary, Coed, Non-Denominational
+TOONGABBIE|Toongabbie West Public School|Ballandella Rd, Toongabbie NSW, 2146|Government, Primary, Coed, Non-Denominational
+TREGEAR|Tregear Public School|Wilkes Cres, Tregear NSW, 2770|Government, Primary, Coed, Non-Denominational
+TURRAMURRA|Turramurra Public School|Kissing Point Rd, Turramurra NSW, 2074|Government, Primary, Coed, Non-Denominational
+TURRAMURRA|Warrawee Public School|Pacific Hwy, Turramurra NSW, 2074|Government, Primary, Coed, Non-Denominational
+ULTIMO|International Grammar School|4-8 Kelly St., Ultimo NSW, 2007|Independent, Primary/Secondary Combined, Coed, Non-Denominational
+ULTIMO|Ultimo Public School|Quarry St, Ultimo NSW, 2007|Government, Primary, Coed, Non-Denominational
+VARROVILLE|Mt Carmel High School|Spit Fire Drive, Varroville NSW, 2566|Catholic, Secondary, Coed, Catholic
+VARROVILLE|St Benedict's Catholic College, Camden|cnr Spitfire & St Andrews Rd, Varroville NSW, 2566|Catholic, Secondary, Coed, Catholic
+VAUCLUSE|Kincoppal - Rose Bay|2 Vaucluse Road, Vaucluse NSW, 2030|Catholic, Primary, Coed, Catholic
+VAUCLUSE|Vaucluse Public School|Cambridge Ave, Vaucluse NSW, 2030|Government, Primary, Coed, Non-Denominational
+VILLAWOOD|Sacred Heart Primary School|122 Carawatha Street, Villawood NSW, 2163|Catholic, Primary, Coed, Catholic
+VILLAWOOD|Villawood East Public School|Lowana St, Villawood NSW, 2163|Government, Primary, Coed, Non-Denominational
+VINEYARD|Vineyard Public School|4 Bandon Rd, Vineyard NSW, 2765|Government, Primary, Coed, Non-Denominational
+WAHROONGA|Abbotsleigh Junior School|22 Woonona Avenue, Wahroonga NSW, 2076|Independent, Primary, Girls, Anglican
+WAHROONGA|Abbotsleigh Senior School|1666 Pacific Highway, Wahroonga NSW, 2076|Independent, Secondary, Girls, Anglican, Boarding
+WAHROONGA|Knox Grammar School (Primary and Senior)|Pacific Highway, Wahroonga NSW, 2076|Independent, Primary/Secondary Combined, Boys, Uniting Church, Boarding
+WAHROONGA|Retaval Wahroonga|100 Fox Valley Road, Wahroonga NSW, 2076|Independent, Primary, Coed, Catholic
+WAHROONGA|Wahroonga Adventist School|189 Fox Valley Rd, Wahroonga NSW, 2076|Independent, Primary, Coed, Seventh Day Adventist
+WAHROONGA|Wahroonga Preparatory School|61 Coonanbarra Road, Wahroonga NSW, 2076|Independent, Primary, Coed, Uniting Church
+WAHROONGA|Knox Grammar School (Preparatory)|Billyard Avenue, Wahroonga NSW, 2076|Independent, Primary, Boys, Uniting Church
+WAHROONGA|Prouille Primary School|5 Water Street, Wahroonga NSW, 2076|Catholic, Primary, Coed, Catholic
+WAHROONGA|St Edmund's School|60 Burns Road, Wahroonga NSW, 2076|Catholic, Secondary, Coed, Catholic, Vision Impaired
+WAHROONGA|St Leo's Catholic College|16 Woolcott Avenue, Wahroonga NSW, 2076|Catholic, Secondary, Coed, Catholic
+WAHROONGA|St Lucy's School|21 Cleveland Street, Wahroonga NSW, 2076|Catholic, Primary, Coed, Catholic, General Disabilities
+WAHROONGA|Wahroonga Public School|71 Burns Rd, Wahroonga NSW, 2076|Government, Primary, Coed, Non-Denominational
+WAHROONGA|Waitara Public School|Edgeworth David Ave, Wahroonga NSW, 2076|Government, Primary, Coed, Non-Denominational
+WAITARA|Our Lady Of The Rosary Primary School|23 Yardley Avenue, Waitara NSW, 2077|Catholic, Primary, Coed, Catholic
+WAKELEY|Mary MacKillop College|Carnarvon Street, Wakeley NSW, 2176|Catholic, Secondary, Girls, Catholic
+WALLACIA|Wallacia Public School|171 Mulgoa Rd, Wallacia NSW, 2745|Government, Primary, Coed, Non-Denominational
+WARRIEWOOD|Mater Maria College|5 Forest Road, Warriewood NSW, 2102|Catholic, Secondary, Coed, Catholic
+WARWICK FARM|Lawrence Hargrave School|Station St, Warwick Farm NSW, 2170|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+WARWICK FARM|Warwick Farm Public School|Lawrence Hargrave Rd, Warwick Farm NSW, 2170|Government, Primary, Coed, Non-Denominational
+WATERFALL|Waterfall Public School|McKell Ave, Waterfall NSW, 2233|Government, Primary, Coed, Non-Denominational
+WATERLOO|Green Square School|237 Botany Rd, Waterloo NSW, 2017|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+WATERLOO|Our Lady Of Mt Carmel School|2-6 Kellick Street, Waterloo NSW, 2017|Catholic, Primary, Coed, Catholic
+WATERLOO|Taylors College, Sydney|965 Bourke Street, Waterloo NSW, 2017|Independent, Secondary, Coed, Non-Denominational
+WATTLE GROVE|St Mark's Coptic Orthodox College|52 Australis Avenue, Wattle Grove NSW, 2173|Independent, Primary/Secondary Combined, Coed, Christian
+WATTLE GROVE|Wattle Grove Public School|Cressbrook Drive, Wattle Grove NSW, 2173|Government, Primary, Coed, Non-Denominational
+WAVERLEY|St Catherine's School, Waverley|26 Albion Street, Waverley NSW, 2024|Independent, Primary/Secondary Combined, Girls, Anglican, Boarding
+WAVERLEY|Waverley College|131 Birrell Street, Waverley NSW, 2024|Catholic, Primary/Secondary Combined, Boys, Catholic
+WAVERLEY|Clovelly Public School|Arden St, Waverley NSW, 2024|Government, Primary, Coed, Non-Denominational
+WAVERLEY|St Charles Primary School|53-63 Carrington Road, Waverley NSW, 2024|Catholic, Primary, Coed, Catholic
+WAVERLEY|St Clare's College|41-51 Carrington Road, Waverley NSW, 2024|Catholic, Secondary, Girls, Catholic
+WAVERLEY|Waverley Public School|Bronte Rd, Waverley NSW, 2024|Government, Primary, Coed, Non-Denominational
+WAVERTON|North Sydney Public School|Bay Rd, Waverton NSW, 2060|Government, Primary, Coed, Non-Denominational
+WENTWORTHVILLE|Catherine McAuley High School|2 Darcy Road, Wentworthville NSW, 2145|Catholic, Secondary, Girls, Catholic
+WENTWORTHVILLE|Darcy Road Public School|Darcy Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+WENTWORTHVILLE|Our Lady Of Mt Carmel Primary School|Bennett Street, Wentworthville NSW, 2145|Catholic, Primary, Coed, Catholic
+WENTWORTHVILLE|Pendle Hill High School|Knox St, Wentworthville NSW, 2145|Government, Secondary, Coed, Non-Denominational
+WENTWORTHVILLE|Pendle Hill Public School|Pendle Way, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+WENTWORTHVILLE|Toongabbie East Public School|Harris Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+WENTWORTHVILLE|Wentworthville Public School|Cnr Station St & Fullagar Rd, Wentworthville NSW, 2145|Government, Primary, Coed, Non-Denominational
+WERRINGTON|Wollemi College|4 Gipps Street, Werrington NSW, 2747|Independent, Primary/Secondary Combined, Boys, Catholic
+WERRINGTON|Kurrambee School|Werrington Rd, Werrington NSW, 2747|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+WERRINGTON|Penrith Valley Learning Centre|Werrington Road, Werrington NSW, 2747|Government, Primary, Coed, Anglican
+WERRINGTON|Werrington County Public School|John Batman Ave, Werrington NSW, 2747|Government, Primary, Coed, Non-Denominational
+WERRINGTON|Werrington Public School|Heavey St, Werrington NSW, 2747|Government, Primary, Coed, Non-Denominational
+WEST PENNANT HILLS|The Hills Montessori School|10 Taylor Street, West Pennant Hills NSW, 2125|Independent, Primary, Coed, Non-Denominational, Montessori
+WEST PENNANT HILLS|West Pennant Hills Public School|Church St, West Pennant Hills NSW, 2125|Government, Primary, Coed, Non-Denominational
+WEST PYMBLE|Our Lady Of Perpetual Succour School|64 Kendall Street, West Pymble NSW, 2073|Catholic, Primary, Coed, Catholic
+WEST PYMBLE|West Pymble Public School|Apollo Ave, West Pymble NSW, 2073|Government, Primary, Coed, Non-Denominational
+WEST RYDE|Marsden High School|22a Winbourne St, West Ryde NSW, 2114|Government, Secondary, Coed, Non-Denominational
+WEST RYDE|Ermington Public School|Winbourne St, West Ryde NSW, 2114|Government, Primary, Coed, Non-Denominational
+WEST RYDE|Melrose Park Public School|110 Wharf Rd, West Ryde NSW, 2114|Government, Primary, Coed, Non-Denominational
+WEST RYDE|West Ryde Public School|Endeavour St, West Ryde NSW, 2114|Government, Primary, Coed, Non-Denominational
+WESTMEAD|Parramatta Marist High School|2 Darcy Road, Westmead NSW, 2145|Catholic, Secondary, Boys, Catholic
+WESTMEAD|Redbank School|Institute Rd, Westmead NSW, 2145|Government, Primary/Secondary Combined, Coed, Non-Denominational, Emotional Behavioural
+WESTMEAD|Sacred Heart Primary School|12 Ralph Street, Westmead NSW, 2145|Catholic, Primary, Coed, Catholic
+WESTMEAD|Westmead Christian Grammar School|2 Bridge Road, Westmead NSW, 2145|Independent, Primary, Coed, Christian
+WESTMEAD|Westmead Public School|Hawkesbury Rd, Westmead NSW, 2145|Government, Primary, Coed, Non-Denominational
+WETHERILL PARK|Prairiewood High School|Prairievale Rd, Wetherill Park NSW, 2164|Government, Secondary, Coed, Non-Denominational
+WETHERILL PARK|Smithfield West Public School|Wetherill St, Wetherill Park NSW, 2164|Government, Primary, Coed, Non-Denominational
+WETHERILL PARK|William Stimson Public School|Lily St, Wetherill Park NSW, 2164|Government, Primary, Coed, Non-Denominational
+WHALAN|Halinda School|Karangi Rd, Whalan NSW, 2770|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
+WHALAN|Madang Avenue Public School|Mimika Ave, Whalan NSW, 2770|Government, Primary, Coed, Non-Denominational
+WHALAN|Whalan Public School|Karangi Rd, Whalan NSW, 2770|Government, Primary, Coed, Non-Denominational
+WILEY PARK|Wiley Park Public School|Denman Ave, Wiley Park NSW, 2195|Government, Primary, Coed, Non-Denominational
+WILLMOT|Willmot Public School|Discovery Ave, Willmot NSW, 2770|Government, Primary, Coed, Non-Denominational
+WILLOUGHBY|Glenaeon Rudolf Steiner School|118 Sydney Road, Willoughby NSW, 2068|Independent, Primary, Coed, Non-Denominational, Steiner
+WILLOUGHBY|St Thomas Primary School|2 Horsley Avenue, Willoughby NSW, 2068|Catholic, Primary, Coed, Catholic
+WILLOUGHBY|Willoughby Girls High School|Mowbray Rd, Willoughby NSW, 2068|Government, Secondary, Girls, Non-Denominational
+WILLOUGHBY|Willoughby Public School|Oakville Rd, Willoughby NSW, 2068|Government, Primary, Coed, Non-Denominational
+WINDSOR|St Matthew's Primary School|12 Tebbutt Street, Windsor NSW, 2756|Catholic, Primary, Coed, Catholic
+WINDSOR|Windsor Public School|Dight St, Windsor NSW, 2756|Government, Primary, Coed, Non-Denominational
+WINSTON HILLS|St Paul The Apostle Primary School|Buckleys Road, Winston Hills NSW, 2153|Catholic, Primary, Coed, Catholic
+WINSTON HILLS|Winston Heights Public School|Buckley Rd, Winston Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+WINSTON HILLS|Winston Hills Public School|Hillcrest Rd, Winston Hills NSW, 2153|Government, Primary, Coed, Non-Denominational
+WISEMANS FERRY|Macdonald Valley Public School|St Albans Rd, Wisemans Ferry NSW, 2775|Government, Primary, Coed, Non-Denominational
+WISEMANS FERRY|Wisemans Ferry Public School|Old Northern Rd, Wisemans Ferry NSW, 2775|Government, Primary, Coed, Non-Denominational
+WOOLLAHRA|Holy Cross Primary School|81 Edgecliff Road, Woollahra NSW, 2025|Catholic, Primary, Coed, Catholic
+WOOLLAHRA|Reddam House|70-78 Edgecliffe Rd, Woollahra NSW, 2025|Independent, Primary, Coed, Non-Denominational
+WOOLLAHRA|Woollahra Public School|Forth St, Woollahra NSW, 2025|Government, Primary, Coed, Non-Denominational
+WOOLLOOMOOLOO|Plunkett Street Public School|Forbes St, Woolloomooloo NSW, 2011|Government, Primary, Coed, Non-Denominational
+WOOLLOOMOOLOO|Sydney Distance Education High School|Forbes St, Woolloomooloo NSW, 2011|Government, Secondary, Coed, Non-Denominational
+WOOLOOWARE|St Francis de Sales Primary School|14 Hill Street, Woolooware NSW, 2230|Catholic, Primary, Coed, Catholic
+WOOLOOWARE|Woolooware High School|Woolooware Rd North, Woolooware NSW, 2230|Government, Secondary, Coed, Non-Denominational
+WOOLWICH|Marist Sisters' College Woolwich|66A Woolwich Road, Woolwich NSW, 2110|Catholic, Secondary, Girls, Catholic
+WORONORA|Woronora River Public School|Prices Circuit, Woronora NSW, 2232|Government, Primary, Coed, Non-Denominational
+YAGOONA|Al Sadiq College|178 Cooper Road, Yagoona NSW, 2199|Independent, Primary, Coed, Islamic
+YAGOONA|Christ The King Primary School|2 Cantrell Street, Yagoona NSW, 2199|Catholic, Primary, Coed, Catholic
+YAGOONA|Yagoona Public School|425 Hume Hwy, Yagoona NSW, 2199|Government, Primary, Coed, Non-Denominational
+YENNORA|Yennora Public School|Ellis Pde, Yennora NSW, 2161|Government, Primary, Coed, Non-Denominational
+YOWIE BAY|Yowie Bay Public School|Wonga Rd, Yowie Bay NSW, 2228|Government, Primary, Coed, Non-Denominational

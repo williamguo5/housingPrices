@@ -1,13 +1,14 @@
 #!/usr/bin/perl -w
-
-foreach $file (glob "pages/*.html") {
+open (CSV, ">schools.txt") or die "Can't create/open schools file";
+foreach my $file (glob "pages/*.html") {
 	open (F, "<$file") or die "Can't open file.";
-	$filename = $file;
-	$filename =~ s/.*?\///;
-	$filename =~ s/\.html//;
-	open (CSV, ">schools/$filename.txt") or die "Can't create/open schools file";
+	$suburbName = $file;
+	$suburbName =~ s/.*?\///;
+	$suburbName =~ s/\.html//;
+
 	my $addressFlag = FALSE;
 	my $typeFlag = FALSE;
+	my $schoolFlag = FALSE;
 	my $school = "";
 	my $address = "";
 	my $type = "";
@@ -22,8 +23,10 @@ foreach $file (glob "pages/*.html") {
 			}
 		}
 		# School name
-		if (m/<a[^>]+?href="\/\d+\/[a-zA-Z-_]+?">.*?([a-zA-Z-_ ',]+)<\/a>/) {
+		#f (m/<a[^>]+?href="\/\d+\/[a-zA-Z-_]+?">.*?([a-zA-Z_\-\ ',\(\)&6]+)<\/a>/) {
+		if ($schoolFlag eq FALSE && m/<a[^>]+?href="\/\d+\/.*>(.*)<\/a>$/) {
 			$school = $1;
+			$schoolFlag = TRUE;
 		}
 
 		# School address 
@@ -58,9 +61,20 @@ foreach $file (glob "pages/*.html") {
 				$address =~ s/^\s+//;
 				if ($address =~ m/NSW/) {
 					# Print line to file
-					print CSV "$school|$address|$type\n";
+					if ($school eq "") {
+						print "FUDGELYKLES $suburbName\n"
+					}
+					if ($type eq "") {
+						print "DO A BARREL ROLL $suburbName\n"
+					}
+					if ($address eq "") {
+						print "NO $suburbName\n"
+					}
+					print CSV "$suburbName|$school|$address|$type\n";
 				}
 				$typeFlag = FALSE;
+				$addressFlag = FALSE;
+				$schoolFlag = FALSE;
 				
 				# Reset variables
 				$school = "";
@@ -72,6 +86,10 @@ foreach $file (glob "pages/*.html") {
 			$typeFlag = TRUE;
 		}
 	}
-	close CSV;
+	
 	close F;
 }
+close CSV;
+#foreach my $file (glob "schools/*.txt") {
+
+#}
