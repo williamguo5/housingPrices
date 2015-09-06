@@ -1,7 +1,0 @@
-Blaxcell Street Public School|Blaxcell St, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
-Delany College|Grimwood Street, Granville NSW, 2142|Catholic, Secondary, Coed, Catholic
-Granville Boys High School|14 Mary St, Granville NSW, 2142|Government, Secondary, Boys, Non-Denominational
-Granville East Public School|210 The Trongate, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
-Granville Public School|Lena St, Granville NSW, 2142|Government, Primary, Coed, Non-Denominational
-Holy Family Primary School|199 The Trongate, Granville NSW, 2142|Catholic, Primary, Coed, Catholic
-Holy Trinity Primary School|Grimwood Street, Granville NSW, 2142|Catholic, Primary, Coed, Catholic

@@ -1,9 +1,0 @@
-Meriden|10-12 Redmyre Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Girls, Anglican
-Santa Sabina College|90 The Boulevarde, Strathfield NSW, 2135|Catholic, Primary/Secondary Combined, Coed, Catholic
-Strathfield Girls High School|Albert Rd, Strathfield NSW, 2135|Government, Secondary, Girls, Non-Denominational
-Australian International Academy - Sydney Campus|420 Liverpool Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Coed, Islamic
-Australian International College|420 Liverpool Road, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Coed, Islamic
-Chalmers Road School|Chalmers Rd, Strathfield NSW, 2135|Government, Primary/Secondary Combined, Coed, Non-Denominational, Intellectual Disabilities
-Santa Maria Del Monte School|The Boulevarde, Strathfield NSW, 2135|Catholic, Primary, Coed, Catholic
-St Martha's Primary School|88 Churchill Avenue, Strathfield NSW, 2135|Catholic, Primary, Coed, Catholic
-St Patrick's College,Strathfield|Francis Street, Strathfield NSW, 2135|Independent, Primary/Secondary Combined, Boys, Catholic

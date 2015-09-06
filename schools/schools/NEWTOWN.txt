@@ -1,7 +1,0 @@
-The Athena School|26 Oxford Street, Newtown NSW, 2042|Independent, Primary/Secondary Combined, Coed, Non-Denominational
-Australia Street Infants|Australia Street, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
-Camdenville Public School|Laura St, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
-Newtown High School of Performing Arts|King St, Newtown NSW, 2042|Government, Secondary, Coed, Non-Denominational
-Newtown North Public School|Carillon Ave, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
-Newtown Public School|Norfolk St, Newtown NSW, 2042|Government, Primary, Coed, Non-Denominational
-St Pius Primary School|209 Edgeware Road, Newtown NSW, 2042|Catholic, Primary, Coed, Catholic

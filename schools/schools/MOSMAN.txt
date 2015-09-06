@@ -1,8 +1,0 @@
-Mosman Church Of England Preparatory School|75 Shadforth Street, Mosman NSW, 2088|Independent, Primary, Boys, Anglican
-Queenwood|47 Mandolong Road, Mosman NSW, 2088|Independent, Primary/Secondary Combined, Girls, Non-Denominational
-Beauty Point Public School|17 Medusa St, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
-Blessed Sacrement Primary School|2 Queen Street, Mosman NSW, 2088|Catholic, Primary, Coed, Catholic
-Middle Harbour Public School|8 Hale Rd, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
-Mosman High School|Military Rd, Mosman NSW, 2088|Government, Secondary, Coed, Non-Denominational
-Mosman Public School|27 Belmont Rd, Mosman NSW, 2088|Government, Primary, Coed, Non-Denominational
-Sacred Heart Primary School|8 Cardinal Street, Mosman NSW, 2088|Catholic, Primary, Coed, Catholic

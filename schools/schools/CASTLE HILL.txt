@@ -1,9 +1,0 @@
-Castle Hill High School|Castle St, Castle Hill NSW, 2154|Government, Secondary, Coed, Non-Denominational
-Excelsior Public School|Rondelay Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
-Gilroy College|Marie Street, Castle Hill NSW, 2154|Catholic, Secondary, Coed, Catholic
-Oakhill College|521 Old Northern Road, Castle Hill NSW, 2154|Catholic, Secondary, Coed, Catholic
-Oakhill Drive Public School|Oakhill Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
-Samuel Gilbert Public School|Ridgecrop Drive, Castle Hill NSW, 2154|Government, Primary, Coed, Non-Denominational
-St Angela's Primary School|7-13 Victoria Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic
-St Bernadette's Primary School|357 Old Northern Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic
-St Gabriel's School for Hearing Impaired Children|190 Old Northern Road, Castle Hill NSW, 2154|Catholic, Primary, Coed, Catholic, Hearing Impaired

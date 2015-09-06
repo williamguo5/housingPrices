@@ -1,7 +1,0 @@
-James Cook Boys High School|Princes Hwy, Kogarah NSW, 2217|Government, Secondary, Boys, Non-Denominational
-Kogarah High School|Gladstone St, Kogarah NSW, 2217|Government, Secondary, Coed, Non-Denominational
-Kogarah Public School|Gladstone St, Kogarah NSW, 2217|Government, Primary, Coed, Non-Denominational
-Moorefield Girls High School|Princes Hwy, Kogarah NSW, 2217|Government, Secondary, Girls, Non-Denominational
-St George Girls High School|Victoria St, Kogarah NSW, 2217|Government, Secondary, Girls, Non-Denominational
-St George School|Marshall St, Kogarah NSW, 2217|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
-St Patrick's Primary School|36 Chapel Street, Kogarah NSW, 2217|Catholic, Primary, Coed, Catholic

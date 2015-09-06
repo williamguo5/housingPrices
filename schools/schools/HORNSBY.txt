@@ -1,6 +1,0 @@
-Barker College|91 Pacific Highway, Hornsby NSW, 2077|Independent, Primary/Secondary Combined, Coed, Anglican, Boarding
-Clarke Road School|Clarke Rd, Hornsby NSW, 2077|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
-Hornsby Girls High School|Edgeworth David Ave, Hornsby NSW, 2077|Government, Secondary, Girls, Non-Denominational
-Hornsby Heights Public School|Somerville Rd, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational
-Hornsby North Public School|Ida St, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational
-Hornsby South Public School|Clarke Rd, Hornsby NSW, 2077|Government, Primary, Coed, Non-Denominational

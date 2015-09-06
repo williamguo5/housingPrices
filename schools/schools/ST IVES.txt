@@ -1,9 +1,0 @@
-Brigidine College St Ives|325 Mona Vale Road, St Ives NSW, 2075|Independent, Secondary, Girls, Catholic
-Corpus Christi Primary School|17 Link Road, St Ives NSW, 2075|Catholic, Primary, Coed, Catholic
-Masada College|9-15 Link Road, St Ives NSW, 2075|Independent, Primary/Secondary Combined, Coed, Jewish
-Sir Eric Woodward Memorial School|Ayres & Acron Rds, St Ives NSW, 2075|Government, Primary/Secondary Combined, Coed, Non-Denominational, Moderate to High Needs
-St Ives High School|Yarrabung Rd, St Ives NSW, 2075|Government, Secondary, Coed, Non-Denominational
-St Ives North Public School|87 Memorial Ave, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
-St Ives Park Public School|Woodbury & Acron Rds, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
-St Ives Public School|Horace St, St Ives NSW, 2075|Government, Primary, Coed, Non-Denominational
-Sydney Grammar School|11-21 Ayres Street, St Ives NSW, 2075|Independent, Primary, Boys, Non-Denominational

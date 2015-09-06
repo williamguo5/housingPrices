@@ -1,7 +1,0 @@
-Colyton High School|Carpenter St, St Marys NSW, 2760|Government, Secondary, Coed, Non-Denominational
-Our Lady Of The Rosary Primary School|32b Saddington Street, St Marys NSW, 2760|Catholic, Primary, Coed, Catholic
-Oxley Park Public School|Adelaide St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
-St Marys North Public School|Willow Rd, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
-St Marys Public School|Princess Mary St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational
-St Marys Senior High School|Kalang Ave, St Marys NSW, 2760|Government, Secondary, Coed, Non-Denominational
-St Marys South Public School|Monfarville St, St Marys NSW, 2760|Government, Primary, Coed, Non-Denominational

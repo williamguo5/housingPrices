@@ -1,5 +1,0 @@
-Aquinas College|Anzac Road, Menai NSW, 2234|Catholic, Secondary, Coed, Catholic
-Holy Family Primary School|1d Anzac Road, Menai NSW, 2234|Catholic, Primary, Coed, Catholic
-Menai High School|Gerald Rd, Menai NSW, 2234|Government, Secondary, Coed, Non-Denominational
-Menai Public School|4R Hall Drive, Menai NSW, 2234|Government, Primary, Coed, Non-Denominational
-Tharawal Public School|Gerald Rd, Menai NSW, 2234|Government, Primary, Coed, Non-Denominational

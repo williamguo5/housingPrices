@@ -1,6 +1,0 @@
-Marist College Eastwood|44 Hillview Road, Eastwood NSW, 2122|Catholic, Secondary, Boys, Catholic
-Epping Boys High School|213 Vimiera Rd, Eastwood NSW, 2122|Government, Secondary, Boys, Non-Denominational
-Denistone East Public School|Lovell Rd, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
-Eastwood Heights Public School|Lincoln St, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
-Eastwood Public School|Rowe St, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational
-Kent Road Public School|Kent & Herring Rds, Eastwood NSW, 2122|Government, Primary, Coed, Non-Denominational

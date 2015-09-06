@@ -1,7 +1,0 @@
-Macarthur Adventist College|12 Victoria Road, Macquarie Fields NSW, 2564|Independent, Primary/Secondary Combined, Coed, Seventh Day Adventist
-Curran Public School|Melaleuca Drive, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational
-Eden College|30a Victoria Rd, Macquarie Fields NSW, 2564|Independent, Primary/Secondary Combined, Coed, Non-Denominational
-Guise Public School|Eucalyptus Drive, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational
-James Meehan High School|Harold St, Macquarie Fields NSW, 2564|Government, Secondary, Coed, Non-Denominational
-Macquarie Fields High School|2 Harold St, Macquarie Fields NSW, 2564|Government, Secondary, Coed, Non-Denominational
-Macquarie Fields Public School|Fields Rd, Macquarie Fields NSW, 2564|Government, Primary, Coed, Non-Denominational

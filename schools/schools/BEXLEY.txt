@@ -1,7 +1,0 @@
-Bexley North Public School|Kingsland Rd, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
-Bexley Public School|Forest Rd, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
-Carlton Public School|60 Cameron St, Bexley NSW, 2207|Government, Primary, Coed, Non-Denominational
-Marist College Kogarah|52 Wolseley Street, Bexley NSW, 2207|Catholic, Secondary, Boys, Catholic
-St Gabriel's Primary School|39 Highgate Street, Bexley NSW, 2207|Catholic, Primary, Coed, Catholic
-St Mary and St Mina's Coptic Orthodox College|339 Forest Road, Bexley NSW, 2207|Independent, Primary, Boys, Coptic Orthodox
-Sydney Technical High School|686 Forest Rd, Bexley NSW, 2207|Government, Secondary, Boys, Non-Denominational

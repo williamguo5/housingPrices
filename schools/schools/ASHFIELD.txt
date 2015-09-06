@@ -1,6 +1,0 @@
-Bethlehem College|18 Bland Street, Ashfield NSW, 2131|Catholic, Secondary, Girls, Catholic
-Ashfield Boys High School|117 Liverpool Rd, Ashfield NSW, 2131|Government, Secondary, Boys, Non-Denominational
-Ashfield Public School|Liverpool Rd, Ashfield NSW, 2131|Government, Primary, Coed, Non-Denominational
-De La Salle College|24 Bland Street, Ashfield NSW, 2131|Catholic, Secondary, Boys, Catholic
-St Vincent's Primary School|30-34 Charlotte Street, Ashfield NSW, 2131|Catholic, Primary, Coed, Catholic
-Yeo Park Infants School|Victoria St, Ashfield NSW, 2131|Government, Primary, Coed, Non-Denominational

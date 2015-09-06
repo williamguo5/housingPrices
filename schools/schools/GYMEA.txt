@@ -1,5 +1,0 @@
-Gymea North Public School|Ruby Rd, Gymea NSW, 2227|Government, Primary, Coed, Non-Denominational
-Gymea Technology High School|Hotham Rd & Princes Hwy, Gymea NSW, 2227|Government, Secondary, Coed, Non-Denominational
-Montessori Children's World|99-107 Manchester Road, Gymea NSW, 2227|Independent, Primary/Secondary Combined, Coed, Non-Denominational, Montessori
-St Catherine Laboures Primary School|123 Gymea Bay Road, Gymea NSW, 2227|Catholic, Primary, Coed, Catholic
-Sutherland Shire Montessori School|99-107 Manchester Road, Gymea NSW, 2227|Independent, Primary/Secondary Combined, Coed, Non-Denominational

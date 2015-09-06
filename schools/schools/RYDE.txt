@@ -1,7 +1,0 @@
-Holy Cross College|517 Victoria Road, Ryde NSW, 2112|Catholic, Secondary, Boys, Catholic
-Ryde Secondary College|Malvina St, Ryde NSW, 2112|Government, Secondary, Coed, Non-Denominational
-Meadowbank Public School|Thistle St, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
-Northcross Christian School|Corner Lane Cove Road & Dobson Crescent, Ryde NSW, 2112|Independent, Primary, Coed, Baptist
-Putney Public School|Morrison Rd, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
-Ryde Public School|Pope St, Ryde NSW, 2112|Government, Primary, Coed, Non-Denominational
-St Charles Primary School|582 Victoria Road, Ryde NSW, 2112|Catholic, Primary, Coed, Catholic

@@ -1,6 +1,0 @@
-Banks Public School|Banks Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
-Blackwell Public School|Blackwell Ave, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
-Clairgate Public School|Colorado Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
-Holy Spirit Primary School|7-17 Todd Row, St Clair NSW, 2759|Catholic, Primary, Coed, Catholic
-St Clair High School|Endeavour Ave, St Clair NSW, 2759|Government, Secondary, Coed, Non-Denominational
-St Clair Public School|Timesweep Drive, St Clair NSW, 2759|Government, Primary, Coed, Non-Denominational
