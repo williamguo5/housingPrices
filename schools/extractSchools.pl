@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
-use Switch
-
+use constant FALSE => 0;
+use constant TRUE => 1;
 my $total = 0;
 open (CSV, ">schools.txt") or die "Can't create/open schools file";
 foreach my $file (glob "pages/*.html") {
@@ -87,19 +87,19 @@ foreach my $file (glob "pages/*.html") {
 				($street = $address) =~ s/^([^,]+).*/$1/;
 				($postcode = $address) =~ s/.*(\d{4})$/$1/;
 				($state = $address) =~ s/.*([A-Z]{3}).*/$1/;
-				my $government = FALSE;
-				my $primary = FALSE;
-				my $secondary = FALSE;
+				my $isGovernment = FALSE;
+				my $isPrimary = FALSE;
+				my $isSecondary = FALSE;
 				my $religion = "";
 				my $gender = "";
 				if ($type =~ m/government/i) {
-					$government = TRUE;
+					$isGovernment = TRUE;
 				}
 				if ($type =~ m/primary/i) {
-					$primary = TRUE;
+					$isPrimary = TRUE;
 				}
 				if ($type =~ m/secondary/i) {
-					$secondary = TRUE;
+					$isSecondary = TRUE;
 				}
 
 				if ($type =~ m/([a-z]+\-denominational|anglican|catholic|christian|islamic|jewish|presbyterian|seventh day adventist|uniting church|[a-z]+ Orthodox|baptist|church of england|assyrian|multi-faith)/i) {
@@ -111,30 +111,9 @@ foreach my $file (glob "pages/*.html") {
 					$gender =~ s/\-//g;
 				}
 
-				open (HIGHSCHOOL, "<schoolRanks.html") or die "Can't open schoolRanks.html";
-				my $rank = 0;
-				my $rankFlag = FALSE;
-				(my $tempSchoolName = $school) =~ s/\(.*\)//;	# NEED TO IGNORE WHITESPACE
-				$tempSchoolName =~ s/\s+//g;
-				while (my $line = <HIGHSCHOOL>) {
-					if ($line =~ m/>(.{4,})<\/a>/) {
-						$rank += 1;
-						my $name = $1;
-						$name =~ s/\(.*\)//;
-						$name =~ s/\s+//g;
-						if (lc($name) eq lc($tempSchoolName)) {
-							$rankFlag = TRUE;
-							$total += 1;
-							last;
-						}
-					}
-				}
-				if ($rankFlag eq FALSE) {
-					$rank = -1;
-				}
-				close HIGHSCHOOL;
+				my $rank = findSchoolRank($isSecondary, $school);
 
-				if ($address =~ m/NSW/) {
+				if ($address =~ m/NSW/i) {
 					# Print line to file
 					if ($school eq "") {
 						print "FUDGELYKLES $suburbName\n"
@@ -145,7 +124,7 @@ foreach my $file (glob "pages/*.html") {
 					if ($address eq "") {
 						print "NO $suburbName\n"
 					}
-					print CSV "$rank|$school|$government|$primary|$secondary|$religion|$gender|$street|$suburbName|$state|$postcode|$description\n";
+					print CSV "$rank|$school|$isGovernment|$isPrimary|$isSecondary|$religion|$gender|$street|$suburbName|$state|$postcode|$description\n";
 				}
 				$typeFlag = FALSE;
 				$addressFlag = FALSE;
@@ -157,6 +136,7 @@ foreach my $file (glob "pages/*.html") {
 				$address = "";
 				$type = "";
 				$description = "";
+				next;
 			}
 		}
 		if (m/<div class="listing-section attributes">/) {
@@ -169,3 +149,51 @@ foreach my $file (glob "pages/*.html") {
 }
 close CSV;
 print "$total\n";
+
+
+
+
+
+####################
+####### SUBS #######
+####################
+
+# findSchoolRank(schoolType, schoolName)
+# Given the type of the school (Primary/Secondary) and it's name
+# Returns the rank of that school in NSW.
+# If no rank is found, -1 is returned.
+sub findSchoolRank {
+	my $subRank = -1;
+	my $schoolFile = "";
+	if ($_[0]) {
+		$schoolFile = "secondaryRanks.txt";
+	} else {
+		$schoolFile = "primaryRanks.txt";
+	}
+	open (SCHOOL, "<$schoolFile") or die "Can't open secondaryRanks.txt";
+	my $rankFlag = FALSE;
+	$subRank += 1;
+	(my $tempSchoolName = $_[1]) =~ s/\(.*\)//;
+	$tempSchoolName =~ s/\s+//g;
+	while (my $line = <SCHOOL>) {
+		if ($line =~ m/>(.{4,})<\/a>/) {
+			$subRank += 1;
+			my $name = $1;
+			$name =~ s/\(.*\)//;
+			$name =~ s/\s+//g;
+			$name =~ s/[\,\'\&]+//g;
+			$tempSchoolName =~ s/[\,\'\&]+//g;
+			if ($name =~ m/$tempSchoolName/i) {
+				$rankFlag = TRUE;
+				$total += 1;
+				last;
+			}
+		}
+	}
+	if ($rankFlag eq FALSE) {
+		$subRank = -1;
+	}
+	close SCHOOL;
+	
+	return $subRank;
+}

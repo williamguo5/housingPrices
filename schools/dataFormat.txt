@@ -4,9 +4,10 @@ DATA:
 	government	: bool
 	primary 	: bool
 	secondary 	: bool
-	religous	: string [catholic, islamic,non-denominational]
-	description	: string
+	religous	: string
+	gender		: string
 	street		: string
 	suburb		: string
-	postcode	: string
 	state		: string
+	postcode	: string
+	description	: string
