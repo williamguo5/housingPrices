@@ -1,3 +1,4 @@
+RANK|SCHOOL|GOVERNMENT|PRIMARY|SECONDARY|RELIGION|GENDER|STREET|SUBURB|STATE|POSTCODE|DESCRIPTION
 -1|Quakers Hill East Public School|1|1|0|Non-Denominational|Coed|14 Chase Drive|ACACIA GARDENS|NSW|2763|
 272|Alexandria Park Community School|1|1|1|Non-Denominational|Coed|Park Road|ALEXANDRIA|NSW|2015|
 384|Alfords Point Public School|1|1|0|Non-Denominational|Coed|Brushwood Drive|ALFORDS POINT|NSW|2234|

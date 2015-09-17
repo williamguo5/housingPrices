@@ -4,6 +4,7 @@ use constant FALSE => 0;
 use constant TRUE => 1;
 my $total = 0;
 open (CSV, ">schools.txt") or die "Can't create/open schools file";
+print CSV "RANK|SCHOOL|GOVERNMENT|PRIMARY|SECONDARY|RELIGION|GENDER|STREET|SUBURB|STATE|POSTCODE|DESCRIPTION\n";
 foreach my $file (glob "pages/*.html") {
 	open (F, "<$file") or die "Can't open file.";
 	$suburbName = $file;
@@ -17,7 +18,6 @@ foreach my $file (glob "pages/*.html") {
 	my $address = "";
 	my $type = "";
 	my $description = "";
-
 	
 
 	while (<F>) {
