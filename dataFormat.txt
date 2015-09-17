@@ -1,0 +1,13 @@
+DATA:
+	rank 		: int
+	name 		: string
+	government	: bool
+	primary 	: bool
+	secondary 	: bool
+	religous	: string [catholic, islamic,non-denominational]
+	gender		: string
+	description	: string
+	street		: string
+	suburb		: string
+	postcode	: string
+	state		: string
