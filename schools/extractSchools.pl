@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+
 use constant FALSE => 0;
 use constant TRUE => 1;
 my $total = 0;
@@ -158,10 +159,11 @@ print "$total\n";
 ####### SUBS #######
 ####################
 
-# findSchoolRank(schoolType, schoolName)
-# Given the type of the school (Primary/Secondary) and it's name
-# Returns the rank of that school in NSW.
-# If no rank is found, -1 is returned.
+# Returns the rank of the given school if one exists,
+# else returns -1.
+# [0] : Bool - isSecondary
+# [1] : String - schoolName
+# [2] : String - postCode
 sub findSchoolRank {
 	my $schoolFile = "";
 	if ($_[0]) {
@@ -189,6 +191,7 @@ sub findSchoolRank {
 			$name =~ s/\(.*\)//g;
 			$name =~ s/\s+//g;
 			$name =~ s/[\,\'\&]+//g;
+
 			my $matchFlag = TRUE;
 			foreach my $word (@schoolWords) {
 				if ($name !~ m/$word/i) {
