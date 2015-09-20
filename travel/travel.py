@@ -10,28 +10,35 @@ import re, csv
 output = []
 
 # get file with data name
-with open('../test.txt') as f:
+with open('../sydney_suburbs4.txt') as f:
     lines = f.readlines()
 
 for items in lines:
 		new_list = []
 
 		suburb = items.rstrip('\n')
+		# status
+		print 'adding : '+suburb
 		new_list.append(suburb)
 		suburb = re.sub(' ', '+', suburb)
 
 		response = urllib2.urlopen('https://maps.googleapis.com/maps/api/distancematrix/json?origins='+suburb+'+NSW&destinations=Sydney+NSW&mode=driving&language=en')
-		data = json.load(response)   
+		data = json.load(response)
 		new_list.append(str(data['rows'][0]['elements'][0]['duration']['text']))
 		#print data['rows'][0]['elements'][0]['distance']['text']
 
 		response = urllib2.urlopen('https://maps.googleapis.com/maps/api/distancematrix/json?origins='+suburb+'+NSW&destinations=Sydney+NSW&mode=transit&language=en&key=AIzaSyC8Pah10IPrXlZo9q_yheta2J0nYZ7qp5c')
 		data = json.load(response)
-		new_list.append(str(data['rows'][0]['elements'][0]['duration']['text']))
+		if (str(data['rows'][0]['elements'][0]['status']) == "OK" ) :
+			print "check!"
+			new_list.append(str(data['rows'][0]['elements'][0]['duration']['text']))
+		else :
+			# damn you cottage point
+			new_list.append('n/a')
 
 		output.append(new_list)
 
-print output
+#print output
 
 with open('travel.csv', 'wb') as fp:
     a = csv.writer(fp, delimiter=',')
