@@ -47,18 +47,19 @@ while (my $entry = <DATAFILE>) {
 		}
 	}
 }
+foreach my $key (keys %houses) {
+	print ENDFILE "$key, $houses{$key}\n";
+}
+
 print "\nPLACES NOT FOUND\n";
 print "########################\n";
 foreach my $key (keys %suburbs) {
 	if ($suburbs{$key} == 0) {
 		print "$key\n";
+		print ENDFILE "$key, $suburbs{$key}\n";
 	}
 }
 print "########################\n";
-
-foreach my $key (keys %houses) {
-	print ENDFILE "$key, $houses{$key}\n";
-}
 
 close ENDFILE;
 close DATAFILE;
