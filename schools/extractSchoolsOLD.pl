@@ -1,10 +1,8 @@
 #!/usr/bin/perl -w
-
 use constant FALSE => 0;
 use constant TRUE => 1;
 my $total = 0;
 open (CSV, ">schools.txt") or die "Can't create/open schools file";
-print CSV "RANK|SCHOOL|GOVERNMENT|PRIMARY|SECONDARY|RELIGION|GENDER|STREET|SUBURB|STATE|POSTCODE|DESCRIPTION\n";
 foreach my $file (glob "pages/*.html") {
 	open (F, "<$file") or die "Can't open file.";
 	$suburbName = $file;
@@ -18,6 +16,7 @@ foreach my $file (glob "pages/*.html") {
 	my $address = "";
 	my $type = "";
 	my $description = "";
+
 	
 
 	while (<F>) {
@@ -40,7 +39,7 @@ foreach my $file (glob "pages/*.html") {
 		}
 
 		##### Address #####
-		if ($addressFlag) {
+		if ($addressFlag eq TRUE) {
 			chomp $_;
 			$address .= $_;
 			if (m/<\/p>/) {
@@ -54,7 +53,7 @@ foreach my $file (glob "pages/*.html") {
 		}
 
 		##### Description #####
-		if ($descFlag) {
+		if ($descFlag eq TRUE) {
 			chomp $_;
 			
 			$description = "$_";
@@ -70,7 +69,7 @@ foreach my $file (glob "pages/*.html") {
 		}
 
 		##### School category (Primary, High, Catholic, Private) #####
-		if ($typeFlag) {
+		if ($typeFlag eq TRUE) {
 			chomp $_;
 			$type .= $_;
 			if (m/<\/div>/) {
@@ -159,11 +158,10 @@ print "$total\n";
 ####### SUBS #######
 ####################
 
-# Returns the rank of the given school if one exists,
-# else returns -1.
-# [0] : Bool - isSecondary
-# [1] : String - schoolName
-# [2] : String - postCode
+# findSchoolRank(schoolType, schoolName)
+# Given the type of the school (Primary/Secondary) and it's name
+# Returns the rank of that school in NSW.
+# If no rank is found, -1 is returned.
 sub findSchoolRank {
 	my $schoolFile = "";
 	if ($_[0]) {
@@ -171,19 +169,12 @@ sub findSchoolRank {
 	} else {
 		$schoolFile = "primaryRanks.txt";
 	}
-
 	open (SCHOOL, "<$schoolFile") or die "Can't open secondaryRanks.txt";
-
 	my $rankFlag = FALSE;
 	my $subRank = 0;
 	(my $tempSchoolName = $_[1]) =~ s/\(.*\)//g;
-	$tempSchoolName =~ s/[\,\'\&]+//g;
-	$tempSchoolName =~ s/primary|secondary|high|catholic|school//i;
-	my @schoolWords = split / /, $tempSchoolName;
-	if (!$_[0]) {
-		push @schoolWords, $_[2];
-	}
-
+	my $zipCode = $_[2];
+	$tempSchoolName =~ s/\s+//g;
 	while (my $line = <SCHOOL>) {
 		if ($line =~ m/>(.{4,})<\/a>/) {
 			$subRank += 1;
@@ -191,21 +182,17 @@ sub findSchoolRank {
 			$name =~ s/\(.*\)//g;
 			$name =~ s/\s+//g;
 			$name =~ s/[\,\'\&]+//g;
-
-			my $matchFlag = TRUE;
-			foreach my $word (@schoolWords) {
-				if ($name !~ m/$word/i) {
-					$matchFlag = FALSE;
-				}
-			}
-			if ($matchFlag) {
+			$tempSchoolName =~ s/[\,\'\&]+//g;
+			if ($name =~ m/$tempSchoolName/i) {
+				#print "$name ::: $tempSchoolName :::";
+				#print "$subRank\n";
 				$rankFlag = TRUE;
 				$total += 1;
 				last;
 			}
 		}
 	}
-	if (!$rankFlag) {
+	if ($rankFlag eq FALSE) {
 		$subRank = -1;
 	}
 	close SCHOOL;
