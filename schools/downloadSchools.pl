@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-open (F, '<../sydney_suburbs4.txt') or die "Failed to open list of Sydney Suburbs";
+open (F, '<../suburbNames.txt') or die "Failed to open list of Sydney Suburbs";
 while (my $suburb = <F>) {
 	print $suburb;
 	chomp $suburb;

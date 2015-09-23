@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-use Switch
 
 my $total = 0;
 open (CSV, ">schools.txt") or die "Can't create/open schools file";
