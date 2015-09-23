@@ -13,8 +13,13 @@ Including another URLconf
     1. Add an import:  from blog import urls as blog_urls
     2. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import include, url
+from django.conf.urls import url
+from rest_framework.urlpatterns import format_suffix_patterns
+from schools import views
 
 urlpatterns = [
-    url(r'^', include('schools.urls')),
+    url(r'^schools/$', views.school_list),
+    url(r'^schools/(?P<pk>[0-9]+)$', views.school_detail),
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)
