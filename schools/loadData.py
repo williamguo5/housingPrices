@@ -17,9 +17,9 @@ for row in dataReader:
         school = School()
         school.rank = row[0]
         school.name = row[1]
-        school.government = row[2]
-        school.primary = row[3]
-        school.secondary = row[4]
+        school.government = int(row[2])
+        school.primary = int(row[3])
+        school.secondary = int(row[4])
         school.religion = row[5]
         school.gender = row[6]
         school.street = row[7]
