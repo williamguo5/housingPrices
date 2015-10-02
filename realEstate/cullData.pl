@@ -1,11 +1,11 @@
 #!/usr/bin/perl -w
-# pass in the .csv file to simplify
+# pass in the .csv file that you want to simplify
 use constant TRUE => 1;
 use constant FALSE => 0;
 
 open (SUBURBS, "<$ARGV[0]") or die "Cannot open suburbNames.txt";
 open (DATAFILE, "<$ARGV[1]") or die "Can't open csv data file";
-open (ENDFILE, ">suburbHousePricing.csv") or die "Can't open csv destination file.";
+open (ENDFILE, ">suburbPricing.csv") or die "Can't open csv destination file.";
 %suburbs = ();
 %houses = ();
 %units = ();
@@ -28,7 +28,7 @@ while (my $entry = <DATAFILE>) {
 				} else {
 					$data[7] = 0;
 				}
-				
+
 			} else {
 				$data[7] =~ s/\"//g;
 			}
@@ -47,8 +47,13 @@ while (my $entry = <DATAFILE>) {
 		}
 	}
 }
+print ENDFILE "SUBURB, HOUSE PRICE, UNIT PRICE\n";
 foreach my $key (keys %houses) {
-	print ENDFILE "$key, $houses{$key}\n";
+	if (exists $units{$key}) {
+		print ENDFILE "$key, $houses{$key}, $units{$key}\n";
+	} else {
+		print ENDFILE "$key, $houses{$key}, 0\n";
+	}
 }
 
 print "\nPLACES NOT FOUND\n";
