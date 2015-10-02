@@ -16,12 +16,13 @@ class School(models.Model):
 
 class Suburb(models.Model):
     name = models.CharField(max_length=100)
-    state = models.CharField(max_length=3)
-    postcode = models.CharField(max_length=4)
+    state = models.CharField(max_length=3, blank=True)
+    postcode = models.CharField(max_length=4, blank=True)
     housePrice = models.IntegerField()
     unitPrice = models.IntegerField()
-    timeToCBD = models.CharField(max_length=100)
-    schools = models.ManyToManyField(School)
+    timeToCbdPublic = models.CharField(max_length=100, blank=True)
+    timeToCbdPrivate = models.CharField(max_length=100, blank=True)
+    schools = models.ManyToManyField(School, blank=True)
 
     class Meta:
         ordering = ('name',)

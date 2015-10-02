@@ -12,12 +12,17 @@ open (ENDFILE, ">suburbPricing.csv") or die "Can't open csv destination file.";
 
 while (my $suburb = <SUBURBS>) {
 	chomp $suburb;
-	$suburbs{lc($suburb)} = 0;
+	$suburbs{uc($suburb)} = 0;
 }
+foreach my $key (keys %suburbs) {
+	$houses{$key} = 0;
+	$units{$key} = 0;
+}
+
 while (my $entry = <DATAFILE>) {
 	@data = split(',', $entry);
 	if ($data[0] eq "\"NSW\"") {
-		$data[4] = lc($data[4]);
+		$data[4] = uc($data[4]);
 		$data[4] =~ s/\"//g;
 
 		if (exists $suburbs{$data[4]}) {					# If its a suburb in Sydney
@@ -33,11 +38,7 @@ while (my $entry = <DATAFILE>) {
 				$data[7] =~ s/\"//g;
 			}
 			if ($data[5] eq "\"H\"") {						# If it is housing data
-				if (exists $houses{$data[4]}) {
-					if ($data[7] != 0) {
-						$houses{$data[4]} = $data[7];
-					}
-				} else {									# Else it is units data
+				if ($data[7] != 0) {
 					$houses{$data[4]} = $data[7];
 				}
 			} else {
@@ -47,12 +48,12 @@ while (my $entry = <DATAFILE>) {
 		}
 	}
 }
-print ENDFILE "SUBURB, HOUSE PRICE, UNIT PRICE\n";
+print ENDFILE "SUBURB,HOUSE PRICE,UNIT PRICE\n";
 foreach my $key (keys %houses) {
 	if (exists $units{$key}) {
-		print ENDFILE "$key, $houses{$key}, $units{$key}\n";
+		print ENDFILE "$key,$houses{$key},$units{$key}\n";
 	} else {
-		print ENDFILE "$key, $houses{$key}, 0\n";
+		print ENDFILE "$key,$houses{$key},0\n";
 	}
 }
 
@@ -61,7 +62,7 @@ print "########################\n";
 foreach my $key (keys %suburbs) {
 	if ($suburbs{$key} == 0) {
 		print "$key\n";
-		print ENDFILE "$key, $suburbs{$key}\n";
+		print ENDFILE "$key,0,0\n";
 	}
 }
 print "########################\n";
