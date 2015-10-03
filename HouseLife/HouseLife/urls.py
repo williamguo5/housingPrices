@@ -19,7 +19,9 @@ from suburbs import views
 
 urlpatterns = [
     url(r'^suburbs/$', views.suburb_list),
-    url(r'^suburbs/(?P<pk>[0-9]+)$', views.suburb_detail),
+    url(r'^suburbs/(?P<name>[a-zA-Z_]+)$', views.suburb_detail),
+    url(r'^schools/$', views.school_list),
+    url(r'^schools/(?P<name>[a-zA-Z_]+)$', views.school_detail),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)

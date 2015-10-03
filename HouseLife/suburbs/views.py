@@ -1,50 +1,55 @@
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from suburbs.models import Suburb
-from suburbs.serializers import SuburbSerializer
+from suburbs.models import Suburb, School
+from suburbs.serializers import SuburbSerializer, SchoolSerializer
 
+import re
 
-@api_view(['GET', 'POST'])
+@api_view(['GET'])
 def suburb_list(request, format=None):
     """
-    List all suburbs, or create a new suburb.
+    List all suburbs.
     """
-    if request.method == 'GET':
-        suburbs = Suburb.objects.all()
-        serializer = SuburbSerializer(suburbs, many=True)
-        return Response(serializer.data)
-
-    elif request.method == 'POST':
-        serializer = SuburbSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    suburbs = Suburb.objects.all()
+    serializer = SuburbSerializer(suburbs, many=True)
+    return Response(serializer.data)
 
 
-@api_view(['GET', 'PUT', 'DELETE'])
-def suburb_detail(request, pk, format=None):
+@api_view(['GET'])
+def suburb_detail(request, name, format=None):
     """
-    Retrieve, update or delete a suburb instance.
+    Retrieve a suburb instance.
     """
+    name = re.sub('_', ' ', name)
     try:
-        suburb = Suburb.objects.get(pk=pk)
+        suburb = Suburb.objects.get(name=name)
     except Suburb.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
 
-    if request.method == 'GET':
-        serializer = SuburbSerializer(suburb)
-        return Response(serializer.data)
+    serializer = SuburbSerializer(suburb)
+    return Response(serializer.data)
 
-    elif request.method == 'PUT':
-        serializer = SuburbSerializer(suburb, data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+@api_view(['GET'])
+def school_list(request, format=None):
+    """
+    List all schools.
+    """
+    schools = School.objects.all()
+    serializer = SchoolSerializer(schools, many=True)
+    return Response(serializer.data)
 
-    elif request.method == 'DELETE':
-        suburb.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+@api_view(['GET'])
+def school_detail(request, name, format=None):
+    """
+    Retrieve a school instance.
+    """
+    name = re.sub('_', ' ', name)
+    try:
+        school = School.objects.get(name=name)
+    except Suburb.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+
+    serializer = SchoolSerializer(school)
+    return Response(serializer.data)
 
