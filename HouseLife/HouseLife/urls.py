@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from rest_framework.urlpatterns import format_suffix_patterns
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from suburbs import views
 
 urlpatterns = [
@@ -24,4 +25,5 @@ urlpatterns = [
     url(r'^schools/(?P<name>[a-zA-Z_]+)$', views.school_detail),
 ]
 
+urlpatterns += staticfiles_urlpatterns()
 urlpatterns = format_suffix_patterns(urlpatterns)
