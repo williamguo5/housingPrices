@@ -48,21 +48,13 @@ while (my $entry = <DATAFILE>) {
 		}
 	}
 }
-print ENDFILE "SUBURB,HOUSE PRICE,UNIT PRICE\n";
-foreach my $key (keys %houses) {
-	if (exists $units{$key}) {
-		print ENDFILE "$key,$houses{$key},$units{$key}\n";
-	} else {
-		print ENDFILE "$key,$houses{$key},0\n";
-	}
-}
-
-print "\nPLACES NOT FOUND\n";
+print "\nREALESTATE DATA FOR THESE PLACES NOT FOUND:\n";
 print "########################\n";
-foreach my $key (keys %suburbs) {
-	if ($suburbs{$key} == 0) {
-		print "$key\n";
-		print ENDFILE "$key,0,0\n";
+print ENDFILE "SUBURB,HOUSE PRICE,UNIT PRICE\n";
+foreach my $suburb (keys %suburbs) {
+	print ENDFILE "$suburb,$houses{$suburb},$units{$suburb}\n";
+	if ($suburbs{$suburb} == 0) {
+		print "  $suburb\n";
 	}
 }
 print "########################\n";

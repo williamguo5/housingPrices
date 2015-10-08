@@ -24,18 +24,18 @@ import math
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
 next(realEstateReader, None)
 for row in realEstateReader:
-    suburb = Suburb()
-    suburb.name = row[0]
-    suburb.state = "NSW"
-    suburb.housePrice = round(float(row[1]))
-    suburb.unitPrice = round(float(row[2]))
-    suburb.save()
+    suburb = Suburb.objects.create(
+        name = row[0],
+        state = "NSW",
+        housePrice = round(float(row[1])),
+        unitPrice = round(float(row[2]))
+        )
 
 
 travelReader = csv.reader(open(travel_filepathname), delimiter=',', quotechar='"')
 next(travelReader, None)
 for row in travelReader:
-    suburb = Suburb.objects.filter(name=row[0])[0]
+    suburb = Suburb.objects.get(name=row[0])
     suburb.timeToCbdPublic = row[2]
     suburb.timeToCbdPrivate = row[1]
     suburb.save()
@@ -44,18 +44,18 @@ for row in travelReader:
 schoolReader = csv.reader(open(schools_filepathname), delimiter='|', quotechar='"')
 next(schoolReader, None)
 for row in schoolReader:
-    school = School()
-    school.rank = row[0]
-    school.name = row[1]
-    school.government = int(row[2])
-    school.primary = int(row[3])
-    school.secondary = int(row[4])
-    school.religion = row[5]
-    school.gender = row[6]
-    school.street = row[7]
-    school.description = row[11]
-    school.save()
-    suburb = Suburb.objects.filter(name=row[8])[0]
+    school = School.objects.create(
+        rank = row[0],
+        name = row[1],
+        government = int(row[2]),
+        primary = int(row[3]),
+        secondary = int(row[4]),
+        religion = row[5],
+        gender = row[6],
+        street = row[7],
+        description = row[11]
+        )
+    suburb = Suburb.objects.get(name=row[8])
     suburb.postcode = row[10]
     suburb.schools.add(school)
     suburb.save()
