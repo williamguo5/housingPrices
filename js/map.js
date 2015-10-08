@@ -234,6 +234,44 @@ function initMap(){
             strokeWeight: 1
         });
     });
+	
+	var strictBounds = new google.maps.LatLngBounds(
+		// SW corner
+		new google.maps.LatLng(-34.206766, 150.652075), 
+		// NE corner
+		new google.maps.LatLng(-33.428651, 151.392279)
+	);
+	
+ // Listen for the dragend event
+    google.maps.event.addListener(map, 'bounds_changed', function() {
+      if (strictBounds.contains(map.getCenter())) return;
+
+      // We're out of bounds - Move the map back within the bounds
+
+      var c = map.getCenter(),
+          x = c.lng(),
+          y = c.lat(),
+          maxX = strictBounds.getNorthEast().lng(),
+          maxY = strictBounds.getNorthEast().lat(),
+          minX = strictBounds.getSouthWest().lng(),
+          minY = strictBounds.getSouthWest().lat();
+
+      if (x < minX) x = minX;
+      if (x > maxX) x = maxX;
+      if (y < minY) y = minY;
+      if (y > maxY) y = maxY;
+
+      map.setCenter(new google.maps.LatLng(y, x));
+    });
+	
+ // Limit the zoom level
+ // This is the minimum zoom level that we'll allow
+    var minZoomLevel = 9;
+	var maxZoomLevel = 15;
+    google.maps.event.addListener(map, 'zoom_changed', function() {
+      if (map.getZoom() < minZoomLevel) map.setZoom(minZoomLevel);
+      if (map.getZoom() > maxZoomLevel) map.setZoom(maxZoomLevel);
+    });
 
     // Keep track of the previously clicked layer
     var contentString = "";
