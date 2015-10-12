@@ -95,17 +95,25 @@ html, body {
     position: fixed;
     z-index: 100;
     right: 5%;
-    width: 15%;
-    bottom: 48%;
-    height: 6%;
+    width: 240px;
+    bottom: calc(13% + 250px);
+    height: 4%;
     background: white;
     text-align: center;
     border: 1px solid black;
 }
 
-#legend #title {
+#title {
+	 position: fixed;
+    background: width;
+    right: 5%;
+    bottom: calc(9% + 239px);
+    width: 240px;
+	 z-index: 100;
     height: 4%;
-    /*border: 1px solid red;*/
+	 text-align: center;
+    background: white;
+    border: 1px solid black;
 }
 
 #carousel-suburb, #cmp-carousel-suburb {
@@ -115,14 +123,20 @@ html, body {
 }
 
 #legend {
+	 padding-top: 20px;
+	 padding-bottom: 20px;
     position: fixed;
     background: white;
-    width: 15%;
-    height: 38%;
+    width: 240px;
+    height: 240px;
     z-index: 100;
     right: 5%;
     bottom: 9%;
     border: 1px solid black;
+}
+
+#lgd-checkbox {
+	float:right;
 }
 
 .legend-color-box {
@@ -130,6 +144,7 @@ html, body {
     width:20px;
     border-radius:3px;
     float:left;
+	 margin-left:10px;
     border:1px solid black;
     margin-right:6px;
 }
@@ -417,8 +432,8 @@ h2 {
 #heatmap-housing {
     position: fixed;
     z-index: 100;
-    right: 15%;
-    width: 5%;
+    right: calc(5% + 160px);
+    width: 80px;
     bottom: 4%;
     height: 5%;
 }
@@ -426,8 +441,8 @@ h2 {
 #heatmap-schools {
     position: fixed;
     z-index: 100;
-    right: 10%;
-    width: 5%;
+    right: calc(5% + 80px);
+    width: 80px;
     bottom: 4%;
     height: 5%;
 }
@@ -435,7 +450,7 @@ h2 {
 	position: fixed;
 	z-index: 100;
 	right: 5%;
-	width: 5%;
+	width: 80px;
 	bottom: 4%;
 	height: 5%;
  }
