@@ -12,3 +12,8 @@ class SuburbSerializer(serializers.ModelSerializer):
     class Meta:
         model = Suburb
         fields = ('name', 'state', 'postcode', 'housePrice', 'unitPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'schools')
+
+class SimpleSuburbSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Suburb
+        fields = ('name', 'state', 'postcode', 'housePrice', 'unitPrice', 'timeToCbdPublic', 'timeToCbdPrivate')

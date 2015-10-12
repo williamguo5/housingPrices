@@ -2,7 +2,7 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from suburbs.models import Suburb, School
-from suburbs.serializers import SuburbSerializer, SchoolSerializer
+from suburbs.serializers import SuburbSerializer, SchoolSerializer, SimpleSuburbSerializer
 
 import re
 
@@ -22,7 +22,13 @@ def suburb_list(request, format=None):
         suburbs = suburbs.filter(unitPrice__lte=request.query_params.get('unitPriceMax',''))
     if (request.query_params.get('unitPriceMin','')):
         suburbs = suburbs.filter(unitPrice__gte=request.query_params.get('unitPriceMin',''))
-    serializer = SuburbSerializer(suburbs, many=True)
+    if (request.query_params.get('showSchools','')):
+        if (request.query_params.get('showSchools','') == "False"):
+            serializer = SimpleSuburbSerializer(suburbs, many=True)
+        else:
+            serializer = SuburbSerializer(suburbs, many=True)
+    else:
+        serializer = SuburbSerializer(suburbs, many=True)
     return Response(serializer.data)
 
 

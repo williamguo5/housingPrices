@@ -11,7 +11,7 @@ function initAutocomplete() {
         scaleControl: true,
         streetViewControl: false,
     });
-  
+
   // Create the search box and link it to the UI element.
   var input = document.getElementById('pac-input');
   var searchBox = new google.maps.places.SearchBox(input);
@@ -209,16 +209,15 @@ function initMap(){
         }
     ]);
 
-    var customMapTypeId = 'custom_style';
-    map.mapTypes.set(customMapTypeId, customMapType);
-    map.setMapTypeId(customMapTypeId);
+    //var customMapTypeId = 'custom_style';
+    //map.mapTypes.set(customMapTypeId, customMapType);
+    //map.setMapTypeId(customMapTypeId);
 
     // Load GeoJSON.
-    // map.data.loadGeoJson('https://bitbucket.org/williamg2103/json-test/raw/07a9b086bece031e6471ed1924640ff0af7f51e1/suburb_multicolour_test.json');
-    map.data.loadGeoJson('https://bitbucket.org/williamg2103/json-test/raw/be3c2f799c30daeaf8bba1642e3316d07ae606d6/heatmap_suburb0.json');
-    map.data.loadGeoJson('https://bitbucket.org/williamg2103/json-test/raw/be3c2f799c30daeaf8bba1642e3316d07ae606d6/heatmap_suburb1.json');
-    map.data.loadGeoJson('https://bitbucket.org/williamg2103/json-test/raw/be3c2f799c30daeaf8bba1642e3316d07ae606d6/heatmap_suburb2.json');
-    map.data.loadGeoJson('https://bitbucket.org/williamg2103/json-test/raw/be3c2f799c30daeaf8bba1642e3316d07ae606d6/heatmap_suburb3.json');
+    map.data.loadGeoJson('/static/json/suburbs0.json');
+    map.data.loadGeoJson('/static/json/suburbs1.json');
+    map.data.loadGeoJson('/static/json/suburbs2.json');
+    map.data.loadGeoJson('/static/json/suburbs3.json');
     map.data.setStyle(function(feature) {
         color = feature.getProperty('housingColor');
         opacity = 0.25;
@@ -226,7 +225,7 @@ function initMap(){
             color = feature.getProperty('housingColor');
             opacity = 0.9;
         }
-		
+
         return /** @type {google.maps.Data.StyleOptions} */({
             fillColor: color,
             fillOpacity: opacity,
@@ -234,14 +233,14 @@ function initMap(){
             strokeWeight: 1
         });
     });
-	
+
 	var strictBounds = new google.maps.LatLngBounds(
 		// SW corner
-		new google.maps.LatLng(-34.206766, 150.652075), 
+		new google.maps.LatLng(-34.206766, 150.652075),
 		// NE corner
 		new google.maps.LatLng(-33.428651, 151.392279)
 	);
-	
+
  // Listen for the dragend event
     google.maps.event.addListener(map, 'bounds_changed', function() {
       if (strictBounds.contains(map.getCenter())) return;
@@ -263,7 +262,7 @@ function initMap(){
 
       map.setCenter(new google.maps.LatLng(y, x));
     });
-	
+
  // Limit the zoom level
  // This is the minimum zoom level that we'll allow
     var minZoomLevel = 9;
@@ -282,17 +281,16 @@ function initMap(){
 
         // Gets the name of the event layer clicked
         var suburbName = event.feature.getProperty('name');
-
-		for (var i = 0; i < suburbPrices.length; i++) {
-            if (suburbPrices[i].suburb === suburbName) {
-                var priceIndex = i;
+		for (var i = 0; i < suburbData.length; i++) {
+            console.log(suburbData[i].housePrice);
+            if (suburbData[i].name.toUpperCase() === suburbName.toUpperCase()) {
+                contentString = '<hr>' + 'Median House Price: $' + (suburbData[i].housePrice) +
+                        '<hr>' + 'Time to CBD (Private): ' + suburbData[i].timeToCbdPrivate +
+                        '<hr>' + 'Time to CBD (Public): ' + suburbData[i].timeToCbdPublic;
+                        console.log(contentString);
                 break;
             }
         }
-
-        contentString = '<hr>' + 'Median House Price: $' + (suburbPrices[priceIndex].price) +
-                        '<hr>' + 'Time to CBD (Private): ' + travelTimes[priceIndex].private_travel_time +
-                        '<hr>' + 'Time to CBD (Public): ' + travelTimes[priceIndex].public_travel_time;
 
 
         var suburb = document.getElementById('suburb');
@@ -316,7 +314,7 @@ function initMap(){
        } else {
            isChecked = false;
            cmpLayer = event;
-       }	
+       }
 
         // Calls the capitalise string function
         suburbName = capitaliseFirstLetter(suburbName);
@@ -344,7 +342,7 @@ function initMap(){
             $("#wrapper").toggleClass("showSidebar");
             $("#wrapper").toggleClass("showClose");
         }
-		
+
 	});
     map.data.addListener('mouseover', function(event) {
         // newColor = feature.getProperty('color');

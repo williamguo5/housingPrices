@@ -1,13 +1,10 @@
 $(document).ready(function() {
 
-    $.getJSON('https://bitbucket.org/ak305/bootstraptest/raw/6b94b8f732344ca25b6c8053f273884b2f407473/suburbprices.json', function(data) {
-        suburbPrices = data;
+    $.getJSON('../suburbs.json?showSchools=False', function(data) {
+        suburbData = data;
+        console.log(suburbData);
     });
 
-
-    $.getJSON('https://bitbucket.org/ak305/bootstraptest/raw/c175a2734c9eb472de0f51139202f6cb994d54f4/traveltimes.json', function(data) {
-        travelTimes = data;
-    });
 
     var contentString = "";
     var cmpContentString = "";
@@ -70,7 +67,7 @@ $(document).ready(function() {
         document.getElementById('heatmap-value8').innerHTML = '> 120';
 
     });
-   
+
 
     // When the user clicks on the page-content-wrapper button it will toggle the sidebarExpanded class
     $("#page-content-toggle").click(function(event){

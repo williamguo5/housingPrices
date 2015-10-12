@@ -10,18 +10,15 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sidebar.css">
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script language="javascript">
         var lastClickedLayer;
         var cmpLayer;
-        var suburbPrices;
-        var travelTimes;
+        // var suburbPrices;
+        // var travelTimes;
+        var suburbData;
     </script>
     <script language="javascript" type="text/javascript" src="js/map.js"></script>
     <script language="javascript" type="text/javascript" src="js/jqueryEvents.js"></script>
-    <script language="javascript" type="text/javascript" src="js/mapStyle.js.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?signed_in=true&callback=initMap"></script>
-
 
 </head>
 <body>
@@ -197,11 +194,11 @@
             <h4 id="units"><b>Legend ($)</b></h5>
         </div>
         <div id="legend">
-	
+
             <div class="container-fluid">
-                
+
                 <div class="row">
-                    <div class="col-md-12">		
+                    <div class="col-md-12">
 									<input type="checkbox" id ="lgd-checkbox" checked>
                         	<span class="legend-color-box" style="background-color: #7bc742;"></span>
 									<span id ="heatmap-value1"> < 500K<br></span>
