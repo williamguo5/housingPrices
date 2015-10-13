@@ -1,0 +1,1302 @@
+RANK|SCHOOL|GOVERNMENT|PRIMARY|SECONDARY|RELIGION|GENDER|STREET|SUBURB|STATE|POSTCODE|DESCRIPTION
+-1|Quakers Hill East Public School|1|1|0|Non-Denominational|Coed|14 Chase Drive|ACACIA GARDENS|NSW|2763|
+272|Alexandria Park Community School|1|1|1|Non-Denominational|Coed|Park Road|ALEXANDRIA|NSW|2015|
+384|Alfords Point Public School|1|1|0|Non-Denominational|Coed|Brushwood Drive|ALFORDS POINT|NSW|2234|
+422|Allambie Heights Public School|1|1|0|Non-Denominational|Coed|Allambie Rd|ALLAMBIE HEIGHTS|NSW|2100|
+-1|Ambarvale Public School|1|1|0|Non-Denominational|Coed|Copperfield Drive|AMBARVALE|NSW|2560|
+-1|Thomas Acres Public School|1|1|0|Non-Denominational|Coed|Crisparkle Drive|AMBARVALE|NSW|2560|
+571|Thomas Reddall High School|1|0|1|Non-Denominational|Coed|Cnr Woodhouse Drive & Jaggers Place|AMBARVALE|NSW|2560|
+172|Annandale North Public School|1|1|0|Non-Denominational|Coed|206 Johnston Street|ANNANDALE|NSW|2038|
+172|Annandale Public School|1|1|0|Non-Denominational|Coed|25 Johnston St|ANNANDALE|NSW|2038|
+125|St Brendan's Primary School|0|1|0|Catholic|Coed|30-34 Collins Street|ANNANDALE|NSW|2038|
+271|Annangrove Public School|1|1|0|Non-Denominational|Coed|Annangrove Rd|ANNANGROVE|NSW|2156|
+269|Northholm Grammar School|0|1|1|Inter-Denominational|Coed|79 Cobah Road|ARCADIA|NSW|2159|Northholm is a small caring school which fosters the worth of the individual, encourages academic excellence and promotes Christian values.
+-1|Arcadia Public School|1|1|0|Non-Denominational|Coed|Arcadia Rd|ARCADIA|NSW|2159|
+-1|Arncliffe Public School|1|1|0|Non-Denominational|Coed|Princes Hwy|ARNCLIFFE|NSW|2205|
+-1|Arncliffe West Infants School|1|1|0|Non-Denominational|Coed|Loftus St|ARNCLIFFE|NSW|2205|
+-1|Athelstane Public School|1|1|0|Non-Denominational|Coed|Athelstane Ave|ARNCLIFFE|NSW|2205|
+-1|Cairnsfoot School|1|1|1|Non-Denominational|Coed|22 Loftus St|ARNCLIFFE|NSW|2205|
+-1|Kingdom Culture Christian School Ltd|0|1|0|Christian|Coed|Corner of Kembla and Hirst Streets|ARNCLIFFE|NSW|2205|
+597|St Francis Xaviers Primary School|0|1|0|Catholic|Coed|8 Forest Road|ARNCLIFFE|NSW|2205|
+4|Artarmon Public School|1|1|0|Non-Denominational|Coed|McMillan Rd|ARTARMON|NSW|2064|
+-1|Ashbury Public School|1|1|0|Non-Denominational|Coed|Trevenar St|ASHBURY|NSW|2193|
+432|Ashcroft High School|1|0|1|Non-Denominational|Coed|Maxwells Ave|ASHCROFT|NSW|2168|
+-1|Ashcroft Public School|1|1|0|Non-Denominational|Coed|Sheriff St|ASHCROFT|NSW|2168|
+220|Bethlehem College|0|0|1|Catholic|Girls|18 Bland Street|ASHFIELD|NSW|2131|Bethlehem College Ashfield has a long and proud tradition of excellence in educating young women for the future.
+248|Ashfield Boys High School|1|0|1|Non-Denominational|Boys|117 Liverpool Rd|ASHFIELD|NSW|2131|
+-1|Ashfield Public School|1|1|0|Non-Denominational|Coed|Liverpool Rd|ASHFIELD|NSW|2131|
+212|De La Salle College|0|0|1|Catholic|Boys|24 Bland Street|ASHFIELD|NSW|2131|
+-1|St Vincent's Primary School|0|1|0|Catholic|Coed|30-34 Charlotte Street|ASHFIELD|NSW|2131|
+-1|Yeo Park Infants School|1|1|0|Non-Denominational|Coed|Victoria St|ASHFIELD|NSW|2131|
+275|Asquith Boys High School|1|0|1|Non-Denominational|Boys|Jersey St|ASQUITH|NSW|2077|
+364|Asquith Girls High School|1|0|1|Non-Denominational|Girls|Stokes Ave|ASQUITH|NSW|2077|
+465|Asquith Public School|1|1|0|Non-Denominational|Coed|Dudley St|ASQUITH|NSW|2077|
+164|St Patrick's Primary School|0|1|0|Catholic|Coed|1 Royston Parade|ASQUITH|NSW|2077|
+-1|Sydney Adventist School Auburn|0|1|0|Seventh Day Adventist|Coed|3 Macquarie Road|AUBURN|NSW|2144|Sydney Adventist School Auburn is a Prep-Year 6 Christian school that has been serving families with quality education since 1917.
+71|Alpha Omega Senior College|0|0|1|Non-Denominational|Coed|1-5 Harrow Road|AUBURN|NSW|2144|
+433|Auburn Girls High School|1|0|1|Non-Denominational|Girls|Hunter St & Braemar Ave|AUBURN|NSW|2144|
+-1|Auburn North Public School|1|1|0|Non-Denominational|Coed|100 Adderley St|AUBURN|NSW|2144|
+-1|Auburn Public School|1|1|0|Non-Denominational|Coed|Auburn Rd & Beatrice St|AUBURN|NSW|2144|
+-1|Auburn West Public School|1|1|0|Non-Denominational|Coed|Chiswick Rd|AUBURN|NSW|2144|
+-1|St John's Primary School|0|1|0|Catholic|Coed|77 Queen Street|AUBURN|NSW|2144|
+-1|St Joseph The Worker Primary School|0|1|0|Catholic|Coed|2 New Street|AUBURN|NSW|2144|
+-1|Sule College|0|1|0|Islamic|Coed|26-28 Kerr Parade|AUBURN|NSW|2144|
+482|Austinmer Public School|1|1|0|Non-Denominational|Coed|90 Lawrence Hargrave Drive|AUSTINMER|NSW|2515|
+219|Barrenjoey High School|1|0|1|Non-Denominational|Coed|Coonanga Road|AVALON|NSW|2107|
+-1|Barrenjoey Montessori School|0|1|0|Non-Denominational|Coed|2 Tasman Road|AVALON|NSW|2107|
+148|Maria Regina Primary School|0|1|0|Catholic|Coed|42 Central Road|AVALON|NSW|2107|
+234|Northern Beaches Secondary College Balgowlah Boys Campus|1|0|1|Non-Denominational|Boys|Maretimo St|BALGOWLAH|NSW|2093|Balgowlah Boys Campus has a long and proud tradition of providing northern beaches boys with the opportunity to pursue their personal best across academic, technological, sporting, artistic and cultural fields.
+99|Balgowlah Heights Public School|1|1|0|Non-Denominational|Coed|Lewis St|BALGOWLAH|NSW|2093|
+240|Manly West Public School|1|1|0|Non-Denominational|Coed|Griffith St|BALGOWLAH|NSW|2093|
+114|St Cecilia's Primary School|0|1|0|Catholic|Coed|Wanganella Street|BALGOWLAH|NSW|2093|
+-1|Nicholson Street Public School|1|1|0|Non-Denominational|Coed|Nicholson St|BALMAIN EAST|NSW|2041|
+49|Balmain Public School|1|1|0|Non-Denominational|Coed|Eaton St|BALMAIN|NSW|2041|
+248|Birchgrove Public School|1|1|0|Non-Denominational|Coed|Birchgrove Rd|BALMAIN|NSW|2041|
+-1|Father John Therry School|0|1|0|Catholic|Coed|Eaton Street|BALMAIN|NSW|2041|
+375|Inner Sydney Montessori School (Balmain campus)|0|1|0|Non-Denominational|Coed|44 Smith Street|BALMAIN|NSW|2041|
+154|Inaburra School|0|1|1|Christian|Coed|75 Billa Road|BANGOR|NSW|2234|Inaburra is a Christ-centred learning community pursuing excellence in education with every individual known and loved.
+370|Bangor Public School|1|1|0|Non-Denominational|Coed|Menai Rd|BANGOR|NSW|2234|
+125|St Euphemia College|0|1|1|Non-Denominational|Coed|202 Stacey Street|BANKSTOWN|NSW|2200|St Euphemia has forged a reputation for academic excellence, a caring pastoral program and an education responsive to individual student needs.
+307|Al Amanah College|0|1|0|Islamic|Coed|2 Winspear Avenue|BANKSTOWN|NSW|2200|
+434|Bankstown Girls High School|1|0|1|Non-Denominational|Girls|Mona St|BANKSTOWN|NSW|2200|
+-1|Bankstown North Public School|1|1|0|Non-Denominational|Coed|322 Hume Hwy|BANKSTOWN|NSW|2200|
+-1|Bankstown Public School|1|1|0|Non-Denominational|Coed|Restwell St|BANKSTOWN|NSW|2200|
+500|Bankstown Senior College|1|0|1|Non-Denominational|Coed|Antwerp St|BANKSTOWN|NSW|2200|
+-1|Bankstown South Infants School|1|1|0|Non-Denominational|Coed|Stacey St|BANKSTOWN|NSW|2200|
+-1|Bankstown West Public School|1|1|0|Non-Denominational|Coed|William St|BANKSTOWN|NSW|2200|
+-1|Condell Park Public School|1|1|0|Non-Denominational|Coed|Augusta St|BANKSTOWN|NSW|2200|
+212|La Salle Catholic College|0|0|1|Catholic|Coed|544 Chapel Road|BANKSTOWN|NSW|2200|
+-1|St Brendan's Primary School|0|1|0|Catholic|Coed|18 Cambridge Avenue|BANKSTOWN|NSW|2200|
+-1|Wattawa Heights Public School|1|1|0|Non-Denominational|Coed|The Avenue|BANKSTOWN|NSW|2200|
+295|Lucas Heights Community School|1|1|1|Non-Denominational|Coed|132 Old Illawarra Rd|BARDEN RIDGE|NSW|2234|
+263|Sutherland Shire Christian School|0|1|1|Christian|Coed|16a Allies Road|BARDEN RIDGE|NSW|2234|
+-1|Bardwell Park Infants School|1|1|0|Non-Denominational|Coed|4 Crewe Lane|BARDWELL PARK|NSW|2207|
+587|Bass High School|1|0|1|Non-Denominational|Coed|Hume Hwy & Arundle Rd|BASS HILL|NSW|2197|
+-1|Bass Hill Public School|1|1|0|Non-Denominational|Coed|611 Hume Hwy|BASS HILL|NSW|2197|
+5|Baulkham Hills High School|1|0|1|Non-Denominational|Coed|Windsor Rd|BAULKHAM HILLS|NSW|2153|
+447|Baulkham Hills North Public School|1|1|0|Non-Denominational|Coed|2A Girralong Ave|BAULKHAM HILLS|NSW|2153|
+239|Crestwood High School|1|0|1|Non-Denominational|Coed|17 Chapel Lane|BAULKHAM HILLS|NSW|2153|
+251|Crestwood Public School|1|1|0|Non-Denominational|Coed|38 Peel Rd|BAULKHAM HILLS|NSW|2153|
+395|Jasper Road Public School|1|1|0|Non-Denominational|Coed|Jasper Rd|BAULKHAM HILLS|NSW|2153|
+13|Matthew Pearce Public School|1|1|0|Non-Denominational|Coed|Astoria Park Rd|BAULKHAM HILLS|NSW|2153|
+190|Model Farms High School|1|0|1|Non-Denominational|Coed|Gooden Drive|BAULKHAM HILLS|NSW|2153|
+319|Our Lady Of Lourdes Primary School|0|1|0|Catholic|Coed|Oakland Avenue|BAULKHAM HILLS|NSW|2153|
+581|St Michael's Primary School|0|1|0|Catholic|Coed|3 Chapel Lane|BAULKHAM HILLS|NSW|2153|
+-1|Woodbury|0|1|0|Non-Denominational|Coed|92 Seven Hills Road|BAULKHAM HILLS|NSW|2153|
+290|Loquat Valley Preparatory School|0|1|0|Anglican|Coed|1977 Pittwater Road|BAYVIEW|NSW|2104|
+414|Beacon Hill Public School|1|1|0|Non-Denominational|Coed|Tristram Rd|BEACON HILL|NSW|2100|
+557|Beaumont Hills Public School|1|1|0|Non-Denominational|Coed|The Parkway|BEAUMONT HILLS|NSW|2155|
+63|Arden Anglican School (Pre-School & Primary School)|0|1|1|Anglican|Coed|39-43 Wongala Crescent|BEECROFT|NSW|2119|Arden is a vibrant Christian-based, Pre-School to Year 12  school, providing a positive learning environment that inspires girls and boys to thrive.
+16|Beecroft Public School|1|1|0|Non-Denominational|Coed|98 Beecroft Rd|BEECROFT|NSW|2119|
+75|Cheltenham Girls High School|1|0|1|Non-Denominational|Girls|Beecroft Rd & The Promenade|BEECROFT|NSW|2119|
+-1|Retaval Belfield|0|1|0|Catholic|Coed|3 Elliott Street|BELFIELD|NSW|2191|Retaval offers a personalised system of education for Girls & Boys, Reception-Year 2 with parents & teachers united in assisting each child to strive for excellence, through our tutorial system
+-1|St Michael's Primary School|0|1|0|Catholic|Coed|24 Margaret Street|BELFIELD|NSW|2191|
+35|Cranbrook School|0|1|1|Anglican|Boys|5 Victoria Road|BELLEVUE HILL|NSW|2023|Cranbrook is a leading Australian independent school which has been educating boys for 90 years. The school is committed to nurturing the growth of individual boys.
+52|The Scots College|0|1|1|Presbyterian|Boys|Victoria Road|BELLEVUE HILL|NSW|2023|Founded in 1893, The Scots College is an independent, Presbyterian, GPS, day and boarding school catering for boys from the age of three to Year 12.
+112|Bellevue Hill Public School|1|1|0|Non-Denominational|Coed|Victoria Rd|BELLEVUE HILL|NSW|2023|
+52|The Scots College|0|1|1|Presbyterian|Boys|9 Mansion Road|BELLEVUE HILL|NSW|2023|
+162|All Saints Grammar School|0|0|1|Greek Orthodox|Coed|31 Forsyth Street|BELMORE|NSW|2192|
+278|Belmore Boys High School|1|0|1|Non-Denominational|Boys|Burwood Rd|BELMORE|NSW|2192|
+-1|Belmore North Public School|1|1|0|Non-Denominational|Coed|Burwood Rd|BELMORE|NSW|2192|
+-1|Belmore South Public School|1|1|0|Non-Denominational|Coed|Nelson Ave & Canterbury Rd|BELMORE|NSW|2192|
+-1|St Joseph's School|0|1|0|Catholic|Coed|6 Wilson Avenue|BELMORE|NSW|2192|
+-1|Covenant Christian School Sydney|0|1|1|Christian|Coed|Dell St|BELROSE|NSW|2085|Covenant Christian School Belrose on Sydney's Northern Beaches is worth a closer look.
+7|John Colet School|0|1|0|Multi-Faith|Coed|6 Wyatt Avenue|BELROSE|NSW|2085|“An excellent primary education provides a strong foundation for a happy and fulfilling life.”
+330|Belrose Public School|1|1|0|Non-Denominational|Coed|Ralston Ave|BELROSE|NSW|2085|
+-1|Kamaroi Rudolf Steiner School|0|1|0|Non-Denominational|Coed|220 Forest Way|BELROSE|NSW|2085|
+330|Wakehurst Public School|1|1|0|Non-Denominational|Coed|Glen St|BELROSE|NSW|2085|
+-1|Yanginanook School|0|1|0|Christian|Coed|Bundaleer Street|BELROSE|NSW|2085|
+-1|Berala Public School|1|1|0|Non-Denominational|Coed|Harrow Rd|BERALA|NSW|2141|
+-1|St Bernard's Primary School|0|1|0|Catholic|Coed|7 Warrina Street|BEROWRA HEIGHTS|NSW|2082|
+223|Wideview Public School|1|1|0|Non-Denominational|Coed|Wideview Rd|BEROWRA HEIGHTS|NSW|2082|
+475|Berowra Christian Community School|0|1|0|Christian|Coed|Cnr King & Berowra Waters Road|BEROWRA|NSW|2081|
+312|Berowra Public School|1|1|0|Non-Denominational|Coed|Hillcrest Rd|BEROWRA|NSW|2081|
+322|Beverly Hills Girls High School|1|0|1|Non-Denominational|Girls|Broadarrow & King Georges Rds|BEVERLY HILLS|NSW|2209|
+-1|Beverly Hills North Public School|1|1|0|Non-Denominational|Coed|Shorter Ave & King Georges Rd|BEVERLY HILLS|NSW|2209|
+-1|Beverly Hills Public School|1|1|0|Non-Denominational|Coed|Stoney Creek & King Georges Rds|BEVERLY HILLS|NSW|2209|
+-1|Regina Coeli Primary School|0|1|0|Catholic|Coed|2 Tarrilli Street|BEVERLY HILLS|NSW|2209|
+225|Bexley North Public School|1|1|0|Non-Denominational|Coed|Kingsland Rd|BEXLEY|NSW|2207|
+225|Bexley Public School|1|1|0|Non-Denominational|Coed|Forest Rd|BEXLEY|NSW|2207|
+-1|Carlton Public School|1|1|0|Non-Denominational|Coed|60 Cameron St|BEXLEY|NSW|2207|
+159|Marist College Kogarah|0|0|1|Catholic|Boys|52 Wolseley Street|BEXLEY|NSW|2207|
+-1|St Gabriel's Primary School|0|1|0|Catholic|Coed|39 Highgate Street|BEXLEY|NSW|2207|
+452|St Mary and St Mina's Coptic Orthodox College|0|1|0|Coptic Orthodox|Boys|339 Forest Road|BEXLEY|NSW|2207|
+31|Sydney Technical High School|1|0|1|Non-Denominational|Boys|686 Forest Rd|BEXLEY|NSW|2207|
+-1|Blacktown Youth College|0|0|1|Non-Denominational|Coed|39 Mackellar Rd|BIDWILL|NSW|2770|Blacktown Youth College,an alternative community school, will develop hope of a brighter future for young people through a new beginning in education and a diverse holistic program.
+-1|Bidwill Public School|1|1|0|Non-Denominational|Coed|Bunya Rd|BIDWILL|NSW|2770|
+539|Chifley College Bidwill Campus|1|0|1|Non-Denominational|Coed|Bunya Rd|BIDWILL|NSW|2770|
+321|Bilgola Plateau Public School|1|1|0|Non-Denominational|Coed|Plateau Rd|BILGOLA|NSW|2107|
+549|Birrong Boys High School|1|0|1|Non-Denominational|Boys|Rodd St|BIRRONG|NSW|2143|
+214|Birrong Girls High School|1|0|1|Non-Denominational|Girls|Cooper Rd|BIRRONG|NSW|2143|
+-1|Birrong Public School|1|1|0|Non-Denominational|Coed|132 Auburn Rd|BIRRONG|NSW|2143|
+-1|Blackett Public School|1|1|0|Non-Denominational|Coed|Boldrewood Rd|BLACKETT|NSW|2770|
+-1|Niland School|1|1|1|Non-Denominational|Coed|Niland Cres|BLACKETT|NSW|2770|
+419|Tyndale Christian School|0|1|1|Christian|Coed|58 Douglas Rd|BLACKTOWN|NSW|2148|Tyndale provides a caring and comprehensive education from Prep to Year 12.
+-1|Blacktown Boys High School|1|0|1|Non-Denominational|Boys|Sunnyholt Rd & Fifth Ave|BLACKTOWN|NSW|2148|
+357|Blacktown Girls High School|1|0|1|Non-Denominational|Girls|Fifth Ave|BLACKTOWN|NSW|2148|
+-1|Blacktown North Public School|1|1|0|Non-Denominational|Coed|1 Bessemer Street|BLACKTOWN|NSW|2148|
+589|Blacktown South Public School|1|1|0|Non-Denominational|Coed|183 Flushcombe Rd|BLACKTOWN|NSW|2148|
+-1|Blacktown West Public School|1|1|0|Non-Denominational|Coed|Lancaster St|BLACKTOWN|NSW|2148|
+-1|Coreen School|1|1|1|Non-Denominational|Coed|Hereward Hwy|BLACKTOWN|NSW|2148|
+543|Evans High School|1|0|1|Non-Denominational|Coed|Walters Rd|BLACKTOWN|NSW|2148|
+-1|Lynwood Park Public School|1|1|0|Non-Denominational|Coed|Turner St|BLACKTOWN|NSW|2148|
+-1|Marayong Public School|1|1|0|Non-Denominational|Coed|Davis Rd|BLACKTOWN|NSW|2148|
+-1|Marayong South Public School|1|1|0|Non-Denominational|Coed|McClean St|BLACKTOWN|NSW|2148|
+461|Mitchell High School|1|0|1|Non-Denominational|Coed|Keyworth Drive|BLACKTOWN|NSW|2148|
+344|Nagle College|0|0|1|Catholic|Girls|58a Orwell Street|BLACKTOWN|NSW|2148|
+-1|Shelley Public School|1|1|0|Non-Denominational|Coed|Hadrian Ave|BLACKTOWN|NSW|2148|
+-1|St Michael's Primary School|0|1|0|Catholic|Coed|155 Reservoir Road|BLACKTOWN|NSW|2148|
+-1|St Patrick's Primary School|0|1|0|Catholic|Coed|51-59 Allawah Street|BLACKTOWN|NSW|2148|
+-1|Walters Road Public School|1|1|0|Non-Denominational|Coed|Walters Rd|BLACKTOWN|NSW|2148|
+-1|Blairmount Public School|1|1|0|Non-Denominational|Coed|Badgally Rd|BLAIRMOUNT|NSW|2559|
+245|Bald Face Public School|1|1|0|Non-Denominational|Coed|Stuart St|BLAKEHURST|NSW|2221|
+153|Blakehurst High School|1|0|1|Non-Denominational|Coed|Woniora Rd|BLAKEHURST|NSW|2221|
+245|Blakehurst Public School|1|1|0|Non-Denominational|Coed|Dewrang St|BLAKEHURST|NSW|2221|
+238|Mater Dei Primary School|0|1|0|Catholic|Coed|29 Heath Road|BLAKEHURST|NSW|2221|
+192|Bede Polding College|0|0|1|Catholic|Coed|Lot 341 Rifle Range Road|BLIGH PARK|NSW|2756|
+-1|Bligh Park Public School|1|1|0|Non-Denominational|Coed|Alexander St|BLIGH PARK|NSW|2756|
+-1|Chisholm Catholic School|0|1|0|Catholic|Coed|30 Collith Avenue|BLIGH PARK|NSW|2756|
+-1|Bondi Beach Public School|1|1|0|Non-Denominational|Coed|Campbell Pde|BONDI BEACH|NSW|2026|
+-1|Galilee Catholic School|0|1|0|Catholic|Coed|60b Blair Street|BONDI BEACH|NSW|2026|
+-1|Wairoa School|1|1|1|Non-Denominational|Coed|Brighton Blvd|BONDI BEACH|NSW|2026|
+-1|Moriah War Memorial College|0|1|1|Jewish|Coed|Queens Park Road|BONDI JUNCTION|NSW|2022|
+292|Bondi Public School|1|1|0|Non-Denominational|Coed|Wellington St|BONDI|NSW|2026|
+-1|Montessori East Pre-School and Primary School|0|1|0|Non-Denominational|Coed|8 Wellington Street|BONDI|NSW|2026|
+-1|Yeshiva College Bondi|0|0|1|Jewish|Boys|36 Flood Street|BONDI|NSW|2026|
+308|Bonnet Bay Public School|1|1|0|Non-Denominational|Coed|Tudar Rd|BONNET BAY|NSW|2226|
+-1|Bonnyrigg Heights Public School|1|1|0|Non-Denominational|Coed|Wilson Rd|BONNYRIGG HEIGHTS|NSW|2177|
+570|John The Baptist Primary School|0|1|0|Catholic|Coed|Mount Street|BONNYRIGG HEIGHTS|NSW|2177|
+171|Bonnyrigg High School|1|0|1|Non-Denominational|Coed|Elizabeth Drive|BONNYRIGG|NSW|2177|
+-1|Bonnyrigg Public School|1|1|0|Non-Denominational|Coed|Tarlington Pde|BONNYRIGG|NSW|2177|
+-1|Freeman Catholic High School|0|0|1|Catholic|Coed|Mount Street|BONNYRIGG|NSW|2177|
+-1|Our Lady Of Mt Carmel Primary School|0|1|0|Catholic|Coed|230 Humphries Road|BONNYRIGG|NSW|2177|
+347|Bossley Park High School|1|0|1|Non-Denominational|Coed|Prairievale Rd|BOSSLEY PARK|NSW|2176|
+-1|Bossley Park Public School|1|1|0|Non-Denominational|Coed|Marconi Rd|BOSSLEY PARK|NSW|2176|
+-1|Mary Immaculate Primary School|0|1|0|Catholic|Coed|110 Mimosa Road|BOSSLEY PARK|NSW|2176|
+-1|Prairievale Public School|1|1|0|Non-Denominational|Coed|Prairievale & Mimosa Rds|BOSSLEY PARK|NSW|2176|
+-1|Banksmeadow Public School|1|1|0|Non-Denominational|Coed|Trevelyan & Wiggins Sts|BOTANY|NSW|2019|
+81|Botany Public School|1|1|0|Non-Denominational|Coed|1076 Botany Rd|BOTANY|NSW|2019|
+81|Pagewood Public School|1|1|0|Non-Denominational|Coed|Page St|BOTANY|NSW|2019|
+-1|Bradbury Public School|1|1|0|Non-Denominational|Coed|Jacaranda Ave|BRADBURY|NSW|2560|
+-1|Sherwood Hills Christian School|0|1|1|Christian|Coed|61 Jacaranda Avenue|BRADBURY|NSW|2560|
+-1|St Thomas Mores Primary School|0|1|0|Catholic|Coed|2a Francis Avenue|BRIGHTON-LE-SANDS|NSW|2216|
+123|Bronte Public School|1|1|0|Non-Denominational|Coed|Hewlett St|BRONTE|NSW|2024|
+-1|Brooklyn Public School|1|1|0|Non-Denominational|Coed|106 Brooklyn Rd|BROOKLYN|NSW|2083|
+-1|St Augustine's College - Sydney|0|1|1|Catholic|Boys|Cnr Alfred Rd & Federal Pde|BROOKVALE|NSW|2100|St Augustine’s College is a Catholic congregational school for boys in Years 5 to 12, teaching the Augustinian values of ‘Truth, Love and Community’.
+-1|Brookvale Public School|1|1|0|Non-Denominational|Coed|Old Pittwater Rd|BROOKVALE|NSW|2100|
+-1|Bundeena Public School|1|1|0|Non-Denominational|Coed|Scarborough St|BUNDEENA|NSW|2230|
+48|MLC School|0|1|1|Uniting Church|Girls|Rowley Street|BURWOOD|NSW|2134|MLC School is a Pre-Kindergarten to Year 12 Uniting Church School of approximately 1,200 enrolments. Established in 1886, MLC has a tradition of excellence in the education of girls.
+199|Burwood Public School|1|1|0|Non-Denominational|Coed|Conder St|BURWOOD|NSW|2134|
+-1|Busby Public School|1|1|0|Non-Denominational|Coed|South Liverpool Rd|BUSBY|NSW|2168|
+293|Cabramatta High School|1|0|1|Non-Denominational|Coed|Aladore Ave|CABRAMATTA|NSW|2166|
+-1|Cabramatta Public School|1|1|0|Non-Denominational|Coed|Levuka St|CABRAMATTA|NSW|2166|
+-1|Cabramatta West Public School|1|1|0|Non-Denominational|Coed|Broad St|CABRAMATTA|NSW|2166|
+-1|Harrington Street Public School|1|1|0|Non-Denominational|Coed|Harrington St|CABRAMATTA|NSW|2166|
+-1|Lansvale East Public School|1|1|0|Non-Denominational|Coed|Riverside Rd|CABRAMATTA|NSW|2166|
+442|Sacred Heart Primary School|0|1|0|Catholic|Coed|4 Gilmore Street|CABRAMATTA|NSW|2166|
+558|Cambridge Park High School|1|0|1|Non-Denominational|Coed|Harrow Rd|CAMBRIDGE PARK|NSW|2747|
+-1|Cambridge Park Public School|1|1|0|Non-Denominational|Coed|Oxford St|CAMBRIDGE PARK|NSW|2747|
+47|Cammeray Public School|1|1|0|Non-Denominational|Coed|Palmer St|CAMMERAY|NSW|2062|
+80|St Patrick's College|0|0|1|Catholic|Girls|4 St Johns Road|CAMPBELLTOWN|NSW|2560|St Patrick's is committed to the education of young women and aim to develop their full potential socially, academically and spiritually.
+-1|Airds High School|1|0|1|Non-Denominational|Coed|Briar Rd|CAMPBELLTOWN|NSW|2560|
+-1|Beverley Park School|1|1|1|Non-Denominational|Coed|Beverley Rd|CAMPBELLTOWN|NSW|2560|
+-1|Briar Road Public School|1|1|0|Non-Denominational|Coed|Briar Rd|CAMPBELLTOWN|NSW|2560|
+129|Broughton Anglican School|0|1|1|Anglican|Coed|Menangle Road|CAMPBELLTOWN|NSW|2560|
+-1|Campbelltown East Public School|1|1|0|Non-Denominational|Coed|Waminda Ave|CAMPBELLTOWN|NSW|2560|
+-1|Campbelltown North Public School|1|1|0|Non-Denominational|Coed|Thomas St & Rudd Rd|CAMPBELLTOWN|NSW|2560|
+459|Campbelltown Performing Arts High School|1|0|1|Non-Denominational|Coed|Beverley Rd|CAMPBELLTOWN|NSW|2560|
+-1|Campbelltown Public School|1|1|0|Non-Denominational|Coed|Lithgow St|CAMPBELLTOWN|NSW|2560|
+-1|Kentlyn Public School|1|1|0|Non-Denominational|Coed|Georges River Rd|CAMPBELLTOWN|NSW|2560|
+-1|Lomandra School|1|1|1|Non-Denominational|Coed|Beverley Rd|CAMPBELLTOWN|NSW|2560|
+-1|St John The Evangelist Primary School|0|1|0|Catholic|Coed|133 Lindesay Street|CAMPBELLTOWN|NSW|2560|
+491|St Peter's Anglican Primary School|0|1|0|Anglican|Coed|Howe Street|CAMPBELLTOWN|NSW|2560|
+-1|Woodland Road Public School|1|1|0|Non-Denominational|Coed|Woodland Rd|CAMPBELLTOWN|NSW|2560|
+-1|Bridge Road School|1|1|1|Non-Denominational|Coed|127 Parramatta Rd|CAMPERDOWN|NSW|2050|
+595|Campsie Public School|1|1|0|Non-Denominational|Coed|Harold St|CAMPSIE|NSW|2194|
+-1|Harcourt Public School|1|1|0|Non-Denominational|Coed|First Ave|CAMPSIE|NSW|2194|
+-1|St Mel's Primary School|0|1|0|Catholic|Coed|14 Duke Street|CAMPSIE|NSW|2194|
+-1|Lucas Gardens School|1|1|1|Non-Denominational|Coed|Walker St|CANADA BAY|NSW|2046|
+-1|Canley Heights Public School|1|1|0|Non-Denominational|Coed|Cambridge St|CANLEY HEIGHTS|NSW|2166|
+140|Canley Vale High School|1|0|1|Non-Denominational|Coed|Prospect Rd|CANLEY VALE|NSW|2166|
+-1|Canley Vale Public School|1|1|0|Non-Denominational|Coed|Canley Vale Rd|CANLEY VALE|NSW|2166|
+-1|Lansvale Public School|1|1|0|Non-Denominational|Coed|Chancery St|CANLEY VALE|NSW|2166|
+435|Canterbury Boys High School|1|0|1|Non-Denominational|Boys|Holden St|CANTERBURY|NSW|2193|The purpose of Canterbury Boys High School is to build confident, caring and articulate citizens of the 21st Century.
+221|Canterbury Girls High School|1|0|1|Non-Denominational|Girls|Church St|CANTERBURY|NSW|2193|Canterbury Girls High School was established in 1890 and has an outstanding record in achieving academic, cultural, social and sporting excellence for girls from diverse backgrounds.
+-1|Canterbury Public School|1|1|0|Non-Denominational|Coed|Church St|CANTERBURY|NSW|2193|
+-1|Canterbury South Public School|1|1|0|Non-Denominational|Coed|High St|CANTERBURY|NSW|2193|
+38|Caringbah High School|1|0|1|Non-Denominational|Coed|111-129 Willarong Rd|CARINGBAH|NSW|2229|
+468|Caringbah North Public School|1|1|0|Non-Denominational|Coed|125 Cawarra Rd|CARINGBAH|NSW|2229|
+467|Caringbah Public School|1|1|0|Non-Denominational|Coed|Port Hacking Rd|CARINGBAH|NSW|2229|
+212|De La Salle College|0|0|1|Catholic|Boys|389 Port Hacking Road|CARINGBAH|NSW|2229|
+541|Endeavour Sports High School|1|0|1|Non-Denominational|Coed|Taren Pt Rd & The Boulevarde|CARINGBAH|NSW|2229|
+467|Laguna Street Public School|1|1|0|Non-Denominational|Coed|204 Caringbah Road|CARINGBAH|NSW|2229|
+509|Our Lady Of Fatima Primary School|0|1|0|Catholic|Coed|389 Port Hacking Road South|CARINGBAH|NSW|2229|
+146|Cumberland High School|1|0|1|Non-Denominational|Coed|183 Pennant Hills Rd|CARLINGFORD|NSW|2118|With strong academic, sporting and cultural traditions Cumberland High School provides an extensive range of learning opportunities for our students through our professional, excellently trained and caring teachers and assistants.
+94|Carlingford High School|1|0|1|Non-Denominational|Coed|North Rocks Rd|CARLINGFORD|NSW|2118|
+12|Carlingford Public School|1|1|0|Non-Denominational|Coed|Rickard St|CARLINGFORD|NSW|2118|
+12|Carlingford West Public School|1|1|0|Non-Denominational|Coed|Felton Rd|CARLINGFORD|NSW|2118|
+1|James Ruse Agricultural High School|1|0|1|Non-Denominational|Coed|Felton Rd|CARLINGFORD|NSW|2118|
+19|Murray Farm Public School|1|1|0|Non-Denominational|Coed|Tracey Ave|CARLINGFORD|NSW|2118|
+257|Roselea Public School|1|1|0|Non-Denominational|Coed|North Rocks Rd|CARLINGFORD|NSW|2118|
+155|St Gerard's Primary School|0|1|0|Catholic|Coed|543 North Rocks Road|CARLINGFORD|NSW|2118|
+-1|Carlton South Public School|1|1|0|Non-Denominational|Coed|Jubilee Ave|CARLTON|NSW|2218|
+-1|Carramar Public School|1|1|0|Non-Denominational|Coed|The Horsley Drive|CARRAMAR|NSW|2163|
+-1|Cartwright Public School|1|1|0|Non-Denominational|Coed|Willan Drive|CARTWRIGHT|NSW|2168|
+130|Castle Cove Public School|1|1|0|Non-Denominational|Coed|Kendall Rd|CASTLE COVE|NSW|2069|
+177|Castle Hill High School|1|0|1|Non-Denominational|Coed|Castle St|CASTLE HILL|NSW|2154|
+194|Excelsior Public School|1|1|0|Non-Denominational|Coed|Rondelay Drive|CASTLE HILL|NSW|2154|
+135|Gilroy College|0|0|1|Catholic|Coed|Marie Street|CASTLE HILL|NSW|2154|
+138|Oakhill College|0|0|1|Catholic|Coed|521 Old Northern Road|CASTLE HILL|NSW|2154|
+179|Oakhill Drive Public School|1|1|0|Non-Denominational|Coed|Oakhill Drive|CASTLE HILL|NSW|2154|
+293|Samuel Gilbert Public School|1|1|0|Non-Denominational|Coed|Ridgecrop Drive|CASTLE HILL|NSW|2154|
+342|St Angela's Primary School|0|1|0|Catholic|Coed|7-13 Victoria Road|CASTLE HILL|NSW|2154|
+310|St Bernadette's Primary School|0|1|0|Catholic|Coed|357 Old Northern Road|CASTLE HILL|NSW|2154|
+-1|St Gabriel's School for Hearing Impaired Children|0|1|0|Catholic|Coed|190 Old Northern Road|CASTLE HILL|NSW|2154|
+-1|Castlecrag Montessori School|0|1|0|Non-Denominational|Coed|184 Edinburgh Road|CASTLECRAG|NSW|2068|
+-1|Glenaeon Rudolf Steiner School|0|1|0|Non-Denominational|Coed|117 Edinburgh Road|CASTLECRAG|NSW|2068|
+-1|Castlereagh Public School|1|1|0|Non-Denominational|Coed|Post Office Rd|CASTLEREAGH|NSW|2749|
+-1|The Lakes Christian School|0|1|1|Christian|Coed|206 East Wilchard Rd|CASTLEREAGH|NSW|2749|
+161|All Saints Catholic Senior College|0|0|1|Catholic|Coed|Leacocks Lane|CASULA|NSW|2170|
+531|Casula High School|1|0|1|Non-Denominational|Coed|Myall Rd|CASULA|NSW|2170|
+-1|Casula Public School|1|1|0|Non-Denominational|Coed|De Meyrick Ave|CASULA|NSW|2170|
+-1|Cattai Public School|1|1|0|Non-Denominational|Coed|487 Cattai Rd|CATTAI|NSW|2756|
+390|Cecil Hills High School|1|0|1|Non-Denominational|Coed|Spencer Rd|CECIL HILLS|NSW|2171|
+-1|Cecil Hills Public School|1|1|0|Non-Denominational|Coed|Leopold Place|CECIL HILLS|NSW|2171|
+83|Mercy Catholic College|0|0|1|Catholic|Girls|101 Archer Street|CHATSWOOD|NSW|2067|Mercy Catholic College Chatswood offers excellence in academics, fosters leadership, encourages compassion and prepares young women for the 21st century.
+79|Chatswood High School|1|0|1|Non-Denominational|Coed|Centennial Ave|CHATSWOOD|NSW|2067|
+14|Chatswood Public School|1|1|0|Non-Denominational|Coed|Pacific Hwy|CHATSWOOD|NSW|2067|
+-1|Our Lady Of Delours Primary School|0|1|0|Catholic|Coed|94a Archer Street|CHATSWOOD|NSW|2067|
+88|St Pius X College|0|1|1|Catholic|Boys|35 Anderson Street|CHATSWOOD|NSW|2067|
+47|Tangara School For Girls|0|1|1|Catholic|Girls|77-97 Franklin Road|CHERRYBROOK|NSW|2126|Tangara offers a personalised system of education for Girls K-12, Boys K-1. Parents & teachers are united in assisting each child to strive for excellence through our unique tutorial system
+66|Cherrybrook Public School|1|1|0|Non-Denominational|Coed|131 New Line Rd|CHERRYBROOK|NSW|2126|
+70|Cherrybrook Technology High School|1|0|1|Non-Denominational|Coed|28-44 Purchase Rd|CHERRYBROOK|NSW|2126|
+66|John Purchase Public School|1|1|0|Non-Denominational|Coed|Purchase Rd|CHERRYBROOK|NSW|2126|
+-1|Bob Hughes Christian School|0|1|1|Christian|Coed|40 Hectar Street|CHESTER HILL|NSW|2162|
+343|Chester Hill High School|1|0|1|Non-Denominational|Coed|Kenward Ave|CHESTER HILL|NSW|2162|
+-1|Chester Hill North Public School|1|1|0|Non-Denominational|Coed|Campbell Hill Rd|CHESTER HILL|NSW|2162|
+-1|Chester Hill Public School|1|1|0|Non-Denominational|Coed|Proctor Pde|CHESTER HILL|NSW|2162|
+-1|Salamah College|0|1|1|Islamic|Coed|40 Hector Street|CHESTER HILL|NSW|2162|
+-1|Chifley Public School|1|1|0|Non-Denominational|Coed|Mitchell St|CHIFLEY|NSW|2036|
+-1|Matraville Sports High School|1|0|1|Non-Denominational|Coed|Anzac Pde|CHIFLEY|NSW|2036|
+-1|Darlington Public School|1|1|0|Non-Denominational|Coed|Golden Grove St|CHIPPENDALE|NSW|2008|
+-1|Chipping Norton Public School|1|1|0|Non-Denominational|Coed|Central Ave|CHIPPING NORTON|NSW|2170|
+-1|Claremont Meadows Public School|1|1|0|Non-Denominational|Coed|Sunflower Drive|CLAREMONT MEADOWS|NSW|2747|
+-1|Claymore Public School|1|1|0|Non-Denominational|Coed|Dobell Rd|CLAYMORE|NSW|2559|
+184|St Anthony's Primary School|0|1|0|Catholic|Coed|58-60 Arden Street|CLOVELLY|NSW|2031|
+69|Macarthur Anglican School|0|1|1|Anglican|Coed|Cobbitty Road|COBBITTY|NSW|2570|Macarthur is an independent Christian school, located near Camden. Macarthur has a strong academic tradition, with outstanding HSC results being achieved by students each year.
+-1|Aspect Marcarthur School|0|1|1|Non-Denominational|Coed|229 Macquarie Grove Road|COBBITTY|NSW|2570|
+-1|Cobbitty Public School|1|1|0|Non-Denominational|Coed|Cobbitty Rd|COBBITTY|NSW|2570|
+571|Coledale Public School|1|1|0|Non-Denominational|Coed|Lawrence Hargrave Drive|COLEDALE|NSW|2515|
+176|Pittwater House|0|1|1|Non-Denominational|Coed|70 South Creek Road|COLLAROY|NSW|2097|Setting Pittwater House apart is our approach to education. Twin Schooling- single-sex education in a co-educational environment, offers pupils the best of both worlds.
+-1|Bennett Road Public School|1|1|0|Non-Denominational|Coed|100-114 Bennett Rd|COLYTON|NSW|2760|
+287|Como Public School|1|1|0|Non-Denominational|Coed|Genoa St|COMO|NSW|2226|
+287|Como West Public School|1|1|0|Non-Denominational|Coed|Wolger & Warraba Sts|COMO|NSW|2226|
+182|St Joseph's Primary School|0|1|0|Catholic|Coed|Oyster Bay Road|COMO|NSW|2226|
+548|Concord West Public School|1|1|0|Non-Denominational|Coed|Concord Rd|CONCORD WEST|NSW|2138|
+-1|Rivendell School|1|1|1|Non-Denominational|Coed|Thomas Walker Est|CONCORD WEST|NSW|2138|
+-1|St Ambrose's Primary School|0|1|0|Catholic|Coed|Stuart Street|CONCORD WEST|NSW|2138|
+157|Concord High School|1|0|1|Non-Denominational|Coed|Stanley St|CONCORD|NSW|2137|
+302|Concord Public School|1|1|0|Non-Denominational|Coed|Burwood Rd|CONCORD|NSW|2137|
+302|Mortlake Public School|1|1|0|Non-Denominational|Coed|Brays Rd|CONCORD|NSW|2137|
+430|St Mary's School|0|1|0|Catholic|Coed|60 Burton Street|CONCORD|NSW|2137|
+-1|Condell Park Christian School|0|1|1|Christian|Coed|32 Lancelot Street|CONDELL PARK|NSW|2200|
+465|Condell Park High School|1|0|1|Non-Denominational|Coed|Third Ave|CONDELL PARK|NSW|2200|
+260|Coogee Public School|1|1|0|Non-Denominational|Coed|Byron St & Coogee Bay Rd|COOGEE|NSW|2034|
+345|St Brigid's Primary School|0|1|0|Catholic|Coed|160 Coogee Bay Road|COOGEE|NSW|2034|
+-1|Cowan Public School|1|1|0|Non-Denominational|Coed|Chandler Ave|COWAN|NSW|2081|
+457|St Paul's Grammar School|0|1|1|Christian|Coed|52 Taylor Road|CRANEBROOK|NSW|2749|St Paul's is an independent Christian school in Sydney's West, teaching International Baccalaureate and Board of Studies programmes from Pre Kindergarten to Year 12.
+-1|Braddock Public School|1|1|0|Non-Denominational|Coed|Laycock St|CRANEBROOK|NSW|2749|
+-1|Corpus Christi Primary School|0|1|0|Catholic|Coed|Andromeda Drive|CRANEBROOK|NSW|2749|
+559|Cranebrook High School|1|0|1|Non-Denominational|Coed|Hosking St|CRANEBROOK|NSW|2749|
+-1|Henry Fulton Public School|1|1|0|Non-Denominational|Coed|Vincent Rd|CRANEBROOK|NSW|2749|
+-1|Samuel Terry Public School|1|1|0|Non-Denominational|Coed|Grays Lane|CRANEBROOK|NSW|2749|
+104|Redlands (SCECGS Redlands)|0|1|1|Church of England|Coed|272 Military Road|CREMORNE|NSW|2090|Established for 126 years, Redlands is an outstanding co-educational school dedicated to educating young people to be compassionate, confident and competent citizens in a changing world.
+455|Northern Beaches Secondary College Cromer Campus|1|0|1|Non-Denominational|Coed|120 South Creek Rd|CROMER|NSW|2099|Cromer Campus aims to cater for the full range of student interests, abilities and aptitudes and to encourage students to excel in all aspects of the broader school curriculum.
+353|Cromer Public School|1|1|0|Non-Denominational|Coed|Carcoola Rd|CROMER|NSW|2099|
+227|Cronulla High School|1|0|1|Non-Denominational|Coed|Captain Cook Drive|CRONULLA|NSW|2230|Excellence in teaching, top ranks in HSC results, broad academic and vocational curriculum, excellent facilities and latest technology.
+328|Burraneer Bay Public School|1|1|0|Non-Denominational|Coed|161-165 Burraneer Bay Rd|CRONULLA|NSW|2230|
+415|Cronulla Public School|1|1|0|Non-Denominational|Coed|18-24 Burraneer Bay Rd|CRONULLA|NSW|2230|
+415|Cronulla South Public School|1|1|0|Non-Denominational|Coed|Ewos Pde|CRONULLA|NSW|2230|
+212|De La Salle College|0|0|1|Catholic|Coed|2 Cross Road|CRONULLA|NSW|2230|
+99|Our Lady Of Mercy College|0|0|1|Catholic|Girls|62-66 Dominic Street|CRONULLA|NSW|2230|
+141|St Aloysius Primary School|0|1|0|Catholic|Coed|7-17 Giddings Avenue|CRONULLA|NSW|2230|
+481|Woolooware Public School|1|1|0|Non-Denominational|Coed|Wills Rd|CRONULLA|NSW|2230|
+76|Greenwich Public School|1|1|0|Non-Denominational|Coed|32 Kingslangley Rd|CROWS NEST|NSW|2065|
+2|North Sydney Boys High School|1|0|1|Non-Denominational|Boys|Falcon St|CROWS NEST|NSW|2065|
+3|North Sydney Girls High School|1|0|1|Non-Denominational|Girls|Pacific Hwy|CROWS NEST|NSW|2065|
+-1|Croydon Park Public School|1|1|0|Non-Denominational|Coed|Georges River Rd|CROYDON PARK|NSW|2133|
+-1|St Francis Xaviers Primary School|0|1|0|Catholic|Coed|41 Leopold Street|CROYDON PARK|NSW|2133|
+29|Presbyterian Ladies' College, Sydney|0|1|1|Presbyterian|Girls|Boundary Street|CROYDON|NSW|2132|Presbyterian Ladies’ College, Sydney is a school for girls from Reception (pre-Kindergarten) to Year 12, offering a broad curriculum to students from a diverse range of backgrounds.
+92|Burwood Girls High School|1|0|1|Non-Denominational|Girls|Queen St|CROYDON|NSW|2132|Burwood Girls High School is proud to offer excellence in comprehensive education for girls. Contact us to discover what we can offer your child.
+133|Croydon Public School|1|1|0|Non-Denominational|Coed|39 Young St|CROYDON|NSW|2132|
+477|Holy Innocents Primary School|0|1|0|Catholic|Coed|86-98 Queen Street|CROYDON|NSW|2132|
+-1|Currans Hill Public School|1|1|0|Non-Denominational|Coed|Tramway Drive|CURRANS HILL|NSW|2567|
+-1|Daceyville Public School|1|1|0|Non-Denominational|Coed|Joffre Cres|DACEYVILLE|NSW|2032|
+-1|St Michael's Primary School|0|1|0|Catholic|Coed|1 Haig Avenue|DACEYVILLE|NSW|2032|
+-1|East Sydney High School|0|0|1|Non-Denominational|Coed|75 William Street|DARLINGHURST|NSW|2010|
+20|SCEGGS Darlinghurst|0|1|1|Church of England|Girls|215 Forbes Street|DARLINGHURST|NSW|2010|
+11|Sydney Grammar School|0|0|1|Non-Denominational|Boys|College Street|DARLINGHURST|NSW|2010|
+209|Kambora Public School|1|1|0|Non-Denominational|Coed|Woolrych Ave|DAVIDSON|NSW|2085|
+325|St Martin's Primary School|0|1|0|Catholic|Coed|147 Prahran Avenue|DAVIDSON|NSW|2085|
+-1|William Dean Public School|1|1|0|Non-Denominational|Coed|Yarramundi Drive|DEAN PARK|NSW|2761|
+54|St Luke's Grammar School|0|1|1|Anglican|Coed|210 Headland Road|DEE WHY|NSW|2099|St Luke’s Grammar School provides students with a high-quality education within a learning community based on Christian beliefs, enabling students to develop individual abilities and contribute to the world.
+220|Dee Why Public School|1|1|0|Non-Denominational|Coed|Regent St|DEE WHY|NSW|2099|
+-1|Fisher Road School|1|1|1|Non-Denominational|Coed|115 Fisher Rd|DEE WHY|NSW|2099|
+220|Narraweena Public School|1|1|0|Non-Denominational|Coed|McIntosh Rd|DEE WHY|NSW|2099|
+-1|St Kevin's Primary School|0|1|0|Catholic|Coed|72 Pacific Parade|DEE WHY|NSW|2099|
+-1|Dawson Public School|1|1|0|Non-Denominational|Coed|Stuart Rd|DHARRUK|NSW|2770|
+486|Mountain View Adventist College|0|1|1|Seventh Day Adventist|Coed|41 Doonside Road|DOONSIDE|NSW|2767|Mountain View Adventist College offers your child a superior educational opportunity that builds on a careful foundation in key learning areas.
+-1|Crawford Public School|1|1|0|Non-Denominational|Coed|Power St|DOONSIDE|NSW|2767|
+466|Doonside High School|1|0|1|Non-Denominational|Coed|Power St|DOONSIDE|NSW|2767|
+-1|Doonside Public School|1|1|0|Non-Denominational|Coed|Kildare St|DOONSIDE|NSW|2767|
+532|St John Vianneys Primary School|0|1|0|Catholic|Coed|17 Cameron Street|DOONSIDE|NSW|2767|
+374|Double Bay Public School|1|1|0|Non-Denominational|Coed|William St|DOUBLE BAY|NSW|2028|
+57|Kesser Torah College|0|1|1|Jewish|Girls|Cnr Napier & Blake Streets|DOVER HEIGHTS|NSW|2030|
+200|Rose Bay Secondary College|1|0|1|Non-Denominational|Coed|Hardy St|DOVER HEIGHTS|NSW|2030|
+278|Drummoyne Public School|1|1|0|Non-Denominational|Coed|Rawson Ave|DRUMMOYNE|NSW|2047|
+227|St Mark's Primary School|0|1|0|Catholic|Coed|31 Tranmere Street|DRUMMOYNE|NSW|2047|
+-1|Alexander Primary School|0|1|0|Armenian Orthodox|Coed|2 Namba Road|DUFFYS FOREST|NSW|2084|
+469|Dulwich High School of Visual Arts and Design|1|0|1|Non-Denominational|Coed|Seaview St|DULWICH HILL|NSW|2203|Dulwich High School of Visual Arts and Design has a strong history of success in the creative arts and design faculties, and also offers a range of other exciting programmes.
+498|Dulwich Hill Public School|1|1|0|Non-Denominational|Coed|Kintore St|DULWICH HILL|NSW|2203|
+118|St Maroun's College|0|1|1|Catholic|Coed|194-206 Wardell Road|DULWICH HILL|NSW|2203|
+-1|St Paul Of The Cross Primary School|0|1|0|Catholic|Coed|14-16 May Street|DULWICH HILL|NSW|2203|
+-1|Dundas Public School|1|1|0|Non-Denominational|Coed|Kissing Point Rd|DUNDAS|NSW|2117|
+385|St Bernadette's Primary School|0|1|0|Catholic|Coed|Cox Crescent|DUNDAS|NSW|2117|
+-1|St Patrick's Marist College|0|0|1|Catholic|Coed|151 Kirby Street|DUNDAS|NSW|2117|
+-1|Yates Avenue Public School|1|1|0|Non-Denominational|Coed|Yates Ave|DUNDAS|NSW|2117|
+108|Pacific Hills Christian School|0|1|1|Inter-Denominational|Coed|9 Quarry Road|DURAL|NSW|2158|A Prep to Year 12 school where students can learn, and develop character, through a quality Christian education that provides excellence in academic, creative, sporting, missions and service opportunities.
+170|Redfield College|0|1|1|Catholic|Boys|855 Old Northern Road|DURAL|NSW|2158|Redfield offers a personalised system of education for Boys in Years 2-12. Parents and teachers are united in assisting each child to strive for excellence, through our unique tutorial system
+208|Dural Public School|1|1|0|Non-Denominational|Coed|622 Old Northern Rd|DURAL|NSW|2158|
+-1|Lorien Novalis School|0|1|1|Non-Denominational|Coed|456 Old Northen Road|DURAL|NSW|2158|
+566|Warrah School|0|1|1|Non-Denominational|Coed|20 Harris Road|DURAL|NSW|2158|
+-1|Eagle Vale High School|1|0|1|Non-Denominational|Coed|Drysdale Rd|EAGLE VALE|NSW|2558|
+-1|St Mary's School|0|1|0|Catholic|Coed|Corner Emerald & Aquamarine Drive|EAGLE VALE|NSW|2558|
+-1|Clemton Park Public School|1|1|0|Non-Denominational|Coed|185 Bexley Rd|EARLWOOD|NSW|2206|
+167|Earlwood Public School|1|1|0|Non-Denominational|Coed|Homer St|EARLWOOD|NSW|2206|
+-1|Our Lady Of Lourdes Primary School|0|1|0|Catholic|Coed|St James Avenue|EARLWOOD|NSW|2206|
+420|Undercliffe Public School|1|1|0|Non-Denominational|Coed|Bayview Ave|EARLWOOD|NSW|2206|
+29|Lindfield East Public School|1|1|0|Non-Denominational|Coed|Tryon Rd|EAST LINDFIELD|NSW|2070|
+-1|Eastern Creek Public School|1|1|0|Non-Denominational|Coed|Rooty Hill Rd South|EASTERN CREEK|NSW|2766|
+-1|Eastlakes Public School|1|1|0|Non-Denominational|Coed|Florence Ave|EASTLAKES|NSW|2018|
+199|Marist College Eastwood|0|0|1|Catholic|Boys|44 Hillview Road|EASTWOOD|NSW|2122|Marist College Eastwood is a secondary college for young men in Years 7 to 12. We offer not just equal opportunity but every opportunity.
+74|Epping Boys High School|1|0|1|Non-Denominational|Boys|213 Vimiera Rd|EASTWOOD|NSW|2122|Motto: Strive to Achieve. Outstanding boys' secondary school with a strong tradition of academic, sporting and cultural excellence, conveniently situated to transport in a well-appointed, green 9-hectare setting.
+58|Denistone East Public School|1|1|0|Non-Denominational|Coed|Lovell Rd|EASTWOOD|NSW|2122|
+150|Eastwood Heights Public School|1|1|0|Non-Denominational|Coed|Lincoln St|EASTWOOD|NSW|2122|
+26|Eastwood Public School|1|1|0|Non-Denominational|Coed|Rowe St|EASTWOOD|NSW|2122|
+55|Kent Road Public School|1|1|0|Non-Denominational|Coed|Kent & Herring Rds|EASTWOOD|NSW|2122|
+-1|Edensor Park Public School|1|1|0|Non-Denominational|Coed|Swan & Gwandalan Rds|EDENSOR PARK|NSW|2176|
+-1|King Public School|1|1|0|Non-Denominational|Coed|Allambie Rd|EDENSOR PARK|NSW|2176|
+-1|Mar Narsai Assyrian College|0|0|1|Christian|Coed|673-683 Smithfield Road|EDENSOR PARK|NSW|2176|
+14|Ascham School|0|1|1|Non-Denominational|Girls|188 New South Head Road|EDGECLIFF|NSW|2027|Ascham is a day and boarding school, with no religious affiliation, educating girls from Preschool to Year 12, in beautiful grounds in Sydney's Eastern Suburbs, 3.5 kms from the CBD.
+333|Elanora Heights Public School|1|1|0|Non-Denominational|Coed|43 Elanora Road|ELANORA HEIGHTS|NSW|2101|
+-1|Elderslie Public School|1|1|0|Anglican|Coed|170 Lodges Road|ELDERSLIE|NSW|2570|
+-1|Emerton Public School|1|1|0|Non-Denominational|Coed|Hindemith Ave|EMERTON|NSW|2770|
+-1|Holy Family Primary School|0|1|0|Catholic|Coed|Weber Crescent|EMERTON|NSW|2770|
+190|Enfield Public School|1|1|0|Non-Denominational|Coed|Beaumaris St|ENFIELD|NSW|2136|
+391|St Joseph's School|0|1|0|Catholic|Coed|124-126 Liverpool Road|ENFIELD|NSW|2136|
+474|Strathfield South High School|1|0|1|Non-Denominational|Coed|Hedges Ave|ENFIELD|NSW|2136|
+190|Strathfield South Public School|1|1|0|Non-Denominational|Coed|457 Liverpool Rd|ENFIELD|NSW|2136|
+209|Engadine High School|1|0|1|Non-Denominational|Coed|Porter Rd|ENGADINE|NSW|2233|
+470|Engadine Public School|1|1|0|Non-Denominational|Coed|Waratah Rd|ENGADINE|NSW|2233|
+-1|Engadine West Public School|1|1|0|Non-Denominational|Coed|Woronora Rd|ENGADINE|NSW|2233|
+470|Marton Public School|1|1|0|Non-Denominational|Coed|107 Kingswood Rd|ENGADINE|NSW|2233|
+-1|Southern Cross Baptist School|0|1|1|Baptist|Coed|104 Anzac Avenue|ENGADINE|NSW|2233|
+137|St John Bosco College|0|1|1|Catholic|Coed|Banksia Avenue|ENGADINE|NSW|2233|
+-1|Yarrawarrah Public School|1|1|0|Non-Denominational|Coed|Old Bush Rd|ENGADINE|NSW|2233|
+63|Arden Anglican School (Secondary School)|0|0|1|Anglican|Coed|50 Oxford St|EPPING|NSW|2121|Arden is a vibrant Christian-based, Pre-School to Year 12  school, providing a positive learning environment that inspires girls and boys to thrive.
+80|Epping Heights Public School|1|1|0|Non-Denominational|Coed|Kent St|EPPING|NSW|2121|
+18|Epping Public School|1|1|0|Non-Denominational|Coed|Norfolk Rd|EPPING|NSW|2121|
+18|Epping West Public School|1|1|0|Non-Denominational|Coed|96 Carlingford Rd|EPPING|NSW|2121|
+-1|Karonga School|1|1|1|Non-Denominational|Coed|Karonga Close (via Dent St)|EPPING|NSW|2121|
+86|Our Lady Help Of Christians Primary School|0|1|0|Catholic|Coed|29 Oxford Street|EPPING|NSW|2121|
+-1|Ermington West Public School|1|1|0|Non-Denominational|Coed|Vignes St|ERMINGTON|NSW|2115|
+-1|Rydalmere East Public School|1|1|0|Non-Denominational|Coed|Spurway St|ERMINGTON|NSW|2115|
+542|Erskine Park High School|1|0|1|Non-Denominational|Coed|Swallow Drive|ERSKINE PARK|NSW|2759|
+-1|James Erskine Public School|1|1|0|Non-Denominational|Coed|Peppertree Drive|ERSKINE PARK|NSW|2759|
+-1|Mamre Christian College|0|1|1|Christian|Coed|45 Bakers Lane|ERSKINE PARK|NSW|2759|
+259|Erskineville Public School|1|1|0|Non-Denominational|Coed|Swanson St|ERSKINEVILLE|NSW|2043|
+135|St Mary's School|0|1|0|Catholic|Coed|54 Swanson Street|ERSKINEVILLE|NSW|2043|
+-1|Eschol Park Public School|1|1|0|Non-Denominational|Coed|Eschol Park Drive|ESCHOL PARK|NSW|2558|
+-1|Verona School|1|1|1|Non-Denominational|Coed|135B Fairfield St|FAIRFIELD EAST|NSW|2165|
+-1|Villawood North Public School|1|1|0|Non-Denominational|Coed|Bligh St|FAIRFIELD EAST|NSW|2165|
+-1|Fairfield West Public School|1|1|0|Non-Denominational|Coed|Palmerston Rd|FAIRFIELD WEST|NSW|2165|
+254|Fairvale High School|1|0|1|Non-Denominational|Coed|Thorney Rd & Maude St|FAIRFIELD WEST|NSW|2165|
+292|Westfields Sports High School|1|0|1|Non-Denominational|Coed|Hamilton Rd|FAIRFIELD WEST|NSW|2165|
+-1|Fairfield Heights Public School|1|1|0|Non-Denominational|Coed|Station St|FAIRFIELD|NSW|2165|
+396|Fairfield High School|1|0|1|Non-Denominational|Coed|The Horsley Drive|FAIRFIELD|NSW|2165|
+-1|Fairfield Public School|1|1|0|Non-Denominational|Coed|68-82 Smart St|FAIRFIELD|NSW|2165|
+-1|Fairvale Public School|1|1|0|Non-Denominational|Coed|Wolseley St|FAIRFIELD|NSW|2165|
+503|Our Lady Of The Rosary Primary School|0|1|0|Catholic|Coed|Vine Street|FAIRFIELD|NSW|2165|
+191|Patrician Brothers College|0|0|1|Catholic|Boys|268 The Horsley|FAIRFIELD|NSW|2165|
+-1|Patrician Brothers School|0|1|0|Catholic|Boys|2 Weston Street|FAIRFIELD|NSW|2165|
+304|All Hallows School|0|1|0|Catholic|Coed|1 Halley Street|FIVE DOCK|NSW|2046|
+279|Domremy College|0|0|1|Catholic|Girls|121 First Avenue|FIVE DOCK|NSW|2046|
+455|Five Dock Public School|1|1|0|Non-Denominational|Coed|Henry St|FIVE DOCK|NSW|2046|
+168|Rosebank College|0|0|1|Catholic|Coed|1a Harris Road|FIVE DOCK|NSW|2046|
+-1|Russell Lea Infants School|1|1|0|Non-Denominational|Coed|Lithgow St|FIVE DOCK|NSW|2046|
+226|Forest Lodge Public School|1|1|0|Non-Denominational|Coed|Bridge Rd|FOREST LODGE|NSW|2037|
+-1|Aspect Vern Barnett School|0|1|1|Non-Denominational|Coed|41 Cook Street|FORESTVILLE|NSW|2087|
+-1|Forestville Montessori School|0|1|1|Non-Denominational|Coed|1 Angel Place|FORESTVILLE|NSW|2087|
+201|Forestville Public School|1|1|0|Non-Denominational|Coed|Melwood Ave|FORESTVILLE|NSW|2087|
+339|Our Lady Of Good Counsel Primary School|0|1|0|Catholic|Coed|11 Currie Road|FORESTVILLE|NSW|2087|
+-1|Arranounbai School|1|1|1|Non-Denominational|Coed|5 Aquatic Drive|FRENCHS FOREST|NSW|2086|
+306|Davidson High School|1|0|1|Non-Denominational|Coed|Mimosa St|FRENCHS FOREST|NSW|2086|
+229|Frenchs Forest Public School|1|1|0|Non-Denominational|Coed|Ann St|FRENCHS FOREST|NSW|2086|
+229|Mimosa Public School|1|1|0|Non-Denominational|Coed|Blackbutts Rd & Mimosa St|FRENCHS FOREST|NSW|2086|
+418|The Forest High School|1|0|1|Non-Denominational|Coed|135 Frenchs Forest Rd|FRENCHS FOREST|NSW|2086|
+307|Galston High School|1|0|1|Non-Denominational|Coed|Galston Rd|GALSTON|NSW|2159|
+-1|Galston Public School|1|1|0|Non-Denominational|Coed|School Rd|GALSTON|NSW|2159|
+222|Georges River Grammar|0|1|1|Anglican|Coed|53 Georges Crescent|GEORGES HALL|NSW|2198|Georges River Grammar offers a well rounded education in a safe, supportive and challenging environment which reflects the Christian values that led to the School’s foundation.
+539|Georges Hall Public School|1|1|0|Non-Denominational|Coed|Pennington Ave|GEORGES HALL|NSW|2198|
+-1|HopePoint Christian School|0|1|0|Christian|Coed|39 Ashcroft Street|GEORGES HALL|NSW|2198|
+288|St Mary's School|0|1|0|Catholic|Coed|Rex Road|GEORGES HALL|NSW|2198|
+15|Girraween High School|1|0|1|Non-Denominational|Coed|Gilba Rd|GIRRAWEEN|NSW|2145|
+282|Girraween Public School|1|1|0|Non-Denominational|Coed|Bando Rd|GIRRAWEEN|NSW|2145|
+486|St Anthony's Primary School|0|1|0|Catholic|Coed|216 Targo Road|GIRRAWEEN|NSW|2145|
+-1|Boronia Park Public School|1|1|0|Non-Denominational|Coed|Pittwater Rd|GLADESVILLE|NSW|2111|
+-1|Giant Steps School|0|1|1|Non-Denominational|Coed|23 Punt Road|GLADESVILLE|NSW|2111|
+176|Gladesville Public School|1|1|0|Non-Denominational|Coed|Victoria Rd|GLADESVILLE|NSW|2111|
+340|Our Lady Queen Of Peace Primary School|0|1|0|Catholic|Coed|Corner Westminster Road & Oxford Street|GLADESVILLE|NSW|2111|
+160|Riverside Girls High School|1|0|1|Non-Denominational|Girls|Huntleys Point Rd|GLADESVILLE|NSW|2111|
+145|Australian Performing Arts Grammar School (APGS)|0|0|1|Non-Denominational|Coed|255 Broadway|GLEBE|NSW|2037|The Australian Performing Arts Grammar School is dedicated to nurturing talent and encouraging the highest quality in performance and academic excellence.
+84|St Scholastica's College|0|0|1|Catholic|Girls|4 Avenue Road|GLEBE|NSW|2037|Recognised as one of the leading learning institutions in Sydney, St Scholastica's College provides a beautiful, safe and challenging educational environment which is as tranquil as it is energetic.
+-1|Glebe Public School|1|1|0|Non-Denominational|Coed|Derwent St|GLEBE|NSW|2037|
+540|St James' Primary School|0|1|0|Catholic|Coed|2 Woolley Street|GLEBE|NSW|2037|
+-1|Sydney Secondary College Blackwattle Bay Campus|1|0|0|Non-Denominational|Coed|Taylor St|GLEBE|NSW|2037|
+-1|Glendenning Public School|1|1|0|Non-Denominational|Coed|Armitage Drive|GLENDENNING|NSW|2761|
+-1|St Francis of Assisi Primary School|0|1|0|Catholic|Coed|1 Stone Street|GLENDENNING|NSW|2761|
+-1|Ajuga School|1|1|1|Non-Denominational|Coed|Roy Watts Rd|GLENFIELD|NSW|2167|
+-1|Campbell House School|1|1|1|Non-Denominational|Coed|Roy Watts Rd|GLENFIELD|NSW|2167|
+-1|Glenfield Park School|1|1|1|Non-Denominational|Coed|Roy Watts Rd|GLENFIELD|NSW|2167|
+-1|Glenfield Public School|1|1|0|Non-Denominational|Coed|Railway Pde|GLENFIELD|NSW|2167|
+-1|Glenwood Public School|1|1|0|Non-Denominational|Coed|Belmont Rd|GLENFIELD|NSW|2167|
+24|Hurlstone Agricultural High School|1|0|1|Non-Denominational|Coed|Roy Watts Rd|GLENFIELD|NSW|2167|
+243|Glenhaven Public School|1|1|0|Non-Denominational|Coed|Glenhaven Rd|GLENHAVEN|NSW|2156|
+-1|Bethany Catholic School|0|1|0|Catholic|Coed|34-38 William Howell Drive|GLENMORE PARK|NSW|2745|
+156|Caroline Chisholm College|0|0|1|Catholic|Girls|90-98 The Lakes Drive|GLENMORE PARK|NSW|2745|
+-1|Glenmore Park High School|1|0|1|Non-Denominational|Coed|Glenmore Parkway|GLENMORE PARK|NSW|2745|
+-1|Glenmore Park Public School|1|1|0|Non-Denominational|Coed|33-41 The Lakes Drive|GLENMORE PARK|NSW|2745|
+-1|Surveyors Creek Public School|1|1|0|Non-Denominational|Coed|St Andrews Drive|GLENMORE PARK|NSW|2745|
+-1|Glenorie Public School|1|1|0|Non-Denominational|Coed|Old Northern Rd|GLENORIE|NSW|2157|
+-1|Hillside Public School|1|1|0|Non-Denominational|Coed|Cattai Ridge Rd|GLENORIE|NSW|2157|
+294|Caddies Creek Public School|1|1|0|Non-Denominational|Coed|Currawong St & Glenwood Park Dr|GLENWOOD|NSW|2768|
+260|Glenwood High School|1|0|1|Non-Denominational|Coed|Forman Ave & Glenwood Park Dr|GLENWOOD|NSW|2768|
+493|Holy Cross Primary School|0|1|0|Catholic|Coed|49 Meurants Lane|GLENWOOD|NSW|2768|
+-1|Parklea Public School|1|1|0|Non-Denominational|Coed|Glenwood Park Drive|GLENWOOD|NSW|2768|
+158|Gordon East Public School|1|1|0|Non-Denominational|Coed|Rosedale Rd|GORDON|NSW|2072|
+49|Ravenswood|0|1|1|Uniting Church|Girls|Henry Street|GORDON|NSW|2072|
+-1|Blaxcell Street Public School|1|1|0|Non-Denominational|Coed|Blaxcell St|GRANVILLE|NSW|2142|
+520|Delany College|0|0|1|Catholic|Coed|Grimwood Street|GRANVILLE|NSW|2142|
+-1|Granville Boys High School|1|0|1|Non-Denominational|Boys|14 Mary St|GRANVILLE|NSW|2142|
+-1|Granville East Public School|1|1|0|Non-Denominational|Coed|210 The Trongate|GRANVILLE|NSW|2142|
+-1|Granville Public School|1|1|0|Non-Denominational|Coed|Lena St|GRANVILLE|NSW|2142|
+-1|Holy Family Primary School|0|1|0|Catholic|Coed|199 The Trongate|GRANVILLE|NSW|2142|
+-1|Holy Trinity Primary School|0|1|0|Catholic|Coed|Grimwood Street|GRANVILLE|NSW|2142|
+-1|Grays Point Public School|1|1|0|Non-Denominational|Coed|109 Angle Rd|GRAYS POINT|NSW|2232|
+-1|Busby West Public School|1|1|0|Non-Denominational|Coed|Starling St|GREEN VALLEY|NSW|2168|
+-1|Green Valley Islamic College|0|1|0|Islamic|Coed|264 Wilson Road|GREEN VALLEY|NSW|2168|
+-1|Green Valley Public School|1|1|0|Non-Denominational|Coed|Green Valley Rd|GREEN VALLEY|NSW|2168|
+576|James Busby High School|1|0|1|Non-Denominational|Coed|Brolga Cresc|GREEN VALLEY|NSW|2168|
+232|Al Noori Muslim Primary School|0|1|0|Islamic|Coed|75 Greenacre Road|GREENACRE|NSW|2190|
+-1|Banksia Road Public School|1|1|0|Non-Denominational|Coed|65 Banksia Rd|GREENACRE|NSW|2190|
+-1|Chullora Public School|1|1|0|Non-Denominational|Coed|Norfolk & Waterloo Rds|GREENACRE|NSW|2190|
+195|Greenacre Baptist Christian Community School|0|1|0|Baptist|Coed|38-40 Shellcote Road|GREENACRE|NSW|2190|
+-1|Greenacre Public School|1|1|0|Non-Denominational|Coed|Waterloo Rd|GREENACRE|NSW|2190|
+-1|Holy Saviour School|0|1|0|Catholic|Coed|80 Waterloo Road|GREENACRE|NSW|2190|
+96|Malek Fahd Islamic School|0|1|1|Islamic|Coed|405 Waterloo Road|GREENACRE|NSW|2190|
+-1|Mount Lewis Infants School|1|1|0|Non-Denominational|Coed|Noble Ave|GREENACRE|NSW|2190|
+-1|St John Vianneys Primary School|0|1|0|Catholic|Coed|78 Tempe Street|GREENACRE|NSW|2190|
+-1|Mar Nasai Assyrian College|0|0|1|Christian|Coed|673 - 683 Smithfield Road|GREENFIELD PARK|NSW|2176|
+-1|St Hurmizd Assyrian Primary School|0|1|0|Assyrian|Coed|7-9 Greenfield Park Road|GREENFIELD PARK|NSW|2176|
+-1|Beresford Road Public School|1|1|0|Non-Denominational|Coed|Beresford Rd|GREYSTANES|NSW|2145|
+265|Greystanes High School|1|0|1|Non-Denominational|Coed|Beresford Rd|GREYSTANES|NSW|2145|
+219|Greystanes Public School|1|1|0|Non-Denominational|Coed|Merrylands Rd|GREYSTANES|NSW|2145|
+443|Holroyd High School|1|0|1|Non-Denominational|Coed|7 Cumberland Rd|GREYSTANES|NSW|2145|
+-1|Our Lady Queen Of Peace Primary School|0|1|0|Catholic|Coed|Braeside Road|GREYSTANES|NSW|2145|
+-1|Ringrose Public School|1|1|0|Non-Denominational|Coed|Ringrose Ave|GREYSTANES|NSW|2145|
+216|St Paul's Catholic College|0|0|1|Catholic|Boys|198 Old Prospect Road|GREYSTANES|NSW|2145|
+-1|Widemere Public School|1|1|0|Non-Denominational|Coed|Nemesia St|GREYSTANES|NSW|2145|
+-1|Guildford West Public School|1|1|0|Non-Denominational|Coed|Palmer St|GUILDFORD WEST|NSW|2161|
+564|Granville South Creative and Performing Arts High School|1|0|1|Non-Denominational|Coed|Rowley Rd|GUILDFORD|NSW|2161|
+-1|Granville South Public School|1|1|0|Non-Denominational|Coed|Woodville Rd|GUILDFORD|NSW|2161|
+-1|Guildford Public School|1|1|0|Non-Denominational|Coed|Apia St|GUILDFORD|NSW|2161|
+-1|Old Guildford Public School|1|1|0|Non-Denominational|Coed|Woodville Rd|GUILDFORD|NSW|2161|
+-1|St Patrick's Primary School|0|1|0|Catholic|Coed|34 Callipoe Street|GUILDFORD|NSW|2161|
+380|Gymea Bay Public School|1|1|0|Non-Denominational|Coed|Gymea Bay Rd|GYMEA BAY|NSW|2227|
+-1|Gymea North Public School|1|1|0|Non-Denominational|Coed|Ruby Rd|GYMEA|NSW|2227|
+470|Gymea Technology High School|1|0|1|Non-Denominational|Coed|Hotham Rd & Princes Hwy|GYMEA|NSW|2227|
+-1|Montessori Children's World|0|1|1|Non-Denominational|Coed|99-107 Manchester Road|GYMEA|NSW|2227|
+291|St Catherine Laboures Primary School|0|1|0|Catholic|Coed|123 Gymea Bay Road|GYMEA|NSW|2227|
+-1|Sutherland Shire Montessori School|0|1|1|Non-Denominational|Coed|99-107 Manchester Road|GYMEA|NSW|2227|
+202|Dobroyd Point Public School|1|1|0|Non-Denominational|Coed|Waratah St|HABERFIELD|NSW|2045|
+202|Haberfield Public School|1|1|0|Non-Denominational|Coed|Denman Ave|HABERFIELD|NSW|2045|
+-1|St Joan Of Arc Primary School|0|1|0|Catholic|Coed|88 Dalhousie Street|HABERFIELD|NSW|2045|
+-1|Hammondville Public School|1|1|0|Non-Denominational|Coed|Walder Rd|HAMMONDVILLE|NSW|2170|
+-1|Harrington Park Public School|1|1|0|Non-Denominational|Coed|2 Sir Warwick Fairfax Drive|HARRINGTON PARK|NSW|2567|
+256|Maronite College of the Holy Family|0|1|1|Catholic|Coed|23-25 Alice Street|HARRIS PARK|NSW|2150|
+-1|St Oliver's Primary School|0|1|0|Catholic|Coed|33 Wigram Street|HARRIS PARK|NSW|2150|
+-1|Hassall Grove Public School|1|1|0|Non-Denominational|Coed|Buckwell Drive|HASSALL GROVE|NSW|2761|
+228|St Clare's Catholic High School|0|0|1|Catholic|Coed|175 Buckwell Drive|HASSALL GROVE|NSW|2761|
+588|Heathcote East Public School|1|1|0|Non-Denominational|Coed|Mimosa St|HEATHCOTE|NSW|2233|
+479|Heathcote High School|1|0|1|Non-Denominational|Coed|Wilson Pde|HEATHCOTE|NSW|2233|
+588|Heathcote Public School|1|1|0|Non-Denominational|Coed|Oliver St|HEATHCOTE|NSW|2233|
+-1|Hebersham Public School|1|1|0|Non-Denominational|Coed|Andover Cres|HEBERSHAM|NSW|2770|
+-1|Heckenberg Public School|1|1|0|Non-Denominational|Coed|Jindabyne St|HECKENBERG|NSW|2168|
+-1|Helensburgh Public School|1|1|0|Non-Denominational|Coed|Lukin St|HELENSBURGH|NSW|2508|
+-1|Holy Cross Primary School|0|1|0|Catholic|Coed|1 McMillan Street|HELENSBURGH|NSW|2508|
+184|Good Samaritan Catholic College|0|0|1|Catholic|Coed|401 Hoxton Park Road|HINCHINBROOK|NSW|2168|
+-1|Hinchinbrook Public School|1|1|0|Non-Denominational|Coed|Cnr Hinchinbrook Dr & Keppel Circuit|HINCHINBROOK|NSW|2168|
+444|Hoxton Park High School|1|0|1|Non-Denominational|Coed|40 Wilson Rd|HINCHINBROOK|NSW|2168|
+-1|Hobartville Public School|1|1|0|Non-Denominational|Coed|Valder Ave|HOBARTVILLE|NSW|2753|
+-1|Holsworthy High School|1|0|1|Non-Denominational|Coed|Huon Cres|HOLSWORTHY|NSW|2173|
+-1|Holsworthy Public School|1|1|0|Non-Denominational|Coed|Infantry Pde|HOLSWORTHY|NSW|2173|
+405|St Christopher's School|0|1|0|Catholic|Coed|Heathcote Road|HOLSWORTHY|NSW|2173|
+-1|Homebush West Public School|1|1|0|Non-Denominational|Coed|Exeter Rd|HOMEBUSH WEST|NSW|2140|
+141|Homebush Boys High School|1|0|1|Non-Denominational|Boys|Bridge Rd|HOMEBUSH|NSW|2140|
+556|Homebush Public School|1|1|0|Non-Denominational|Coed|Rochester St|HOMEBUSH|NSW|2140|
+356|John Edmondson High School|1|0|1|Non-Denominational|Coed|Horningsea Park Dr|HORNINGSEA PARK|NSW|2171|
+46|Barker College|0|1|1|Anglican|Coed|91 Pacific Highway|HORNSBY|NSW|2077|Barker College is located on Sydney’s north shore.  It caters for boys in Kindergarten to Year 12 and is co-educational and offers boarding in Years 10, 11 and 12
+-1|Clarke Road School|1|1|1|Non-Denominational|Coed|Clarke Rd|HORNSBY|NSW|2077|
+7|Hornsby Girls High School|1|0|1|Non-Denominational|Girls|Edgeworth David Ave|HORNSBY|NSW|2077|
+280|Hornsby Heights Public School|1|1|0|Non-Denominational|Coed|Somerville Rd|HORNSBY|NSW|2077|
+38|Hornsby North Public School|1|1|0|Non-Denominational|Coed|Ida St|HORNSBY|NSW|2077|
+264|Hornsby South Public School|1|1|0|Non-Denominational|Coed|Clarke Rd|HORNSBY|NSW|2077|
+591|Good Shepherd Primary School|0|1|0|Catholic|Coed|21 Twentieth Avenue|HOXTON PARK|NSW|2171|
+-1|Greenway Park Public School|1|1|0|Non-Denominational|Coed|Wyattville Drive|HOXTON PARK|NSW|2171|
+464|Holy Spirit Catholic Primary School|0|1|0|Catholic|Coed|Lot 1 Cowpasture Road|HOXTON PARK|NSW|2171|
+-1|Hoxton Park Public School|1|1|0|Non-Denominational|Coed|Pacific Palms Circuit|HOXTON PARK|NSW|2171|
+330|Hunters Hill High School|1|0|1|Non-Denominational|Coed|Reiby Rd|HUNTERS HILL|NSW|2110|
+64|Hunters Hill Public School|1|1|0|Non-Denominational|Coed|17 Alexandra St|HUNTERS HILL|NSW|2110|
+72|St Joseph's College|0|0|1|Catholic|Boys|11 Mark Street|HUNTERS HILL|NSW|2110|
+351|Villa Maria School|0|1|0|Catholic|Coed|5-7 Mark Street|HUNTERS HILL|NSW|2110|
+-1|Edgeware School|1|1|1|Non-Denominational|Coed|Burnett St & Tennett Pde|HURLSTONE PARK|NSW|2193|
+398|Hurstville Adventist School|0|1|0|Seventh Day Adventist|Coed|30 Wright Street|HURSTVILLE|NSW|2220|Hurstville Adventist school offers your child a superior educational opportunity that builds on a careful foundation in key learning areas.
+173|St George Christian School|0|1|1|Christian|Coed|70 Bellevue Parade|HURSTVILLE|NSW|2220|SGCS is a dynamic learning community encouraging the development of students' personal character and gifts,whilst experiencing joy in learning and excellence in teaching in a supportive Christian environment.
+-1|Georges River College Hurstville Boys Campus|1|0|1|Non-Denominational|Boys|Kenwyn St|HURSTVILLE|NSW|2220|Our school has a proud history since 1929. We have produced many successful Australians in academia, business, and sport. We seek to educate boys to become successful leaders and achievers.
+-1|Bethany College - Hurstville|0|0|1|Catholic|Girls|2-4 Croydon Road|HURSTVILLE|NSW|2220|
+51|DANEBANK An Anglican School for Girls|0|1|1|Anglican|Girls|82-98 Park Road|HURSTVILLE|NSW|2220|
+69|Hurstville Public School|1|1|0|Non-Denominational|Coed|Forest Rd|HURSTVILLE|NSW|2220|
+-1|Hurstville South Public School|1|1|0|Non-Denominational|Coed|Maher St|HURSTVILLE|NSW|2220|
+517|St Mary's Star Of The Sea Primary School|0|1|0|Catholic|Coed|24-26 Croydon Road|HURSTVILLE|NSW|2220|
+-1|Woniora Road School|1|1|1|Non-Denominational|Coed|83-85 Woniora Rd|HURSTVILLE|NSW|2220|
+-1|Illawong Public School|1|1|0|Non-Denominational|Coed|Fowler Rd|ILLAWONG|NSW|2234|
+-1|Holy Family Primary School|0|1|0|Catholic|Coed|Oxford Road|INGLEBURN|NSW|2565|
+416|Ingleburn High School|1|0|1|Non-Denominational|Coed|Oxford Rd|INGLEBURN|NSW|2565|
+-1|Ingleburn North Public School|1|1|0|Non-Denominational|Coed|Macdonald Rd|INGLEBURN|NSW|2565|
+-1|Ingleburn Public School|1|1|0|Non-Denominational|Coed|Oxford Rd|INGLEBURN|NSW|2565|
+-1|Sackville Street Public School|1|1|0|Non-Denominational|Coed|Sackville & Bradley Sts|INGLEBURN|NSW|2565|
+-1|Hamazkaine (HASG) School|0|1|1|Christian|Coed|5 Chiltern Road|INGLESIDE|NSW|2101|
+-1|Jannali East Public School|1|1|0|Non-Denominational|Coed|Box Rd|JANNALI|NSW|2226|
+543|Jannali Public School|1|1|0|Non-Denominational|Coed|Sutherland Rd|JANNALI|NSW|2226|
+332|The Jannali High School|1|0|1|Non-Denominational|Coed|Sutherland Rd|JANNALI|NSW|2226|
+-1|Bates Drive School|1|1|1|Non-Denominational|Coed|Bates Drive|KAREELA|NSW|2232|
+479|Kareela Public School|1|1|0|Non-Denominational|Coed|Freya St|KAREELA|NSW|2232|
+-1|Kearns Public School|1|1|0|Non-Denominational|Coed|St Lawrence Ave|KEARNS|NSW|2558|
+536|Kellyville Ridge Public School|1|1|0|Non-Denominational|Coed|Cnr Singleton Ave & Greenwich St|KELLYVILLE RIDGE|NSW|2155|
+-1|Hills Adventist College|0|1|1|Seventh Day Adventist|Coed|4 Gum Nut Cl|KELLYVILLE|NSW|2154|Hills Adventist College is a dual-campus,  Christian, non-selective, comprehensive, co-educational college offering students the complete educational experience, commencing with the Early Learning Centre (ELC) right through to Year 12.
+143|William Clarke College|0|1|1|Anglican|Coed|1 Morris Grove|KELLYVILLE|NSW|2155|William Clarke College is a K-12, co-educational, Anglican College located in the heart of Kellyville.
+268|Ironbark Ridge Public School|1|1|0|Non-Denominational|Coed|Withers Rd|KELLYVILLE|NSW|2155|
+204|Kellyville High School|1|0|1|Non-Denominational|Coed|York Rd|KELLYVILLE|NSW|2155|
+396|Kellyville Public School|1|1|0|Non-Denominational|Coed|Windsor Rd|KELLYVILLE|NSW|2155|
+-1|Our Lady Of The Rosary Primary School|0|1|0|Catholic|Coed|8 Diana Avenue|KELLYVILLE|NSW|2155|
+582|Our Lady of the Angels Primary School|0|1|0|Catholic|Coed|1 Wellgate Avenue|KELLYVILLE|NSW|2155|
+536|Sherwood Ridge Public School|1|1|0|Non-Denominational|Coed|Rosebery Rd|KELLYVILLE|NSW|2155|
+-1|Tallowood School|1|1|1|Non-Denominational|Coed|44-68 Redden Dr|KELLYVILLE|NSW|2155|
+-1|Christadelphian Heritage College|0|1|1|Non-Denominational|Coed|110 Cross Street|KEMPS CREEK|NSW|2178|
+405|Emmaus Catholic College|0|0|1|Catholic|Coed|87-109 Bakers Lane|KEMPS CREEK|NSW|2178|
+-1|Kemps Creek Public School|1|1|0|Non-Denominational|Coed|100 Cross St|KEMPS CREEK|NSW|2178|
+236|Kensington Public School|1|1|0|Non-Denominational|Coed|Doncaster Ave|KENSINGTON|NSW|2033|
+77|Our Lady Of The Rosary Primary School|0|1|0|Catholic|Coed|Grosvenor Street|KENSINGTON|NSW|2033|
+172|Our Lady Of The Sacred Heart College|0|0|1|Catholic|Girls|36 Addison Street|KENSINGTON|NSW|2033|
+82|The Hills Grammar School|0|1|1|Non-Denominational|Coed|43 Kenthurst Road|KENTHURST|NSW|2156|The Hills Grammar School is an independent, co-educational Pre-Kindergarten to Year 12 Day school serving the Northern suburbs and Hills District of Sydney.
+-1|Kenthurst Public School|1|1|0|Non-Denominational|Coed|Kenthurst Rd|KENTHURST|NSW|2156|
+180|Marian College|0|0|1|Catholic|Coed|28 Annangrove Road|KENTHURST|NSW|2156|
+495|St Madeleine's Primary School|0|1|0|Catholic|Coed|28 Annangrove Road|KENTHURST|NSW|2156|
+31|Beaumont Road Public School|1|1|0|Non-Denominational|Coed|17 Beaumont Road|KILLARA|NSW|2071|
+66|Killara High School|1|0|1|Non-Denominational|Coed|Koola Ave|KILLARA|NSW|2071|
+31|Killara Public School|1|1|0|Non-Denominational|Coed|Ridgeland Ave|KILLARA|NSW|2071|
+167|Killarney Heights High School|1|0|1|Non-Denominational|Coed|Starkey St|KILLARNEY HEIGHTS|NSW|2087|Killarney Heights High School is focused on academic excellence and the pursuit of personal best in all endeavours.
+140|Killarney Heights Public School|1|1|0|Non-Denominational|Coed|Tralee Ave|KILLARNEY HEIGHTS|NSW|2087|
+520|Kings Langley Public School|1|1|0|Non-Denominational|Coed|68 Isaac Smith Pde|KINGS LANGLEY|NSW|2147|
+-1|St Spyridon College|0|1|0|Greek Orthodox|Coed|80 Gardners Rd|KINGSFORD|NSW|2032|
+375|Kingsgrove North High School|1|0|1|Non-Denominational|Coed|St Albans Rd|KINGSGROVE|NSW|2208|Award-winning school, includes extensive curriculum, extension and support classes, leadership programs, state of the art modern facilities and dedicated highly professional teachers.
+85|Arkana College|0|1|0|Islamic|Coed|334-346 Stoney Creek Road|KINGSGROVE|NSW|2208|
+318|Kingsgrove High School|1|0|1|Non-Denominational|Coed|Kingsgrove Road|KINGSGROVE|NSW|2208|
+-1|Kingsgrove Public School|1|1|0|Non-Denominational|Coed|Kingsgrove Rd|KINGSGROVE|NSW|2208|
+-1|Our Lady Of Fatimah Primary School|0|1|0|Catholic|Coed|51 Caroline Street|KINGSGROVE|NSW|2208|
+65|St Ursula's College|0|0|1|Catholic|Girls|67 Caroline Street|KINGSGROVE|NSW|2208|
+286|St Dominic's College|0|0|1|Catholic|Boys|54-94 Gascoine Street|KINGSWOOD|NSW|2747|Our school has a balance of academic studies, sport, social justice and cultural activities, and enviable successes in the HSC.
+-1|Kingswood High School|1|0|1|Non-Denominational|Coed|Bringelly Rd|KINGSWOOD|NSW|2747|
+-1|Kingswood Public School|1|1|0|Non-Denominational|Coed|Second Ave|KINGSWOOD|NSW|2747|
+-1|Kingswood South Public School|1|1|0|Non-Denominational|Coed|Smith St|KINGSWOOD|NSW|2747|
+-1|St Joseph's School|0|1|0|Catholic|Coed|90-94 Joseph Street|KINGSWOOD|NSW|2747|
+205|Kirrawee High School|1|0|1|Non-Denominational|Coed|21-29 Hunter St|KIRRAWEE|NSW|2232|
+-1|Kirrawee Public School|1|1|0|Non-Denominational|Coed|Bath Rd|KIRRAWEE|NSW|2232|
+-1|Sylvanvale School|0|1|1|Non-Denominational|Coed|2 Mikarie Place|KIRRAWEE|NSW|2232|
+23|Loreto Kirribilli|0|1|1|Catholic|Girls|85 Carabella Street|KIRRIBILLI|NSW|2061|
+28|St Aloysius College|0|0|1|Catholic|Boys|47 Upper Pitt Street|KIRRIBILLI|NSW|2061|
+397|James Cook Boys High School|1|0|1|Non-Denominational|Boys|Princes Hwy|KOGARAH|NSW|2217|
+522|Kogarah High School|1|0|1|Non-Denominational|Coed|Gladstone St|KOGARAH|NSW|2217|
+408|Kogarah Public School|1|1|0|Non-Denominational|Coed|Gladstone St|KOGARAH|NSW|2217|
+350|Moorefield Girls High School|1|0|1|Non-Denominational|Girls|Princes Hwy|KOGARAH|NSW|2217|
+19|St George Girls High School|1|0|1|Non-Denominational|Girls|Victoria St|KOGARAH|NSW|2217|
+19|St George School|1|1|1|Non-Denominational|Coed|Marshall St|KOGARAH|NSW|2217|
+347|St Patrick's Primary School|0|1|0|Catholic|Coed|36 Chapel Street|KOGARAH|NSW|2217|
+-1|Kurnell Public School|1|1|0|Non-Denominational|Coed|Dampier & Torres Sts|KURNELL|NSW|2231|
+-1|La Perouse Public School|1|1|0|Non-Denominational|Coed|Yarra Rd|LA PEROUSE|NSW|2036|
+-1|Al Hikma College|0|1|0|Non-Denominational|Coed|291 Haldon Street|LAKEMBA|NSW|2195|
+-1|Canterbury Vale School|1|1|0|Anglican|Coed|24 Wangee Road|LAKEMBA|NSW|2195|
+-1|Hampden Park Public School|1|1|0|Non-Denominational|Coed|Hampden Rd|LAKEMBA|NSW|2195|
+185|Holy Spirit College|0|0|1|Catholic|Coed|39 Croydon Street|LAKEMBA|NSW|2195|
+-1|Lakemba Public School|1|1|0|Non-Denominational|Coed|Alice St|LAKEMBA|NSW|2195|
+244|Rissalah College|0|1|0|Islamic|Coed|54 Hampden Rd|LAKEMBA|NSW|2195|
+-1|St Therese's Primary School|0|1|0|Catholic|Coed|2a Yerrick Road|LAKEMBA|NSW|2195|
+-1|Wangee Park School|1|1|1|Non-Denominational|Coed|14-16 Wangee Rd|LAKEMBA|NSW|2195|
+-1|Lalor Park Public School|1|1|0|Non-Denominational|Coed|Heffron Rd|LALOR PARK|NSW|2147|
+-1|St Bernadette's Primary School|0|1|0|Catholic|Coed|18 Wheeler Street|LALOR PARK|NSW|2147|
+-1|Currambena School|0|1|0|Non-Denominational|Coed|205 Longueville Road|LANE COVE|NSW|2066|Currambena Primary and Preschool provides a unique and innovative approach to education.
+67|Lane Cove Public School|1|1|0|Non-Denominational|Coed|Austin St & Longueville Rd|LANE COVE|NSW|2066|
+96|Lane Cove West Public School|1|1|0|Non-Denominational|Coed|Avalon Ave|LANE COVE|NSW|2066|
+145|Mowbray Public School|1|1|0|Non-Denominational|Coed|Mowbray Rd West|LANE COVE|NSW|2066|
+-1|Saint Ignatius' College, Riverview|0|1|1|Catholic|Boys|Tambourine Bay Road|LANE COVE|NSW|2066|
+-1|St Ignatius College|0|1|0|Catholic|Boys|Riverview Road|LANE COVE|NSW|2066|
+147|St Michael's Primary School|0|1|0|Catholic|Coed|187 Longueville Road|LANE COVE|NSW|2066|
+-1|Lansdowne Public School|1|1|0|Non-Denominational|Coed|Cundle Rd & Macquarie St|LANSDOWNE|NSW|2430|
+413|Kegworth Public School|1|1|0|Non-Denominational|Coed|60 Tebbutt St|LEICHHARDT|NSW|2040|
+143|Leichhardt Public School|1|1|0|Non-Denominational|Coed|Marion St|LEICHHARDT|NSW|2040|
+489|Orange Grove Public School|1|1|0|Non-Denominational|Coed|Perry St|LEICHHARDT|NSW|2040|
+578|St Columbas Primary School|0|1|0|Catholic|Coed|215 Elswick Street|LEICHHARDT|NSW|2040|
+-1|Sydney Secondary College Leichhardt Campus|1|0|1|Non-Denominational|Coed|Balmain Rd|LEICHHARDT|NSW|2040|
+-1|Lethbridge Park Public School|1|1|0|Non-Denominational|Coed|Copeland Rd|LETHBRIDGE PARK|NSW|2770|
+502|Leumeah High School|1|0|1|Non-Denominational|Coed|Junction Rd|LEUMEAH|NSW|2560|
+-1|Leumeah Public School|1|1|0|Non-Denominational|Coed|Burrendong Rd|LEUMEAH|NSW|2560|
+-1|Qibla College|0|1|0|Islamic|Coed|44-48 Westmoreland Road|LEUMEAH|NSW|2560|
+400|Christian Brothers School|0|1|1|Catholic|Boys|68-80 The Boulevarde|LEWISHAM|NSW|2049|
+-1|Lewisham Public School|1|1|0|Non-Denominational|Coed|The Boulevarde|LEWISHAM|NSW|2049|
+-1|The John Berne School|0|0|1|Catholic|Coed|1 Thomas Street|LEWISHAM|NSW|2049|
+-1|Lidcombe Public School|1|1|0|Non-Denominational|Coed|Mills Street|LIDCOMBE|NSW|2141|
+-1|St Joachim's Primary School|0|1|0|Catholic|Coed|7 Mary Street|LIDCOMBE|NSW|2141|
+210|Lilli Pilli Public School|1|1|0|Non-Denominational|Coed|Lilli Pilli Point Rd|LILLI PILLI|NSW|2229|
+-1|Inner Sydney Montessori School (Lilyfield campus)|0|1|0|Non-Denominational|Coed|10 Trevor St|LILYFIELD|NSW|2040|
+-1|Newington College Lindfield K–6|0|1|0|Uniting Church|Boys|26 Northcote Road|LINDFIELD|NSW|2070|Newington College is a Uniting Church day and boarding school, offering boys well-rounded education. We challenge and motivate boys to discover what's possible, encouraging a personal best approach to life.
+-1|Cromehurst School|1|1|1|Non-Denominational|Coed|8 Nelson Rd|LINDFIELD|NSW|2070|
+-1|Highfields Preparatory & Kindergarten School|0|1|0|Non-Denominational|Coed|18 Highfield Road|LINDFIELD|NSW|2070|
+116|Holy Family Primary School|0|1|0|Catholic|Coed|2-4 Highfield Road|LINDFIELD|NSW|2070|
+-1|Lindfield Montessori Preschool|0|1|0|Non-Denominational|Coed|9 Moore Ave|LINDFIELD|NSW|2070|
+29|Lindfield Public School|1|1|0|Non-Denominational|Coed|Pacific Hwy|LINDFIELD|NSW|2070|
+-1|Al Amanah College|0|1|1|Islamic|Coed|55 Speed Street|LIVERPOOL|NSW|2170|
+-1|All Saints Catholic Boys College|0|0|1|Catholic|Boys|43 Bigge Street|LIVERPOOL|NSW|2170|
+-1|All Saints Catholic Girls College|0|0|1|Catholic|Girls|Bigge Street|LIVERPOOL|NSW|2170|
+-1|All Saints Catholic Primary School|0|1|0|Catholic|Coed|44 George Street|LIVERPOOL|NSW|2170|
+578|Liverpool Boys High School|1|0|1|Non-Denominational|Boys|Forbes St|LIVERPOOL|NSW|2170|
+398|Liverpool Girls High School|1|0|1|Non-Denominational|Girls|Forbes St|LIVERPOOL|NSW|2170|
+-1|Liverpool Public School|1|1|0|Non-Denominational|Coed|Railway St|LIVERPOOL|NSW|2170|
+-1|Liverpool West Public School|1|1|0|Non-Denominational|Coed|79-81 Hoxton Park Rd|LIVERPOOL|NSW|2170|
+-1|Mainsbridge School|1|1|1|Non-Denominational|Coed|Flowerdale Rd|LIVERPOOL|NSW|2170|
+-1|Marsden Road Public School|1|1|0|Non-Denominational|Coed|Marsden Rd|LIVERPOOL|NSW|2170|
+-1|Llandilo Public School|1|1|0|Non-Denominational|Coed|Seventh Ave|LLANDILO|NSW|2747|
+105|Xavier College|0|0|1|Catholic|Coed|1170 Ninth Avenue|LLANDILO|NSW|2749|
+397|Cook School|1|1|1|Non-Denominational|Coed|Rawson Ave|LOFTUS|NSW|2232|
+-1|Loftus Public School|1|1|0|Non-Denominational|Coed|Tenth Ave|LOFTUS|NSW|2232|
+-1|Londonderry Public School|1|1|0|Non-Denominational|Coed|Londonderry Rd|LONDONDERRY|NSW|2753|
+-1|Holy Family Primary School|0|1|0|Catholic|Coed|Lot 32 Willowdene Avenue|LUDDENHAM|NSW|2745|
+-1|Luddenham Public School|1|1|0|Non-Denominational|Coed|24 Jamieson St|LUDDENHAM|NSW|2745|
+564|Lugarno Public School|1|1|0|Non-Denominational|Coed|Old Forest Rd|LUGARNO|NSW|2210|
+-1|Lurnea High School|1|0|1|Non-Denominational|Coed|Hillview Pde|LURNEA|NSW|2170|
+-1|Lurnea Public School|1|1|0|Non-Denominational|Coed|West & Reilly Sts|LURNEA|NSW|2170|
+160|St Francis Xaviers Primary School|0|1|0|Catholic|Coed|71 Webster Road|LURNEA|NSW|2170|
+-1|Macarthur Adventist College|0|1|1|Seventh Day Adventist|Coed|12 Victoria Road|MACQUARIE FIELDS|NSW|2564|Macarthur Adventist College offers your child an affordable private educational opportunity that builds on a careful foundation in key learning areas.
+-1|Curran Public School|1|1|0|Non-Denominational|Coed|Melaleuca Drive|MACQUARIE FIELDS|NSW|2564|
+-1|Eden College|0|1|1|Non-Denominational|Coed|30a Victoria Rd|MACQUARIE FIELDS|NSW|2564|
+-1|Guise Public School|1|1|0|Non-Denominational|Coed|Eucalyptus Drive|MACQUARIE FIELDS|NSW|2564|
+-1|James Meehan High School|1|0|1|Non-Denominational|Coed|Harold St|MACQUARIE FIELDS|NSW|2564|
+93|Macquarie Fields High School|1|0|1|Non-Denominational|Coed|2 Harold St|MACQUARIE FIELDS|NSW|2564|
+-1|Macquarie Fields Public School|1|1|0|Non-Denominational|Coed|Fields Rd|MACQUARIE FIELDS|NSW|2564|
+552|Malabar Public School|1|1|0|Non-Denominational|Coed|Franklin St|MALABAR|NSW|2036|
+-1|St Andrew's Primary School|0|1|0|Catholic|Coed|12-18 Prince Edward Street|MALABAR|NSW|2036|
+101|Northern Beaches Secondary College Mackellar Girls Campus|1|0|1|Non-Denominational|Girls|Campbell Pde & Quirk Rd|MANLY VALE|NSW|2093|Mackellar Girls Campus is acknowledged as the leading school for girls education on the northern beaches. We provide an innovative, stimulating and challenging learning environment.
+338|Manly Vale Public School|1|1|0|Non-Denominational|Coed|Sunshine St|MANLY VALE|NSW|2093|
+193|St Kieran's Primary School|0|1|0|Catholic|Coed|63 Gordon Street|MANLY VALE|NSW|2093|
+112|Stella Maris College|0|0|1|Catholic|Girls|52 Eurobin Avenue|MANLY|NSW|2095|Stella Maris College
+283|Manly Village Public School|1|1|0|Non-Denominational|Coed|Darley Rd|MANLY|NSW|2095|
+-1|Royal Far West School|1|1|1|Non-Denominational|Coed|Wentworth St|MANLY|NSW|2095|
+272|St Mary's School|0|1|0|Catholic|Coed|Corner Denison & Whistler Streets|MANLY|NSW|2095|
+216|St Paul's Catholic College|0|0|1|Catholic|Boys|Darley Road|MANLY|NSW|2095|
+-1|Maraylya Public School|1|1|0|Non-Denominational|Coed|Neich Rd|MARAYLYA|NSW|2765|
+290|St Andrews College|0|0|1|Catholic|Coed|116 Quakers Road|MARAYONG|NSW|2148|St Andrews College has a strong record of academic, sporting and cultural achievements,where students are presented with a range of learning options tailored to their abilities and needs.
+-1|Marayong Heights Public School|1|1|0|Non-Denominational|Coed|Guerie St|MARAYONG|NSW|2148|
+290|St Andrew's College|0|0|1|Catholic|Coed|50 Breakfast Road|MARAYONG|NSW|2148|
+-1|St Andrew's Primary School|0|1|0|Catholic|Coed|36 Breakfast Road|MARAYONG|NSW|2148|
+-1|Maroota Public School|1|1|0|Non-Denominational|Coed|Old Northern Rd|MAROOTA|NSW|2756|
+-1|The International French School of Sydney|0|1|1|Non-Denominational|Coed|758 ANZAC Parade|MAROUBRA|NSW|2035|The International French School of Sydney provides an unique bi-lingual education in French and English and caters for students from Preschool to Year 12 offering the French or International Baccalaureates.
+-1|Champagnat Catholic College Pagewood|0|0|1|Catholic|Boys|35 Donovan Avenue|MAROUBRA|NSW|2035|
+-1|Maroubra Bay Public School|1|1|0|Non-Denominational|Coed|Duncan St|MAROUBRA|NSW|2035|
+-1|Maroubra Beach Montessori Preschool|0|1|0|Non-Denominational|Coed|469 Malabar Road|MAROUBRA|NSW|2035|
+355|Maroubra Junction Public School|1|1|0|Non-Denominational|Coed|Storey St|MAROUBRA|NSW|2035|
+-1|Mt Sinai College|0|1|0|Jewish|Coed|6 Runic Lane|MAROUBRA|NSW|2035|
+-1|Our Lady Of The Annunciation School|0|1|0|Catholic|Coed|31 Donovan Avenue|MAROUBRA|NSW|2035|
+-1|Our Lady of the Annunciation Primary School|0|1|0|Catholic|Coed|31 Donovan Avenue|MAROUBRA|NSW|2035|
+331|South Sydney High School|1|0|1|Non-Denominational|Coed|Paine St|MAROUBRA|NSW|2035|
+-1|St Aiden's Primary School|0|1|0|Catholic|Coed|214 Maroubra Road|MAROUBRA|NSW|2035|
+505|St Mary And St Joseph Primary School|0|1|0|Catholic|Coed|280 Fitzgerald Avenue|MAROUBRA|NSW|2035|
+107|St Spyridon College|0|0|1|Greek Orthodox|Coed|1130 Anzac Parade|MAROUBRA|NSW|2035|
+301|Casimir Catholic College|0|0|1|Catholic|Coed|200 Livingstone Road|MARRICKVILLE|NSW|2204|
+440|Ferncourt Public School|1|1|0|Non-Denominational|Coed|Premier St|MARRICKVILLE|NSW|2204|
+-1|Marrickville High School|1|0|1|Non-Denominational|Coed|Northcote St|MARRICKVILLE|NSW|2204|
+217|Marrickville Public School|1|1|0|Non-Denominational|Coed|Chapel St|MARRICKVILLE|NSW|2204|
+-1|Marrickville West Public School|1|1|0|Non-Denominational|Coed|Livingstone Rd|MARRICKVILLE|NSW|2204|
+599|St Brigid's Primary School|0|1|0|Catholic|Coed|17 Fletcher Street|MARRICKVILLE|NSW|2204|
+217|Wilkins Public School|1|1|0|Non-Denominational|Coed|Park Rd|MARRICKVILLE|NSW|2204|
+164|Australian Christian College - Marsden Park|0|1|1|Christian|Coed|69 Farm Road|MARSDEN PARK|NSW|2765|Australian Christian College - Marsden Park is a vibrant co-ed school servicing Northwest Sydney (K-12) and students across New South Wales via Distance Education (K-10).
+-1|Marsden Park Public School|1|1|0|Non-Denominational|Coed|Garfield Rd West|MARSDEN PARK|NSW|2765|
+234|St Anthony's Primary School|0|1|0|Catholic|Coed|Cnr Balaclava & Agincourt Roads|MARSFIELD|NSW|2122|
+565|J J Cahill Memorial High School|1|0|1|Non-Denominational|Coed|Sutherland St|MASCOT|NSW|2018|
+-1|Mascot Public School|1|1|0|Non-Denominational|Coed|King St|MASCOT|NSW|2020|
+-1|St Therese's Primary School|0|1|0|Catholic|Coed|43 Sutherland Street|MASCOT|NSW|2020|
+-1|Matraville Public School|1|1|0|Non-Denominational|Coed|310 Bunnerong Rd|MATRAVILLE|NSW|2036|
+-1|Matraville Soldiers Settlement Public School|1|1|0|Non-Denominational|Coed|Menin Rd|MATRAVILLE|NSW|2036|
+-1|St Agnes Primary School|0|1|0|Catholic|Coed|511 Bunnerong Road|MATRAVILLE|NSW|2036|
+519|Windsor High School|1|0|1|Non-Denominational|Coed|Mulgrave & Windsor Rds|MCGRATHS HILL|NSW|2756|
+-1|Italian Bilingual School|0|1|0|Non-Denominational|Coed|30-32 See St|MEADOWBANK|NSW|2114|The Italian Bilingual School empowers students for a global society by striving for excellence through bilingualism within a caring, nurturing inclusive, co-educational environment.
+563|St Michael's Primary School|0|1|0|Catholic|Coed|53 Maxim Street|MEADOWBANK|NSW|2114|
+163|Aquinas College|0|0|1|Catholic|Coed|Anzac Road|MENAI|NSW|2234|
+419|Holy Family Primary School|0|1|0|Catholic|Coed|1d Anzac Road|MENAI|NSW|2234|
+226|Menai High School|1|0|1|Non-Denominational|Coed|Gerald Rd|MENAI|NSW|2234|
+-1|Menai Public School|1|1|0|Non-Denominational|Coed|4R Hall Drive|MENAI|NSW|2234|
+-1|Tharawal Public School|1|1|0|Non-Denominational|Coed|Gerald Rd|MENAI|NSW|2234|
+110|Cerdon College|0|0|1|Catholic|Girls|Sherwood Road|MERRYLANDS|NSW|2160|
+-1|Chapel School|0|1|1|Non-Denominational|Coed|102 Kenyons Road|MERRYLANDS|NSW|2160|
+-1|Fowler Road School|1|1|1|Non-Denominational|Coed|Cnr Fowler Road & Matthew Street|MERRYLANDS|NSW|2160|
+-1|Hilltop Road Public School|1|1|0|Non-Denominational|Coed|Hilltop Rd|MERRYLANDS|NSW|2160|
+443|Holroyd School|1|1|1|Non-Denominational|Coed|Willara Ave|MERRYLANDS|NSW|2160|
+-1|Merrylands East Public School|1|1|0|Non-Denominational|Coed|Myee St|MERRYLANDS|NSW|2160|
+525|Merrylands High School|1|0|1|Non-Denominational|Coed|Bristol St|MERRYLANDS|NSW|2160|
+-1|Merrylands Public School|1|1|0|Non-Denominational|Coed|Fowler Rd|MERRYLANDS|NSW|2160|
+-1|Sherwood Grange Public School|1|1|0|Non-Denominational|Coed|Bruce St|MERRYLANDS|NSW|2160|
+-1|St Margaret Marys Primary School|0|1|0|Catholic|Coed|7 Chetwynd Road|MERRYLANDS|NSW|2160|
+-1|Glenaeon Rudolf Steiner School|0|1|1|Non-Denominational|Coed|5a Glenroy Avenue|MIDDLE COVE|NSW|2068|Glenaeon Rudolf Steiner School offers a rich and rigorous education of discovery that respects childhood, builds resilient individuals and celebrates the human spirit.
+-1|Middle Dural Public School|1|1|0|Non-Denominational|Coed|Old Northern Rd|MIDDLE DURAL|NSW|2158|
+300|Thomas Hassall Anglican College|0|1|1|Anglican|Coed|125 Kingsford Smith Avenue|MIDDLETON GRANGE|NSW|2171|Prep to Year 12, Co-educational College -
+-1|Middleton Grange Public School|1|1|0|Anglican|Coed|Hall Circuit|MIDDLETON GRANGE|NSW|2171|
+504|Miller High School|1|0|1|Non-Denominational|Coed|Cabramatta Ave|MILLER|NSW|2168|
+-1|Miller Public School|1|1|0|Non-Denominational|Coed|Miller Rd & Shropshire St|MILLER|NSW|2168|
+-1|Milperra Public School|1|1|0|Non-Denominational|Coed|Pozieres Ave|MILPERRA|NSW|2214|
+128|Mount St Joseph School|0|0|1|Catholic|Girls|273 Horsley Road|MILPERRA|NSW|2214|
+3|St Aloysius College|0|1|0|Catholic|Boys|32 Burton Street|MILSONS POINT|NSW|2061|
+-1|Minchinbury Public School|1|1|0|Non-Denominational|Coed|McFarlane Drive|MINCHINBURY|NSW|2770|
+-1|Campbellfield Public School|1|1|0|Non-Denominational|Coed|Townson Ave|MINTO|NSW|2566|
+-1|Iqra Grammar College|0|1|1|Islamic|Coed|10 Benham Rd|MINTO|NSW|2566|
+-1|Minto Public School|1|1|0|Non-Denominational|Coed|Pembroke & Redfern Rds|MINTO|NSW|2566|
+-1|Passfield Park School|1|1|1|Non-Denominational|Coed|Guernsey Ave & Mossglen Ave|MINTO|NSW|2566|
+-1|Sarah Redfern High School|1|0|1|Non-Denominational|Coed|Cnr Monaghan St & Pembroke Rd|MINTO|NSW|2566|
+-1|Sarah Redfern Public School|1|1|0|Non-Denominational|Coed|Stafford St & Guernsey Rd|MINTO|NSW|2566|
+-1|The Grange Public School|1|1|0|Non-Denominational|Coed|Benham Rd|MINTO|NSW|2566|
+-1|Miranda North Public School|1|1|0|Non-Denominational|Coed|162B The Boulevarde|MIRANDA|NSW|2228|
+-1|Miranda Public School|1|1|0|Non-Denominational|Coed|Kingsway|MIRANDA|NSW|2228|
+132|Our Lady Star Of The Sea Primary School|0|1|0|Catholic|Coed|44 Kiora Road|MIRANDA|NSW|2228|
+229|Port Hacking High School|1|0|1|Non-Denominational|Coed|Kingsway|MIRANDA|NSW|2228|
+284|Mona Vale Public School|1|1|0|Non-Denominational|Coed|Waratah St|MONA VALE|NSW|2103|
+176|Pittwater High School|1|0|1|Non-Denominational|Coed|Pittwater Rd & Mona St|MONA VALE|NSW|2103|
+334|Sacred Heart Catholic Primary|0|1|0|Catholic|Coed|Cnr Waratah & Keenan Streets|MONA VALE|NSW|2103|
+-1|Brent Street|0|0|1|Non-Denominational|Coed|122 Lang Rd|MOORE PARK|NSW|2021|
+299|Moorebank High School|1|0|1|Non-Denominational|Coed|Bangalow Ave|MOOREBANK|NSW|2170|
+367|Newbridge Heights Public School|1|1|0|Non-Denominational|Coed|Lewin & Magree Cres|MOOREBANK|NSW|2170|
+-1|Nuwarra Public School|1|1|0|Non-Denominational|Coed|McKay Ave|MOOREBANK|NSW|2170|
+513|St Joseph's School|0|1|0|Catholic|Coed|35-45 Nuwarra Road|MOOREBANK|NSW|2170|
+298|Carinya School|1|1|1|Non-Denominational|Coed|Colebourne Ave|MORTDALE|NSW|2223|
+152|Marist College|0|0|1|Catholic|Boys|65 Victoria Avenue|MORTDALE|NSW|2223|
+427|Mortdale Public School|1|1|0|Non-Denominational|Coed|Colebourne Ave|MORTDALE|NSW|2223|
+-1|Penshurst West Public School|1|1|0|Non-Denominational|Coed|Forest Rd & Scott St|MORTDALE|NSW|2223|
+22|Mosman Church Of England Preparatory School|0|1|0|Anglican|Boys|75 Shadforth Street|MOSMAN|NSW|2088|Educating for Tomorrow... Today - At Mosman Prep we are educting for the complexities and challenges of life in these crucial years of a young boys' education.
+25|Queenwood|0|1|1|Non-Denominational|Girls|47 Mandolong Road|MOSMAN|NSW|2088|Queenwood is a non-selective, non-denominational day school for girls from Kindergarten to Year 12, setting high academic goals enriched by strong cultural and sporting programs.
+63|Beauty Point Public School|1|1|0|Non-Denominational|Coed|17 Medusa St|MOSMAN|NSW|2088|
+-1|Blessed Sacrement Primary School|0|1|0|Catholic|Coed|2 Queen Street|MOSMAN|NSW|2088|
+106|Middle Harbour Public School|1|1|0|Non-Denominational|Coed|8 Hale Rd|MOSMAN|NSW|2088|
+100|Mosman High School|1|0|1|Non-Denominational|Coed|Military Rd|MOSMAN|NSW|2088|
+63|Mosman Public School|1|1|0|Non-Denominational|Coed|27 Belmont Rd|MOSMAN|NSW|2088|
+324|Sacred Heart Primary School|0|1|0|Catholic|Coed|8 Cardinal Street|MOSMAN|NSW|2088|
+-1|Mount Annan Christian College|0|1|1|Christian|Coed|347 Narellan Road|MOUNT ANNAN|NSW|2567|Mount Annan Christian College is a Prep–Year 12 Co-Educational Christian College located in Sydneys South West.
+424|Mount Annan High School|1|0|1|Non-Denominational|Coed|248 Welling Drive|MOUNT ANNAN|NSW|2567|
+-1|Mount Annan Public School|1|1|0|Non-Denominational|Coed|Stenhouse Drive|MOUNT ANNAN|NSW|2567|
+488|Mount Colah Public School|1|1|0|Non-Denominational|Coed|Telopea St|MOUNT COLAH|NSW|2079|
+-1|Bethel Christian School|0|0|1|Christian|Coed|106-114 Mount Druitt Road|MOUNT DRUITT|NSW|2770|
+-1|Chifley College Mount Druitt Campus|1|0|1|Non-Denominational|Coed|Stuart St|MOUNT DRUITT|NSW|2770|
+550|Chifley College Senior Campus|1|0|1|Non-Denominational|Coed|North Pde|MOUNT DRUITT|NSW|2770|
+-1|Colyton Public School|1|1|0|Non-Denominational|Coed|Nelson St|MOUNT DRUITT|NSW|2770|
+524|Loyola Senior High|0|0|1|Catholic|Coed|91 North Parade|MOUNT DRUITT|NSW|2770|
+-1|Mount Druitt Public School|1|1|0|Non-Denominational|Coed|Belmore Ave|MOUNT DRUITT|NSW|2770|
+-1|Sacred Heart Primary School|0|1|0|Catholic|Coed|25 Nelson Street|MOUNT DRUITT|NSW|2770|
+-1|St Bishoy Coptic Orthodox College|0|1|0|Coptic Orthodox|Coed|59 Methven Street|MOUNT DRUITT|NSW|2770|
+-1|Mount Kuring-gai Public School|1|1|0|Non-Denominational|Coed|Leeming St|MOUNT KURING-GAI|NSW|2080|
+-1|Les Powell School|1|1|1|Non-Denominational|Coed|Townview & Hoff Sts|MOUNT PRITCHARD|NSW|2170|
+-1|Mount Pritchard East Public School|1|1|0|Non-Denominational|Coed|Townview Rd|MOUNT PRITCHARD|NSW|2170|
+-1|Mount Pritchard Public School|1|1|0|Non-Denominational|Coed|Meadows Rd|MOUNT PRITCHARD|NSW|2170|
+-1|Mulgoa Public School|1|1|0|Non-Denominational|Coed|Mulgoa Rd|MULGOA|NSW|2745|
+-1|Nepean District Christian School|0|1|1|Christian|Coed|836 Mulgoa Road|MULGOA|NSW|2745|
+-1|Narellan Vale Public School|1|1|0|Non-Denominational|Coed|Waterworth Drive|NARELLAN VALE|NSW|2567|
+561|St Clare's Primary School|0|1|0|Catholic|Coed|59 Holdsworth Drive|NARELLAN VALE|NSW|2567|
+-1|Elizabeth Macarthur High School Community & Selective School|1|0|1|Non-Denominational|Coed|Waterworth Drive|NARELLAN|NSW|2567|Elizabeth Macarthur High School is a Community and Selective High School offering many opportuntiies for our students to achieve their personal best.
+438|Elderslie High School|1|0|1|Non-Denominational|Coed|Hilder St|NARELLAN|NSW|2567|
+178|Magdalene Catholic High School|0|0|1|Catholic|Coed|Lot 1051 Smeaton Grange Road|NARELLAN|NSW|2567|
+-1|Narellan Public School|1|1|0|Non-Denominational|Coed|Hume Hwy|NARELLAN|NSW|2567|
+-1|Naremburn School|1|1|1|Non-Denominational|Coed|250 Willoughby Rd|NAREMBURN|NSW|2065|
+-1|Narrabeen Lakes Public School|1|1|0|Non-Denominational|Coed|1299 Pittwater Rd|NARRABEEN|NSW|2101|
+-1|St Joseph's School|0|1|0|Catholic|Coed|108 Ocean Street|NARRABEEN|NSW|2101|
+-1|St John's Catholic School|0|1|0|Catholic|Coed|166 Alfred Street|NARRAWEENA|NSW|2099|
+-1|Narwee Public School|1|1|0|Non-Denominational|Coed|Broadarrow Rd|NARWEE|NSW|2209|
+-1|Cameragal Montessori School|0|1|0|Non-Denominational|Coed|Montpellier Street|NEUTRAL BAY|NSW|2089|
+25|Neutral Bay Public School|1|1|0|Non-Denominational|Coed|Ben Boyd Rd|NEUTRAL BAY|NSW|2089|
+510|Newport Public School|1|1|0|Non-Denominational|Coed|Stuart St|NEWPORT|NSW|2106|
+-1|The Athena School|0|1|1|Non-Denominational|Coed|26 Oxford Street|NEWTOWN|NSW|2042|The Athena School delivers an Ideal Education to children utilizing a revolutionary study philosophy enabling them to use what they learn in their lives, and succeed at their goals.
+-1|Australia Street Infants|1|1|0|Non-Denominational|Coed|Australia Street|NEWTOWN|NSW|2042|
+-1|Camdenville Public School|1|1|0|Non-Denominational|Coed|Laura St|NEWTOWN|NSW|2042|
+68|Newtown High School of Performing Arts|1|0|1|Non-Denominational|Coed|King St|NEWTOWN|NSW|2042|
+111|Newtown North Public School|1|1|0|Non-Denominational|Coed|Carillon Ave|NEWTOWN|NSW|2042|
+111|Newtown Public School|1|1|0|Non-Denominational|Coed|Norfolk St|NEWTOWN|NSW|2042|
+466|St Pius Primary School|0|1|0|Catholic|Coed|209 Edgeware Road|NEWTOWN|NSW|2042|
+16|Loreto Normanhurst|0|0|1|Catholic|Girls|91-93 Pennant Hills Road|NORMANHURST|NSW|2076|
+22|Normanhurst Boys High School|1|0|1|Non-Denominational|Boys|Pennant Hills Rd|NORMANHURST|NSW|2076|
+87|Normanhurst Public School|1|1|0|Non-Denominational|Coed|Normanhurst Rd|NORMANHURST|NSW|2076|
+94|Balgowlah North Public School|1|1|0|Non-Denominational|Coed|10 Manning St|NORTH BALGOWLAH|NSW|2093|
+12|Reddam House|0|0|1|Non-Denominational|Coed|56 Mitchell Street|NORTH BONDI|NSW|2026|
+8|Northern Beaches Secondary College Manly Selective Campus|1|0|1|Non-Denominational|Coed|138 Abbott Rd|NORTH CURL CURL|NSW|2099|Manly Selective Campus is an exceptional school catering for academically gifted and talented students. Students at Manly Selective Campus are the highest achieving students in the northern beaches.
+309|Curl Curl North Public School|1|1|0|Non-Denominational|Coed|Playfair Rd|NORTH CURL CURL|NSW|2099|
+107|Epping North Public School|1|1|0|Non-Denominational|Coed|Boundary Rd|NORTH EPPING|NSW|2121|
+529|Narrabeen North Public School|1|1|0|Non-Denominational|Coed|Namona St|NORTH NARRABEEN|NSW|2101|
+471|Narrabeen Sports High School|1|0|1|Non-Denominational|Coed|10 Namona St|NORTH NARRABEEN|NSW|2101|
+55|Tara Anglican School For Girls|0|1|1|Anglican|Girls|Masons Drive|NORTH PARRAMATTA|NSW|2151|Tara is a Pre Kindergarten - Year 12 school (boarding Years 5 - 12) specialising in girls' education since 1897.
+58|The King's School|0|1|1|Anglican|Boys|87-129 Pennant Hills Road|NORTH PARRAMATTA|NSW|2151|An international leader in boys education and boarding. On 120 hectares the school provides an outstanding academic and happy, healthy and action-packed lifestyle for its students.
+137|Burnside Public School|1|1|0|Non-Denominational|Coed|1 Masons Drive|NORTH PARRAMATTA|NSW|2151|
+-1|Garfield Barwick School (Royal Institute for Deaf & Blind Children)|0|1|1|Non-Denominational|Coed|106 Pennant Hills Rd|NORTH PARRAMATTA|NSW|2151|
+137|Parramatta North Public School|1|1|0|Non-Denominational|Coed|Albert St|NORTH PARRAMATTA|NSW|2151|
+426|Redeemer Baptist School|0|1|1|Baptist|Coed|2-12 Masons Drive|NORTH PARRAMATTA|NSW|2151|
+89|St Monica's Primary School|0|1|0|Catholic|Coed|10 Daking Street|NORTH PARRAMATTA|NSW|2151|
+-1|The B'Nai Yacov School|0|1|0|Jewish|Coed|114-116 Victoria Road|NORTH PARRAMATTA|NSW|2151|
+-1|RIDBC Alice Betteridge School|0|1|1|Non-Denominational|Coed|361-365 North Rocks Road|NORTH ROCKS|NSW|2151|RIDBC Alice Betteridge School’s program is founded on the belief that children with sensory impairment should receive the best possible education to assist them to reach their maximum potential.
+401|Christ The King Primary School|0|1|0|Catholic|Coed|2-8 Statham Avenue|NORTH ROCKS|NSW|2151|
+362|Muirfield High School|1|0|1|Non-Denominational|Coed|Barclay Rd|NORTH ROCKS|NSW|2151|
+65|North Rocks Public School|1|1|0|Non-Denominational|Coed|359 North Rocks Rd|NORTH ROCKS|NSW|2151|
+-1|Thomas Pattison School (Royal Institute for Deaf & Blind Children)|0|1|1|Non-Denominational|Coed|361-365 North Rocks Road|NORTH ROCKS|NSW|2151|
+247|Arndell School|1|1|1|Non-Denominational|Coed|Badajoz Rd|NORTH RYDE|NSW|2113|
+421|Holy Spirit Primary School|0|1|0|Catholic|Coed|195 Coxs Road|NORTH RYDE|NSW|2113|
+71|North Ryde Public School|1|1|0|Non-Denominational|Coed|Coxs Rd|NORTH RYDE|NSW|2113|
+169|Ryde East Public School|1|1|0|Non-Denominational|Coed|12 Twin Rd|NORTH RYDE|NSW|2113|
+-1|The Children’s House Montessori School|0|1|0|Non-Denominational|Coed|109 Cressy Rd|NORTH RYDE|NSW|2113|
+436|Truscott Street Public School|1|1|0|Non-Denominational|Coed|Truscott St|NORTH RYDE|NSW|2113|
+-1|Chifley College Dunheved Campus|1|0|1|Non-Denominational|Coed|Maple Rd|NORTH ST MARYS|NSW|2760|
+120|The McDonald College|0|1|1|Non-Denominational|Coed|17 George Street|NORTH STRATHFIELD|NSW|2137|Our philosophy is for our students to excel academically whilst pursuing their passion for performance.
+261|Strathfield North Public School|1|1|0|Non-Denominational|Coed|Concord Rd|NORTH STRATHFIELD|NSW|2137|
+179|Marist College North Shore|0|0|1|Catholic|Boys|270 Miller Street|NORTH SYDNEY|NSW|2060|Our College provides a comprehensive quality education in a nurturing Marist Community founded on enduring Catholic values.
+83|Monte Sant' Angelo Mercy College|0|0|1|Catholic|Girls|128 Miller Street|NORTH SYDNEY|NSW|2060|Monte Sant’ Angelo Mercy College is an independent Catholic secondary school for girls, Year 7 to 12, conveniently located in the heart of North Sydney.
+34|Wenona School|0|1|1|Non-Denominational|Girls|176 Walker Street|NORTH SYDNEY|NSW|2060|Wenona, a day and boarding school for girls in North Sydney since 1886, is a global learning community, educating and empowering young women to serve and shape their world.
+21|St Mary's School|0|1|0|Catholic|Coed|40 Ridge Street|NORTH SYDNEY|NSW|2060|
+27|Sydney Church Of England Grammar School (SHORE)|0|1|1|Anglican|Boys|Blue Street|NORTH SYDNEY|NSW|2060|
+-1|Ku-ring-gai Creative Arts High School|1|0|1|Non-Denominational|Coed|Bobbin Head Rd|NORTH TURRAMURRA|NSW|2074|We are a comprehensive, co-educational school that offers specialist programs in the creative arts.
+43|Turramurra North Public School|1|1|0|Non-Denominational|Coed|237 Bobbin Head Rd|NORTH TURRAMURRA|NSW|2074|
+23|Northbridge Public School|1|1|0|Non-Denominational|Coed|Sailors Bay Rd|NORTHBRIDGE|NSW|2063|
+39|St Philip Neri Primary School|0|1|0|Catholic|Coed|67 Baringa Road|NORTHBRIDGE|NSW|2063|
+-1|Sydney Church Of England Grammar School (SHORE)|0|1|0|Anglican|Boys|55 Sailors Bay Road|NORTHBRIDGE|NSW|2063|
+284|Northmead Creative and Performing Arts High School|1|0|1|Non-Denominational|Coed|Campbell St|NORTHMEAD|NSW|2152|
+-1|Northmead Public School|1|1|0|Non-Denominational|Coed|Moxhams Rd|NORTHMEAD|NSW|2152|
+82|The Hills School|1|1|1|Non-Denominational|Coed|Mary St|NORTHMEAD|NSW|2152|
+412|Richard Johnson Anglican School|0|1|1|Anglican|Coed|93 Hyatts Road|OAKHURST|NSW|2761|
+247|Arndell Anglican College|0|1|1|Anglican|Coed|118 Wolseley Road|OAKVILLE|NSW|2765|
+-1|Oakville Public School|1|1|0|Non-Denominational|Coed|Oakville Rd|OAKVILLE|NSW|2765|
+297|Oatlands Public School|1|1|0|Non-Denominational|Coed|Belmore St East|OATLANDS|NSW|2117|
+240|Georges River College Oatley Senior Campus|1|0|1|Non-Denominational|Coed|Oatley Ave & Hurstville Rd|OATLEY|NSW|2223|
+239|Oatley Public School|1|1|0|Non-Denominational|Coed|Letitia St|OATLEY|NSW|2223|
+239|Oatley West Public School|1|1|0|Non-Denominational|Coed|Oatley Park Ave|OATLEY|NSW|2223|
+335|St Joseph's School|0|1|0|Catholic|Coed|21 Rosa Street|OATLEY|NSW|2223|
+-1|St Justin's Catholic Primary School|0|1|0|Catholic|Coed|102 Oran Park Drive|ORAN PARK|NSW|2570|
+-1|Montgrove College|0|1|1|Catholic|Girls|140 Bringelly Road|ORCHARD HILLS|NSW|2748|Montgrove offers a personalised system of education for Girls K-12(in 2016)& Boys K-2 with parents and teachers united in assisting each child to strive for excellence, through our tutorial system.
+213|Penrith Anglican College|0|1|1|Anglican|Coed|338-365 Wentworth Road|ORCHARD HILLS|NSW|2748|Penrith Anglican College provides a holistic education, which educates and nurtures each child’s talents in an imaginative, purposeful, caring and Christ centred learning environment.
+-1|Orchard Hills Public School|1|1|0|Non-Denominational|Coed|79-101 Kingswood Rd|ORCHARD HILLS|NSW|2748|
+472|Penrith Christian School|0|1|1|Christian|Coed|1 Simeon Road|ORCHARD HILLS|NSW|2748|
+352|Otford Public School|1|1|0|Non-Denominational|Coed|Station Rd|OTFORD|NSW|2508|
+87|Oxford Falls Grammar School|0|1|1|Christian|Coed|1078 Oxford Falls Road|OXFORD FALLS|NSW|2100|Oxford Falls Grammar School is a Christian co-educational school for students from Kindergarten to Year 12. We provide excellent contemporary education, care and nurture, underpinned by a solid Christian foundation.
+356|Oyster Bay Public School|1|1|0|Non-Denominational|Coed|Short St|OYSTER BAY|NSW|2225|
+-1|St Joseph's School|0|1|0|Catholic|Coed|210 Oyster Bay Road|OYSTER BAY|NSW|2225|
+186|Glenmore Road Public School|1|1|0|Non-Denominational|Coed|Glenmore Rd|PADDINGTON|NSW|2021|
+186|Paddington Public School|1|1|0|Non-Denominational|Coed|Oxford St|PADDINGTON|NSW|2021|
+8|St Francis of Assisi Primary School|0|1|0|Catholic|Coed|64 Gordon Street|PADDINGTON|NSW|2021|
+1|Sydney Grammar School|0|1|0|Non-Denominational|Boys|7-11 Alma Street|PADDINGTON|NSW|2021|
+156|Caroline Chisholm School|1|1|1|Non-Denominational|Coed|Napoli St|PADSTOW|NSW|2211|
+-1|Padstow Heights Public School|1|1|0|Non-Denominational|Coed|Chamberlain Rd|PADSTOW|NSW|2211|
+-1|Padstow North Public School|1|1|0|Non-Denominational|Coed|Halcyon Ave & Watson Rd|PADSTOW|NSW|2211|
+-1|Padstow Park Public School|1|1|0|Non-Denominational|Coed|Segers Ave|PADSTOW|NSW|2211|
+-1|St Therese's Primary School|0|1|0|Catholic|Coed|48 Chamberlain Road|PADSTOW|NSW|2211|
+174|East Hills Girls Technology High School|1|0|1|Non-Denominational|Girls|Lucas Rd|PANANIA|NSW|2213|The school offers an education with a technological focus and has an excellent reputation for high student achievement in academic, creative and physical studies.
+358|East Hills Boys High School|1|0|1|Non-Denominational|Boys|Lucas Rd|PANANIA|NSW|2213|
+-1|East Hills Public School|1|1|0|Non-Denominational|Coed|Lucas Rd|PANANIA|NSW|2213|
+-1|Panania North Public School|1|1|0|Non-Denominational|Coed|Bransgrove Rd|PANANIA|NSW|2213|
+-1|Panania Public School|1|1|0|Non-Denominational|Coed|Lawler St|PANANIA|NSW|2213|
+379|Picnic Point High School|1|0|1|Non-Denominational|Coed|Kennedy St|PANANIA|NSW|2213|
+412|St Christopher's Primary School|0|1|0|Catholic|Coed|235 Tower Street|PANANIA|NSW|2213|
+-1|Tower Street Public School|1|1|0|Non-Denominational|Coed|74 Tower St|PANANIA|NSW|2213|
+99|Our Lady Of Mercy College Parramatta|0|0|1|Catholic|Girls|Victoria Road|PARRAMATTA|NSW|2150|OLMC is a Catholic Independent Years 7-12 girls' college in the Mercy tradition, located in the Parramatta CBD and close to transport links.
+431|Arthur Phillip High School|1|0|1|Non-Denominational|Coed|Smith St|PARRAMATTA|NSW|2150|
+203|Macarthur Girls High School|1|0|1|Non-Denominational|Girls|Macarthur St|PARRAMATTA|NSW|2150|
+579|Parramatta East Public School|1|1|0|Non-Denominational|Coed|Brabyn St|PARRAMATTA|NSW|2150|
+43|Parramatta High School|1|0|1|Non-Denominational|Coed|Great Western Hwy & Pitt St|PARRAMATTA|NSW|2150|
+311|Parramatta Public School|1|1|0|Non-Denominational|Coed|Macquarie St|PARRAMATTA|NSW|2150|
+-1|Parramatta West Public School|1|1|0|Non-Denominational|Coed|Auburn & Young Sts|PARRAMATTA|NSW|2150|
+-1|Rowland Hassall School|1|1|1|Non-Denominational|Coed|Hassall St|PARRAMATTA|NSW|2150|
+453|St Patrick's Primary School|0|1|0|Catholic|Coed|Villiers Street|PARRAMATTA|NSW|2150|
+-1|Warrakirri College|0|0|1|Non-Denominational|Coed|17-21 Macquarie St|PARRAMATTA|NSW|2150|
+-1|Georges River College Peakhurst Campus|1|0|1|Non-Denominational|Coed|Samuel & Rona Sts|PEAKHURST|NSW|2210|GRC Peakhurst Campus- a co-educational middle school campus effectively transitioning students into a senior campus. It has an educational atmosphere catering to the personal, social and learning of young adolescents.
+-1|Aspect South East Sydney School|0|1|1|Non-Denominational|Coed|Monterra Avenue South|PEAKHURST|NSW|2210|
+502|Peakhurst Public School|1|1|0|Non-Denominational|Coed|Bonds Rd|PEAKHURST|NSW|2210|
+574|Peakhurst South Public School|1|1|0|Non-Denominational|Coed|Pindari Rd|PEAKHURST|NSW|2210|
+-1|Peakhurst West Public School|1|1|0|Non-Denominational|Coed|Ogilvy St|PEAKHURST|NSW|2210|
+61|Mount St Benedict College|0|0|1|Catholic|Girls|449c Pennant Hills Road|PENNANT HILLS|NSW|2120|Mount St Benedict College provides holistic education for girls emphasising the Benedictine values of Pax, Hospitality and Stewardship.
+182|Pennant Hills High School|1|0|1|Non-Denominational|Coed|Laurence St|PENNANT HILLS|NSW|2120|At Pennant Hills High School, we provide many opportunities for your child to achieve excellence. We establish and maintain high standards of respect and responsibility within our school community.
+252|Pennant Hills Public School|1|1|0|Non-Denominational|Coed|Ramsay & Weemala Rds|PENNANT HILLS|NSW|2120|
+-1|St Agatha's Parish Primary School|0|1|0|Catholic|Coed|7 Trebor Road|PENNANT HILLS|NSW|2120|
+-1|Kingswood Park Public School|1|1|0|Non-Denominational|Coed|Caloola Ave|PENRITH|NSW|2750|
+33|Penrith High School|1|0|1|Non-Denominational|Coed|High St|PENRITH|NSW|2750|
+-1|Penrith Public School|1|1|0|Non-Denominational|Coed|51 High St|PENRITH|NSW|2750|
+-1|Penrith South Public School|1|1|0|Non-Denominational|Coed|Jamison Rd|PENRITH|NSW|2750|
+-1|St Nichola's Of Myra Primary School|0|1|0|Catholic|Coed|30-36 Higgins Street|PENRITH|NSW|2750|
+-1|Georges River College Penshurst Girls Campus|1|0|1|Non-Denominational|Girls|2 Austral St|PENSHURST|NSW|2222|Penshurst Girls Campus is a caring environment , where a strong academic focus combines with sport, and  creative & performing arts to develop successful young women.
+-1|Hurstville Grove Infants School|1|1|0|Non-Denominational|Coed|81 Landsdowne St|PENSHURST|NSW|2222|
+462|Penshurst Public School|1|1|0|Non-Denominational|Coed|Arcadia St|PENSHURST|NSW|2222|
+228|St Declan's Primary School|0|1|0|Catholic|Coed|Cnr Forest Road & Penshurst Street|PENSHURST|NSW|2222|
+13|Fort Street High School|1|0|1|Non-Denominational|Coed|Parramatta Rd|PETERSHAM|NSW|2049|
+267|Petersham Public School|1|1|0|Non-Denominational|Coed|25 Hunter St|PETERSHAM|NSW|2049|
+-1|Taverners Hill Infants School|1|1|0|Non-Denominational|Coed|Elswick St|PETERSHAM|NSW|2049|
+265|Picnic Point Public School|1|1|0|Non-Denominational|Coed|Prince & Thomas Sts|PICNIC POINT|NSW|2213|
+-1|Pitt Town Public School|1|1|0|Non-Denominational|Coed|Buckingham St|PITT TOWN|NSW|2756|
+-1|Good Shepherd Primary School|0|1|0|Catholic|Coed|134 Hyatts Road|PLUMPTON|NSW|2761|
+481|Plumpton High School|1|0|1|Non-Denominational|Coed|Hyatts Rd|PLUMPTON|NSW|2761|
+-1|Plumpton House School|1|1|1|Non-Denominational|Coed|327 Rooty Hill Road North|PLUMPTON|NSW|2761|
+-1|Plumpton Public School|1|1|0|Non-Denominational|Coed|Bottles Rd|PLUMPTON|NSW|2761|
+-1|Western Grammar School|0|1|1|Non-Denominational|Coed|15 Cannery Road|PLUMPTON|NSW|2671|
+81|ST VINCENT'S COLLEGE|0|0|1|Catholic|Girls|Rockwall Crescent|POTTS POINT|NSW|2011|Students at St Vincent's College benefit from a long and fine tradition of learning and teaching success.
+180|Darlinghurst Public School|1|1|0|Non-Denominational|Coed|Womerah Ave|POTTS POINT|NSW|2011|
+259|William Carey Christian School|0|1|1|Christian|Coed|Bumbera Street|PRESTONS|NSW|2170|William Carey Christian School is committed to providing an excellent, affordable Christian education to families in South West Sydney.
+-1|Dalmeny Public School|1|1|0|Non-Denominational|Coed|Dalmeny Drive|PRESTONS|NSW|2170|
+-1|Prestons Public School|1|1|0|Non-Denominational|Coed|Kurrajong & Box Rds|PRESTONS|NSW|2170|
+-1|St Catherine of Sienna Primary School|0|1|0|Catholic|Coed|Dalmeny Drive|PRESTONS|NSW|2170|
+-1|Sule College|0|1|1|Non-Denominational|Coed|163 Kurrajong Road|PRESTONS|NSW|2170|
+569|Punchbowl Boys High School|1|0|1|Non-Denominational|Boys|Kelly St|PUNCHBOWL|NSW|2196|
+-1|Punchbowl Public School|1|1|0|Non-Denominational|Coed|Canterbury Rd|PUNCHBOWL|NSW|2196|
+201|St Charbel's College|0|1|1|Catholic|Coed|142 Highclere Avenue|PUNCHBOWL|NSW|2196|
+-1|St Jerome's Primary School|0|1|0|Catholic|Coed|Rossmore Avenue|PUNCHBOWL|NSW|2196|
+490|Wiley Park Girls High School|1|0|1|Non-Denominational|Girls|The Boulevarde|PUNCHBOWL|NSW|2196|
+26|Pymble Ladies' College|0|1|1|Uniting Church|Girls|Avon Road|PYMBLE|NSW|2073|Pymble Ladies' College offers exceptional academic, sporting, performing arts and cultural opportunities for girls from Kindergarten to Year 12, with boarding from Year 7.
+61|Gordon West Public School|1|1|0|Non-Denominational|Coed|Ryde Rd|PYMBLE|NSW|2073|
+-1|Northside Montessori School|0|1|0|Non-Denominational|Coed|42-44 Bobbin Head Road|PYMBLE|NSW|2073|
+40|Pymble Public School|1|1|0|Non-Denominational|Coed|Rushall St|PYMBLE|NSW|2073|
+170|Sacred Heart Catholic School|0|1|0|Catholic|Coed|4 Richard Porter Way|PYMBLE|NSW|2073|
+-1|Barnier Public School|1|1|0|Non-Denominational|Coed|Barnier Drive|QUAKERS HILL|NSW|2763|
+-1|Hambledon Public School|1|1|0|Non-Denominational|Coed|Bali Drive|QUAKERS HILL|NSW|2763|
+-1|Mary Immaculate Primary School|0|1|0|Catholic|Coed|125 Barnier Drive|QUAKERS HILL|NSW|2763|
+-1|Quakers Hill High School|1|0|1|Non-Denominational|Coed|Lalor Rd|QUAKERS HILL|NSW|2763|
+305|Quakers Hill Public School|1|1|0|Non-Denominational|Coed|Medlow Drive|QUAKERS HILL|NSW|2763|
+-1|St John Paul II Catholic College - Quaker's Hill Campus|0|0|1|Catholic|Coed|Eastern Road|QUAKERS HILL|NSW|2763|
+372|Wyndham College|1|0|1|Non-Denominational|Coed|Nirimba Precinct Eastern Rd|QUAKERS HILL|NSW|2763|
+581|Robert Townson High School|1|0|1|Non-Denominational|Coed|Thunderbolt Drive|RABY|NSW|2566|
+-1|Robert Townson Public School|1|1|0|Non-Denominational|Coed|Shuttleworth Ave|RABY|NSW|2566|
+-1|Ramsgate Public School|1|1|0|Non-Denominational|Coed|Chuter Ave|RAMSGATE|NSW|2217|
+97|Brigidine College Randwick|0|0|1|Catholic|Girls|Aoelia Street|RANDWICK|NSW|2031|
+-1|Centennial Park School|1|1|1|Non-Denominational|Coed|Level 1/78 Avoca Street|RANDWICK|NSW|2031|
+33|Claremont College|0|1|0|Anglican|Coed|30 Coogee Bay Road|RANDWICK|NSW|2031|
+183|Coogee Boys Preparatory School|0|1|0|Non-Denominational|Boys|Alison Road|RANDWICK|NSW|2031|
+18|Emanuel School|0|1|1|Jewish|Coed|20 Stanley Street|RANDWICK|NSW|2031|
+116|Marcellin College|0|0|1|Catholic|Boys|195 Alison Road|RANDWICK|NSW|2031|
+-1|Open High School|1|0|1|Non-Denominational|Coed|78 Avoca St|RANDWICK|NSW|2031|
+103|Our Lady Of The Sacred Heart Primary School|0|1|0|Catholic|Coed|193 Avoca Street|RANDWICK|NSW|2031|
+320|Rainbow Street Public School|1|1|0|Non-Denominational|Coed|Rainbow St|RANDWICK|NSW|2031|
+289|Randwick Boys High School|1|0|1|Non-Denominational|Boys|Rainbow & Avoca Sts|RANDWICK|NSW|2031|
+165|Randwick Girls High School|1|0|1|Non-Denominational|Girls|Barker St|RANDWICK|NSW|2031|
+59|Randwick Public School|1|1|0|Non-Denominational|Coed|Cowper St|RANDWICK|NSW|2031|
+266|St Margaret Marys School|0|1|0|Catholic|Coed|Corner Avoca Street & Clovelly Road|RANDWICK|NSW|2031|
+-1|Key College|0|1|1|Non-Denominational|Coed|122 Little Eveleigh Street|REDFERN|NSW|2016|
+-1|Redfern Jarjum College|0|1|0|Non-Denominational|Coed|117 Redfern Street|REDFERN|NSW|2016|
+-1|Karningul School|1|1|1|Non-Denominational|Coed|1A Auburn Rd|REGENTS PARK|NSW|2143|
+340|Regents Park Christian School|0|1|1|Christian|Coed|59 Regent St|REGENTS PARK|NSW|2143|
+-1|Regents Park Public School|1|1|0|Non-Denominational|Coed|1 Auburn Rd|REGENTS PARK|NSW|2143|
+-1|St Peter Chanel Primary School|0|1|0|Catholic|Coed|43 Regent Street|REGENTS PARK|NSW|2143|
+-1|Regentville Public School|1|1|0|Non-Denominational|Coed|28-34 Schoolhouse Rd|REGENTVILLE|NSW|2745|
+212|De La Salle College|0|0|1|Catholic|Boys|9 Ferndale Road|REVESBY HEIGHTS|NSW|2212|
+-1|Broderick Gillawarna School|1|1|1|Non-Denominational|Coed|36-48 Victoria St|REVESBY|NSW|2212|
+-1|Revesby Public School|1|1|0|Non-Denominational|Coed|Victoria St|REVESBY|NSW|2212|
+-1|Revesby South Public School|1|1|0|Non-Denominational|Coed|Mars St|REVESBY|NSW|2212|
+530|Sir Joseph Banks High School|1|0|1|Non-Denominational|Coed|Turvey St|REVESBY|NSW|2212|
+-1|St Luke's Primary School|0|1|0|Catholic|Coed|1 Beaconsfield Street|REVESBY|NSW|2212|
+535|Richmond High School|1|0|1|Non-Denominational|Coed|Lennox St|RICHMOND|NSW|2753|
+-1|Richmond Public School|1|1|0|Non-Denominational|Coed|Windsor St|RICHMOND|NSW|2753|
+-1|St Monica's Primary School|0|1|0|Catholic|Coed|1a Bourke Street|RICHMOND|NSW|2753|
+463|Norwest Christian College|0|1|1|Christian|Coed|Cnr Regent & McCulloch Street|RIVERSTONE|NSW|2765|Our Pre-school to Yr 12 students love to learn & our teachers focus on developing in them the necessary habits of mind that will enhance their study & thinking.
+-1|Casuarina School|1|1|1|Non-Denominational|Coed|Garfield Rd East & Piccadilly St|RIVERSTONE|NSW|2765|
+-1|Riverstone High School|1|0|1|Non-Denominational|Coed|McCulloch St|RIVERSTONE|NSW|2765|
+-1|Riverstone Public School|1|1|0|Non-Denominational|Coed|Elizabeth St|RIVERSTONE|NSW|2765|
+-1|St John's Primary School|0|1|0|Catholic|Coed|5 McCulloch Street|RIVERSTONE|NSW|2765|
+-1|Hannans Road Public School|1|1|0|Non-Denominational|Coed|Hannans Rd|RIVERWOOD|NSW|2210|
+-1|Riverwood Public School|1|1|0|Non-Denominational|Coed|Union St|RIVERWOOD|NSW|2210|
+-1|Southside Montessori School|0|1|0|Non-Denominational|Coed|35 Lillian Road|RIVERWOOD|NSW|2210|
+-1|St Joseph's School|0|1|0|Catholic|Coed|Thurlow Street|RIVERWOOD|NSW|2210|
+547|Brighton-Le-Sands Public School|1|1|0|Non-Denominational|Coed|Crawford Rd|ROCKDALE|NSW|2216|
+-1|Kyeemagh Infants School|1|1|0|Non-Denominational|Coed|Beehag St|ROCKDALE|NSW|2216|
+-1|Rockdale Public School|1|1|0|Non-Denominational|Coed|Lord St|ROCKDALE|NSW|2216|
+-1|St Dominic Savio School|0|1|0|Catholic|Coed|19 William Street|ROCKDALE|NSW|2216|
+341|St Joseph's School|0|1|0|Catholic|Coed|Watkin Street|ROCKDALE|NSW|2216|
+529|Rooty Hill High School|1|0|1|Non-Denominational|Coed|North Pde|ROOTY HILL|NSW|2766|
+-1|Rooty Hill Public School|1|1|0|Non-Denominational|Coed|Rooty Hill Rd North|ROOTY HILL|NSW|2766|
+-1|St Agnes Catholic High School|0|0|1|Catholic|Coed|Evans Road|ROOTY HILL|NSW|2766|
+-1|St Aidan's Primary School|0|1|0|Catholic|Coed|1-5 Adelaide Street|ROOTY HILL|NSW|2766|
+-1|Cranbrook Primary School|0|1|0|Church of England|Boys|6a Kent Road|ROSE BAY|NSW|2029|
+40|Kambala|0|1|1|Anglican|Girls|794 New South Head Road|ROSE BAY|NSW|2029|
+53|Kincoppal - Rose Bay|0|1|1|Catholic|Coed|New South Head Road|ROSE BAY|NSW|2029|
+205|McAuley Primary School|0|1|0|Catholic|Coed|8 Carlislie Street|ROSE BAY|NSW|2029|
+178|Rose Bay Public School|1|1|0|Non-Denominational|Coed|Albemarle Ave|ROSE BAY|NSW|2029|
+-1|Gardeners Road Public School|1|1|0|Non-Denominational|Coed|Gardeners Rd|ROSEBERY|NSW|2018|
+-1|Rosehill Public School|1|1|0|Non-Denominational|Coed|Prospect St|ROSEHILL|NSW|2142|
+-1|McCallums Hill Public School|1|1|0|Non-Denominational|Coed|McCallum St|ROSELANDS|NSW|2196|
+429|Ambarvale High School|1|0|1|Non-Denominational|Coed|Thomas Rose Drive|ROSEMEADOW|NSW|2560|
+359|John Therry Catholic High School|0|0|1|Catholic|Coed|Demetrius Road|ROSEMEADOW|NSW|2560|
+-1|Mary Brooksbank School|1|1|1|Non-Denominational|Coed|Anthony & Cleopatra Drives|ROSEMEADOW|NSW|2560|
+-1|Our Lady Help Of Christians Primary School|0|1|0|Catholic|Coed|Lot 2 Demetrius Road|ROSEMEADOW|NSW|2560|
+-1|Rosemeadow Public School|1|1|0|Non-Denominational|Coed|Anthony & Copperfield Drives|ROSEMEADOW|NSW|2560|
+-1|Roseville College - An Anglican School for Girls|0|1|1|Anglican|Girls|27 Bancroft Avenue|ROSEVILLE|NSW|2069|Roseville College is a leading non-selective Anglican day school for girls in Kindergarten to Year 12 centrally located on Sydney’s North Shore.
+48|Roseville Public School|1|1|0|Non-Denominational|Coed|Archbold Rd|ROSEVILLE|NSW|2069|
+285|Rouse Hill Anglican College|0|1|1|Anglican|Coed|Cnr Rouse & Worcester Roads|ROUSE HILL|NSW|2155|
+303|Rouse Hill High School|1|0|1|Anglican|Coed|105 Withers Road|ROUSE HILL|NSW|2155|
+268|Rouse Hill Public School|1|1|0|Non-Denominational|Coed|Clower Ave|ROUSE HILL|NSW|2155|
+-1|St Gregory's Armenian School|0|1|1|Catholic|Coed|Mungerie Road|ROUSE HILL|NSW|2155|
+407|Rozelle Public School|1|1|0|Non-Denominational|Coed|Darling St|ROZELLE|NSW|2039|
+-1|Sydney Secondary College Balmain Campus|1|0|1|Non-Denominational|Coed|Terry St|ROZELLE|NSW|2039|
+-1|Ruse Public School|1|1|0|Non-Denominational|Coed|Junction Rd|RUSE|NSW|2560|
+-1|St Thomas More Primary School|0|1|0|Catholic|Coed|6 St John's Road|RUSE|NSW|2560|
+-1|Rydalmere Public School|1|1|0|Non-Denominational|Coed|397 Victoria Rd|RYDALMERE|NSW|2116|
+573|St Mary's School|0|1|0|Catholic|Coed|1 Myrtle Street|RYDALMERE|NSW|2116|
+392|Holy Cross College|0|0|1|Catholic|Boys|517 Victoria Road|RYDE|NSW|2112|Catholic Boys Secondary College Years 7-12. Founded 1891 in the Tradition of the Patrician Brothers.
+121|Ryde Secondary College|1|0|1|Non-Denominational|Coed|Malvina St|RYDE|NSW|2112|Ryde Secondary College is a partially selective co-educational high school for students from Years 7 to 12. We strive to create a dynamic and collaborative learning environment, valuing every child.
+-1|Meadowbank Public School|1|1|0|Non-Denominational|Coed|Thistle St|RYDE|NSW|2112|
+37|Northcross Christian School|0|1|0|Baptist|Coed|Corner Lane Cove Road & Dobson Crescent|RYDE|NSW|2112|
+212|Putney Public School|1|1|0|Non-Denominational|Coed|Morrison Rd|RYDE|NSW|2112|
+212|Ryde Public School|1|1|0|Non-Denominational|Coed|Pope St|RYDE|NSW|2112|
+429|St Charles Primary School|0|1|0|Catholic|Coed|582 Victoria Road|RYDE|NSW|2112|
+-1|Sadleir Public School|1|1|0|Non-Denominational|Coed|Insignia St|SADLEIR|NSW|2168|
+-1|St Therese's Primary School|0|1|0|Catholic|Coed|96 Cartwright Avenue|SADLEIR|NSW|2168|
+-1|Sans Souci Public School|1|1|0|Non-Denominational|Coed|Rocky Point Rd|SANS SOUCI|NSW|2219|
+-1|St Finbar's Primary School|0|1|0|Catholic|Coed|21 Broughton Street|SANS SOUCI|NSW|2219|
+-1|St George Christian School|0|1|0|Christian|Coed|2 Hillview Street|SANS SOUCI|NSW|2219|
+474|Scarborough Public School|1|1|0|Non-Denominational|Coed|Lawrence Hargrave Drive|SCARBOROUGH|NSW|2515|
+-1|Schofields Public School|1|1|0|Non-Denominational|Coed|St Albans Rd|SCHOFIELDS|NSW|2762|
+-1|St John Paul II Catholic College - Schofields Campus|0|0|1|Catholic|Coed|85 Hambledon Road|SCHOFIELDS|NSW|2762|
+-1|St Joseph's School|0|1|0|Catholic|Coed|78 Alex Avenue|SCHOFIELDS|NSW|2762|
+-1|Palm Avenue School|1|1|1|Non-Denominational|Coed|21 Dalwood Ave|SEAFORTH|NSW|2092|
+188|Seaforth Public School|1|1|0|Non-Denominational|Coed|37 Kempbridge Avenue|SEAFORTH|NSW|2092|
+533|Immaculate Heart Primary School|0|1|0|Catholic|Coed|10 Kerrinea Road|SEFTON|NSW|2162|
+60|Sefton High School|1|0|1|Non-Denominational|Coed|Munro & Hector Sts|SEFTON|NSW|2162|
+-1|Sefton Infants School|1|1|0|Non-Denominational|Coed|180-194 Rodd St|SEFTON|NSW|2162|
+-1|Bert Oldfield Public School|1|1|0|Non-Denominational|Coed|Oldfield Rd|SEVEN HILLS|NSW|2147|
+-1|Our Lady Of Lourdes Primary School|0|1|0|Catholic|Coed|7 Grantham Road|SEVEN HILLS|NSW|1730|
+-1|Seven Hills High School|1|0|1|Non-Denominational|Coed|Johnson Ave|SEVEN HILLS|NSW|2147|
+433|Seven Hills North Public School|1|1|0|Non-Denominational|Coed|45 Beethoven St|SEVEN HILLS|NSW|2147|
+433|Seven Hills Public School|1|1|0|Non-Denominational|Coed|2A Lucas Rd|SEVEN HILLS|NSW|2147|
+-1|Seven Hills West Public School|1|1|0|Non-Denominational|Coed|Lucas Rd & Sackville St|SEVEN HILLS|NSW|2147|
+475|The Hills Sports High School|1|0|1|Non-Denominational|Coed|Best Rd|SEVEN HILLS|NSW|2147|
+-1|The Meadows Public School|1|1|0|Non-Denominational|Coed|Fuller St|SEVEN HILLS|NSW|2147|
+-1|Vardys Road Public School|1|1|0|Non-Denominational|Coed|Vardys Rd|SEVEN HILLS|NSW|2147|
+-1|William Rose School|1|1|1|Non-Denominational|Coed|Cnr Morris St & Lucas Rd|SEVEN HILLS|NSW|2147|
+-1|Chifley College Shalvey Campus|1|0|1|Non-Denominational|Coed|Noumea St|SHALVEY|NSW|2770|
+-1|Noumea Public School|1|1|0|Non-Denominational|Coed|Noumea St|SHALVEY|NSW|2770|
+-1|Shalvey Public School|1|1|0|Non-Denominational|Coed|Laver St|SHALVEY|NSW|2770|
+-1|Smithfield Public School|1|1|0|Non-Denominational|Coed|O Connell St|SMITHFIELD|NSW|2164|
+-1|St Gertrude's Primary School|0|1|0|Catholic|Coed|1-11 Justin Street|SMITHFIELD|NSW|2164|
+568|South Coogee Public School|1|1|0|Non-Denominational|Coed|Moverly Rd|SOUTH COOGEE|NSW|2034|
+301|Connells Point Public School|1|1|0|Non-Denominational|Coed|Riverview Ave|SOUTH HURSTVILLE|NSW|2221|
+79|St Raphael's Primary School|0|1|0|Catholic|Coed|82 George Street|SOUTH HURSTVILLE|NSW|2221|
+456|Mary MacKillop Primary School|0|1|0|Catholic|Coed|150 Fragar Road|SOUTH PENRITH|NSW|2750|
+109|Turramurra High School|1|0|1|Non-Denominational|Coed|Maxwell St|SOUTH TURRAMURRA|NSW|2074|
+-1|Windsor Park Public School|1|1|0|Non-Denominational|Coed|Rifle Range Rd|SOUTH WINDSOR|NSW|2756|
+-1|Windsor South Public School|1|1|0|Non-Denominational|Coed|Church St|SOUTH WINDSOR|NSW|2756|
+-1|St Andrews Public School|1|1|0|Non-Denominational|Coed|Ballantrae Drive|ST ANDREWS|NSW|2566|
+-1|Banks Public School|1|1|0|Non-Denominational|Coed|Banks Drive|ST CLAIR|NSW|2759|
+-1|Blackwell Public School|1|1|0|Non-Denominational|Coed|Blackwell Ave|ST CLAIR|NSW|2759|
+-1|Clairgate Public School|1|1|0|Non-Denominational|Coed|Colorado Drive|ST CLAIR|NSW|2759|
+-1|Holy Spirit Primary School|0|1|0|Catholic|Coed|7-17 Todd Row|ST CLAIR|NSW|2759|
+536|St Clair High School|1|0|1|Non-Denominational|Coed|Endeavour Ave|ST CLAIR|NSW|2759|
+-1|St Clair Public School|1|1|0|Non-Denominational|Coed|Timesweep Drive|ST CLAIR|NSW|2759|
+-1|St Helens Park Public School|1|1|0|Non-Denominational|Coed|Kellerman Drive|ST HELENS PARK|NSW|2560|
+91|Brigidine College St Ives|0|0|1|Catholic|Girls|325 Mona Vale Road|ST IVES|NSW|2075|Brigidine College prides itself on excellent standards of teaching and participation in an extensive co-curricular program, with an  emphasis on social justice initiatives and the nurturing of human spirit.
+168|Corpus Christi Primary School|0|1|0|Catholic|Coed|17 Link Road|ST IVES|NSW|2075|
+21|Masada College|0|1|1|Jewish|Coed|9-15 Link Road|ST IVES|NSW|2075|
+-1|Sir Eric Woodward Memorial School|1|1|1|Non-Denominational|Coed|Ayres & Acron Rds|ST IVES|NSW|2075|
+136|St Ives High School|1|0|1|Non-Denominational|Coed|Yarrabung Rd|ST IVES|NSW|2075|
+9|St Ives North Public School|1|1|0|Non-Denominational|Coed|87 Memorial Ave|ST IVES|NSW|2075|
+149|St Ives Park Public School|1|1|0|Non-Denominational|Coed|Woodbury & Acron Rds|ST IVES|NSW|2075|
+9|St Ives Public School|1|1|0|Non-Denominational|Coed|Horace St|ST IVES|NSW|2075|
+2|Sydney Grammar School|0|1|0|Non-Denominational|Boys|11-21 Ayres Street|ST IVES|NSW|2075|
+-1|King Park Public School|1|1|0|Non-Denominational|Coed|Humphries Rd|ST JOHNS PARK|NSW|2176|
+235|St Johns Park High School|1|0|1|Non-Denominational|Coed|Mimosa Rd|ST JOHNS PARK|NSW|2176|
+394|St Johns Park Public School|1|1|0|Non-Denominational|Coed|Sandringham St|ST JOHNS PARK|NSW|2176|
+-1|Bradfield Senior College|1|0|1|Non-Denominational|Coed|213 Pacific Hwy|ST LEONARDS|NSW|2065|Bradfield caters to Year 11 and 12 students from the academically or artistically gifted, to those desiring to enter industry as soon as they complete their HSC.
+-1|Colyton High School|1|0|1|Non-Denominational|Coed|Carpenter St|ST MARYS|NSW|2760|
+-1|Our Lady Of The Rosary Primary School|0|1|0|Catholic|Coed|32b Saddington Street|ST MARYS|NSW|2760|
+-1|Oxley Park Public School|1|1|0|Non-Denominational|Coed|Adelaide St|ST MARYS|NSW|2760|
+-1|St Marys North Public School|1|1|0|Non-Denominational|Coed|Willow Rd|ST MARYS|NSW|2760|
+-1|St Marys Public School|1|1|0|Non-Denominational|Coed|Princess Mary St|ST MARYS|NSW|2760|
+123|St Marys Senior High School|1|0|1|Non-Denominational|Coed|Kalang Ave|ST MARYS|NSW|2760|
+-1|St Marys South Public School|1|1|0|Non-Denominational|Coed|Monfarville St|ST MARYS|NSW|2760|
+-1|St Peters Public School|1|1|0|Non-Denominational|Coed|Church St|ST PETERS|NSW|2044|
+111|St Marks Catholic College|0|1|1|Catholic|Coed|Perfection Avenue|STANHOPE GARDENS|NSW|2768|
+-1|Newington College K-12|0|1|1|Uniting Church|Boys|Stanmore 7–12: 200 Stanmore Rd|STANMORE|NSW|2048|Newington College is a Uniting Church day and boarding school, offering boys well-rounded education. We challenge and motivate boys to discover what's possible, encouraging a personal best approach to life.
+-1|Newington College Wyvern House Preparatory School|0|1|0|Uniting Church|Boys|115 Cambridge Street|STANMORE|NSW|2048|
+350|St Michael's Primary School|0|1|0|Catholic|Coed|Percival Road|STANMORE|NSW|2048|
+215|Stanmore Public School|1|1|0|Non-Denominational|Coed|Cnr Cambridge and Holt St|STANMORE|NSW|2048|
+390|Stanwell Park Public School|1|1|0|Non-Denominational|Coed|Stanwell Ave|STANWELL PARK|NSW|2508|
+-1|St Anne's School|0|1|0|Catholic|Coed|St Annes Square|STRATHFIELD SOUTH|NSW|2136|
+32|Meriden|0|1|1|Anglican|Girls|10-12 Redmyre Road|STRATHFIELD|NSW|2135|Meriden is a medium-sized Anglican day school for girls with consistently strong academic results, where every girl is known and valued.
+62|Santa Sabina College|0|1|1|Catholic|Coed|90 The Boulevarde|STRATHFIELD|NSW|2135|Santa Sabina College, educates students to achieve personal excellence, to act with justice and compassion, and to embrace the future with an optimistic global vision.
+86|Strathfield Girls High School|1|0|1|Non-Denominational|Girls|Albert Rd|STRATHFIELD|NSW|2135|Our school is a respected comprehensive high school which provides nurturing, quality, cutting edge education that empowers girls to become confident, responsible and successful citizens of the 21st century
+-1|Australian International Academy - Sydney Campus|0|1|1|Islamic|Coed|420 Liverpool Road|STRATHFIELD|NSW|2135|
+-1|Australian International College|0|1|1|Islamic|Coed|420 Liverpool Road|STRATHFIELD|NSW|2135|
+-1|Chalmers Road School|1|1|1|Non-Denominational|Coed|Chalmers Rd|STRATHFIELD|NSW|2135|
+-1|Santa Maria Del Monte School|0|1|0|Catholic|Coed|The Boulevarde|STRATHFIELD|NSW|2135|
+400|St Martha's Primary School|0|1|0|Catholic|Coed|88 Churchill Avenue|STRATHFIELD|NSW|2135|
+80|St Patrick's College,Strathfield|0|1|1|Catholic|Boys|Francis Street|STRATHFIELD|NSW|2135|
+89|Trinity Grammar School|0|1|1|Anglican|Boys|119 Prospect Road|SUMMER HILL|NSW|2130|Since its founding in 1913, Trinity Grammar School  has forged a reputation for outstanding academic results, innovation in the creative arts and traditional and community sports.
+24|Summer Hill Public School|1|1|0|Non-Denominational|Coed|Moonbie St|SUMMER HILL|NSW|2130|
+17|Sydney Distance Education Primary School|1|1|0|Non-Denominational|Coed|1 Collins St|SURRY HILLS|NSW|2010|SDEPS provides educational opportunity to NSW families who may be isolated by circumstance or distance, both at home or when travelling worldwide.
+3|Sydney Girls High School|1|0|1|Non-Denominational|Girls|Moore Park|SURRY HILLS|NSW|2010|Sydney Girls High School is an academically selective state school with an outstanding reputation and a long record of achievement.
+393|Bourke Street Public School|1|1|0|Non-Denominational|Coed|590 Bourke St|SURRY HILLS|NSW|2010|
+-1|Cleveland Street Intensive English High School|1|0|1|Non-Denominational|Coed|Cnr Chalmers & Cleveland Sts|SURRY HILLS|NSW|2010|
+-1|Crown Street Public School|1|1|0|Non-Denominational|Coed|356 Crown Street|SURRY HILLS|NSW|2010|
+2|Sydney Boys High School|1|0|1|Non-Denominational|Boys|Moore Park|SURRY HILLS|NSW|2010|
+-1|Minerva School|1|1|1|Non-Denominational|Coed|Eton St|SUTHERLAND|NSW|2232|
+80|St Patrick's College|0|0|1|Catholic|Coed|551 President Avenue|SUTHERLAND|NSW|2232|
+371|St Patrick's Primary School|0|1|0|Catholic|Coed|Belmont Street|SUTHERLAND|NSW|2232|
+478|Sutherland North Public School|1|1|0|Non-Denominational|Coed|Auburn St|SUTHERLAND|NSW|2232|
+101|Sutherland Public School|1|1|0|Non-Denominational|Coed|Eton St|SUTHERLAND|NSW|2232|
+-1|Macquarie Grammar School|0|1|1|Non-Denominational|Coed|225 Clarence Street|SYDNEY|NSW|2000|Macquarie Grammar is uniquely
+-1|Australian Pacific College|0|0|1|Non-Denominational|Coed|189 Kent Street|SYDNEY|NSW|2000|
+9|Conservatorium High School|1|0|1|Non-Denominational|Coed|Macquarie St|SYDNEY|NSW|2000|
+598|Fort Street Public School|1|1|0|Non-Denominational|Coed|Observatory Hill|SYDNEY|NSW|2000|
+85|St Andrew's Cathedral School|0|1|1|Anglican|Coed|Sydney Square|SYDNEY|NSW|2000|
+113|St Mary's Cathedral College|0|1|1|Catholic|Boys|2 St Marys Road|SYDNEY|NSW|2000|
+572|Sylvania Heights Public School|1|1|0|Non-Denominational|Coed|Lisbon St|SYLVANIA|NSW|2224|
+345|Sylvania High School|1|0|1|Non-Denominational|Coed|Bellingara Rd|SYLVANIA|NSW|2224|
+572|Sylvania Public School|1|1|0|Non-Denominational|Coed|Princes Hwy|SYLVANIA|NSW|2224|
+-1|Taren Point Public School|1|1|0|Non-Denominational|Coed|Woodlands Rd|TAREN POINT|NSW|2229|
+-1|Kingsdene Special School|0|1|1|Anglican|Coed|19 Gibbons Street|TELOPEA|NSW|2117|
+-1|Telopea Public School|1|1|0|Non-Denominational|Coed|Sturt St|TELOPEA|NSW|2117|
+126|Tempe High School|1|0|1|Non-Denominational|Coed|Unwins Bridge Rd|TEMPE|NSW|2044|
+-1|Tempe Public School|1|1|0|Non-Denominational|Coed|Unwins Bridge Rd|TEMPE|NSW|2044|
+-1|German International School Sydney|0|1|1|Non-Denominational|Coed|33 Myoora Road|TERREY HILLS|NSW|2084|The German International School Sydney provides high quality bilingual education from Preschool to Year 12 (International Baccalaureate) in small classes and a caring environment.
+-1|Kinma School|0|1|0|Non-Denominational|Coed|127 Coolowie Road|TERREY HILLS|NSW|2084|
+186|Northern Beaches Christian School|0|1|1|Christian|Coed|1 Echunga Road|TERREY HILLS|NSW|2084|
+-1|Sydney Japanese School|0|1|1|Non-Denominational|Coed|112 Booralie Road|TERREY HILLS|NSW|2084|
+273|Terrey Hills Public School|1|1|0|Non-Denominational|Coed|Cooyong Rd|TERREY HILLS|NSW|2084|
+317|St Michael's Primary School|0|1|0|Catholic|Coed|Lower Main Road|THIRROUL|NSW|2515|
+-1|Thirroul Public School|1|1|0|Non-Denominational|Coed|Roxburgh Ave|THIRROUL|NSW|2515|
+191|Normanhurst West Public School|1|1|0|Non-Denominational|Coed|Dartford Rd|THORNLEIGH|NSW|2120|
+153|Thornleigh West Public School|1|1|0|Non-Denominational|Coed|Giblett Ave|THORNLEIGH|NSW|2120|
+521|Metella Road Public School|1|1|0|Non-Denominational|Coed|Metella Rd|TOONGABBIE|NSW|2146|
+413|Toongabbie Christian School|0|1|1|Christian|Coed|30-40 Metella Road|TOONGABBIE|NSW|2146|
+521|Toongabbie Public School|1|1|0|Non-Denominational|Coed|Fitzwilliam Rd|TOONGABBIE|NSW|2146|
+-1|Toongabbie West Public School|1|1|0|Non-Denominational|Coed|Ballandella Rd|TOONGABBIE|NSW|2146|
+-1|Tregear Public School|1|1|0|Non-Denominational|Coed|Wilkes Cres|TREGEAR|NSW|2770|
+43|Turramurra Public School|1|1|0|Non-Denominational|Coed|Kissing Point Rd|TURRAMURRA|NSW|2074|
+139|Warrawee Public School|1|1|0|Non-Denominational|Coed|Pacific Hwy|TURRAMURRA|NSW|2074|
+56|International Grammar School|0|1|1|Non-Denominational|Coed|4-8 Kelly St.|ULTIMO|NSW|2007|
+-1|Ultimo Public School|1|1|0|Non-Denominational|Coed|Quarry St|ULTIMO|NSW|2007|
+-1|Mt Carmel High School|0|0|1|Catholic|Coed|Spit Fire Drive|VARROVILLE|NSW|2566|
+-1|St Benedict's Catholic College, Camden|0|0|1|Catholic|Coed|cnr Spitfire & St Andrews Rd|VARROVILLE|NSW|2566|
+-1|Kincoppal - Rose Bay|0|1|0|Catholic|Coed|2 Vaucluse Road|VAUCLUSE|NSW|2030|
+-1|Vaucluse Public School|1|1|0|Non-Denominational|Coed|Cambridge Ave|VAUCLUSE|NSW|2030|
+-1|Sacred Heart Primary School|0|1|0|Catholic|Coed|122 Carawatha Street|VILLAWOOD|NSW|2163|
+-1|Villawood East Public School|1|1|0|Non-Denominational|Coed|Lowana St|VILLAWOOD|NSW|2163|
+-1|Vineyard Public School|1|1|0|Non-Denominational|Coed|4 Bandon Rd|VINEYARD|NSW|2765|
+-1|Abbotsleigh Junior School|0|1|0|Anglican|Girls|22 Woonona Avenue|WAHROONGA|NSW|2076|Abbotsleigh empowers young women to embrace the world with confidence, competence and compassion accepting their responsibility in creating the future.
+-1|Abbotsleigh Senior School|0|0|1|Anglican|Girls|1666 Pacific Highway|WAHROONGA|NSW|2076|Abbotsleigh empowers young women to embrace the world with confidence, competence and compassion accepting their responsibility in creating the future.
+42|Knox Grammar School (Primary and Senior)|0|1|1|Uniting Church|Boys|Pacific Highway|WAHROONGA|NSW|2076|Knox Grammar School provides opportunities for boys to grow into great men of integrity, faith, wisdom and compassion.
+-1|Retaval Wahroonga|0|1|0|Catholic|Coed|100 Fox Valley Road|WAHROONGA|NSW|2076|Retaval offers a personalised system of education for Girls & Boys, Reception-Year 1. Parents & teachers are united in assisting each child strive for excellence through our unique tutorial system
+82|Wahroonga Adventist School|0|1|0|Seventh Day Adventist|Coed|189 Fox Valley Rd|WAHROONGA|NSW|2076|Wahroonga Adventist School offers a caring nurturing environment, a program that focuses on helping students reach their full academic potential and development of moral character and social confidence.
+72|Wahroonga Preparatory School|0|1|0|Uniting Church|Coed|61 Coonanbarra Road|WAHROONGA|NSW|2076|Explore North Shore's independent, co-educational and affordable alternative from Pre-Kinder to Year 6 where every child is known personally, cared for deeply, challenged extensively, and thriving in the information age.
+83|Knox Grammar School (Preparatory)|0|1|0|Uniting Church|Boys|Billyard Avenue|WAHROONGA|NSW|2076|
+411|Prouille Primary School|0|1|0|Catholic|Coed|5 Water Street|WAHROONGA|NSW|2076|
+-1|St Edmund's School|0|0|1|Catholic|Coed|60 Burns Road|WAHROONGA|NSW|2076|
+193|St Leo's Catholic College|0|0|1|Catholic|Coed|16 Woolcott Avenue|WAHROONGA|NSW|2076|
+-1|St Lucy's School|0|1|0|Catholic|Coed|21 Cleveland Street|WAHROONGA|NSW|2076|
+91|Wahroonga Public School|1|1|0|Non-Denominational|Coed|71 Burns Rd|WAHROONGA|NSW|2076|
+91|Waitara Public School|1|1|0|Non-Denominational|Coed|Edgeworth David Ave|WAHROONGA|NSW|2076|
+198|Our Lady Of The Rosary Primary School|0|1|0|Catholic|Coed|23 Yardley Avenue|WAITARA|NSW|2077|
+387|Mary MacKillop College|0|0|1|Catholic|Girls|Carnarvon Street|WAKELEY|NSW|2176|
+523|Wallacia Public School|1|1|0|Non-Denominational|Coed|171 Mulgoa Rd|WALLACIA|NSW|2745|
+189|Mater Maria College|0|0|1|Catholic|Coed|5 Forest Road|WARRIEWOOD|NSW|2102|
+-1|Lawrence Hargrave School|1|1|1|Non-Denominational|Coed|Station St|WARWICK FARM|NSW|2170|
+-1|Warwick Farm Public School|1|1|0|Non-Denominational|Coed|Lawrence Hargrave Rd|WARWICK FARM|NSW|2170|
+-1|Waterfall Public School|1|1|0|Non-Denominational|Coed|McKell Ave|WATERFALL|NSW|2233|
+-1|Green Square School|1|1|1|Non-Denominational|Coed|237 Botany Rd|WATERLOO|NSW|2017|
+-1|Our Lady Of Mt Carmel School|0|1|0|Catholic|Coed|2-6 Kellick Street|WATERLOO|NSW|2017|
+-1|Taylors College, Sydney|0|0|1|Non-Denominational|Coed|965 Bourke Street|WATERLOO|NSW|2017|
+111|St Mark's Coptic Orthodox College|0|1|1|Christian|Coed|52 Australis Avenue|WATTLE GROVE|NSW|2173|
+-1|Wattle Grove Public School|1|1|0|Non-Denominational|Coed|Cressbrook Drive|WATTLE GROVE|NSW|2173|
+-1|St Catherine's School, Waverley|0|1|1|Anglican|Girls|26 Albion Street|WAVERLEY|NSW|2024|Australia's oldest independent girls school develops critical and reflective thinkers who make significant contributions to society as leaders and women determined to make a difference.
+134|Waverley College|0|1|1|Catholic|Boys|131 Birrell Street|WAVERLEY|NSW|2024|Waverley College aims for excellence in every facet of its education of boys into young men. Our religious, educational, cultural and sporting facilities reflect contemporary approaches to teaching.
+286|Clovelly Public School|1|1|0|Non-Denominational|Coed|Arden St|WAVERLEY|NSW|2024|
+181|St Charles Primary School|0|1|0|Catholic|Coed|53-63 Carrington Road|WAVERLEY|NSW|2024|
+280|St Clare's College|0|0|1|Catholic|Girls|41-51 Carrington Road|WAVERLEY|NSW|2024|
+286|Waverley Public School|1|1|0|Non-Denominational|Coed|Bronte Rd|WAVERLEY|NSW|2024|
+98|North Sydney Public School|1|1|0|Non-Denominational|Coed|Bay Rd|WAVERTON|NSW|2060|
+-1|Catherine McAuley High School|0|0|1|Catholic|Girls|2 Darcy Road|WENTWORTHVILLE|NSW|2145|
+-1|Darcy Road Public School|1|1|0|Non-Denominational|Coed|Darcy Rd|WENTWORTHVILLE|NSW|2145|
+-1|Our Lady Of Mt Carmel Primary School|0|1|0|Catholic|Coed|Bennett Street|WENTWORTHVILLE|NSW|2145|
+-1|Pendle Hill High School|1|0|1|Non-Denominational|Coed|Knox St|WENTWORTHVILLE|NSW|2145|
+-1|Pendle Hill Public School|1|1|0|Non-Denominational|Coed|Pendle Way|WENTWORTHVILLE|NSW|2145|
+-1|Toongabbie East Public School|1|1|0|Non-Denominational|Coed|Harris Rd|WENTWORTHVILLE|NSW|2145|
+-1|Wentworthville Public School|1|1|0|Non-Denominational|Coed|Cnr Station St & Fullagar Rd|WENTWORTHVILLE|NSW|2145|
+-1|Wollemi College|0|1|1|Catholic|Boys|4 Gipps Street|WERRINGTON|NSW|2747|Wollemi offers a personalised system of education for boys Years 3-12, with parents and teachers united in assisting each child to strive for excellence, through our unique tutorial system.
+-1|Kurrambee School|1|1|1|Non-Denominational|Coed|Werrington Rd|WERRINGTON|NSW|2747|
+-1|Penrith Valley Learning Centre|1|1|0|Anglican|Coed|Werrington Road|WERRINGTON|NSW|2747|
+-1|Werrington County Public School|1|1|0|Non-Denominational|Coed|John Batman Ave|WERRINGTON|NSW|2747|
+-1|Werrington Public School|1|1|0|Non-Denominational|Coed|Heavey St|WERRINGTON|NSW|2747|
+-1|The Hills Montessori School|0|1|0|Non-Denominational|Coed|10 Taylor Street|WEST PENNANT HILLS|NSW|2125|
+174|West Pennant Hills Public School|1|1|0|Non-Denominational|Coed|Church St|WEST PENNANT HILLS|NSW|2125|
+254|Our Lady Of Perpetual Succour School|0|1|0|Catholic|Coed|64 Kendall Street|WEST PYMBLE|NSW|2073|
+61|West Pymble Public School|1|1|0|Non-Denominational|Coed|Apollo Ave|WEST PYMBLE|NSW|2073|
+313|Marsden High School|1|0|1|Non-Denominational|Coed|22a Winbourne St|WEST RYDE|NSW|2114|Achieving excellence in a supportive and stimulating learning environment
+156|Ermington Public School|1|1|0|Non-Denominational|Coed|Winbourne St|WEST RYDE|NSW|2114|
+-1|Melrose Park Public School|1|1|0|Non-Denominational|Coed|110 Wharf Rd|WEST RYDE|NSW|2114|
+92|West Ryde Public School|1|1|0|Non-Denominational|Coed|Endeavour St|WEST RYDE|NSW|2114|
+43|Parramatta Marist High School|0|0|1|Catholic|Boys|2 Darcy Road|WESTMEAD|NSW|2145|
+-1|Redbank School|1|1|1|Non-Denominational|Coed|Institute Rd|WESTMEAD|NSW|2145|
+270|Sacred Heart Primary School|0|1|0|Catholic|Coed|12 Ralph Street|WESTMEAD|NSW|2145|
+-1|Westmead Christian Grammar School|0|1|0|Christian|Coed|2 Bridge Road|WESTMEAD|NSW|2145|
+108|Westmead Public School|1|1|0|Non-Denominational|Coed|Hawkesbury Rd|WESTMEAD|NSW|2145|
+494|Prairiewood High School|1|0|1|Non-Denominational|Coed|Prairievale Rd|WETHERILL PARK|NSW|2164|
+-1|Smithfield West Public School|1|1|0|Non-Denominational|Coed|Wetherill St|WETHERILL PARK|NSW|2164|
+-1|William Stimson Public School|1|1|0|Non-Denominational|Coed|Lily St|WETHERILL PARK|NSW|2164|
+-1|Halinda School|1|1|1|Non-Denominational|Coed|Karangi Rd|WHALAN|NSW|2770|
+-1|Madang Avenue Public School|1|1|0|Non-Denominational|Coed|Mimika Ave|WHALAN|NSW|2770|
+-1|Whalan Public School|1|1|0|Non-Denominational|Coed|Karangi Rd|WHALAN|NSW|2770|
+-1|Wiley Park Public School|1|1|0|Non-Denominational|Coed|Denman Ave|WILEY PARK|NSW|2195|
+-1|Willmot Public School|1|1|0|Non-Denominational|Coed|Discovery Ave|WILLMOT|NSW|2770|
+-1|Glenaeon Rudolf Steiner School|0|1|0|Non-Denominational|Coed|118 Sydney Road|WILLOUGHBY|NSW|2068|
+197|St Thomas Primary School|0|1|0|Catholic|Coed|2 Horsley Avenue|WILLOUGHBY|NSW|2068|
+59|Willoughby Girls High School|1|0|1|Non-Denominational|Girls|Mowbray Rd|WILLOUGHBY|NSW|2068|
+185|Willoughby Public School|1|1|0|Non-Denominational|Coed|Oakville Rd|WILLOUGHBY|NSW|2068|
+-1|St Matthew's Primary School|0|1|0|Catholic|Coed|12 Tebbutt Street|WINDSOR|NSW|2756|
+-1|Windsor Public School|1|1|0|Non-Denominational|Coed|Dight St|WINDSOR|NSW|2756|
+-1|St Paul The Apostle Primary School|0|1|0|Catholic|Coed|Buckleys Road|WINSTON HILLS|NSW|2153|
+583|Winston Heights Public School|1|1|0|Non-Denominational|Coed|Buckley Rd|WINSTON HILLS|NSW|2153|
+501|Winston Hills Public School|1|1|0|Non-Denominational|Coed|Hillcrest Rd|WINSTON HILLS|NSW|2153|
+-1|Macdonald Valley Public School|1|1|0|Non-Denominational|Coed|St Albans Rd|WISEMANS FERRY|NSW|2775|
+-1|Wisemans Ferry Public School|1|1|0|Non-Denominational|Coed|Old Northern Rd|WISEMANS FERRY|NSW|2775|
+-1|Holy Cross Primary School|0|1|0|Catholic|Coed|81 Edgecliff Road|WOOLLAHRA|NSW|2025|
+-1|Reddam House|0|1|0|Non-Denominational|Coed|70-78 Edgecliffe Rd|WOOLLAHRA|NSW|2025|
+11|Woollahra Public School|1|1|0|Non-Denominational|Coed|Forth St|WOOLLAHRA|NSW|2025|
+-1|Plunkett Street Public School|1|1|0|Non-Denominational|Coed|Forbes St|WOOLLOOMOOLOO|NSW|2011|
+506|Sydney Distance Education High School|1|0|1|Non-Denominational|Coed|Forbes St|WOOLLOOMOOLOO|NSW|2011|
+554|St Francis de Sales Primary School|0|1|0|Catholic|Coed|14 Hill Street|WOOLOOWARE|NSW|2230|
+238|Woolooware High School|1|0|1|Non-Denominational|Coed|Woolooware Rd North|WOOLOOWARE|NSW|2230|
+152|Marist Sisters' College Woolwich|0|0|1|Catholic|Girls|66A Woolwich Road|WOOLWICH|NSW|2110|MSCW's curriculum is aimed at accommodating the needs of girls, and at preparing them to contribute - indeed to make a difference - to the twenty-first century.
+-1|Woronora River Public School|1|1|0|Non-Denominational|Coed|Prices Circuit|WORONORA|NSW|2232|
+-1|Al Sadiq College|0|1|0|Islamic|Coed|178 Cooper Road|YAGOONA|NSW|2199|
+-1|Christ The King Primary School|0|1|0|Catholic|Coed|2 Cantrell Street|YAGOONA|NSW|2199|
+-1|Yagoona Public School|1|1|0|Non-Denominational|Coed|425 Hume Hwy|YAGOONA|NSW|2199|
+-1|Yennora Public School|1|1|0|Non-Denominational|Coed|Ellis Pde|YENNORA|NSW|2161|
+166|Yowie Bay Public School|1|1|0|Non-Denominational|Coed|Wonga Rd|YOWIE BAY|NSW|2228|

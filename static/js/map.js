@@ -209,9 +209,9 @@ function initMap(){
         }
     ]);
 
-    //var customMapTypeId = 'custom_style';
-    //map.mapTypes.set(customMapTypeId, customMapType);
-    //map.setMapTypeId(customMapTypeId);
+    var customMapTypeId = 'custom_style';
+    map.mapTypes.set(customMapTypeId, customMapType);
+    map.setMapTypeId(customMapTypeId);
 
     // Load GeoJSON.
     map.data.loadGeoJson('/static/json/suburbs0.json');
