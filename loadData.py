@@ -1,14 +1,17 @@
 #!/usr/local/bin/python3
 
+import sys,os
+
 # Full path and name to your csv file
-schools_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/schools/schools.txt"
-realEstate_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/realEstate/suburbPricing.csv"
-travel_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/travel/travel.csv"
+dirName=os.path.dirname(os.path.abspath(__file__))
+schools_filepathname=dirName + "/Data/schools/schools.txt"
+realEstate_filepathname=dirName + "/Data/realEstate/suburbPricing.csv"
+travel_filepathname=dirName + "/Data/travel/travel.csv"
+wages_filepathname=dirName + "/Data/wages.csv"
 
 # Full path to your django project directory
-your_djangoproject_home="/Users/samuelwemyss/Projects/SENG2021/"
+your_djangoproject_home=dirName
 
-import sys,os
 sys.path.append(your_djangoproject_home)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'HouseLife.settings'
 import django
@@ -20,6 +23,7 @@ from suburbs.models import Suburb
 
 import csv
 import math
+import re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
 next(realEstateReader, None)
@@ -28,9 +32,22 @@ for row in realEstateReader:
         name = row[0],
         state = "NSW",
         housePrice = round(float(row[1])),
-        unitPrice = round(float(row[2]))
+        houseRentalPrice = round(float(row[2])),
+        unitPrice = round(float(row[3])),
+        unitRentalPrice = round(float(row[4])),
         )
 
+wagesReader = csv.reader(open(wages_filepathname), delimiter=',', quotechar='"')
+for row in wagesReader:
+    row[1] = (row[1].split('-', 1)[0]).strip()
+    suburbs = Suburb.objects.filter(name__iexact=row[1])
+    if suburbs.count() > 0:
+        suburb = suburbs[0]
+        row[19] = row[19].replace("\"","")
+        row[19] = row[19].replace(",","")
+        suburb.averageSalary = round(float(row[19]))
+        print(suburb.name)
+        suburb.save()
 
 travelReader = csv.reader(open(travel_filepathname), delimiter=',', quotechar='"')
 next(travelReader, None)

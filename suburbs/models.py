@@ -18,10 +18,13 @@ class Suburb(models.Model):
     name = models.CharField(max_length=100)
     state = models.CharField(max_length=3, blank=True)
     postcode = models.CharField(max_length=4, blank=True)
-    housePrice = models.IntegerField()
-    unitPrice = models.IntegerField()
+    housePrice = models.IntegerField(default=0)
+    houseRentalPrice = models.IntegerField(default=0)
+    unitPrice = models.IntegerField(default=0)
+    unitRentalPrice = models.IntegerField(default=0)
     timeToCbdPublic = models.CharField(max_length=100, blank=True)
     timeToCbdPrivate = models.CharField(max_length=100, blank=True)
+    averageSalary = models.IntegerField(default=0)
     schools = models.ManyToManyField(School, blank=True)
 
     class Meta:

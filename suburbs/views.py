@@ -14,14 +14,32 @@ def suburb_list(request, format=None):
     suburbs = Suburb.objects.all()
     if (request.query_params.get('name','')):
         suburbs = suburbs.filter(name__icontains=request.query_params.get('name',''))
+
     if (request.query_params.get('housePriceMax','')):
         suburbs = suburbs.filter(housePrice__lte=request.query_params.get('housePriceMax',''))
     if (request.query_params.get('housePriceMin','')):
         suburbs = suburbs.filter(housePrice__gte=request.query_params.get('housePriceMin',''))
+
+    if (request.query_params.get('houseRentalPriceMax','')):
+        suburbs = suburbs.filter(houseRentalPrice__lte=request.query_params.get('houseRentalPriceMax',''))
+    if (request.query_params.get('houseRentalPriceMin','')):
+        suburbs = suburbs.filter(houseRentalPrice__gte=request.query_params.get('houseRentalPriceMin',''))
+
     if (request.query_params.get('unitPriceMax','')):
         suburbs = suburbs.filter(unitPrice__lte=request.query_params.get('unitPriceMax',''))
     if (request.query_params.get('unitPriceMin','')):
         suburbs = suburbs.filter(unitPrice__gte=request.query_params.get('unitPriceMin',''))
+
+    if (request.query_params.get('unitRentalPriceMax','')):
+        suburbs = suburbs.filter(unitRentalPrice__lte=request.query_params.get('unitRentalPriceMax',''))
+    if (request.query_params.get('unitRentalPriceMin','')):
+        suburbs = suburbs.filter(unitRentalPrice__gte=request.query_params.get('unitRentalPriceMin',''))
+
+    if (request.query_params.get('averageSalaryMax','')):
+        suburbs = suburbs.filter(averageSalary__lte=request.query_params.get('averageSalaryMax',''))
+    if (request.query_params.get('averageSalaryMin','')):
+        suburbs = suburbs.filter(averageSalary__gte=request.query_params.get('averageSalaryMin',''))
+
     if (request.query_params.get('showSchools','')):
         if (request.query_params.get('showSchools','') == "False"):
             serializer = SimpleSuburbSerializer(suburbs, many=True)
