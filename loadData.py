@@ -1,12 +1,12 @@
 #!/usr/local/bin/python3
 
 # Full path and name to your csv file
-schools_filepathname="/Users/samuelwemyss/Projects/SENG2021/schools/schools.txt"
-realEstate_filepathname="/Users/samuelwemyss/Projects/SENG2021/realEstate/suburbPricing.csv"
-travel_filepathname="/Users/samuelwemyss/Projects/SENG2021/travel/travel.csv"
+schools_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/schools/schools.txt"
+realEstate_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/realEstate/suburbPricing.csv"
+travel_filepathname="/Users/samuelwemyss/Projects/SENG2021/Data/travel/travel.csv"
 
 # Full path to your django project directory
-your_djangoproject_home="/Users/samuelwemyss/Projects/SENG2021/HouseLife/"
+your_djangoproject_home="/Users/samuelwemyss/Projects/SENG2021/"
 
 import sys,os
 sys.path.append(your_djangoproject_home)
