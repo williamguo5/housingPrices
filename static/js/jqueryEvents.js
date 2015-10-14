@@ -13,7 +13,6 @@ $(document).ready(function() {
 
     $('[data-toggle="map-tooltip"]').tooltip();
 
-
     // when user clicks on the toggle heatmap button
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
@@ -191,5 +190,93 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-
+	
+	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox2]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox3]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox4]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox5]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox6]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
+	$('input:checkbox[name=lgd-checkbox7]').change(function(event){
+		if ($("#heatmap-housing").hasClass('selected')){
+			heatmapHousing();
+		}
+		if ($("#heatmap-schools").hasClass('selected')){
+			heatmapSchools();
+		}
+		if ($("#heatmap-transport").hasClass('selected')){
+			heatmapTransport();
+		}
+	});
 });
