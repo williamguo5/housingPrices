@@ -25,6 +25,8 @@ class Suburb(models.Model):
     timeToCbdPublic = models.CharField(max_length=100, blank=True)
     timeToCbdPrivate = models.CharField(max_length=100, blank=True)
     averageSalary = models.IntegerField(default=0)
+    description = models.CharField(max_length=500, blank=True)
+    longDescription = models.CharField(max_length=3300, blank=True)
     schools = models.ManyToManyField(School, blank=True)
 
     class Meta:

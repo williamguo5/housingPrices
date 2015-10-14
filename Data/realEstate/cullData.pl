@@ -15,10 +15,11 @@ while (my $suburb = <SUBURBS>) {
 	$suburbs{uc($suburb)} = 0;
 }
 foreach my $key (keys %suburbs) {
-	$houses{$key}[0] = 0;
-	$houses{$key}[1] = 0;
-	$units{$key}[0] = 0;
-	$units{$key}[1] = 0;
+	$houses{$key}[0] = 0;	# Price
+	$houses{$key}[1] = 0;	# Rent
+
+	$units{$key}[0] = 0;	# Price
+	$units{$key}[1] = 0;	# Rent
 }
 
 while (my $entry = <DATAFILE>) {
@@ -28,7 +29,7 @@ while (my $entry = <DATAFILE>) {
 		$name = uc($name);
 		$name =~ s/\"//g;
 
-		if (exists $suburbs{$name}) {					# If its a suburb in Sydney
+		if (exists $suburbs{$name}) {						# If its a suburb in Sydney
 			if ($data[7] eq "") {							# If the median is not given
 				if (($data[8] && $data[6])) {				# Try to just calculate the mean and use that
 					($data[7] = $data[8]) =~ s/\"//g;
@@ -59,15 +60,15 @@ while (my $entry = <DATAFILE>) {
 					}
 				}
 			}
-			$suburbs{$name} += 1;
+			$suburbs{$name} = $data[3];
 		}
 	}
 }
 print "\nREALESTATE DATA FOR THESE PLACES NOT FOUND:\n";
 print "########################\n";
-print ENDFILE "SUBURB,HOUSE PRICE,HOUSE RENT PRICE,UNIT PRICE,UNIT RENT PRICE\n";
+print ENDFILE "SUBURB,POSTCODE,HOUSE PRICE,HOUSE RENT PRICE,UNIT PRICE,UNIT RENT PRICE\n";
 foreach my $suburb (keys %suburbs) {
-	print ENDFILE "$suburb,$houses{$suburb}[0],$houses{$suburb}[1],$units{$suburb}[0],$units{$suburb}[1]\n";
+	print ENDFILE "$suburb,$suburbs{$suburb},$houses{$suburb}[0],$houses{$suburb}[1],$units{$suburb}[0],$units{$suburb}[1]\n";
 	if ($suburbs{$suburb} == 0) {
 		print "  $suburb\n";
 	}

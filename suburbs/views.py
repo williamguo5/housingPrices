@@ -40,8 +40,8 @@ def suburb_list(request, format=None):
     if (request.query_params.get('averageSalaryMin','')):
         suburbs = suburbs.filter(averageSalary__gte=request.query_params.get('averageSalaryMin',''))
 
-    if (request.query_params.get('showSchools','')):
-        if (request.query_params.get('showSchools','') == "False"):
+    if (request.query_params.get('simple','')):
+        if (request.query_params.get('simple','') == "False"):
             serializer = SimpleSuburbSerializer(suburbs, many=True)
         else:
             serializer = SuburbSerializer(suburbs, many=True)
