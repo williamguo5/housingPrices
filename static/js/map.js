@@ -215,7 +215,7 @@ function initMap(){
          }
       ]
    }
-]);
+   ]);
 
     var customMapTypeId = 'custom_style';
     map.mapTypes.set(customMapTypeId, customMapType);
