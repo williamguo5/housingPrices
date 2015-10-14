@@ -1,0 +1,540 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    /*top:50px;*/
+    bottom: 0;
+    z-index: 100;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+#wrapper {
+    /*padding-left: 20%;*/
+    /*-webkit-transition: all 0.5s ease;*/
+    /*-moz-transition: all 0.5s ease;*/
+    /*-o-transition: all 0.5s ease;*/
+    /*transition: all 0.5s ease;*/
+}
+
+
+/* Sidebar */
+#sidebar-wrapper, #cmp-sidebar-wrapper{
+    /*margin-left: -250px;*/
+    left: -20%;
+    width: 20%;
+    /*background: lightgrey;*/
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 100;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -moz-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+#page-content-toggle {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    /*top: 50%;*/
+    height: 100%;
+    /*border: 1px solid black;*/
+    /*background: #4099FF;*/
+    border: transparent;
+    background: transparent;
+    /*transition-delay: 0.5s;*/
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition:  left 0.5s ease ;
+    -o-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+
+    outline: none;
+
+}
+
+#page-content-toggle:hover {
+    background: #4099FF;
+}
+
+#close-sidebar {
+    position: absolute;
+    z-index: -1;
+    top : 20px;
+    background: transparent;
+    border: transparent;
+    left: 0%;
+
+    -webkit-transition: all 0.5s ease ;
+    -moz-transition:  all 0.5s ease ;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition:  all 0.5s ease ;
+    transition:  all 0.5s ease ;
+    /*right : 10px;*/
+    outline: none;
+}
+
+#suburb-hover {
+    position: fixed;
+    z-index: 100;
+    right: 5%;
+    width: 240px;
+    bottom: calc(13% + 250px);
+    height: 4%;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#title {
+	 position: fixed;
+    background: width;
+    right: 5%;
+    bottom: calc(9% + 239px);
+    width: 240px;
+	 z-index: 100;
+    height: 4%;
+	 text-align: center;
+    background: white;
+    border: 1px solid black;
+}
+
+#carousel-suburb, #cmp-carousel-suburb {
+    left: 10%;
+    right: 10%;
+    width: 80%;
+}
+
+#legend {
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+    position: fixed;
+    background: white;
+    width: 240px;
+    height: 240px;
+    z-index: 100;
+    right: 5%;
+    bottom: 9%;
+    border: 1px solid black;
+}
+
+#lgd-checkbox {
+	float:right;
+}
+
+.legend-color-box {
+    height:20px;
+    width:20px;
+    border-radius:3px;
+    float:left;
+	 margin-left:10px;
+    border:1px solid black;
+    margin-right:6px;
+}
+
+h2 {
+    height: 50px;
+}
+.carousel {
+    visibility: hidden;
+}
+
+
+.size {
+    font-size: 1.5em;
+}
+
+.size-close {
+    font-size: 2.0em;
+
+}
+
+.col-style {
+    visibility: hidden;
+}
+
+.checkbox {
+    position: fixed;
+    /*visibility: hidden;*/
+    bottom: 10px;
+}
+
+.divider {
+    position:absolute;
+    left: calc(100% - 1px);
+    top: 10px;
+    bottom: 10px;
+    border-left:1px solid lightgrey;
+    visibility: hidden;
+    /*transition-delay: 0.5s;*/
+    /*-webkit-transition: all 0.5s ease;*/
+    /*-moz-transition: all 0.5s ease;*/
+    /*-ms-transition: all 0.5s ease;*/
+    /*-o-transition: all 0.5s ease;*/
+    /*transition: all 0.5s ease;*/
+
+}
+
+.nav-pills {
+    text-align: center;
+    visibility: hidden;
+}
+
+.nav-pills > li{
+    float:none;
+    display:inline-block;
+}
+.nav-pills {
+    text-align: center;
+    visibility: hidden;
+}
+
+.container-fluid {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    visibility: hidden;
+}
+
+#legend .container-fluid {
+    margin: 5px;
+    /*margin-left: 10px;*/
+
+    visibility: visible;
+}
+#legend h4{
+    text-align: center;
+}
+#legend .row {
+    /*border: solid 1px red;*/
+    height: 24px;
+}
+
+.cont.sidebar-open {
+    /*margin-top: 10px;*/
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*margin-bottom: 10px;*/
+    width: auto;
+    height: calc(100% - 20px);
+}
+
+.container-fluid .sidebar-expanded {
+
+    /*display:none;*/
+}
+
+/* Modifies the properties of the button with hidden visibility on load */
+.button {
+    /*transition-delay: 0.5s;*/
+    visibility: hidden;
+}
+
+/* IF the sidebar is showing THEN
+ * expanded the page-content-wrapper IF sidebarExpanded is toggled on
+ */
+#wrapper.showSidebar.sidebarExpanded #sidebar-wrapper {
+    z-index: 1000;
+    width: calc(100% - 32px);
+    /*right: 24px;*/
+}
+
+/* IF the sidebar is showing THEN
+ * move the page-content-toggle button to follow as the page-content-wrapper expands
+ */
+#wrapper.showSidebar.sidebarExpanded #page-content-toggle {
+    /*right: 0;*/
+    left: calc(100% - 32px);
+}
+
+#wrapper.showSidebar.sidebarExpanded .checkbox {
+    visibility: hidden;
+}
+
+#wrapper.showSidebar.sidebarExpanded .carousel {
+    visibility: visible;
+    transition-delay: 0.5s;
+
+}
+
+#wrapper.showSidebar.sidebarExpanded .container-fluid.sidebar-expanded {
+    visibility: visible;
+    /*display: inline;*/
+}
+
+#wrapper.showSidebar.sidebarExpanded .nav-pills {
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+#wrapper.showSidebar.sidebarExpanded #close-sidebar {
+    /*left: auto;*/
+    /*right: 12px;*/
+    /*visibility: hidden;*/
+    display:none;
+}
+
+#wrapper.showSidebar.sidebarExpanded .row {
+    transition-delay: 0.5s
+}
+
+/* IF the showSidebar is toggled on THEN
+ *  set the width to 20 % AND add 20 px padding
+ */
+#wrapper.showSidebar #sidebar-wrapper {
+    /*width: 20%;*/
+    z-index: 100;
+    left: 0%;
+
+}
+
+#wrapper.showSidebar .container-fluid.sidebar-open {
+    visibility: visible;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
+}
+
+#wrapper.showSidebar #cmp-sidebar-wrapper {
+    /*width: 20%;*/
+    z-index: 0;
+    left: 20%;
+}
+
+#wrapper.showSidebar #page-content-toggle {
+    /*border: 1px solid black;*/
+    background: lightskyblue;
+    /*background: lightblue;*/
+    left: 20%;
+    z-index: 1000;
+}
+
+#wrapper.showSidebar #page-content-toggle:hover {
+    background: paleturquoise;
+    /*-webkit-transition: color 0.2s ease ;*/
+    /*-moz-transition:  color 0.2s ease ;*/
+    /*-ms-transition:  color 0.2s ease ;*/
+    /*-o-transition:  color 0.2s ease ;*/
+    /*transition:  color 0.2s ease ;*/
+}
+
+
+#wrapper.showSidebar #page-content-toggle:hover .colour {
+    color: white;
+}
+
+#wrapper.showSidebar #close-sidebar {
+    z-index: 1000;
+    left: calc(20%- 45px);
+}
+
+#wrapper.showSidebar #close-sidebar:hover .colour{
+    color: red;
+}
+/* IF the sidebar is showing THEN
+ * Set the map width to be 80%
+ */
+#wrapper.showSidebar #map {
+    width: calc(80% - 32px);
+}
+
+#wrapper.cmpSuburbClicked #page-content-toggle {
+    left: 40%;
+    right: auto;
+
+}
+
+#wrapper.cmpSuburbClicked #cmp-sidebar-wrapper {
+    left: 20%;
+    right: auto;
+
+}
+
+#wrapper.cmpSuburbClicked #close-sidebar {
+    left: calc(40% - 45px);
+
+    /*right: auto;*/
+}
+
+#wrapper.cmpChecked .col-style {
+    visibility: visible;
+}
+
+#wrapper.cmpSuburbClicked .divider {
+    /*transition-delay: 0.1s;*/
+    visibility: visible;
+    -webkit-transition: all 0.5s ease 0.5s;
+    -moz-transition: all 0.5s ease 0.5s;
+    -ms-transition: all 0.5s ease 0.5s;
+    -o-transition: all 0.5s ease 0.5s;
+    transition: all 0.5s ease 0.5s;
+
+}
+
+#wrapper.cmpChecked .close-sidebar{
+    right : 10px;
+
+}
+
+#wrapper.cmpSuburbClicked #map {
+    width: calc(60% - 24px);
+}
+
+#wrapper.cmpSuburbClicked.sidebarExpanded .divider {
+    visibility: hidden;
+}
+
+#wrapper.cmpSuburbClicked.sidebarExpanded #sidebar-wrapper {
+    width: calc(50% - 16px);
+}
+
+#wrapper.cmpSuburbClicked.sidebarExpanded #cmp-sidebar-wrapper {
+    z-index: 1000;
+    left: calc(50% - 16px);
+    width: calc(50% - 16px);
+
+}
+
+/* IF the sidebar is showing THEN
+ * the button will become visible
+ */
+#wrapper.showSidebar .button{
+    /*transition-delay: 1.0s;*/
+    visibility: visible;
+}
+
+#wrapper.showClose .button {
+    visibility: visible;
+}
+
+
+
+#heatmap-housing {
+    position: fixed;
+    z-index: 100;
+    right: calc(5% + 160px);
+    width: 80px;
+    bottom: 4%;
+    height: 5%;
+}
+
+#heatmap-schools {
+    position: fixed;
+    z-index: 100;
+    right: calc(5% + 80px);
+    width: 80px;
+    bottom: 4%;
+    height: 5%;
+}
+ #heatmap-transport {
+	position: fixed;
+	z-index: 100;
+	right: 5%;
+	width: 80px;
+	bottom: 4%;
+	height: 5%;
+ }
+.heatmap-button {
+    cursor:pointer;
+    text-align: center;
+    /*margin-top: 5px;*/
+    padding-top: 5px;
+    -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+    background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
+    background-color:#33bdef;
+    border:1px solid #057fd0;
+}
+
+.heatmap-button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+    background-color:#019ad2;
+}
+
+.heatmap-button.selected {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
+    background-color:#019ad2;
+}
+
+
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 20px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
