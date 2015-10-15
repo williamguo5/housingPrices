@@ -73,7 +73,7 @@ function initAutocomplete() {
 function initMap(){
     var customMapType = new google.maps.StyledMapType([
     {
-        "elementType": "labels.text",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -237,7 +237,7 @@ function initMap(){
         return /** @type {google.maps.Data.StyleOptions} */({
             fillColor: color,
             fillOpacity: opacity,
-            strokeColor: "black",
+            strokeColor: color,
             strokeWeight: 1
         });
     });
@@ -358,7 +358,7 @@ function initMap(){
         // newColor = (parseInt(newColor, 16) + 0xFFFF00).toString(16);
         // newColor = newColor + '#111111';
         map.data.revertStyle();
-        map.data.overrideStyle(event.feature, {fillOpacity: 0.25});
+        map.data.overrideStyle(event.feature, {fillOpacity: 0.25, strokeColor: "grey", strokeWeight: 3, zIndex: 1});
         var suburbName = event.feature.getProperty('name');
         var suburbDisplay = document.getElementById('suburb-hover-id');
         suburbName = capitaliseFirstLetter(suburbName);
@@ -380,7 +380,7 @@ var map;
 var setHeatmap1Fn = function(feature){
 	var color = feature.getProperty('housingColor');
     var opacity = 0.25;
-	
+
     if (!feature.getProperty('isColorful')) {
         color = feature.getProperty('housingColor');
 		opacity = 0.9;
@@ -395,12 +395,12 @@ var setHeatmap1Fn = function(feature){
 	        strokeWeight: 0.1
 		};
 	}
-	
+
 	return{
         fillColor: color,
 		fillOpacity: opacity,
         // strokeColor: feature.getProperty('housingColor'),
-        strokeColor: "black",
+        strokeColor: color,
         strokeWeight: 1
 	};
 };
@@ -424,7 +424,7 @@ var setHeatmap2Fn = function(feature){
         fillColor: color,
 		fillOpacity: opacity,
         // strokeColor: feature.getProperty('schoolColor'),
-		strokeColor: "black",
+		strokeColor: color,
         strokeWeight: 1
 	};
 };
@@ -449,7 +449,7 @@ var setHeatmap3Fn = function(feature){
         fillColor: color,
 		fillOpacity: opacity,
         // strokeColor: feature.getProperty('transportColor'),
-		strokeColor: "black",
+		strokeColor: color,
         strokeWeight: 1
 	};
 };
