@@ -73,7 +73,7 @@ function initAutocomplete() {
 function initMap(){
     var customMapType = new google.maps.StyledMapType([
     {
-        "elementType": "labels.text",
+        "elementType": "labels",
         "stylers": [
             {
                 "visibility": "off"
@@ -358,7 +358,7 @@ function initMap(){
         // newColor = (parseInt(newColor, 16) + 0xFFFF00).toString(16);
         // newColor = newColor + '#111111';
         map.data.revertStyle();
-        map.data.overrideStyle(event.feature, {fillOpacity: 0.25});
+        map.data.overrideStyle(event.feature, {fillOpacity: 0.25, strokeColor: "grey", strokeWeight: 3, zIndex: 1});
         var suburbName = event.feature.getProperty('name');
         var suburbDisplay = document.getElementById('suburb-hover-id');
         suburbName = capitaliseFirstLetter(suburbName);
