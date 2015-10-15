@@ -380,11 +380,22 @@ var map;
 var setHeatmap1Fn = function(feature){
 	var color = feature.getProperty('housingColor');
     var opacity = 0.25;
-
+	
     if (!feature.getProperty('isColorful')) {
         color = feature.getProperty('housingColor');
 		opacity = 0.9;
     }
+	// console.log('set heatmap' + opacity);
+	if (ifHeatmapChecked(color)){
+		return{
+	        fillColor: color,
+			fillOpacity: 0.1,
+	        // strokeColor: feature.getProperty('housingColor'),
+	        strokeColor: "grey",
+	        strokeWeight: 0.1
+		};
+	}
+	
 	return{
         fillColor: color,
 		fillOpacity: opacity,
@@ -400,6 +411,15 @@ var setHeatmap2Fn = function(feature){
         color = feature.getProperty('schoolColor');
 		opacity = 0.9;
     }
+	if (ifHeatmapChecked(color)){
+		return{
+	        fillColor: color,
+			fillOpacity: 0.1,
+	        // strokeColor: feature.getProperty('housingColor'),
+	        strokeColor: "grey",
+	        strokeWeight: 0.1
+		};
+	}
 	return{
         fillColor: color,
 		fillOpacity: opacity,
@@ -416,6 +436,15 @@ var setHeatmap3Fn = function(feature){
         color = feature.getProperty('transportColor');
 		opacity = 0.9;
     }
+	if (ifHeatmapChecked(color)){
+		return{
+	        fillColor: color,
+			fillOpacity: 0.1,
+	        // strokeColor: feature.getProperty('housingColor'),
+	        strokeColor: "grey",
+	        strokeWeight: 0.1
+		};
+	}
 	return{
         fillColor: color,
 		fillOpacity: opacity,
@@ -448,6 +477,51 @@ function heatmapHospitals(){
 	map.data.setStyle(setHeatmap3Fn);
 }
 
+function ifHeatmapChecked(color){
+	var checked = false;
+	if(!$('input:checkbox[name=lgd-checkbox0]').is(':checked')){
+		if (color == '#7bc742'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox1]').is(':checked')){
+		if (color == '#97c338'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox2]').is(':checked')){
+		if (color == '#b6bf2e'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox3]').is(':checked')){
+		if (color == '#bb9d24'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox4]').is(':checked')){
+		if (color == '#b7711b'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox5]').is(':checked')){
+		if (color == '#b34112'){
+			checked = true;
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox6]').is(':checked')){
+		if (color == '#af100a'){
+			checked = true;
+			// console.log('is checked' + opacity + color);
+		}
+	}
+	if(!$('input:checkbox[name=lgd-checkbox7]').is(':checked')){
+		if (color == '#ac0227'){
+			checked = true;
+		}
+	}
+	return checked;
+}
 
 function capitaliseFirstLetter(string) {
     return string.replace(/\w\S*/g, function(txt) {
