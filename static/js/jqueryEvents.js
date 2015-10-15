@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON('../suburbs.json?showSchools=False', function(data) {
+    $.getJSON('../suburbs.json?simple=True', function(data) {
         suburbData = data;
         console.log(suburbData);
     });
@@ -190,7 +190,7 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-	
+
 	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
 		if ($("#heatmap-housing").hasClass('selected')){
 			heatmapHousing();
