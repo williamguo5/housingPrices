@@ -281,7 +281,10 @@ function initMap(){
     });
 
     // Keep track of the previously clicked layer
-    var contentString = "";
+    var housePriceString = "";
+    var unitPriceString = "";
+    var salaryString = "";
+    var travelTimeString = "";
 
     var isChecked;
     map.data.addListener('click', function(event) {
@@ -292,17 +295,38 @@ function initMap(){
 		for (var i = 0; i < suburbData.length; i++) {
             console.log(suburbData[i].housePrice);
             if (suburbData[i].name.toUpperCase() === suburbName.toUpperCase()) {
-                contentString = '<hr>' + 'Median House Price: $' + (suburbData[i].housePrice) +
-                        '<hr>' + 'Time to CBD (Private): ' + suburbData[i].timeToCbdPrivate +
-                        '<hr>' + 'Time to CBD (Public): ' + suburbData[i].timeToCbdPublic;
-                        console.log(contentString);
+                var housePriceValue = (suburbData[i].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                var houseRentalValue = (suburbData[i].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                var unitPriceValue = (suburbData[i].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                var unitRentalValue = (suburbData[i].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                var salaryValue = (suburbData[i].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                housePriceString = 
+                        '<b>Buy:</b> ' + '$' + housePriceValue +
+                        '<br>' + '<b>Rent:</b> ' + '$' + houseRentalValue + ' p/w';
+                        // 'Median Unit Price: $' + (suburbData[i].unitPrice) +     
+                        // 'Median Unit Rental: $' + (suburbData[i].unitRentalPrice) +
+                        // 'Average Salary: ' + (suburbData[i].averageSalary) +
+                        // 'Time to CBD (Private): ' + suburbData[i].timeToCbdPrivate +
+                        // 'Time to CBD (Public): ' + suburbData[i].timeToCbdPublic;
+                unitPriceString = 
+                        '<b>Buy:</b> ' + '$' + unitPriceValue +
+                        '<br>' + '<b>Rent:</b> ' + '$' + unitRentalValue + ' p/w';
+                salaryString = 
+                        '$' +  salaryValue + ' p/a';
+                travelTimeString = 
+                        '<b>Private:</b> ' + suburbData[i].timeToCbdPrivate + '<br>' +
+                        '<b>Public:</b> ' + suburbData[i].timeToCbdPublic;
+                        //console.log(contentString);
                 break;
             }
         }
 
 
         var suburb = document.getElementById('suburb');
-        var summary = document.getElementById('summary');
+        var housePrice = document.getElementById('house-price');
+        var unitPrice = document.getElementById('unit-price');
+        var salary = document.getElementById('salary');
+        var travelTime = document.getElementById('travel-time');
 
         // Checks if the cmpChecked has been toggled i.e. the checkbox has been ticked
         if($("#wrapper").hasClass('cmpChecked')) {
@@ -312,7 +336,7 @@ function initMap(){
            isChecked = true;
            // Switches the text to the element by the name of cmp-suburb
            suburb = document.getElementById('cmp-suburb');
-           summary = document.getElementById('cmp-summary');
+           housePrice = document.getElementById('cmp-house-price');
 
            if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                $("#wrapper").removeClass("cmpSuburbClicked");
@@ -329,8 +353,10 @@ function initMap(){
 
         // Applies the changes to the string to the html contained in suburb
         suburb.innerHTML = suburbName;
-        summary.innerHTML = contentString;
-
+        housePrice.innerHTML = housePriceString;
+        unitPrice.innerHTML = unitPriceString;
+        salary.innerHTML = salaryString;
+        travelTime.innerHTML = travelTimeString;
 
         // Checks if the previous layer has been clicked
         if ((isChecked && cmpLayer != lastClickedLayer && cmpLayer != event) ||

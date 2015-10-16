@@ -24,12 +24,48 @@
 
         <div id="sidebar-wrapper"> <!-- start sidebar-wrapper -->
             <div class="container-fluid sidebar-open"> <!-- start of container-fluid-->
-                <div class="row"> <!-- start of row -->
-                    <div id="col1" class="col-md-12">
-                        <h2 id="suburb"></h2>
-                        <p id="summary"></p>
+                <div class="row suburb-title">
+                    <div class="col-md-12">
+                        <h1 id="suburb"></h2>
+                    </div>
+                </div>
+                <div class="row info"> <!-- start of row -->
+                    <div class="col-md-2">
+                        <span class="fa fa-home size"></span>
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Median House Price</h3>
+                        <span id="house-price"></span>
                     </div>
                 </div> <!-- end of row -->
+                <div class = "row info">
+                    <div class="col-md-2">
+                        <span class="fa fa-building size"></span>
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Median Unit Price</h3>
+                        <span id="unit-price"></span>
+                    </div>
+                </div>
+                <div class = "row info">
+                    <div class="col-md-2">
+                        <span class="fa fa-money size"></span>
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Average Salary</h3>
+                        <span id="salary"></span>
+                    </div>
+                </div>
+                
+                <div class = "row info">
+                    <div class="col-md-2">
+                        <span class="fa fa-home size pos"></span>
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Travel Time</h3>                    
+                        <span id="travel-time"></span>
+                    </div>
+                </div>
                 <div class = "checkbox" data-placement="top" data-toggle="tooltip" title="Select another suburb to compare">
                     <label><input type="checkbox" name="suburb" id ="cmp-checkbox"> Compare Suburb<br></label>
                 </div>
