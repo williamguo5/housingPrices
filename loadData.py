@@ -46,15 +46,16 @@ for row in descriptionReader:
 hospitalReader = csv.reader(open(hospitals_filepathname), delimiter=',', quotechar='"')
 next(hospitalReader, None)
 for row in hospitalReader:
-    hospital = Hospital.objects.create(
-        name = row[0]
-        address = row[1]
-        phone = row[4]
-        lhd = row[6]
-        )
-    suburb = Suburb.objects.get(name__iexact=row[2])
-    suburb.hospitals.add(hospital)
-    suburb.save()
+    if (Suburb.objects.filter(name__iexact=row[2])):
+        hospital = Hospital.objects.create(
+            name = row[0],
+            street = row[1],
+            phone = row[4],
+            lhd = row[6]
+            )
+        suburb = Suburb.objects.get(name__iexact=row[2])
+        suburb.hospitals.add(hospital)
+        suburb.save()
 
 wagesReader = csv.reader(open(wages_filepathname), delimiter=',', quotechar='"')
 for row in wagesReader:
