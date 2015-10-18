@@ -222,25 +222,13 @@ function initMap(){
     map.setMapTypeId(customMapTypeId);
 
     // Load GeoJSON.
-    map.data.loadGeoJson('/static/json/suburbs0.json');
-    map.data.loadGeoJson('/static/json/suburbs1.json');
-    map.data.loadGeoJson('/static/json/suburbs2.json');
-    map.data.loadGeoJson('/static/json/suburbs3.json');
-    map.data.setStyle(function(feature) {
-        color = feature.getProperty('housingColor');
-        opacity = 0.25;
-        if (!feature.getProperty('isColorful')) {
-            color = feature.getProperty('housingColor');
-            opacity = 0.9;
-        }
-
-        return /** @type {google.maps.Data.StyleOptions} */({
-            fillColor: color,
-            fillOpacity: opacity,
-            strokeColor: color,
-            strokeWeight: 1
-        });
-    });
+    // map.data.loadGeoJson('/static/json/suburbs0.json');
+    // map.data.loadGeoJson('/static/json/suburbs1.json');
+    // map.data.loadGeoJson('/static/json/suburbs2.json');
+    // map.data.loadGeoJson('/static/json/suburbs3.json');
+    map.data.loadGeoJson('/static/json/suburb_heatmaps.json');
+	// heatmapHousing();
+	changeHeatmap('housePrice');
 
 	var strictBounds = new google.maps.LatLngBounds(
 		// SW corner
@@ -403,150 +391,74 @@ function initMap(){
 }
 var count = 1;
 var map;
-var setHeatmap1Fn = function(feature){
-	var color = feature.getProperty('housingColor');
-    var opacity = 0.25;
+colorValues = [
+	"#7bc742",  // 0
+	"#97c338",  // 1
+	"#b6bf2e",  // 2
+	"#bb9d24",  // 3
+	"#b7711b",  // 4
+	"#b34112",  // 5
+	"#af100a",  // 6
+	"#ac0227",  // 7
+	"grey" 		// 8
+];
 
-    if (!feature.getProperty('isColorful')) {
-        color = feature.getProperty('housingColor');
-		opacity = 0.9;
-    }
-	// console.log('set heatmap' + opacity);
-	if (ifHeatmapChecked(color)){
-		return{
-	        fillColor: color,
-			fillOpacity: 0.1,
-	        // strokeColor: feature.getProperty('housingColor'),
-	        strokeColor: "grey",
-	        strokeWeight: 0.1
-		};
-	}
-
-	return{
-        fillColor: color,
-		fillOpacity: opacity,
-        // strokeColor: feature.getProperty('housingColor'),
-        strokeColor: color,
-        strokeWeight: 1
-	};
-};
-var setHeatmap2Fn = function(feature){
-	var color = feature.getProperty('schoolColor');
-    var opacity = 0.25;
-    if (!feature.getProperty('isColorful')) {
-        color = feature.getProperty('schoolColor');
-		opacity = 0.9;
-    }
-	if (ifHeatmapChecked(color)){
-		return{
-	        fillColor: color,
-			fillOpacity: 0.1,
-	        // strokeColor: feature.getProperty('housingColor'),
-	        strokeColor: "grey",
-	        strokeWeight: 0.1
-		};
-	}
-	return{
-        fillColor: color,
-		fillOpacity: opacity,
-        // strokeColor: feature.getProperty('schoolColor'),
-		strokeColor: color,
-        strokeWeight: 1
-	};
-};
-var setHeatmap3Fn = function(feature){
-	var color = feature.getProperty('transportColor');
-    var opacity = 0.25;
-
-    if (!feature.getProperty('isColorful')) {
-        color = feature.getProperty('transportColor');
-		opacity = 0.9;
-    }
-	if (ifHeatmapChecked(color)){
-		return{
-	        fillColor: color,
-			fillOpacity: 0.1,
-	        // strokeColor: feature.getProperty('housingColor'),
-	        strokeColor: "grey",
-	        strokeWeight: 0.1
-		};
-	}
-	return{
-        fillColor: color,
-		fillOpacity: opacity,
-        // strokeColor: feature.getProperty('transportColor'),
-		strokeColor: color,
-        strokeWeight: 1
-	};
-};
-function changeHeatmap(){
-	// map.data.setStyle(setHeatmap2Fn);
-	if(count % 3 == 0){
-		map.data.setStyle(setHeatmap1Fn);
-	}else if(count % 3 == 1){
-		map.data.setStyle(setHeatmap2Fn);
-	}else{
-		map.data.setStyle(setHeatmap3Fn);
-	}
-	count++;
-}
-
-function heatmapHousing(){
-	map.data.setStyle(setHeatmap1Fn);
-}
-
-function heatmapSchools(){
-	map.data.setStyle(setHeatmap2Fn);
-}
-
-function heatmapHospitals(){
-	map.data.setStyle(setHeatmap3Fn);
-}
-
-function ifHeatmapChecked(color){
-	var checked = false;
-	if(!$('input:checkbox[name=lgd-checkbox0]').is(':checked')){
-		if (color == '#7bc742'){
-			checked = true;
+function changeHeatmap(heatmap){
+	var heatmapChecked = [1, 1, 1, 1, 1, 1, 1, 1, 1];
+	heatmapChecked = isHeatmapChecked(heatmapChecked);
+	
+	map.data.setStyle(function(feature){
+		var value = feature.getProperty(heatmap);
+		var color = colorValues[value];
+	    var opacity = 0.25;
+		
+	    if (!feature.getProperty('isColorful')) {
+	        // color = feature.getProperty(heatmap);
+			opacity = 0.9;
+	    }
+		if (!heatmapChecked[value]){
+			return{
+		        fillColor: color,
+				fillOpacity: 0.1,
+		        strokeColor: "grey",
+		        strokeWeight: 0.1
+			};
 		}
+		return{
+	        fillColor: color,
+			fillOpacity: opacity,
+			strokeColor: color,
+	        strokeWeight: 1
+		};
+	});
+}
+
+function isHeatmapChecked(heatmapChecked){
+	if(!$('input:checkbox[name=lgd-checkbox0]').is(':checked')){
+		heatmapChecked[0] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox1]').is(':checked')){
-		if (color == '#97c338'){
-			checked = true;
-		}
+		heatmapChecked[1] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox2]').is(':checked')){
-		if (color == '#b6bf2e'){
-			checked = true;
-		}
+		heatmapChecked[2] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox3]').is(':checked')){
-		if (color == '#bb9d24'){
-			checked = true;
-		}
+		heatmapChecked[3] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox4]').is(':checked')){
-		if (color == '#b7711b'){
-			checked = true;
-		}
+		heatmapChecked[4] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox5]').is(':checked')){
-		if (color == '#b34112'){
-			checked = true;
-		}
+		heatmapChecked[5] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox6]').is(':checked')){
-		if (color == '#af100a'){
-			checked = true;
-			// console.log('is checked' + opacity + color);
-		}
+		heatmapChecked[6] = 0;
 	}
 	if(!$('input:checkbox[name=lgd-checkbox7]').is(':checked')){
-		if (color == '#ac0227'){
-			checked = true;
-		}
+		heatmapChecked[7] = 0;
 	}
-	return checked;
+	return heatmapChecked;
 }
 
 function capitaliseFirstLetter(string) {

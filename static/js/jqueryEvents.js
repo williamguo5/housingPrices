@@ -14,9 +14,23 @@ $(document).ready(function() {
     $('[data-toggle="map-tooltip"]').tooltip();
 
     // when user clicks on the toggle heatmap button
+	
+	var heatmaps = [
+		"numSchools",
+        "housePrice",
+        "houseRentalPrice",
+        "unitPrice",
+        "unitRentalPrice",
+        "timeToCbdPublic",
+        "timeToCbdPrivate"	
+	];
+	
+	var currHeatmap = "housePrice";
+	
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
-        heatmapHousing();
+        changeHeatmap("housePrice");
+		currHeatmap = "housePrice";
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-transport").removeClass('selected');
@@ -33,7 +47,8 @@ $(document).ready(function() {
     });
 
     $("#heatmap-schools").click(function(event){
-        heatmapSchools();
+        changeHeatmap("numSchools")
+		currHeatmap = "numSchools";
 		// $(this).css({background:"blue"});
 		$(this).addClass('selected');
 		$("#heatmap-housing").removeClass('selected');
@@ -51,7 +66,8 @@ $(document).ready(function() {
     });
 
     $("#heatmap-transport").click(function(event){
-        heatmapHospitals();
+       	changeHeatmap("timeToCbdPublic");
+		currHeatmap = "timeToCbdPublic";
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-housing").removeClass('selected');
@@ -190,93 +206,31 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-
+	
+	
+	// unchecking checkbox for heatmap ranges
 	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox2]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox3]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox4]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox5]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox6]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 	$('input:checkbox[name=lgd-checkbox7]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
+		changeHeatmap(currHeatmap);
 	});
 });
