@@ -305,6 +305,8 @@ function initMap(){
                         '<b>Private:</b> ' + suburbData[i].timeToCbdPrivate + '<br>' +
                         '<b>Public:</b> ' + suburbData[i].timeToCbdPublic;
                         //console.log(contentString);
+                lastClickedSuburbIndex = i;
+
                 break;
             }
         }
@@ -318,22 +320,72 @@ function initMap(){
 
         // Checks if the cmpChecked has been toggled i.e. the checkbox has been ticked
         if($("#wrapper").hasClass('cmpChecked')) {
-           if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
+            if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
                $("#wrapper").toggleClass("cmpSuburbClicked");
-           }
-           isChecked = true;
-           // Switches the text to the element by the name of cmp-suburb
-           suburb = document.getElementById('cmp-suburb');
-           housePrice = document.getElementById('cmp-house-price');
+            }
+            
+            isChecked = true;
+            // Switches the text to the element by the name of cmp-suburb
+            suburb = document.getElementById('cmp-suburb');
+            housePrice = document.getElementById('cmp-house-price');
+            unitPrice = document.getElementById('cmp-unit-price');
+            salary = document.getElementById('cmp-salary');
+            travelTime = document.getElementById('cmp-travel-time');
 
-           if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
+            var inRange = false;
+            var tempHousePriceString = "";
+            var tempUnitPriceString = "";
+            console.log(cmpSuburbIndex);
+
+            if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000) {
+                inRange = true;
+            }
+
+            if (!inRange) {
+                if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].housePrice) {
+                    console.log("I AM GREEN");
+                    tempHousePriceString = '<b>Buy:</b> ' + '<span style="color: #7bc742;">' + '$' + housePriceValue + '</span>' + '<br>';
+                } else {
+                    console.log("I AM RED");
+
+                    tempHousePriceString = '<b>Buy:</b> '+ '<span style="color: #af100a;">' + '$' + housePriceValue + '</span>' + '<br>';
+                }
+            } else {
+                tempHousePriceString = '<b>Buy:</b> ' + '$' + housePriceValue + '<br>';
+            }
+
+            inRange = false;
+
+            if (Math.abs(suburbData[i].houseRentalPrice - suburbData[cmpSuburbIndex].houseRentalPrice) < 100) {
+                inRange = true;
+            }
+
+            if (!inRange) {
+                if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
+                    console.log("I AM GREEN");
+                    tempUnitPriceString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + houseRentalValue + '</span>';
+                } else {
+                    console.log("I AM RED");
+
+                    tempUnitPriceString += '<b>Rent:</b> '+ '<span style="color: #af100a;">' + '$' + houseRentalValue + '</span>';
+                }
+            } else {
+                tempUnitPriceString = '<b>Rent:</b> ' + '$' + houseRentalValue;
+
+            }
+
+            housePriceString = tempHousePriceString + tempUnitPriceString;
+
+
+            if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                $("#wrapper").removeClass("cmpSuburbClicked");
                suburbName = "";
                contentString = "";
-           }
+            }
        } else {
            isChecked = false;
            cmpLayer = event;
+           cmpSuburbIndex = i;
        }
 
         // Calls the capitalise string function

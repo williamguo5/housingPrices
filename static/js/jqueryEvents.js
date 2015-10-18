@@ -6,7 +6,10 @@ $(document).ready(function() {
     });
 
 
-    var contentString = "";
+    var stringHousePrice = "";
+    var stringUnitPrice = "";
+    var stringSalary = "";
+    var stringTravelTime = "";
     var cmpContentString = "";
 
     $('[data-toggle="tooltip"]').tooltip();
@@ -93,66 +96,81 @@ $(document).ready(function() {
         $(this).find('i').toggleClass('fa-chevron-right').toggleClass('fa-chevron-left');
         $("#wrapper").toggleClass("sidebarExpanded");
 
-        var pricesInfo = document.getElementById('prices-info');
-        var schoolsInfo = document.getElementById('schools-info');
-        var transportInfo = document.getElementById('transport-info');
-
+        var description = document.getElementById('description');
+        // var schoolsInfo = document.getElementById('schools-info');
+        // var transportInfo = document.getElementById('transport-info');
 
 
         // Gets the id of the html element and clears the text
         if ($("#wrapper").hasClass('sidebarExpanded')) {
-            var pricesString = 'Randwick was named after the village of Randwick, ' +
-                'Gloucestershire, England, birthplace of Simeon Henry Pearce, ' +
-                'who became Mayor of Randwick no less than six times.[3] Simeon and his brother James, ' +
-                'who migrated to Australia in 1842, were responsible for the early development of Randwick as ' +
-                'well as suburb Coogee.. Simeon lived in a house called Blenheim, which can still be seen ' +
-                'in Blenheim Street. It was neglected for some time but was eventually acquired by' +
-                ' Randwick Council and then restored.';
+
+            $("#sidebar-wrapper").css({"background-color":"white", "color":"black"});
+            $("#detailed-info").css("display", "inline");
+
+            $("#summary").css("display", "none");
+            var descriptionString = suburbData[lastClickedSuburbIndex].description;
+
+            var panelHousePrice = document.getElementById('panel-house-price');
+            var panelHouseRent = document.getElementById('panel-house-rent');
+            var panelUnitPrice = document.getElementById('panel-unit-price');
+            var panelUnitRent = document.getElementById('panel-unit-rent');
+
+            var housePriceValue = (suburbData[lastClickedSuburbIndex].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var houseRentalValue = (suburbData[lastClickedSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            
+            panelHousePrice.innerHTML = '$' + housePriceValue;
+            panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
+            panelUnitPrice.innerHTML = '$' + unitPriceValue;
+            panelUnitRent.innerHTML = '$' + unitRentalValue + ' p/w';    
+
+            description.innerHTML = descriptionString;
+
+            // var schoolsString = '';
+
+            // schoolsInfo.innerHTML = schoolsString;
 
 
+            // var transportString = '';
 
+            // transportInfo.innerHTML = transportString;
 
+            // stringHousePrice = document.getElementById('house-price').innerHTML;
+            // stringUnitPrice = document.getElementById('unit-price').innerHTML;
+            // stringSalary = document.getElementById('salary').innerHTML;
+            // stringTravelTime = document.getElementById('travel-time').innerHTML;
 
-            pricesInfo.innerHTML = pricesString;
+            // document.getElementById('house-price').innerHTML = "";
+            // document.getElementById('unit-price').innerHTML = "";
+            // document.getElementById('salary').innerHTML = "";
+            // document.getElementById('travel-time').innerHTML = "";
+                       
 
-            var schoolsString = 'Primary schools in the area include Our Lady Of The Sacred Heart,[33] Coogee Public School,' +
-                '[34] Claremont College,[35] Randwick Public School,[36] Coogee Preparatory School,' +
-                '[37] The Joseph Varga School [38] and Rainbow Street Primary.[39] ' +
-                'Secondary schools include two systemic Catholic schools, Brigidine College and Marcellin College,' +
-                '[40] a Jewish day school Emanuel School [41] and three state schools, Randwick Boys High School,' +
-                '[42] Randwick Girls\' High School,[43] and the Open High School.[44] ' +
-                'Randwick North High School was closed in 2001 and the site was divided between Open High School and Randwick Public School.' +
-                'There are branch campuses of the University of New South Wales and Sydney Institute of TAFE located in the area.[45]';
-
-            schoolsInfo.innerHTML = schoolsString;
-
-
-            var transportString = 'Randwick is currently only served by buses. ' +
-                'The main bus corridor is Belmore Rd with buses to Bondi Junction, ' +
-                'Burwood, Campsie, Coogee, Eastgardens, Maroubra, Sydney Airport and Sydney CBD.' +
-                'On 13 December 2012, the NSW Government announced a commitment to build the ' +
-                'CBD and South East Light Rail from Circular Quay down George Street to Central Station, ' +
-                'then across to Moore Park and down Anzac Parade. South of Moore Park the line will spit into two branches' +
-                ' - one of which will head to Randwick via Alison Road.[46] A bus/tram interchange will be established in Randwick' +
-                ' and many of the bus routes that currently traverse Anzac Parade to access the city would be replaced by feeder routes' +
-                ' connecting to the light rail.[47] In April 2014, Randwick City Council put forward a $68 million funding package' +
-                ' in its bid to force significant changes to the state government\'s tram line from Circular Quay to the eastern suburbs,' +
-                ' including Randwick suburb.[48]';
-
-            transportInfo.innerHTML = transportString;
-
-            contentString = document.getElementById('summary').innerHTML;
-            cmpContentString = document.getElementById('cmp-summary').innerHTML;
-            document.getElementById('summary').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // cmpContentString = document.getElementById('cmp-summary').innerHTML;
+            // document.getElementById('summary').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
         } else {
 
-            document.getElementById('summary').innerHTML = contentString;
-            document.getElementById('cmp-summary').innerHTML = cmpContentString;
+            $("#sidebar-wrapper").css({"background-color":"rgb(60, 60, 60)", "color":"#b5b5b7"});
+            $("#summary").css("display", "inline");
 
-            pricesInfo.innerHTML = "";
-            schoolsInfo.innerHTML = "";
-            transportInfo.innerHTML = "";
+
+            // $("#sidebar-wrapper").delay(500);
+            // $(".sidebar-open").css("display", "inline");
+
+            // document.getElementById('house-price').innerHTML = stringHousePrice;
+            // document.getElementById('unit-price').innerHTML = stringUnitPrice;
+            // document.getElementById('salary').innerHTML = stringSalary;
+            // document.getElementById('travel-time').innerHTML = stringTravelTime;
+           
+            // document.getElementById('summary').innerHTML = contentString;
+            // document.getElementById('cmp-summary').innerHTML = cmpContentString;
+
+            // // pricesInfo.innerHTML = "";
+            // description.innerHTML = "";
+            // schoolsInfo.innerHTML = "";
+            // transportInfo.innerHTML = "";
         }
 
     });
