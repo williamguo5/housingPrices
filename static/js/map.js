@@ -361,7 +361,7 @@ function initMap(){
             }
 
             if (!inRange) {
-                if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
+                if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
                     console.log("I AM GREEN");
                     tempUnitPriceString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + houseRentalValue + '</span>';
                 } else {
