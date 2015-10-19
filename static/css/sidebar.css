@@ -7,7 +7,7 @@ html, body {
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -32,10 +32,11 @@ html, body {
 
 
 /* Sidebar */
-#sidebar-wrapper, #cmp-sidebar-wrapper{
+#sidebar-wrapper{
     /*margin-left: -250px;*/
-    left: -20%;
+    left: 0%;
     width: 20%;
+    z-index: 10000;
     /*background: lightgrey;*/
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
@@ -54,16 +55,41 @@ html, body {
 
 }
 
+#cmp-sidebar-wrapper {
+    left: 20%;
+    width: 20%;
+    z-index: 10000;
+    /*background: lightgrey;*/
+    background-color: rgb(60, 60, 60);
+    color: #b5b5b7;
+
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 100;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -moz-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 16px;
+    display:none;
+    visibility: none;
+
+}
+
 #page-content-toggle {
     position: absolute;
     z-index: -1;
-    left: 0;
+    left: 20%;
     /*top: 50%;*/
     height: 100%;
     /*border: 1px solid black;*/
     /*background: #4099FF;*/
     border: transparent;
-    background: transparent;
+    /*background: transparent;*/
+    /*background: dodgerblue;*/
     /*transition-delay: 0.5s;*/
     -webkit-transition: left 0.5s ease;
     -moz-transition: left 0.5s ease;
@@ -88,6 +114,22 @@ html, body {
     left: 0%;
     /*left: calc(20% - 45px);*/
 
+    -webkit-transition: all 0.5s ease ;
+    -moz-transition:  all 0.5s ease ;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition:  all 0.5s ease ;
+    transition:  all 0.5s ease ;
+    /*right : 10px;*/
+    outline: none;
+}
+
+#add-suburb {
+    position: absolute;
+    z-index: -1;
+    background: transparent;
+    border: transparent;
+    top: 20px;
+    left: calc(20% - 45px);
     -webkit-transition: all 0.5s ease ;
     -moz-transition:  all 0.5s ease ;
     -ms-transition:  all 0.5s ease ;
@@ -233,6 +275,10 @@ h2 {
 
 }
 
+.size-plus {
+    font-size: 2.5em;
+}
+
 .col-style {
     visibility: hidden;
 }
@@ -273,7 +319,7 @@ h2 {
     visibility: hidden;
 }
 
-.container-fluid {
+.container-fluid.sidebar-expanded{
     /*margin-top: 30px;*/
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
@@ -366,15 +412,17 @@ h2 {
 /* IF the showSidebar is toggled on THEN
  *  set the width to 20 % AND add 20 px padding
  */
-#wrapper.showSidebar #sidebar-wrapper {
-    /*width: 20%;*/
+/*#wrapper.showSidebar #sidebar-wrapper {
+    width: 20%;
     z-index: 100;
     left: 0%;
 
-}
+}*/
 
 #wrapper.showSidebar .container-fluid.sidebar-open {
-    visibility: visible;
+    /*visibility: visible;*/
+    /*display: inline;
+    z-index: 1000;*/  
     -webkit-transition: all 0.5s ease 0.5s;
     -moz-transition: all 0.5s ease 0.5s;
     -ms-transition: all 0.5s ease 0.5s;
@@ -390,14 +438,17 @@ h2 {
 
 #wrapper.showSidebar #page-content-toggle {
     /*border: 1px solid black;*/
-    background: #006699;
+    /*background: #006699;*/
+    background: dodgerblue;
     /*background: lightblue;*/
     left: 20%;
     z-index: 1000;
 }
 
 #wrapper.showSidebar #page-content-toggle:hover {
-    background: dodgerblue;
+    /*background: dodgerblue;*/
+    background: #006699;
+
     /*-webkit-transition: color 0.2s ease ;*/
     /*-moz-transition:  color 0.2s ease ;*/
     /*-ms-transition:  color 0.2s ease ;*/
@@ -414,6 +465,16 @@ h2 {
     z-index: 1000;
     display: inline;
     left: calc(20%- 45px);
+}
+
+#wrapper.showSidebar #add-suburb {
+    z-index: 1000;
+    display: inline;
+}
+
+#wrapper.showSidebar #add-suburb:hover .colour {
+    color: #7bc742;
+    /*background: white;*/
 }
 
 .center {
@@ -442,8 +503,10 @@ h2 {
 }
 
 #wrapper.cmpSuburbClicked #cmp-sidebar-wrapper {
-    left: 20%;
-    right: auto;
+    /*left: 20%;*/
+    /*right: auto;*/
+    visibility: visible;
+    display: inline;
 
 }
 

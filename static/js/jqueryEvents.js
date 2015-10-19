@@ -227,6 +227,11 @@ $(document).ready(function() {
 
     });
 
+    // $("#add-suburb").click(function(event)) {
+    //     // $("add-suburb").css("display", "none");
+
+    // });
+
     $('.carousel').carousel({
         interval: 6000
     })
