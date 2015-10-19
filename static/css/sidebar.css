@@ -130,8 +130,8 @@ html, body {
 }
 
 #detailed-info {
-    visibility: hidden;
-    display: :none;
+    /*visibility: hidden;*/
+    display: none;
 }
 #summary {
     /*transition-delay: 1.0s;*/
@@ -191,10 +191,13 @@ html, body {
     align-items: center;
 }
 
+.sidebar-expanded .row.dschool-section {
+    background-color: lightgrey;
+}
 .sidebar-expanded .row.school-prim-sec {
     font-size: 18px;
     border-bottom: 1px solid lightgrey;
-       
+
 }
 
 .sidebar-open .row.info:hover {

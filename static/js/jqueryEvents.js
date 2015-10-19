@@ -153,7 +153,10 @@ $(document).ready(function() {
         } else {
 
             $("#summary").css("display", "inline");
+            $("#detailed-info").css("display", "none");
+
             $("#sidebar-wrapper").css({"background-color":"rgb(60, 60, 60)", "color":"#b5b5b7"});
+
 
 
 
