@@ -264,54 +264,61 @@ function initMap(){
 
     // Keep track of the previously clicked layer
     var housePriceString = "";
+    var houseRentString = "";
     var unitPriceString = "";
+    var unitRentString = "";
     var salaryString = "";
-    var travelTimeString = "";
+    var travelTimeStringPrivate = "";
+    var travelTimeStringPublic = "";
 
     var isChecked;
     map.data.addListener('click', function(event) {
 
-
+        
         // Gets the name of the event layer clicked
         var suburbName = event.feature.getProperty('name');
 		for (var i = 0; i < suburbData.length; i++) {
+            var housePriceValue = (suburbData[i].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var houseRentalValue = (suburbData[i].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitPriceValue = (suburbData[i].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitRentalValue = (suburbData[i].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var salaryValue = (suburbData[i].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
             console.log(suburbData[i].housePrice);
             if (suburbData[i].name.toUpperCase() === suburbName.toUpperCase()) {
-                var housePriceValue = (suburbData[i].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                var houseRentalValue = (suburbData[i].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                var unitPriceValue = (suburbData[i].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                var unitRentalValue = (suburbData[i].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                var salaryValue = (suburbData[i].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                housePriceString =
-                        '<b>Buy:</b> ' + '$' + housePriceValue +
-                        '<br>' + '<b>Rent:</b> ' + '$' + houseRentalValue + ' p/w';
-                        // 'Median Unit Price: $' + (suburbData[i].unitPrice) +
-                        // 'Median Unit Rental: $' + (suburbData[i].unitRentalPrice) +
-                        // 'Average Salary: ' + (suburbData[i].averageSalary) +
-                        // 'Time to CBD (Private): ' + suburbData[i].timeToCbdPrivate +
-                        // 'Time to CBD (Public): ' + suburbData[i].timeToCbdPublic;
-                unitPriceString =
-                        '<b>Buy:</b> ' + '$' + unitPriceValue +
-                        '<br>' + '<b>Rent:</b> ' + '$' + unitRentalValue + ' p/w';
-                salaryString =
-                        '$' +  salaryValue + ' p/a';
-                travelTimeString =
-                        '<b>Private:</b> ' + suburbData[i].timeToCbdPrivate + '<br>' +
-                        '<b>Public:</b> ' + suburbData[i].timeToCbdPublic;
-                        //console.log(contentString);
                 lastClickedSuburbIndex = i;
 
                 break;
             }
         }
 
+        //Formatting the sidebar section 
+
+        housePriceString = '$' + housePriceValue + '<br>';
+        houseRentString =  '$' + houseRentalValue + ' p/w';
+                        
+        unitPriceString = '$' + unitPriceValue + '<br>';
+        unitRentString = '$' + unitRentalValue + ' p/w';
+        salaryString = '$' +  salaryValue + ' p/a';
+        travelTimeStringPrivate = suburbData[i].timeToCbdPrivate + '<br>';
+        travelTimeStringPublic = suburbData[i].timeToCbdPublic;
+        // console.log(contentString);
+
+
 
         var suburb = document.getElementById('suburb');
+        
         var housePrice = document.getElementById('house-price');
+        var houseRent = document.getElementById('house-rent');
+        
         var unitPrice = document.getElementById('unit-price');
-        var salary = document.getElementById('salary');
-        var travelTime = document.getElementById('travel-time');
+        var unitRent = document.getElementById('unit-rent');
 
+        var salary = document.getElementById('salary');
+
+        var travelTimePrivate = document.getElementById('travel-time-private');
+        var travelTimePublic = document.getElementById('travel-time-public');
+ 
         // Checks if the cmpChecked has been toggled i.e. the checkbox has been ticked
         if($("#wrapper").hasClass('cmpChecked')) {
             if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
@@ -476,9 +483,12 @@ function initMap(){
         // Applies the changes to the string to the html contained in suburb
         suburb.innerHTML = suburbName;
         housePrice.innerHTML = housePriceString;
+        houseRent.innerHTML = houseRentString;
         unitPrice.innerHTML = unitPriceString;
+        unitRent.innerHTML = unitRentString;
         salary.innerHTML = salaryString;
-        travelTime.innerHTML = travelTimeString;
+        travelTimePrivate.innerHTML = travelTimeStringPrivate;
+        travelTimePublic.innerHTML = travelTimeStringPublic;
 
         // Checks if the previous layer has been clicked
         if ((isChecked && cmpLayer != lastClickedLayer && cmpLayer != event) ||

@@ -227,10 +227,21 @@ $(document).ready(function() {
 
     });
 
-    // $("#add-suburb").click(function(event)) {
-    //     // $("add-suburb").css("display", "none");
+    $("#add-suburb").click(function(event) {
+        // $("add-suburb").css("display", "none");
+        $("#wrapper").toggleClass("cmpChecked");
+        if (!$("#wrapper").hasClass('cmpChecked')) {
+            $("#wrapper").removeClass("cmpSuburbClicked");
 
-    // });
+            // document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
+            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+                lastClickedLayer.feature.setProperty('isColorful', false);
+            }
+            lastClickedLayer = cmpLayer;
+        }
+
+    });
 
     $('.carousel').carousel({
         interval: 6000

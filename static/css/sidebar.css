@@ -211,6 +211,70 @@ html, body {
 	float:right;
 }
 
+#house-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+
+}
+
+#house-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+
+}
+
+#unit-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+}
+
+#unit-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+}
+
+#travel-time-private::before {
+    content: "Private: ";
+    font-weight: bold;
+}
+
+#travel-time-public::before {
+    content: "Public: ";
+    font-weight: bold;
+}
+
+#cmp-house-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+
+}
+
+#cmp-house-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+
+}
+
+#cmp-unit-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+}
+
+#cmp-unit-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+}
+
+#cmp-travel-time-private::before {
+    content: "Private: ";
+    font-weight: bold;
+}
+
+#cmp-travel-time-public::before {
+    content: "Public: ";
+    font-weight: bold;
+}
+
 .tab-content .col-md-6 {
     border: 1px solid lightgrey;
 }
@@ -225,7 +289,7 @@ html, body {
     margin-right:8px;
 }
 
-.sidebar-open .row {
+.sidebar-open .row.info {
     padding: 0px 15px 15px 15px;
     /*padding: 12px;*/
     /*margin: 0;*/
@@ -263,10 +327,9 @@ h2 {
     visibility: hidden;
 }
 
-.col-md-2 {
+.col-md-2 .sidebar-open{
     padding: 8px;
 }
-
 
 .size {
     font-size: 1.5em;
@@ -498,13 +561,13 @@ h2 {
     width: calc(80% - 32px);
 }
 
-#wrapper.cmpSuburbClicked #page-content-toggle {
+#wrapper.cmpChecked #page-content-toggle {
     left: 40%;
     right: auto;
 
 }
 
-#wrapper.cmpSuburbClicked #cmp-sidebar-wrapper {
+#wrapper.cmpChecked #cmp-sidebar-wrapper {
     /*left: 20%;*/
     /*right: auto;*/
     visibility: visible;
@@ -512,7 +575,7 @@ h2 {
 
 }
 
-#wrapper.cmpSuburbClicked #close-sidebar {
+#wrapper.cmpChecked #close-sidebar {
     left: calc(40% - 45px);
 
     /*right: auto;*/
@@ -522,7 +585,7 @@ h2 {
     visibility: visible;
 }
 
-#wrapper.cmpSuburbClicked .divider {
+#wrapper.cmpChecked .divider {
     /*transition-delay: 0.1s;*/
     visibility: visible;
     -webkit-transition: all 0.5s ease 0.5s;
@@ -538,7 +601,7 @@ h2 {
 
 }
 
-#wrapper.cmpSuburbClicked #map {
+#wrapper.cmpChecked #map {
     width: calc(60% - 24px);
 }
 
