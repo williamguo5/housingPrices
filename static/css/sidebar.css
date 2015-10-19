@@ -111,8 +111,8 @@ html, body {
     top : 20px;
     background: transparent;
     border: transparent;
-    left: 0%;
-    /*left: calc(20% - 45px);*/
+    /*left: 0%;*/
+    left: calc(20% - 45px);
 
     -webkit-transition: all 0.5s ease ;
     -moz-transition:  all 0.5s ease ;
@@ -531,9 +531,9 @@ h2 {
 }
 
 #wrapper.showSidebar #close-sidebar {
-    z-index: 1000;
-    display: inline;
-    left: calc(20%- 45px);
+    /*z-index: 1000;*/
+    /*display: inline;*/
+    /*left: calc(20%- 45px);*/
 }
 
 #wrapper.showSidebar #add-suburb {

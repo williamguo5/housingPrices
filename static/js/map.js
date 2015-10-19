@@ -330,10 +330,18 @@ function initMap(){
             isChecked = true;
             // Switches the text to the element by the name of cmp-suburb
             suburb = document.getElementById('cmp-suburb');
+            
             housePrice = document.getElementById('cmp-house-price');
+            houseRent = document.getElementById('cmp-house-rent');
+            
             unitPrice = document.getElementById('cmp-unit-price');
+            unitRent = document.getElementById('cmp-unit-rent');
+
             salary = document.getElementById('cmp-salary');
-            travelTime = document.getElementById('cmp-travel-time');
+
+            travelTimePrivate = document.getElementById('cmp-travel-time-private');
+            travelTimePublic = document.getElementById('cmp-travel-time-public');
+
 
             var inRange = false;
             var tempHousePriceString = "";
@@ -365,18 +373,18 @@ function initMap(){
             if (!inRange) {
                 if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].housePrice) {
                     console.log("I AM GREEN");
-                    tempHousePriceString = '<b>Buy:</b> ' + '<span style="color: #7bc742;">' + '$' + housePriceValue + '</span>' + '<br>';
-                    tempHousePriceStringCmp = '<b>Buy:</b> ' + '<span style="color: #af100a;">' + '$' + cmpHousePriceValue + '</span>' + '<br>';
+                    tempHousePriceString = '<span style="color: #7bc742;">' + '$' + housePriceValue + '</span>' + '<br>';
+                    tempHousePriceStringCmp = '<span style="color: #af100a;">' + '$' + cmpHousePriceValue + '</span>' + '<br>';
                 } else {
                     console.log("I AM RED");
 
-                    tempHousePriceString = '<b>Buy:</b> '+ '<span style="color: #af100a;">' + '$' + housePriceValue + '</span>' + '<br>';
-                    tempHousePriceStringCmp = '<b>Buy:</b> '+ '<span style="color: #7bc742;">' + '$' + cmpHousePriceValue + '</span>' + '<br>';
+                    tempHousePriceString = '<span style="color: #af100a;">' + '$' + housePriceValue + '</span>' + '<br>';
+                    tempHousePriceStringCmp = '<span style="color: #7bc742;">' + '$' + cmpHousePriceValue + '</span>' + '<br>';
 
                 }
             } else {
-                tempHousePriceString = '<b>Buy:</b> ' + '$' + housePriceValue + '<br>';
-                tempHousePriceStringCmp  = '<b>Buy:</b> ' + '$' + cmpHousePriceValue + '<br>';
+                tempHousePriceString = '$' + housePriceValue + '<br>';
+                tempHousePriceStringCmp  = '$' + cmpHousePriceValue + '<br>';
 
             }
 
@@ -390,20 +398,20 @@ function initMap(){
             if (!inRange) {
                 if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
                     console.log("I AM GREEN");
-                    tempHouseRentString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + houseRentalValue + ' p/w' +'</span>';
-                    tempHouseRentStringCmp += '<b>Rent:</b> ' + '<span style="color: #af100a;">' + '$' + cmpHouseRentalValue + ' p/w' +'</span>';
+                    tempHouseRentString += '<span style="color: #7bc742;">' + '$' + houseRentalValue + ' p/w' +'</span>';
+                    tempHouseRentStringCmp += '<span style="color: #af100a;">' + '$' + cmpHouseRentalValue + ' p/w' +'</span>';
 
 
                 } else {
                     console.log("I AM RED");
 
-                    tempHouseRentString += '<b>Rent:</b> '+ '<span style="color: #af100a;">' + '$' + houseRentalValue + ' p/w' + '</span>';
-                    tempHouseRentStringCmp += '<b>Rent:</b> '+ '<span style="color: #7bc742;">' + '$' + cmpHouseRentalValue + ' p/w' + '</span>';
+                    tempHouseRentString += '<span style="color: #af100a;">' + '$' + houseRentalValue + ' p/w' + '</span>';
+                    tempHouseRentStringCmp += '<span style="color: #7bc742;">' + '$' + cmpHouseRentalValue + ' p/w' + '</span>';
 
                 }
             } else {
-                tempHouseRentString = '<b>Rent:</b> ' + '$' + houseRentalValue + ' p/w';
-                tempHouseRentStringCmp = '<b>Rent:</b> ' + '$' + cmpHouseRentalValue + ' p/w';
+                tempHouseRentString = '$' + houseRentalValue + ' p/w';
+                tempHouseRentStringCmp = '$' + cmpHouseRentalValue + ' p/w';
 
 
             }
@@ -416,19 +424,19 @@ function initMap(){
             if (!inRange) {
                 if (suburbData[i].unitPrice < suburbData[cmpSuburbIndex].unitPrice) {
                     console.log("I AM GREEN");
-                    tempUnitPriceString += '<b>Buy:</b> ' + '<span style="color: #7bc742;">' + '$' + unitPriceValue + '</span>' + '<br>';
-                    tempUnitPriceStringCmp += '<b>Buy:</b> ' + '<span style="color:  #af100a;">' + '$' + cmpUnitPriceValue + '</span>' + '<br>';
+                    tempUnitPriceString += '<span style="color: #7bc742;">' + '$' + unitPriceValue + '</span>' + '<br>';
+                    tempUnitPriceStringCmp += '<span style="color:  #af100a;">' + '$' + cmpUnitPriceValue + '</span>' + '<br>';
 
                 } else {
                     console.log("I AM RED");
 
-                    tempUnitPriceString += '<b>Buy:</b> '+ '<span style="color: #af100a;">' + '$' + unitPriceValue + '</span>' + '<br>';
-                    tempUnitPriceStringCmp += '<b>Buy:</b> '+ '<span style="color: #7bc742;">' + '$' + cmpUnitPriceValue + '</span>' + '<br>';
+                    tempUnitPriceString += '<span style="color: #af100a;">' + '$' + unitPriceValue + '</span>' + '<br>';
+                    tempUnitPriceStringCmp += '<span style="color: #7bc742;">' + '$' + cmpUnitPriceValue + '</span>' + '<br>';
 
                 }
             } else {
-                tempUnitPriceString = '<b>Buy:</b> ' + '$' + unitPriceValue + '<br>';
-                tempUnitPriceStringCmp = '<b>Buy:</b> ' + '$' + cmpUnitPriceValue + '<br>';
+                tempUnitPriceString = '$' + unitPriceValue + '<br>';
+                tempUnitPriceStringCmp = '$' + cmpUnitPriceValue + '<br>';
 
 
             }
@@ -441,32 +449,40 @@ function initMap(){
             if (!inRange) {
                 if (suburbData[i].unitRentalPrice < suburbData[cmpSuburbIndex].unitRentalPrice) {
                     console.log("I AM GREEN");
-                    tempUnitRentString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + unitRentalValue + ' p/w' + '</span>';
-                    tempUnitRentStringCmp += '<b>Rent:</b> ' + '<span style="color: #af100a;">' + '$' + cmpUnitRentalValue + ' p/w' + '</span>';
+                    tempUnitRentString += '<span style="color: #7bc742;">' + '$' + unitRentalValue + ' p/w' + '</span>';
+                    tempUnitRentStringCmp += '<span style="color: #af100a;">' + '$' + cmpUnitRentalValue + ' p/w' + '</span>';
 
                 } else {
                     console.log("I AM RED");
 
-                    tempUnitRentString += '<b>Rent:</b> '+ '<span style="color: #af100a;">' + '$' + unitRentalValue + ' p/w' + '</span>';
-                    tempUnitRentStringCmp += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + cmpUnitRentalValue + ' p/w' + '</span>';
+                    tempUnitRentString += '<span style="color: #af100a;">' + '$' + unitRentalValue + ' p/w' + '</span>';
+                    tempUnitRentStringCmp += '<span style="color: #7bc742;">' + '$' + cmpUnitRentalValue + ' p/w' + '</span>';
 
                 }
             } else {
-                tempUnitRentString = '<b>Rent:</b> ' + '$' + unitRentalValue + ' p/w';
-                tempUnitRentStringCmp = '<b>Rent:</b> ' + '$' + cmpUnitRentalValue + ' p/w';
+                tempUnitRentString = '$' + unitRentalValue + ' p/w';
+                tempUnitRentStringCmp = '$' + cmpUnitRentalValue + ' p/w';
 
             }
 
 
 
-            housePriceString = tempHousePriceString + tempHouseRentString;
-            unitPriceString = tempUnitPriceString + tempUnitRentString;
+            housePriceString = tempHousePriceString;
+            houseRentString = tempHouseRentString;
+            unitPriceString = tempUnitPriceString;
+            unitRentString = tempUnitRentString;
 
-            var cmpHousePriceString = tempHousePriceStringCmp + tempHouseRentStringCmp;
-            var cmpUnitPriceString = tempUnitPriceStringCmp + tempUnitRentStringCmp;
+            var cmpHousePriceString = tempHousePriceStringCmp;
+            var cmpHouseRentString = tempHouseRentStringCmp;
+            var cmpUnitPriceString = tempUnitPriceStringCmp;
+            var cmpUnitRentString =  tempUnitRentStringCmp;
 
             document.getElementById('house-price').innerHTML = cmpHousePriceString;
+            document.getElementById('house-rent').innerHTML = cmpHouseRentString;
+
             document.getElementById('unit-price').innerHTML = cmpUnitPriceString;
+            document.getElementById('unit-rent').innerHTML = cmpUnitRentString;
+
 
             if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                $("#wrapper").removeClass("cmpSuburbClicked");
