@@ -30,8 +30,6 @@ $(document).ready(function() {
 	
 	var currHeatmap = "housePrice";
 	
-	
-	
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
 		currHeatmap = "housePrice";
@@ -127,11 +125,11 @@ $(document).ready(function() {
             var houseRentalValue = (suburbData[lastClickedSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            
+
             panelHousePrice.innerHTML = '$' + housePriceValue;
             panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
             panelUnitPrice.innerHTML = '$' + unitPriceValue;
-            panelUnitRent.innerHTML = '$' + unitRentalValue + ' p/w';    
+            panelUnitRent.innerHTML = '$' + unitRentalValue + ' p/w';
 
             description.innerHTML = descriptionString;
 
@@ -153,15 +151,19 @@ $(document).ready(function() {
             // document.getElementById('unit-price').innerHTML = "";
             // document.getElementById('salary').innerHTML = "";
             // document.getElementById('travel-time').innerHTML = "";
-                       
+
 
             // cmpContentString = document.getElementById('cmp-summary').innerHTML;
             // document.getElementById('summary').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
         } else {
 
-            $("#sidebar-wrapper").css({"background-color":"rgb(60, 60, 60)", "color":"#b5b5b7"});
             $("#summary").css("display", "inline");
+            $("#detailed-info").css("display", "none");
+
+            $("#sidebar-wrapper").css({"background-color":"rgb(60, 60, 60)", "color":"#b5b5b7"});
+
+
 
 
             // $("#sidebar-wrapper").delay(500);
@@ -171,7 +173,7 @@ $(document).ready(function() {
             // document.getElementById('unit-price').innerHTML = stringUnitPrice;
             // document.getElementById('salary').innerHTML = stringSalary;
             // document.getElementById('travel-time').innerHTML = stringTravelTime;
-           
+
             // document.getElementById('summary').innerHTML = contentString;
             // document.getElementById('cmp-summary').innerHTML = cmpContentString;
 
@@ -232,8 +234,6 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-	
-	
 	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
 		heatmaps[currHeatmap][0] += 1;
 		heatmaps[currHeatmap][0] %= 2;

@@ -288,20 +288,20 @@ function initMap(){
                 var unitPriceValue = (suburbData[i].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 var unitRentalValue = (suburbData[i].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 var salaryValue = (suburbData[i].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                housePriceString = 
+                housePriceString =
                         '<b>Buy:</b> ' + '$' + housePriceValue +
                         '<br>' + '<b>Rent:</b> ' + '$' + houseRentalValue + ' p/w';
-                        // 'Median Unit Price: $' + (suburbData[i].unitPrice) +     
+                        // 'Median Unit Price: $' + (suburbData[i].unitPrice) +
                         // 'Median Unit Rental: $' + (suburbData[i].unitRentalPrice) +
                         // 'Average Salary: ' + (suburbData[i].averageSalary) +
                         // 'Time to CBD (Private): ' + suburbData[i].timeToCbdPrivate +
                         // 'Time to CBD (Public): ' + suburbData[i].timeToCbdPublic;
-                unitPriceString = 
+                unitPriceString =
                         '<b>Buy:</b> ' + '$' + unitPriceValue +
                         '<br>' + '<b>Rent:</b> ' + '$' + unitRentalValue + ' p/w';
-                salaryString = 
+                salaryString =
                         '$' +  salaryValue + ' p/a';
-                travelTimeString = 
+                travelTimeString =
                         '<b>Private:</b> ' + suburbData[i].timeToCbdPrivate + '<br>' +
                         '<b>Public:</b> ' + suburbData[i].timeToCbdPublic;
                         //console.log(contentString);
@@ -323,7 +323,7 @@ function initMap(){
             if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
                $("#wrapper").toggleClass("cmpSuburbClicked");
             }
-            
+
             isChecked = true;
             // Switches the text to the element by the name of cmp-suburb
             suburb = document.getElementById('cmp-suburb');
@@ -356,7 +356,7 @@ function initMap(){
             if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000) {
                 inRange = true;
             }
-            // Comparing house prices 
+            // Comparing house prices
             // RED = More expensive
             // GREEN = Less expensive
             if (!inRange) {
@@ -409,7 +409,7 @@ function initMap(){
             if (Math.abs(suburbData[i].unitPrice - suburbData[cmpSuburbIndex].unitPrice) < 100000) {
                 inRange = true;
             }
-            
+
             if (!inRange) {
                 if (suburbData[i].unitPrice < suburbData[cmpSuburbIndex].unitPrice) {
                     console.log("I AM GREEN");
@@ -434,7 +434,7 @@ function initMap(){
             if (Math.abs(suburbData[i].unitRentalPrice - suburbData[cmpSuburbIndex].unitRentalPrice) < 100) {
                 inRange = true;
             }
-            
+
             if (!inRange) {
                 if (suburbData[i].unitRentalPrice < suburbData[cmpSuburbIndex].unitRentalPrice) {
                     console.log("I AM GREEN");
@@ -464,7 +464,7 @@ function initMap(){
 
             document.getElementById('house-price').innerHTML = cmpHousePriceString;
             document.getElementById('unit-price').innerHTML = cmpUnitPriceString;
-                
+
             if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                $("#wrapper").removeClass("cmpSuburbClicked");
                suburbName = "";
@@ -543,15 +543,13 @@ colorValues = [
 	"grey" 		// 8
 ];
 
-
-
 function changeHeatmap(heatmap, checkboxes){
 	// unchecking checkbox for heatmap ranges
 	map.data.setStyle(function(feature){
 		var value = feature.getProperty(heatmap);
 		var color = colorValues[value];
 	    var opacity = 0.25;
-		
+
 	    if (!feature.getProperty('isColorful')) {
 	        // color = feature.getProperty(heatmap);
 			opacity = 0.9;
