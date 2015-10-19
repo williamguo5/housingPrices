@@ -28,7 +28,6 @@ $(document).ready(function() {
 	    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
 	};
 
-	var currHeatmap = "housePrice";
 
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
@@ -192,11 +191,12 @@ $(document).ready(function() {
             $("#wrapper").removeClass("cmpSuburbClicked");
 
             document.getElementById('cmp-suburb').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
+                lastClickedLayer = cmpLayer;
             }
-            lastClickedLayer = cmpLayer;
+            console.log(lastClickedLayer, cmpLayer);
         }
     });
 
@@ -207,11 +207,12 @@ $(document).ready(function() {
             $("#wrapper").toggleClass("cmpSuburbClicked");
 
             document.getElementById('cmp-suburb').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
+                lastClickedLayer = cmpLayer;
+                console.log("click here");
             }
-            lastClickedLayer = cmpLayer;
 
         } else {
             if ($("#wrapper").hasClass("cmpChecked")) {
@@ -220,8 +221,8 @@ $(document).ready(function() {
             }
             $("#wrapper").toggleClass("showSidebar");
             lastClickedLayer.feature.setProperty('isColorful', false);
+            console.log(cmpLayer);
         }
-
         //$("#wrapper").removeClass('#page-content-toggle');
 
 
@@ -237,20 +238,12 @@ $(document).ready(function() {
 	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
 		heatmaps[currHeatmap][0] += 1;
 		heatmaps[currHeatmap][0] %= 2;
-		// console.log(currHeatmap);
-		// console.log(heatmaps[currHeatmap][0]);
-		// console.log(heatmaps);
-		// if(heatmaps[currHeatmap][0]){
-		// 	$('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
-		// }
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 
 	});
 	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
 		heatmaps[currHeatmap][1] += 1;
 		heatmaps[currHeatmap][1] %= 2;
-		console.log("click second box");
-		console.log(heatmaps[currHeatmap]);
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox2]').change(function(event){

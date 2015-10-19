@@ -296,6 +296,10 @@ h2 {
     height: 24px;
 }
 
+#legend .row .checkbox-highlighted {
+    background-color: #006699;
+}
+
 .cont.sidebar-open {
     /*margin-top: 10px;*/
     margin-top: 20px;
@@ -576,6 +580,10 @@ h2 {
 
 .checkbox-label {
     padding-left: 5px;
+}
+
+.checkbox-highlight {
+    background-color: #006699;
 }
 
 .controls {

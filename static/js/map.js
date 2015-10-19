@@ -275,7 +275,7 @@ function initMap(){
         // Gets the name of the event layer clicked
         var suburbName = event.feature.getProperty('name');
 		for (var i = 0; i < suburbData.length; i++) {
-            console.log(suburbData[i].housePrice);
+            // console.log(suburbData[i].housePrice);
             if (suburbData[i].name.toUpperCase() === suburbName.toUpperCase()) {
                 var housePriceValue = (suburbData[i].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 var houseRentalValue = (suburbData[i].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -498,7 +498,7 @@ function initMap(){
             $("#wrapper").toggleClass("showSidebar");
             $("#wrapper").toggleClass("showClose");
         }
-
+        // map.data.revertStyle();
 	});
     map.data.addListener('mouseover', function(event) {
         // newColor = feature.getProperty('color');
@@ -512,11 +512,20 @@ function initMap(){
         suburbName = capitaliseFirstLetter(suburbName);
 
         suburbDisplay.innerHTML = suburbName;
-
-
+        
+        // highlight the corresponding band in the legend
+        var value = event.feature.getProperty(currHeatmap);
+        var checkboxId = "#lgd-" + value;
+        // console.log(checkboxId);
+        // $(checkboxId).toggleClass("checkbox-highlight");
+        $(checkboxId).addClass("checkbox-highlight");
+        // $(checkboxId)
     });
 
     map.data.addListener('mouseout', function(event) {
+        var value = event.feature.getProperty(currHeatmap);
+        var checkboxId = "#lgd-" + value;
+        $(checkboxId).removeClass("checkbox-highlight");
         map.data.revertStyle();
         var suburbDisplay = document.getElementById('suburb-hover-id');
         suburbDisplay.innerHTML = "";
@@ -525,6 +534,7 @@ function initMap(){
 }
 var count = 1;
 var map;
+var currHeatmap = "housePrice";
 colorValues = [
 	"#6FB33B",  // 0
 	"#94B846",  // 1
