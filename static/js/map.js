@@ -223,7 +223,7 @@ function initMap(){
     // Load GeoJSON.
     map.data.loadGeoJson('/static/json/suburb_heatmaps.json');
 	// heatmapHousing();
-	changeHeatmap('housePrice');
+	changeHeatmap('housePrice', [1,1,1,1,1,1,1,1,1]);
 
 	var strictBounds = new google.maps.LatLngBounds(
 		// SW corner
@@ -537,10 +537,8 @@ colorValues = [
 	"grey" 		// 8
 ];
 
-function changeHeatmap(heatmap){
-	var heatmapChecked = [1, 1, 1, 1, 1, 1, 1, 1, 1];
-	heatmapChecked = isHeatmapChecked(heatmapChecked);
-
+function changeHeatmap(heatmap, checkboxes){
+	// unchecking checkbox for heatmap ranges
 	map.data.setStyle(function(feature){
 		var value = feature.getProperty(heatmap);
 		var color = colorValues[value];
@@ -550,7 +548,7 @@ function changeHeatmap(heatmap){
 	        // color = feature.getProperty(heatmap);
 			opacity = 0.9;
 	    }
-		if (!heatmapChecked[value]){
+		if (!checkboxes[value]){
 			return{
 		        fillColor: color,
 				fillOpacity: 0.1,
@@ -558,41 +556,15 @@ function changeHeatmap(heatmap){
 		        strokeWeight: 0.1
 			};
 		}
-		return{
-	        fillColor: color,
-			fillOpacity: opacity,
-			strokeColor: color,
-	        strokeWeight: 1
-		};
+		else{
+			return{
+		        fillColor: color,
+				fillOpacity: opacity,
+				strokeColor: color,
+		        strokeWeight: 1
+			};
+		}
 	});
-}
-
-function isHeatmapChecked(heatmapChecked){
-	if(!$('input:checkbox[name=lgd-checkbox0]').is(':checked')){
-		heatmapChecked[0] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox1]').is(':checked')){
-		heatmapChecked[1] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox2]').is(':checked')){
-		heatmapChecked[2] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox3]').is(':checked')){
-		heatmapChecked[3] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox4]').is(':checked')){
-		heatmapChecked[4] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox5]').is(':checked')){
-		heatmapChecked[5] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox6]').is(':checked')){
-		heatmapChecked[6] = 0;
-	}
-	if(!$('input:checkbox[name=lgd-checkbox7]').is(':checked')){
-		heatmapChecked[7] = 0;
-	}
-	return heatmapChecked;
 }
 
 function capitaliseFirstLetter(string) {

@@ -17,23 +17,25 @@ $(document).ready(function() {
     $('[data-toggle="map-tooltip"]').tooltip();
 
     // when user clicks on the toggle heatmap button
-
-	var heatmaps = [
-		"numSchools",
-        "housePrice",
-        "houseRentalPrice",
-        "unitPrice",
-        "unitRentalPrice",
-        "timeToCbdPublic",
-        "timeToCbdPrivate"
-	];
-
+	
+	var heatmaps = {
+		"numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "houseRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "unitPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "unitRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+	    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
+	};
+	
 	var currHeatmap = "housePrice";
-
+	
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
-        changeHeatmap("housePrice");
 		currHeatmap = "housePrice";
+		replaceCheckboxes();
+        changeHeatmap("housePrice", heatmaps[currHeatmap]);
+		
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-transport").removeClass('selected');
@@ -50,8 +52,10 @@ $(document).ready(function() {
     });
 
     $("#heatmap-schools").click(function(event){
-        changeHeatmap("numSchools")
 		currHeatmap = "numSchools";
+		replaceCheckboxes();
+        changeHeatmap("numSchools", heatmaps[currHeatmap])
+		
 		// $(this).css({background:"blue"});
 		$(this).addClass('selected');
 		$("#heatmap-housing").removeClass('selected');
@@ -69,8 +73,10 @@ $(document).ready(function() {
     });
 
     $("#heatmap-transport").click(function(event){
-       	changeHeatmap("timeToCbdPublic");
 		currHeatmap = "timeToCbdPublic";
+		replaceCheckboxes();
+       	changeHeatmap("timeToCbdPublic", heatmaps[currHeatmap]);
+		
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-housing").removeClass('selected');
@@ -153,7 +159,10 @@ $(document).ready(function() {
         } else {
 
             $("#summary").css("display", "inline");
+            $("#detailed-info").css("display", "none");
+
             $("#sidebar-wrapper").css({"background-color":"rgb(60, 60, 60)", "color":"#b5b5b7"});
+
 
 
 
@@ -225,31 +234,98 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-
-
-	// unchecking checkbox for heatmap ranges
 	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][0] += 1;
+		heatmaps[currHeatmap][0] %= 2;
+		// console.log(currHeatmap);
+		// console.log(heatmaps[currHeatmap][0]);
+		// console.log(heatmaps);
+		// if(heatmaps[currHeatmap][0]){
+		// 	$('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
+		// }
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+		
 	});
 	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][1] += 1;
+		heatmaps[currHeatmap][1] %= 2;
+		console.log("click second box");
+		console.log(heatmaps[currHeatmap]);
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox2]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][2] += 1;
+		heatmaps[currHeatmap][2] %= 2;		
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox3]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][3] += 1;
+		heatmaps[currHeatmap][3] %= 2;
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox4]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][4] += 1;
+		heatmaps[currHeatmap][4] %= 2;		
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox5]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][5] += 1;
+		heatmaps[currHeatmap][5] %= 2;		
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox6]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][6] += 1;
+		heatmaps[currHeatmap][6] %= 2;		
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox7]').change(function(event){
-		changeHeatmap(currHeatmap);
+		heatmaps[currHeatmap][7] += 1;
+		heatmaps[currHeatmap][7] %= 2;		
+		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
+	
+	function replaceCheckboxes(){
+		if(heatmaps[currHeatmap][0] == 1){
+			$('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox0]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][1] == 1){
+			$('input:checkbox[name=lgd-checkbox1]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox1]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][2] == 1){
+			$('input:checkbox[name=lgd-checkbox2]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox2]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][3] == 1){
+			$('input:checkbox[name=lgd-checkbox3]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox3]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][4] == 1){
+			$('input:checkbox[name=lgd-checkbox4]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox4]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][5] == 1){
+			$('input:checkbox[name=lgd-checkbox5]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox5]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][6] == 1){
+			$('input:checkbox[name=lgd-checkbox6]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox6]').prop("checked", false);
+		}
+		if(heatmaps[currHeatmap][7] == 1){
+			$('input:checkbox[name=lgd-checkbox7]').prop("checked", true);
+		}else{
+			$('input:checkbox[name=lgd-checkbox7]').prop("checked", false);
+		}
+	}
+	
 });
+

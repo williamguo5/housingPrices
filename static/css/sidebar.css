@@ -44,12 +44,12 @@ html, body {
     height: 100%;
     overflow-y: auto;
     z-index: 100;
-    -webkit-transition: left, width 0.5s ease;
-    -ms-transition:  left, width 0.5s ease ;
-    -moz-transition: left, width 0.5s ease;
-    -ms-transition:  left, width 0.5s ease ;
-    -o-transition: left, width 0.5s ease;
-    transition: left, width 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -moz-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     font-size: 16px;
 
 }
@@ -130,8 +130,8 @@ html, body {
 }
 
 #detailed-info {
-    visibility: hidden;
-    display: :none;
+    /*visibility: hidden;*/
+    display: none;
 }
 #summary {
     /*transition-delay: 1.0s;*/
@@ -189,6 +189,15 @@ html, body {
     border-bottom: 1px solid lightgrey;
     display: flex;
     align-items: center;
+}
+
+.sidebar-expanded .row.dschool-section {
+    background-color: lightgrey;
+}
+.sidebar-expanded .row.school-prim-sec {
+    font-size: 18px;
+    border-bottom: 1px solid lightgrey;
+
 }
 
 .sidebar-open .row.info:hover {
