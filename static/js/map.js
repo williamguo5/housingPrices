@@ -526,15 +526,15 @@ function initMap(){
 var count = 1;
 var map;
 colorValues = [
-	"#7bc742",  // 0
-	"#97c338",  // 1
+	"#6FB33B",  // 0
+	"#94B846",  // 1
 	"#b6bf2e",  // 2
 	"#bb9d24",  // 3
 	"#b7711b",  // 4
 	"#b34112",  // 5
 	"#af100a",  // 6
-	"#ac0227",  // 7
-	"grey" 		// 8
+	"#9B0223",  // 7
+	"#bbbbbb" 		// 8
 ];
 
 function changeHeatmap(heatmap, checkboxes){
@@ -546,7 +546,7 @@ function changeHeatmap(heatmap, checkboxes){
 
 	    if (!feature.getProperty('isColorful')) {
 	        // color = feature.getProperty(heatmap);
-			opacity = 0.9;
+			opacity = 0.88;
 	    }
 		if (!checkboxes[value]){
 			return{

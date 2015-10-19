@@ -17,7 +17,7 @@ $(document).ready(function() {
     $('[data-toggle="map-tooltip"]').tooltip();
 
     // when user clicks on the toggle heatmap button
-	
+
 	var heatmaps = {
 		"numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
 	    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -27,19 +27,19 @@ $(document).ready(function() {
 	    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
 	    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
 	};
-	
+
 	var currHeatmap = "housePrice";
-	
+
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
 		currHeatmap = "housePrice";
 		replaceCheckboxes();
         changeHeatmap("housePrice", heatmaps[currHeatmap]);
-		
+
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend ($)' + '</b>';
+        document.getElementById('units').innerHTML = '<b>' + 'House Price ($)' + '</b>';
         document.getElementById('heatmap-value1').innerHTML = '< 500K';
         document.getElementById('heatmap-value2').innerHTML = '500K - 750K';
         document.getElementById('heatmap-value3').innerHTML = '750K - 1M';
@@ -55,12 +55,12 @@ $(document).ready(function() {
 		currHeatmap = "numSchools";
 		replaceCheckboxes();
         changeHeatmap("numSchools", heatmaps[currHeatmap])
-		
+
 		// $(this).css({background:"blue"});
 		$(this).addClass('selected');
 		$("#heatmap-housing").removeClass('selected');
 		$("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend (# of Schools)' + '</b>';
+        document.getElementById('units').innerHTML = '<b>' + '# of Schools' + '</b>';
         document.getElementById('heatmap-value1').innerHTML = '0';
         document.getElementById('heatmap-value2').innerHTML = '1';
         document.getElementById('heatmap-value3').innerHTML = '2';
@@ -76,11 +76,11 @@ $(document).ready(function() {
 		currHeatmap = "timeToCbdPublic";
 		replaceCheckboxes();
        	changeHeatmap("timeToCbdPublic", heatmaps[currHeatmap]);
-		
+
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
 		$("#heatmap-housing").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend (mins)' + '</b>';
+        document.getElementById('units').innerHTML = '<b>' + 'Time to CBD (mins)' + '</b>';
         document.getElementById('heatmap-value1').innerHTML = '0 - 30';
         document.getElementById('heatmap-value2').innerHTML = '30 - 45';
         document.getElementById('heatmap-value3').innerHTML = '45 - 60';
@@ -244,7 +244,7 @@ $(document).ready(function() {
 		// 	$('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
 		// }
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-		
+
 	});
 	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
 		heatmaps[currHeatmap][1] += 1;
@@ -255,7 +255,7 @@ $(document).ready(function() {
 	});
 	$('input:checkbox[name=lgd-checkbox2]').change(function(event){
 		heatmaps[currHeatmap][2] += 1;
-		heatmaps[currHeatmap][2] %= 2;		
+		heatmaps[currHeatmap][2] %= 2;
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox3]').change(function(event){
@@ -265,25 +265,25 @@ $(document).ready(function() {
 	});
 	$('input:checkbox[name=lgd-checkbox4]').change(function(event){
 		heatmaps[currHeatmap][4] += 1;
-		heatmaps[currHeatmap][4] %= 2;		
+		heatmaps[currHeatmap][4] %= 2;
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox5]').change(function(event){
 		heatmaps[currHeatmap][5] += 1;
-		heatmaps[currHeatmap][5] %= 2;		
+		heatmaps[currHeatmap][5] %= 2;
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox6]').change(function(event){
 		heatmaps[currHeatmap][6] += 1;
-		heatmaps[currHeatmap][6] %= 2;		
+		heatmaps[currHeatmap][6] %= 2;
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
 	$('input:checkbox[name=lgd-checkbox7]').change(function(event){
 		heatmaps[currHeatmap][7] += 1;
-		heatmaps[currHeatmap][7] %= 2;		
+		heatmaps[currHeatmap][7] %= 2;
 		changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 	});
-	
+
 	function replaceCheckboxes(){
 		if(heatmaps[currHeatmap][0] == 1){
 			$('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
@@ -326,6 +326,6 @@ $(document).ready(function() {
 			$('input:checkbox[name=lgd-checkbox7]').prop("checked", false);
 		}
 	}
-	
+
 });
 
