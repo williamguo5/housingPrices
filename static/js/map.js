@@ -1,76 +1,4 @@
 function initAutocomplete() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
-        center: {lat: -33.835716, lng: 151.21703},
-        //zoom: 12, //Test setting for map
-        //center: {lat: -33.916383, lng: 151.257885},
-        //zoom: 10,
-        //center: {lat: -33.7969235, lng: 150.9224326},
-
-        zoomControl: true,
-        scaleControl: true,
-        streetViewControl: false,
-    });
-
-  // Create the search box and link it to the UI element.
-  var input = document.getElementById('pac-input');
-  var searchBox = new google.maps.places.SearchBox(input);
-  map.controls[google.maps.ControlPosition.TOP_RIGHT].push(input);
-
-  // Bias the SearchBox results towards current map's viewport.
-  map.addListener('bounds_changed', function() {
-    searchBox.setBounds(map.getBounds());
-  });
-
-  var markers = [];
-  // [START region_getplaces]
-  // Listen for the event fired when the user selects a prediction and retrieve
-  // more details for that place.
-  searchBox.addListener('places_changed', function() {
-    var places = searchBox.getPlaces();
-
-    if (places.length == 0) {
-      return;
-    }
-
-    // Clear out the old markers.
-    markers.forEach(function(marker) {
-      marker.setMap(null);
-    });
-    markers = [];
-
-    // For each place, get the icon, name and location.
-    var bounds = new google.maps.LatLngBounds();
-    places.forEach(function(place) {
-      var icon = {
-        url: place.icon,
-        size: new google.maps.Size(71, 71),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(17, 34),
-        scaledSize: new google.maps.Size(25, 25)
-      };
-
-      // Create a marker for each place.
-      markers.push(new google.maps.Marker({
-        map: map,
-        icon: icon,
-        title: place.name,
-        position: place.geometry.location
-      }));
-
-      if (place.geometry.viewport) {
-        // Only geocodes have viewport.
-        bounds.union(place.geometry.viewport);
-      } else {
-        bounds.extend(place.geometry.location);
-      }
-    });
-    map.fitBounds(bounds);
-  });
-  initMap();
-  // [END region_getplaces]
-}
-function initMap(){
     var customMapType = new google.maps.StyledMapType([
     {
         "elementType": "labels",
@@ -215,17 +143,84 @@ function initMap(){
          }
       ]
    }
-   ]);
+   ], {name: 'Map'});
 
-    var customMapTypeId = 'custom_style';
+    var customMapTypeId = 'map';
+
+    map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 10,
+        center: {lat: -33.835716, lng: 151.21703},
+        mapTypeControlOptions: {
+          mapTypeIds: [customMapTypeId, google.maps.MapTypeId.SATELLITE]
+        },
+        zoomControl: true,
+        scaleControl: true,
+        streetViewControl: false,
+    });
     map.mapTypes.set(customMapTypeId, customMapType);
     map.setMapTypeId(customMapTypeId);
 
+    // Create the search box and link it to the UI element.
+    var input = document.getElementById('pac-input');
+    var searchBox = new google.maps.places.SearchBox(input);
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(input);
+
+    // Bias the SearchBox results towards current map's viewport.
+    map.addListener('bounds_changed', function() {
+        searchBox.setBounds(map.getBounds());
+    });
+
+    var markers = [];
+    // [START region_getplaces]
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+    searchBox.addListener('places_changed', function() {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+
+    // Clear out the old markers.
+    markers.forEach(function(marker) {
+        marker.setMap(null);
+    });
+    markers = [];
+
+    // For each place, get the icon, name and location.
+    var bounds = new google.maps.LatLngBounds();
+    places.forEach(function(place) {
+        var icon = {
+            url: place.icon,
+            size: new google.maps.Size(71, 71),
+            origin: new google.maps.Point(0, 0),
+            anchor: new google.maps.Point(17, 34),
+            scaledSize: new google.maps.Size(25, 25)
+        };
+
+        // Create a marker for each place.
+        markers.push(new google.maps.Marker({
+            map: map,
+            icon: icon,
+            title: place.name,
+            position: place.geometry.location
+        }));
+
+        if (place.geometry.viewport) {
+            // Only geocodes have viewport.
+            bounds.union(place.geometry.viewport);
+        } else {
+            bounds.extend(place.geometry.location);
+        }
+    });
+    map.fitBounds(bounds);
+  });
+  initMap();
+  // [END region_getplaces]
+}
+function initMap(){
+
     // Load GeoJSON.
-    // map.data.loadGeoJson('/static/json/suburbs0.json');
-    // map.data.loadGeoJson('/static/json/suburbs1.json');
-    // map.data.loadGeoJson('/static/json/suburbs2.json');
-    // map.data.loadGeoJson('/static/json/suburbs3.json');
     map.data.loadGeoJson('/static/json/suburb_heatmaps.json');
 	// heatmapHousing();
 	changeHeatmap('housePrice');
@@ -242,7 +237,6 @@ function initMap(){
       if (strictBounds.contains(map.getCenter())) return;
 
       // We're out of bounds - Move the map back within the bounds
-
       var c = map.getCenter(),
           x = c.lng(),
           y = c.lat(),
