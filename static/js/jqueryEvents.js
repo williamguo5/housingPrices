@@ -261,6 +261,12 @@ $(document).ready(function() {
         }
     });
 
+    $("#house-price").hover(function(event){
+        $("$#cmp-house-price").hover(function(event){
+            
+        });
+    });
+
     $("#house-rent").click(function(event){
         if (!$("#house-rent").hasClass("heatmap-selected")) {
             $("#house-rent").addClass("heatmap-selected");

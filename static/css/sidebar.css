@@ -184,7 +184,7 @@ html, body {
 }
 
 .suburb-title {
-    padding-left: 15px;
+    /*padding-left: 2px;*/
     color: white;
     background: #006699;
 }
