@@ -274,6 +274,13 @@ $(document).ready(function() {
             document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
             document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
             // $("#add-suburb").css("display", "none");
+            if (!$("wrapper").hasClass('cmpSuburbClicked')) {
+                $("#add-suburb").css("display", "none");
+                $("#wrapper").removeClass("showSidebar");
+
+            }
+        } else {
+
         }
 
         $("#wrapper").toggleClass("cmpChecked");
