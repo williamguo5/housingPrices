@@ -1,0 +1,34 @@
+<!-- Default panel contents -->
+<div class="panel-heading">{{schoolType}} Schools</div>
+<!-- Table -->
+<table class="table" data-sort-name="name" data-sort-order="rank">
+    <thead>
+        <tr>
+            <th data-field="name" data-sortable="true"><span>Name</span></th>
+            <th data-field="rank" data-sortable="true"><span>Rank</span></th>
+            <th data-field="domain" data-sortable="true"><span>Domain</span></th>
+            <th data-field="religion" data-sortable="true"><span>Religion</span></th>
+            <th data-field="gender" data-sortable="true"><span>Gender</span></th>
+            <th data-field="address" data-sortable="true"><span>Address</span></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for school in schools %}
+        <tr>
+            <td class="lalign">{{school.name}}</td>
+            {% if school.rank == -1 %}
+            <td>n/a</td>
+            {% else %}
+            <td>{{school.rank}}</td>
+            {% endif %} {% if school.government %}
+            <td>Public</td>
+            {% else %}
+            <td>Private</td>
+            {% endif %}
+            <td>{{school.religion}}</td>
+            <td>{{school.gender}}</td>
+            <td>{{school.street}}, {{suburb}}, {{postcode}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

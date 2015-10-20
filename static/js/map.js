@@ -1,157 +1,113 @@
 function initAutocomplete() {
-    var customMapType = new google.maps.StyledMapType([
-    {
+    var customMapType = new google.maps.StyledMapType([{
         "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "off"
-            }
-        ]
-    },
-   {
-      "featureType":"landscape.man_made",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "color":"#f7f1df"
-         }
-      ]
-   },
-   {
-      "featureType":"landscape.natural",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "color":"#d0e3b4"
-         }
-      ]
-   },
-   {
-      "featureType":"landscape.natural.terrain",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "visibility":"off"
-         }
-      ]
-   },
-   {
-      "featureType":"poi",
-      "elementType":"labels",
-      "stylers":[
-         {
-            "visibility":"off"
-         }
-      ]
-   },
-   {
-      "featureType":"poi.business",
-      "elementType":"all",
-      "stylers":[
-         {
-            "visibility":"off"
-         }
-      ]
-   },
-   {
-      "featureType":"poi.medical",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "color":"#fbd3da"
-         }
-      ]
-   },
-   {
-      "featureType":"poi.park",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "color":"#bde6ab"
-         }
-      ]
-   },
-   {
-      "featureType":"road",
-      "elementType":"geometry.stroke",
-      "stylers":[
-         {
-            "visibility":"off"
-         }
-      ]
-   },
-   {
-      "featureType":"road",
-      "elementType":"labels",
-      "stylers":[
-         {
-            "visibility":"off"
-         }
-      ]
-   },
-   {
-      "featureType":"road.highway",
-      "elementType":"geometry.fill",
-      "stylers":[
-         {
-            "color":"#ffe15f"
-         }
-      ]
-   },
-   {
-      "featureType":"road.highway",
-      "elementType":"geometry.stroke",
-      "stylers":[
-         {
-            "color":"#efd151"
-         }
-      ]
-   },
-   {
-      "featureType":"road.arterial",
-      "elementType":"geometry.fill",
-      "stylers":[
-         {
-            "color":"#ffffff"
-         }
-      ]
-   },
-   {
-      "featureType":"road.local",
-      "elementType":"geometry.fill",
-      "stylers":[
-         {
-            "color":"black"
-         }
-      ]
-   },
-   {
-      "featureType":"transit.station.airport",
-      "elementType":"geometry.fill",
-      "stylers":[
-         {
-            "color":"#cfb2db"
-         }
-      ]
-   },
-   {
-      "featureType":"water",
-      "elementType":"geometry",
-      "stylers":[
-         {
-            "color":"#a2daf2"
-         }
-      ]
-   }
-   ], {name: 'Map'});
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#f7f1df"
+        }]
+    }, {
+        "featureType": "landscape.natural",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#d0e3b4"
+        }]
+    }, {
+        "featureType": "landscape.natural.terrain",
+        "elementType": "geometry",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "poi.business",
+        "elementType": "all",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "poi.medical",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#fbd3da"
+        }]
+    }, {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#bde6ab"
+        }]
+    }, {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "road",
+        "elementType": "labels",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#ffe15f"
+        }]
+    }, {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [{
+            "color": "#efd151"
+        }]
+    }, {
+        "featureType": "road.arterial",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#ffffff"
+        }]
+    }, {
+        "featureType": "road.local",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "black"
+        }]
+    }, {
+        "featureType": "transit.station.airport",
+        "elementType": "geometry.fill",
+        "stylers": [{
+            "color": "#cfb2db"
+        }]
+    }, {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [{
+            "color": "#a2daf2"
+        }]
+    }], {
+        name: 'Map'
+    });
 
     var customMapTypeId = 'map';
 
     map = new google.maps.Map(document.getElementById('map'), {
         zoom: 10,
-        center: {lat: -33.835716, lng: 151.21703},
+        center: {
+            lat: -33.835716,
+            lng: 151.21703
+        },
         mapTypeControlOptions: {
-          mapTypeIds: [customMapTypeId, google.maps.MapTypeId.SATELLITE]
+            mapTypeIds: [customMapTypeId, google.maps.MapTypeId.SATELLITE]
         },
         zoomControl: true,
         scaleControl: true,
@@ -175,91 +131,92 @@ function initAutocomplete() {
     // Listen for the event fired when the user selects a prediction and retrieve
     // more details for that place.
     searchBox.addListener('places_changed', function() {
-    var places = searchBox.getPlaces();
+        var places = searchBox.getPlaces();
 
-    if (places.length == 0) {
-      return;
-    }
-
-    // Clear out the old markers.
-    markers.forEach(function(marker) {
-        marker.setMap(null);
-    });
-    markers = [];
-
-    // For each place, get the icon, name and location.
-    var bounds = new google.maps.LatLngBounds();
-    places.forEach(function(place) {
-        var icon = {
-            url: place.icon,
-            size: new google.maps.Size(71, 71),
-            origin: new google.maps.Point(0, 0),
-            anchor: new google.maps.Point(17, 34),
-            scaledSize: new google.maps.Size(25, 25)
-        };
-
-        // Create a marker for each place.
-        markers.push(new google.maps.Marker({
-            map: map,
-            icon: icon,
-            title: place.name,
-            position: place.geometry.location
-        }));
-
-        if (place.geometry.viewport) {
-            // Only geocodes have viewport.
-            bounds.union(place.geometry.viewport);
-        } else {
-            bounds.extend(place.geometry.location);
+        if (places.length == 0) {
+            return;
         }
+
+        // Clear out the old markers.
+        markers.forEach(function(marker) {
+            marker.setMap(null);
+        });
+        markers = [];
+
+        // For each place, get the icon, name and location.
+        var bounds = new google.maps.LatLngBounds();
+        places.forEach(function(place) {
+            var icon = {
+                url: place.icon,
+                size: new google.maps.Size(71, 71),
+                origin: new google.maps.Point(0, 0),
+                anchor: new google.maps.Point(17, 34),
+                scaledSize: new google.maps.Size(25, 25)
+            };
+
+            // Create a marker for each place.
+            markers.push(new google.maps.Marker({
+                map: map,
+                icon: icon,
+                title: place.name,
+                position: place.geometry.location
+            }));
+
+            if (place.geometry.viewport) {
+                // Only geocodes have viewport.
+                bounds.union(place.geometry.viewport);
+            } else {
+                bounds.extend(place.geometry.location);
+            }
+        });
+        map.fitBounds(bounds);
     });
-    map.fitBounds(bounds);
-  });
-  initMap();
-  // [END region_getplaces]
+    initMap();
+    // [END region_getplaces]
 }
-function initMap(){
+
+function initMap() {
 
     // Load GeoJSON.
     map.data.loadGeoJson('/static/json/suburb_heatmaps.json');
-	// heatmapHousing();
-	changeHeatmap('housePrice', [1,1,1,1,1,1,1,1,1]);
+    // heatmapHousing();
+    changeHeatmap('housePrice', [1, 1, 1, 1, 1, 1, 1, 1, 1]);
 
-	var strictBounds = new google.maps.LatLngBounds(
-		// SW corner
-		new google.maps.LatLng(-34.206766, 150.652075),
-		// NE corner
-		new google.maps.LatLng(-33.428651, 151.392279)
-	);
+    var strictBounds = new google.maps.LatLngBounds(
+        // SW corner
+        new google.maps.LatLng(-34.206766, 150.652075),
+        // NE corner
+        new google.maps.LatLng(-33.428651, 151.392279)
+    );
 
- // Listen for the dragend event
+    // Listen for the dragend event
     google.maps.event.addListener(map, 'bounds_changed', function() {
-      if (strictBounds.contains(map.getCenter())) return;
+        if (strictBounds.contains(map.getCenter())) return;
 
-      // We're out of bounds - Move the map back within the bounds
-      var c = map.getCenter(),
-          x = c.lng(),
-          y = c.lat(),
-          maxX = strictBounds.getNorthEast().lng(),
-          maxY = strictBounds.getNorthEast().lat(),
-          minX = strictBounds.getSouthWest().lng(),
-          minY = strictBounds.getSouthWest().lat();
+        // We're out of bounds - Move the map back within the bounds
+        var c = map.getCenter(),
+            x = c.lng(),
+            y = c.lat(),
+            maxX = strictBounds.getNorthEast().lng(),
+            maxY = strictBounds.getNorthEast().lat(),
+            minX = strictBounds.getSouthWest().lng(),
+            minY = strictBounds.getSouthWest().lat();
 
-      if (x < minX) x = minX;
-      if (x > maxX) x = maxX;
-      if (y < minY) y = minY;
-      if (y > maxY) y = maxY;
+        if (x < minX) x = minX;
+        if (x > maxX) x = maxX;
+        if (y < minY) y = minY;
+        if (y > maxY) y = maxY;
 
-      map.setCenter(new google.maps.LatLng(y, x));
+        map.setCenter(new google.maps.LatLng(y, x));
     });
 
- // Limit the zoom level
- // This is the minimum zoom level that we'll allow
+    // Limit the zoom level
+    // This is the minimum zoom level that we'll allow
     var minZoomLevel = 9;
-	var maxZoomLevel = 15;
+    var maxZoomLevel = 15;
     google.maps.event.addListener(map, 'zoom_changed', function() {
-      if (map.getZoom() < minZoomLevel) map.setZoom(minZoomLevel);
-      if (map.getZoom() > maxZoomLevel) map.setZoom(maxZoomLevel);
+        if (map.getZoom() < minZoomLevel) map.setZoom(minZoomLevel);
+        if (map.getZoom() > maxZoomLevel) map.setZoom(maxZoomLevel);
     });
 
     // Keep track of the previously clicked layer
@@ -277,10 +234,7 @@ function initMap(){
 
         // Gets the name of the event layer clicked
         var suburbName = event.feature.getProperty('name');
-		for (var i = 0; i < suburbData.length; i++) {
-
-            console.log(suburbData[i].housePrice);
-            // console.log(suburbData[i].housePrice);
+        for (var i = 0; i < suburbData.length; i++) {
             if (suburbData[i].name.toUpperCase() === suburbName.toUpperCase()) {
                 var housePriceValue = (suburbData[i].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                 var houseRentalValue = (suburbData[i].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -296,40 +250,37 @@ function initMap(){
 
         //Formatting the sidebar section
         if (housePriceValue == 0) {
-          housePriceValue = 'n/a';
+            housePriceValue = 'n/a';
         } else {
-          housePriceValue = '$' + housePriceValue;
+            housePriceValue = '$' + housePriceValue;
         }
         if (houseRentalValue == 0) {
-          houseRentalValue = 'n/a';
+            houseRentalValue = 'n/a';
         } else {
-          houseRentalValue = '$' + houseRentalValue + ' p/w';
+            houseRentalValue = '$' + houseRentalValue + ' p/w';
         }
         if (unitPriceValue == 0) {
-          unitPriceValue = 'n/a';
+            unitPriceValue = 'n/a';
         } else {
-          unitPriceValue = '$' + unitPriceValue;
+            unitPriceValue = '$' + unitPriceValue;
         }
         if (unitRentalValue == 0) {
-          unitRentalValue = 'n/a';
+            unitRentalValue = 'n/a';
         } else {
-          unitRentalValue = '$' + unitRentalValue + ' p/w' ;
+            unitRentalValue = '$' + unitRentalValue + ' p/w';
         }
         if (salaryValue == 0) {
-          salaryValue = 'n/a';
+            salaryValue = 'n/a';
         } else {
-          salaryValue = '$' + salaryValue + ' p/a' ;
+            salaryValue = '$' + salaryValue + ' p/a';
         }
         housePriceString = '<b>Buy:</b> ' + housePriceValue + '<br>';
-        houseRentString =  '<b>Rent:</b> ' + houseRentalValue;
+        houseRentString = '<b>Rent:</b> ' + houseRentalValue;
         unitPriceString = '<b>Buy:</b> ' + unitPriceValue + '<br>';
         unitRentString = '<b>Rent:</b> ' + unitRentalValue;
         salaryString = salaryValue;
         travelTimeStringPrivate = '<b>Private:<b> ' + suburbData[i].timeToCbdPrivate + '<br>';
         travelTimeStringPublic = '<b>Public:<b> ' + suburbData[i].timeToCbdPublic;
-        // console.log(contentString);
-
-
 
         var suburb = document.getElementById('suburb');
 
@@ -345,9 +296,9 @@ function initMap(){
         var travelTimePublic = document.getElementById('travel-time-public');
 
         // Checks if the cmpChecked has been toggled i.e. the checkbox has been ticked
-        if($("#wrapper").hasClass('cmpChecked')) {
+        if ($("#wrapper").hasClass('cmpChecked')) {
             if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
-               $("#wrapper").toggleClass("cmpSuburbClicked");
+                $("#wrapper").toggleClass("cmpSuburbClicked");
             }
 
             isChecked = true;
@@ -407,7 +358,7 @@ function initMap(){
                 }
             } else {
                 tempHousePriceString = '<b>Buy:</b> ' + '$' + housePriceValue + '<br>';
-                tempHousePriceStringCmp  = '<b>Buy:</b> ' + '$' + cmpHousePriceValue + '<br>';
+                tempHousePriceStringCmp = '<b>Buy:</b> ' + '$' + cmpHousePriceValue + '<br>';
 
             }
 
@@ -421,8 +372,8 @@ function initMap(){
             if (!inRange) {
                 if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
                     console.log("I AM GREEN");
-                    tempHouseRentString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + houseRentalValue + ' p/w' +'</span>';
-                    tempHouseRentStringCmp += '<b>Rent:</b> ' + '<span style="color: #af100a;">' + '$' + cmpHouseRentalValue + ' p/w' +'</span>';
+                    tempHouseRentString += '<b>Rent:</b> ' + '<span style="color: #7bc742;">' + '$' + houseRentalValue + ' p/w' + '</span>';
+                    tempHouseRentStringCmp += '<b>Rent:</b> ' + '<span style="color: #af100a;">' + '$' + cmpHouseRentalValue + ' p/w' + '</span>';
 
 
                 } else {
@@ -498,7 +449,7 @@ function initMap(){
             var cmpHousePriceString = tempHousePriceStringCmp;
             var cmpHouseRentString = tempHouseRentStringCmp;
             var cmpUnitPriceString = tempUnitPriceStringCmp;
-            var cmpUnitRentString =  tempUnitRentStringCmp;
+            var cmpUnitRentString = tempUnitRentStringCmp;
 
             document.getElementById('house-price').innerHTML = cmpHousePriceString;
 
@@ -509,9 +460,9 @@ function initMap(){
 
 
             if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
-               $("#wrapper").removeClass("cmpSuburbClicked");
-               suburbName = "";
-               contentString = "";
+                $("#wrapper").removeClass("cmpSuburbClicked");
+                suburbName = "";
+                contentString = "";
             }
         } else {
             isChecked = false;
@@ -535,7 +486,7 @@ function initMap(){
 
         // Checks if the previous layer has been clicked
         if ((isChecked && cmpLayer != lastClickedLayer && cmpLayer != event) ||
-            (!isChecked && lastClickedLayer))  {
+            (!isChecked && lastClickedLayer)) {
             // Then reverts the colour back the original state
 
             lastClickedLayer.feature.setProperty('isColorful', false);
@@ -552,14 +503,15 @@ function initMap(){
             $("#wrapper").toggleClass("showClose");
         }
         // map.data.revertStyle();
-	});
+    });
     map.data.addListener('mouseover', function(event) {
-        // newColor = feature.getProperty('color');
-        //newColor = 'red';
-        // newColor = (parseInt(newColor, 16) + 0xFFFF00).toString(16);
-        // newColor = newColor + '#111111';
         map.data.revertStyle();
-        map.data.overrideStyle(event.feature, {fillOpacity: 0.25, strokeColor: "grey", strokeWeight: 3, zIndex: 1});
+        map.data.overrideStyle(event.feature, {
+            fillOpacity: 0.25,
+            strokeColor: "grey",
+            strokeWeight: 3,
+            zIndex: 1
+        });
         var suburbName = event.feature.getProperty('name');
         var suburbDisplay = document.getElementById('suburb-hover-id');
         suburbName = capitaliseFirstLetter(suburbName);
@@ -569,8 +521,6 @@ function initMap(){
         // highlight the corresponding band in the legend
         var value = event.feature.getProperty(currHeatmap);
         var checkboxId = "#lgd-" + value;
-        // console.log(checkboxId);
-        // $(checkboxId).toggleClass("checkbox-highlight");
         $(checkboxId).addClass("checkbox-highlight");
         // $(checkboxId)
     });
@@ -589,45 +539,44 @@ var count = 1;
 var map;
 var currHeatmap = "housePrice";
 colorValues = [
-	"#6FB33B",  // 0
-	"#94B846",  // 1
-	"#b6bf2e",  // 2
-	"#bb9d24",  // 3
-	"#b7711b",  // 4
-	"#b34112",  // 5
-	"#af100a",  // 6
-	"#9B0223",  // 7
-	"#bbbbbb" 		// 8
+    "#6FB33B", // 0
+    "#94B846", // 1
+    "#b6bf2e", // 2
+    "#bb9d24", // 3
+    "#b7711b", // 4
+    "#b34112", // 5
+    "#af100a", // 6
+    "#9B0223", // 7
+    "#bbbbbb" // 8
 ];
 
-function changeHeatmap(heatmap, checkboxes){
-	// unchecking checkbox for heatmap ranges
-	map.data.setStyle(function(feature){
-		var value = feature.getProperty(heatmap);
-		var color = colorValues[value];
-	    var opacity = 0.25;
+function changeHeatmap(heatmap, checkboxes) {
+    // unchecking checkbox for heatmap ranges
+    map.data.setStyle(function(feature) {
+        var value = feature.getProperty(heatmap);
+        var color = colorValues[value];
+        var opacity = 0.25;
 
-	    if (!feature.getProperty('isColorful')) {
-	        // color = feature.getProperty(heatmap);
-			opacity = 0.88;
-	    }
-		if (!checkboxes[value]){
-			return{
-		        fillColor: color,
-				fillOpacity: 0.1,
-		        strokeColor: "grey",
-		        strokeWeight: 0.1
-			};
-		}
-		else{
-			return{
-		        fillColor: color,
-				fillOpacity: opacity,
-				strokeColor: color,
-		        strokeWeight: 1
-			};
-		}
-	});
+        if (!feature.getProperty('isColorful')) {
+            // color = feature.getProperty(heatmap);
+            opacity = 0.88;
+        }
+        if (!checkboxes[value]) {
+            return {
+                fillColor: color,
+                fillOpacity: 0.1,
+                strokeColor: "grey",
+                strokeWeight: 0.1
+            };
+        } else {
+            return {
+                fillColor: color,
+                fillOpacity: opacity,
+                strokeColor: color,
+                strokeWeight: 1
+            };
+        }
+    });
 }
 
 function capitaliseFirstLetter(string) {

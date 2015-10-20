@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>House Life</title>
     <meta charset="utf-8">
@@ -8,32 +9,34 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <script language="javascript">
-        var lastClickedLayer;
-        var lastClickedSuburbIndex;
-        var cmpLayer;
-        var cmpSuburbIndex;
-        var suburbData;
+    var lastClickedLayer;
+    var lastClickedSuburbIndex;
+    var cmpLayer;
+    var cmpSuburbIndex;
+    var suburbData;
     </script>
     <script language="javascript" type="text/javascript" src="js/map.js"></script>
     <script language="javascript" type="text/javascript" src="js/jqueryEvents.js"></script>
-
 </head>
-<body>
-    <div id="wrapper"><!-- start wrapper -->
 
-        <div id="sidebar-wrapper"> <!-- start sidebar-wrapper -->
-            <div class="container-fluid sidebar-open"> <!-- start of container-fluid-->
+<body>
+    <div id="wrapper">
+        <!-- start wrapper -->
+        <div id="sidebar-wrapper">
+            <!-- start sidebar-wrapper -->
+            <div class="container-fluid sidebar-open">
+                <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
                         <h2 id="suburb">Select Suburb</h2>
                     </div>
                 </div>
-
                 <div id="summary" class="fade in">
-                    <div class="row info"> <!-- start of row -->
+                    <div class="row info">
+                        <!-- start of row -->
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-home size"></span>
                         </div>
@@ -42,8 +45,9 @@
                             <span id="house-price"><br></span>
                             <span id="house-rent"><br></span>
                         </div>
-                    </div> <!-- end of row -->
-                    <div class = "row info">
+                    </div>
+                    <!-- end of row -->
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-building size"></span>
                         </div>
@@ -51,10 +55,9 @@
                             <h3>Median Unit Price</h3>
                             <span id="unit-price"><br></span>
                             <span id="unit-rent"><br></span>
-
                         </div>
                     </div>
-                    <div class = "row info">
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-money size"></span>
                         </div>
@@ -63,8 +66,7 @@
                             <span id="salary"><br></span>
                         </div>
                     </div>
-
-                    <div class = "row info">
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-bus size"></span>
                         </div>
@@ -72,27 +74,30 @@
                             <h3>Travel Time</h3>
                             <span id="travel-time-private"><br></span>
                             <span id="travel-time-public"><br></span>
-
                         </div>
                     </div>
                 </div>
-                <div class = "checkbox" data-placement="top" data-toggle="tooltip" title="Select another suburb to compare">
-                    <label><input type="checkbox" name="suburb" id ="cmp-checkbox"> Compare Suburb<br></label>
+                <div class="checkbox" data-placement="top" data-toggle="tooltip" title="Select another suburb to compare">
+                    <label>
+                        <input type="checkbox" name="suburb" id="cmp-checkbox"> Compare Suburb
+                        <br>
+                    </label>
                 </div>
-
-                <div class = "divider"></div>
-
-            </div> <!-- end of container-fluid -->
-            <div id="detailed-info" class="container-fluid sidebar-expanded"> <!-- start detailed-info -->
-                <div class="row"> <!-- start of row -->
-                    <div id="carousel-suburb" class="carousel slide" data-ride="carousel"> <!-- start carousel -->
+                <div class="divider"></div>
+            </div>
+            <!-- end of container-fluid -->
+            <div id="detailed-info" class="container-fluid sidebar-expanded">
+                <!-- start detailed-info -->
+                <div class="row">
+                    <!-- start of row -->
+                    <div id="carousel-suburb" class="carousel slide" data-ride="carousel">
+                        <!-- start carousel -->
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-suburb" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-suburb" data-slide-to="1"></li>
                             <li data-target="#carousel-suburb" data-slide-to="2"></li>
                         </ol>
-
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
@@ -114,7 +119,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-suburb" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -122,15 +126,18 @@
                         <a class="right carousel-control" href="#carousel-suburb" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
-                    </div> <!-- Carousel -->
-                </div> <!-- end row -->
-                <div class="row"> <!-- start row -->
+                    </div>
+                    <!-- Carousel -->
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <!-- start row -->
                     <!--<div>-->
-                        <!--<ul class="nav nav-pills">-->
-                            <!--<li class="active"><a href="#prices">Prices</a></li>-->
-                            <!--<li><a href="#schools">Schools</a></li>-->
-                            <!--<li><a href="#transport">Transports</a></li>-->
-                        <!--</ul>-->
+                    <!--<ul class="nav nav-pills">-->
+                    <!--<li class="active"><a href="#prices">Prices</a></li>-->
+                    <!--<li><a href="#schools">Schools</a></li>-->
+                    <!--<li><a href="#transport">Transports</a></li>-->
+                    <!--</ul>-->
                     <!--</div>-->
                     <div class="container">
                         <h2> Median Property Price</h2>
@@ -148,19 +155,17 @@
                                     <h2 style="text-align: center">Rent</h2>
                                     <h2 id="panel-house-rent" style="text-align: center"></h2>
                                 </div>
-                           </div>
-                           <div id="unit" class="tab-pane fade active">
+                            </div>
+                            <div id="unit" class="tab-pane fade active">
                                 <div class="col-md-6">
                                     <h2 style="text-align: center">Buy</h2>
-                                    <h2 id="panel-unit-price"style="text-align: center">1699999999</h2>
+                                    <h2 id="panel-unit-price" style="text-align: center">1699999999</h2>
                                 </div>
                                 <div class="col-md-6">
                                     <h2 style="text-align: center">Rent</h2>
                                     <h2 id="panel-unit-rent" style="text-align: center">1699999999</h2>
                                 </div>
-
-
-                           </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,12 +173,13 @@
                     <div class="col-md-12 ">
                         <!-- <a name="description"></a> -->
                         <h2 id="description" style="text-align: center"></h2>
-                            <!-- <a name="schools">Schools</a> -->
+                        <!-- <a name="schools">Schools</a> -->
                         <!-- <p id="schools-info"></p> -->
-                            <!-- <a name="transport">Schools</a> -->
+                        <!-- <a name="transport">Schools</a> -->
                         <!-- <p id="transport-info"></p> -->
                     </div>
-                </div> <!-- end row -->
+                </div>
+                <!-- end row -->
                 <div class="row">
                     <div class="col-md-12 ">
                         <!-- Description section -->
@@ -192,27 +198,29 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6 primary-section">
-                                <h2>INSERT TEXT HERE</h2>
+                                <div class="panel panel-primary" id="primary-school-table"></div>
                             </div>
                             <div class="col-md-6 secondary-section">
-                                <h2>INSERT TEXT HERE</h2>
+                                <div class="panel panel-primary" id="secondary-school-table"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-
-        </div> <!-- end side-wrapper -->
-        <div id="cmp-sidebar-wrapper"> <!-- start sidebar-wrapper -->
-            <div class="container-fluid sidebar-open"> <!-- start of container-fluid-->
+        </div>
+        <!-- end side-wrapper -->
+        <div id="cmp-sidebar-wrapper">
+            <!-- start sidebar-wrapper -->
+            <div class="container-fluid sidebar-open">
+                <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
                         <h2 id="cmp-suburb">Select Suburb</h2>
                     </div>
                 </div>
                 <div id="cmp-summary" class="fade in">
-                    <div class="row info"> <!-- start of row -->
+                    <div class="row info">
+                        <!-- start of row -->
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-home size"></span>
                         </div>
@@ -221,8 +229,9 @@
                             <span id="cmp-house-price"><br></span>
                             <span id="cmp-house-rent"><br></span>
                         </div>
-                    </div> <!-- end of row -->
-                    <div class = "row info">
+                    </div>
+                    <!-- end of row -->
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-building size"></span>
                         </div>
@@ -230,10 +239,9 @@
                             <h3>Median Unit Price</h3>
                             <span id="cmp-unit-price"><br></span>
                             <span id="cmp-unit-rent"><br></span>
-
                         </div>
                     </div>
-                    <div class = "row info">
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-money size"></span>
                         </div>
@@ -242,8 +250,7 @@
                             <span id="cmp-salary"><br></span>
                         </div>
                     </div>
-
-                    <div class = "row info">
+                    <div class="row info">
                         <div class="col-md-2">
                             <span style="padding-top: 16px; padding-bottom: 16px" class="fa fa-bus size"></span>
                         </div>
@@ -251,21 +258,22 @@
                             <h3>Travel Time</h3>
                             <span id="cmp-travel-time-private"><br></span>
                             <span id="cmp-travel-time-public"><br></span>
-
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="cmp-detailed-info" class="container-fluid sidebar-expanded"> <!-- start detailed-info -->
-                <div class="row"> <!-- start of row -->
-                    <div id="cmp-carousel-suburb" class="carousel slide" data-ride="carousel"> <!-- start carousel -->
+            <div id="cmp-detailed-info" class="container-fluid sidebar-expanded">
+                <!-- start detailed-info -->
+                <div class="row">
+                    <!-- start of row -->
+                    <div id="cmp-carousel-suburb" class="carousel slide" data-ride="carousel">
+                        <!-- start carousel -->
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#cmp-carousel-suburb" data-slide-to="0" class="active"></li>
                             <li data-target="#cmp-carousel-suburb" data-slide-to="1"></li>
                             <li data-target="#cmp-carousel-suburb" data-slide-to="2"></li>
                         </ol>
-
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
@@ -287,7 +295,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!-- Controls -->
                         <a class="left carousel-control" href="#cmp-carousel-suburb" role="button" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -295,15 +302,18 @@
                         <a class="right carousel-control" href="#cmp-carousel-suburb" role="button" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
-                    </div> <!-- Carousel -->
-                </div> <!-- end row -->
-                <div class="row"> <!-- start row -->
+                    </div>
+                    <!-- Carousel -->
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <!-- start row -->
                     <!--<div>-->
-                        <!--<ul class="nav nav-pills">-->
-                            <!--<li class="active"><a href="#prices">Prices</a></li>-->
-                            <!--<li><a href="#schools">Schools</a></li>-->
-                            <!--<li><a href="#transport">Transports</a></li>-->
-                        <!--</ul>-->
+                    <!--<ul class="nav nav-pills">-->
+                    <!--<li class="active"><a href="#prices">Prices</a></li>-->
+                    <!--<li><a href="#schools">Schools</a></li>-->
+                    <!--<li><a href="#transport">Transports</a></li>-->
+                    <!--</ul>-->
                     <!--</div>-->
                     <div class="col-md-12">
                         <a name="prices">Property Prices</a>
@@ -313,12 +323,10 @@
                         <a name="transport">Schools</a>
                         <p id="cmp-transport-info"></p>
                     </div>
-                </div> <!-- end row -->
+                </div>
+                <!-- end row -->
             </div>
-
         </div>
-
-
         <div>
             <button id="add-suburb">
                 <i class="fa fa-plus button colour size-plus"></i>
@@ -326,21 +334,17 @@
             <button id="close-sidebar">
                 <i class="fa fa-times button colour size-close"></i>
             </button>
-            <button id="page-content-toggle" >
+            <button id="page-content-toggle">
                 <i class="fa fa-chevron-right button expand-colour size-close"></i>
             </button>
         </div>
-
         <!--<a href="#" id="page-content-toggle"><span class="glyphicon glyphicon-menu-right button white size "></span></a>-->
         <input id="pac-input" class="controls" type="text" placeholder="Search Box">
         <div id="map"></div>
-
-
         <div id="heatmap-housing" class="heatmap-button"><i class="fa fa-home size"></i></div>
-		 <div id="heatmap-schools" class="heatmap-button"><i class="fa fa-graduation-cap size"></i></div>
-		 <div id="heatmap-transport" class="heatmap-button"><i class="fa fa-bus size"></i></div>
-
-		  <div id="title">
+        <div id="heatmap-schools" class="heatmap-button"><i class="fa fa-graduation-cap size"></i></div>
+        <div id="heatmap-transport" class="heatmap-button"><i class="fa fa-bus size"></i></div>
+        <div id="title">
             <h4 id="units"><b>House Price ($)</b></h5>
         </div>
         <div id="legend">
@@ -349,24 +353,24 @@
 
                 <div class="row">
                     <div class="col-md-12" id="lgd-0">
-									<input type="checkbox" name="lgd-checkbox0"  id ="lgd-checkbox0"checked>
-                        	<span class="legend-color-box" style="background-color: #6FB33B;"></span>
-									<span id ="heatmap-value1" class="checkbox-label"> < 500K<br></span>
+                                    <input type="checkbox" name="lgd-checkbox0"  id ="lgd-checkbox0"checked>
+                            <span class="legend-color-box" style="background-color: #6FB33B;"></span>
+                                    <span id ="heatmap-value1" class="checkbox-label"> < 500K<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-1">
-						      <span>
-									<input type="checkbox" name="lgd-checkbox1" id ="lgd-checkbox1" checked>
-		                     <div class="legend-color-box" style="background-color: #94B846;"></div>
-		                     <span id ="heatmap-value2" class="checkbox-label">500K - 750K<br></span>
+                              <span>
+                                    <input type="checkbox" name="lgd-checkbox1" id ="lgd-checkbox1" checked>
+                             <div class="legend-color-box" style="background-color: #94B846;"></div>
+                             <span id ="heatmap-value2" class="checkbox-label">500K - 750K<br></span>
                         </span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-2">
-							   <span>
-									 <input type="checkbox" name="lgd-checkbox2" id ="lgd-checkbox2" checked>
+                               <span>
+                                     <input type="checkbox" name="lgd-checkbox2" id ="lgd-checkbox2" checked>
                             <div class="legend-color-box" style="background-color: #b6bf2e;"></div>
                             <span id ="heatmap-value3" class="checkbox-label">750K - 1M<br></span>
                         <span>
@@ -374,35 +378,35 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-3">
-								<input type="checkbox" name="lgd-checkbox3" id ="lgd-checkbox3" checked>
+                                <input type="checkbox" name="lgd-checkbox3" id ="lgd-checkbox3" checked>
                         <div class="legend-color-box" style="background-color: #bb9d24;"></div>
                         <span id="heatmap-value4" class="checkbox-label">1M - 1.25M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-4">
-								<input type="checkbox" name="lgd-checkbox4" id ="lgd-checkbox4" checked>
+                                <input type="checkbox" name="lgd-checkbox4" id ="lgd-checkbox4" checked>
                         <div class="legend-color-box" style="background-color: #b7711b;"></div>
                         <span id="heatmap-value5" class="checkbox-label">1.25M - 1.5M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-5">
-								<input type="checkbox" name="lgd-checkbox5" id ="lgd-checkbox5" checked>
+                                <input type="checkbox" name="lgd-checkbox5" id ="lgd-checkbox5" checked>
                         <div class="legend-color-box" style="background-color: #b34112;"></div>
                         <span id = "heatmap-value6" class="checkbox-label">1.5M - 2M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-6">
-								<input type="checkbox" name="lgd-checkbox6" id ="lgd-checkbox6" checked>
+                                <input type="checkbox" name="lgd-checkbox6" id ="lgd-checkbox6" checked>
                         <div class="legend-color-box" style="background-color: #af100a;"></div>
                         <span id = "heatmap-value7" class="checkbox-label">2M - 3M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-7">
-								<input type="checkbox" name="lgd-checkbox7" id ="lgd-checkbox7" checked>
+                                <input type="checkbox" name="lgd-checkbox7" id ="lgd-checkbox7" checked>
                         <div class="legend-color-box" style="background-color: #9B0223;"></div>
                         <span id = "heatmap-value8" class="checkbox-label"> > 3M<br></span>
                     </div>
@@ -410,9 +414,9 @@
             </div>
         </div>
         <div id="suburb-hover"><h4 id="suburb-hover-id"></h4></div>
-
-    </div> <!-- end wrapper-->
-    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initAutocomplete"
-         async defer></script>
+    </div>
+    <!-- end wrapper-->
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initAutocomplete" async defer></script>
 </body>
+
 </html>
