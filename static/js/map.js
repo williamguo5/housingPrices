@@ -274,7 +274,7 @@ function initMap(){
     var isChecked;
     map.data.addListener('click', function(event) {
 
-        
+
         // Gets the name of the event layer clicked
         var suburbName = event.feature.getProperty('name');
 		for (var i = 0; i < suburbData.length; i++) {
@@ -294,14 +294,37 @@ function initMap(){
             }
         }
 
-        //Formatting the sidebar section 
-
-        housePriceString = '$' + housePriceValue + '<br>';
-        houseRentString =  '$' + houseRentalValue + ' p/w';
-                        
-        unitPriceString = '$' + unitPriceValue + '<br>';
-        unitRentString = '$' + unitRentalValue + ' p/w';
-        salaryString = '$' +  salaryValue + ' p/a';
+        //Formatting the sidebar section
+        if (housePriceValue == 0) {
+          housePriceValue = 'n/a';
+        } else {
+          housePriceValue = '$' + housePriceValue;
+        }
+        if (houseRentalValue == 0) {
+          houseRentalValue = 'n/a';
+        } else {
+          houseRentalValue = '$' + houseRentalValue + ' p/w';
+        }
+        if (unitPriceValue == 0) {
+          unitPriceValue = 'n/a';
+        } else {
+          unitPriceValue = '$' + unitPriceValue;
+        }
+        if (unitRentalValue == 0) {
+          unitRentalValue = 'n/a';
+        } else {
+          unitRentalValue = '$' + unitRentalValue + ' p/w' ;
+        }
+        if (salaryValue == 0) {
+          salaryValue = 'n/a';
+        } else {
+          salaryValue = '$' + salaryValue + ' p/a' ;
+        }
+        housePriceString = housePriceValue + '<br>';
+        houseRentString =  houseRentalValue;
+        unitPriceString = unitPriceValue + '<br>';
+        unitRentString = unitRentalValue;
+        salaryString = salaryValue;
         travelTimeStringPrivate = suburbData[i].timeToCbdPrivate + '<br>';
         travelTimeStringPublic = suburbData[i].timeToCbdPublic;
         // console.log(contentString);
@@ -309,10 +332,10 @@ function initMap(){
 
 
         var suburb = document.getElementById('suburb');
-        
+
         var housePrice = document.getElementById('house-price');
         var houseRent = document.getElementById('house-rent');
-        
+
         var unitPrice = document.getElementById('unit-price');
         var unitRent = document.getElementById('unit-rent');
 
@@ -320,7 +343,7 @@ function initMap(){
 
         var travelTimePrivate = document.getElementById('travel-time-private');
         var travelTimePublic = document.getElementById('travel-time-public');
- 
+
         // Checks if the cmpChecked has been toggled i.e. the checkbox has been ticked
         if($("#wrapper").hasClass('cmpChecked')) {
             if (!$("#wrapper").hasClass("cmpSuburbClicked")) {
@@ -330,10 +353,10 @@ function initMap(){
             isChecked = true;
             // Switches the text to the element by the name of cmp-suburb
             suburb = document.getElementById('cmp-suburb');
-            
+
             housePrice = document.getElementById('cmp-house-price');
             houseRent = document.getElementById('cmp-house-rent');
-            
+
             unitPrice = document.getElementById('cmp-unit-price');
             unitRent = document.getElementById('cmp-unit-rent');
 
@@ -542,7 +565,7 @@ function initMap(){
         suburbName = capitaliseFirstLetter(suburbName);
 
         suburbDisplay.innerHTML = suburbName;
-        
+
         // highlight the corresponding band in the legend
         var value = event.feature.getProperty(currHeatmap);
         var checkboxId = "#lgd-" + value;
