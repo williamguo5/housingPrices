@@ -559,6 +559,16 @@ var colorValues = [
     "#bbbbbb" // 8
 ];
 
+var legendText = {
+    "numSchools": ['0', '1', '2', '3', '4', '5', '6', '> 6','# of Schools'],
+    "housePrice": ['< 500K','500K - 750K', '750K - 1M', '1M - 1.25M', '1.25M - 1.5M', '1.5M - 2M', '2M - 3M', '> 3M', 'House Price ($)'],
+    "houseRentalPrice": ['< 400','400 - 500', '500 - 600', '600 - 700', '700 - 800', '800 - 900', '900 - 1000', '> 1000', 'House Rent Price ($)'],
+    "unitPrice": ['< 400K','400K - 500K', '500K - 600K', '600K - 700K', '700K - 800K', '800K - 900K', '900K - 1M', '> 1M', 'Unit Price ($)'],
+    "unitRentalPrice": ['< 400','400 - 450', '450 - 500', '500 - 550', '550 - 600', '600 - 650', '650 - 700', '> 700', 'Unit Rent Price ($)'],
+    "timeToCbdPublic": ['0 - 30', '30 - 45', '45 - 60', '60 - 75', '75 - 90', '90 - 105', '105 - 120', '> 120', 'Time to CBD (mins)'],
+    "timeToCbdPrivate": ['0 - 10', '10 - 20', '20 - 30', '30 - 40', '40 - 50', '50 - 60', '60 - 70', '> 70', 'Time to CBD (mins)']
+}
+
 var heatmaps = {
     "numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
     "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -570,7 +580,8 @@ var heatmaps = {
 };
 
 function changeHeatmap(heatmap) {
-    console.log(heatmap);
+    // console.log(heatmap);
+    changeLegendText(heatmap)
     // unchecking checkbox for heatmap ranges
     map.data.setStyle(function(feature) {
         var value = feature.getProperty(heatmap);
@@ -598,6 +609,22 @@ function changeHeatmap(heatmap) {
         }
     });
 }
+
+
+
+function changeLegendText(heatmap) {
+    document.getElementById('units').innerHTML = '<b>' + legendText[heatmap][8] + '</b>';
+    document.getElementById('heatmap-value0').innerHTML = legendText[heatmap][0];
+    document.getElementById('heatmap-value1').innerHTML = legendText[heatmap][1];
+    document.getElementById('heatmap-value2').innerHTML = legendText[heatmap][2];
+    document.getElementById('heatmap-value3').innerHTML = legendText[heatmap][3];
+    document.getElementById('heatmap-value4').innerHTML = legendText[heatmap][4];
+    document.getElementById('heatmap-value5').innerHTML = legendText[heatmap][5];
+    document.getElementById('heatmap-value6').innerHTML = legendText[heatmap][6];
+    document.getElementById('heatmap-value7').innerHTML = legendText[heatmap][7];
+}
+
+
 
 function mouseOverSpan(spanId) {
     console.log(spanId)
