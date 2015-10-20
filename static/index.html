@@ -28,7 +28,7 @@
             <div class="container-fluid sidebar-open"> <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
-                        <h2 id="suburb">Select Suburb</h2>
+                        <h2 id="suburb">Select a Suburb</h2>
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@
             <div class="container-fluid sidebar-open"> <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
-                        <h2 id="cmp-suburb">Select Suburb</h2>
+                        <h2 id="cmp-suburb">Select a Suburb</h2>
                     </div>
                 </div>
                 <div id="cmp-summary" class="fade in">
@@ -229,8 +229,11 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="cmp-house-price"><br></span>
-                            <span id="cmp-house-rent"><br></span>
+                            <span id="cmp-house-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-house-price')" 
+                                onmouseout="mouseOutSpan('#cmp-house-price')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="cmp-house-rent" class="highlight-heatmap-button"
+                                onmouseover="mouseOverSpan('#cmp-house-rent')" onmouseout="mouseOutSpan('#cmp-house-rent')" 
+                                onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div> <!-- end of row -->
                     <div class = "row info">
@@ -239,8 +242,12 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
-                            <span id="cmp-unit-price"><br></span>
-                            <span id="cmp-unit-rent"><br></span>
+                            <span id="cmp-unit-price" class="highlight-heatmap-button"  
+                                onmouseover="mouseOverSpan('#cmp-unit-price')" onmouseout="mouseOutSpan('#cmp-unit-price')" 
+                                onclick="changeHeatmap('unitPrice')"><br></span>
+                            <span id="cmp-unit-rent" class="highlight-heatmap-button"  
+                                onmouseover="mouseOverSpan('#cmp-unit-rent')" onmouseout="mouseOutSpan('#cmp-unit-rent')" 
+                                onclick="changeHeatmap('unitRentalPrice')"><br></span>
 
                         </div>
                     </div>
@@ -260,8 +267,12 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Travel Time</h3>
-                            <span id="cmp-travel-time-private"><br></span>
-                            <span id="cmp-travel-time-public"><br></span>
+                            <span id="cmp-travel-time-private" class="highlight-heatmap-button"  
+                                onmouseover="mouseOverSpan('#cmp-travel-time-private')" onmouseout="mouseOutSpan('#cmp-travel-time-private')" 
+                                onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <span id="cmp-travel-time-public" class="highlight-heatmap-button"  
+                                onmouseover="mouseOverSpan('#cmp-travel-time-public')" onmouseout="mouseOutSpan('#cmp-travel-time-public')" 
+                                onclick="changeHeatmap('timeToCbdPublic')"><br></span>
 
                         </div>
                     </div>

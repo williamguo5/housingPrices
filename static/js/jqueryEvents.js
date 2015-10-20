@@ -198,11 +198,13 @@ $(document).ready(function() {
 
             $("#wrapper").toggleClass("cmpChecked");
 
-            $("#wrapper").toggleClass("cmpSuburbClicked");
+            // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+
+            // $("#wrapper").toggleClass("cmpSuburbClicked");
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
-            document.getElementById('cmp-suburb').innerHTML = "";
+            document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
             
             document.getElementById('cmp-house-price').innerHTML = "<br>";
             document.getElementById('cmp-house-rent').innerHTML = "<br>";
@@ -264,14 +266,13 @@ $(document).ready(function() {
             document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
             document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
             // $("#add-suburb").css("display", "none");
-            if (!$("wrapper").hasClass('cmpSuburbClicked')) {
+            console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
 
             }
-        } else {
-
-        }
+        } 
 
         $("#wrapper").toggleClass("cmpChecked");
         if (!$("#wrapper").hasClass('cmpChecked')) {
