@@ -624,19 +624,6 @@ function changeLegendText(heatmap) {
     document.getElementById('heatmap-value7').innerHTML = legendText[heatmap][7];
 }
 
-
-
-function mouseOverSpan(spanId) {
-    console.log(spanId)
-    $(spanId).addClass('hover');
-}
-
-function mouseOutSpan(spanId) {
-    $(spanId).removeClass('hover');
-}
-
-
-
 function capitaliseFirstLetter(string) {
     return string.replace(/\w\S*/g, function(txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();

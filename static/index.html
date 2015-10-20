@@ -42,8 +42,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="house-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#house-price')" onmouseout="mouseOutSpan('#house-price')" onclick="changeHeatmap('housePrice')"><br></span>
-                            <span id="house-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#house-rent')" onmouseout="mouseOutSpan('#house-rent')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
+                            <span id="house-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="house-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -53,8 +53,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
-                            <span id="unit-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#unit-price')" onmouseout="mouseOutSpan('#unit-price')" onclick="changeHeatmap('unitPrice')"><br></span>
-                            <span id="unit-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#unit-rent')" onmouseout="mouseOutSpan('#unit-rent')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
+                            <span id="unit-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <span id="unit-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -72,8 +72,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Travel Time</h3>
-                            <span id="travel-time-private" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#travel-time-private')" onmouseout="mouseOutSpan('#travel-time-private')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
-                            <span id="travel-time-public" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#travel-time-public')" onmouseout="mouseOutSpan('#travel-time-public')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
+                            <span id="travel-time-private" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <span id="travel-time-public" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
                         </div>
                     </div>
                 </div>
