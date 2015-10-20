@@ -16,70 +16,6 @@ $(document).ready(function() {
 
     $('[data-toggle="map-tooltip"]').tooltip();
 
-    // when user clicks on the toggle heatmap button
-
-
-    $("#heatmap-housing").addClass('selected');
-    $("#heatmap-housing").click(function(event) {
-        currHeatmap = "housePrice";
-        replaceCheckboxes();
-
-        $(this).addClass('selected');
-        $("#heatmap-schools").removeClass('selected');
-        $("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'House Price ($)' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '< 500K';
-        document.getElementById('heatmap-value2').innerHTML = '500K - 750K';
-        document.getElementById('heatmap-value3').innerHTML = '750K - 1M';
-        document.getElementById('heatmap-value4').innerHTML = '1M - 1.25M';
-        document.getElementById('heatmap-value5').innerHTML = '1.25M - 1.5M';
-        document.getElementById('heatmap-value6').innerHTML = '1.5M - 2M';
-        document.getElementById('heatmap-value7').innerHTML = '2M - 3M';
-        document.getElementById('heatmap-value8').innerHTML = '> 3M';
-
-    });
-
-    $("#heatmap-schools").click(function(event) {
-        currHeatmap = "numSchools";
-        replaceCheckboxes();
-        changeHeatmap("numSchools")
-
-        // $(this).css({background:"blue"});
-        $(this).addClass('selected');
-        $("#heatmap-housing").removeClass('selected');
-        $("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + '# of Schools' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '0';
-        document.getElementById('heatmap-value2').innerHTML = '1';
-        document.getElementById('heatmap-value3').innerHTML = '2';
-        document.getElementById('heatmap-value4').innerHTML = '3';
-        document.getElementById('heatmap-value5').innerHTML = '4';
-        document.getElementById('heatmap-value6').innerHTML = '5';
-        document.getElementById('heatmap-value7').innerHTML = '6';
-        document.getElementById('heatmap-value8').innerHTML = '> 6';
-
-    });
-    $("#heatmap-transport").click(function(event) {
-        currHeatmap = "timeToCbdPublic";
-        replaceCheckboxes();
-        changeHeatmap("timeToCbdPublic");
-
-        $(this).addClass('selected');
-        $("#heatmap-schools").removeClass('selected');
-        $("#heatmap-housing").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Time to CBD (mins)' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '0 - 30';
-        document.getElementById('heatmap-value2').innerHTML = '30 - 45';
-        document.getElementById('heatmap-value3').innerHTML = '45 - 60';
-        document.getElementById('heatmap-value4').innerHTML = '60 - 75';
-        document.getElementById('heatmap-value5').innerHTML = '75 - 90';
-        document.getElementById('heatmap-value6').innerHTML = '90 - 105';
-        document.getElementById('heatmap-value7').innerHTML = '105 - 120';
-        document.getElementById('heatmap-value8').innerHTML = '> 120';
-
-    });
-
-
     // When the user clicks on the page-content-wrapper button it will toggle the sidebarExpanded class
     $("#page-content-toggle").click(function(event) {
         // Prevents the default action linked to this event
@@ -106,7 +42,8 @@ $(document).ready(function() {
             $("#summary").css("display", "none");
 
             var descriptionString = suburbData[lastClickedSuburbIndex].description;
-            var suburbName = suburbData[lastClickedSuburbIndex].name.replace(/ /g, "_");
+            var suburbName = suburbData[lastClickedSuburbIndex].name;
+            suburbName = suburbName.replace(/ /g, "_");
 
             var panelHousePrice = document.getElementById('panel-house-price');
             var panelHouseRent = document.getElementById('panel-house-rent');

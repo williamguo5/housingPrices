@@ -6,6 +6,34 @@
 
 import re, sys
 
+def unitPriceHeatmap(price):
+    price = int(price)
+    # print price
+    if price == 0:
+        return 8
+    if price < 400000:
+        return 0
+                                     
+    elif price < 500000:             
+        return 1
+                                     
+    elif price < 600000:            
+        return 2
+                                     
+    elif price < 700000:            
+        return 3
+                                     
+    elif price < 800000:            
+        return 4
+                                     
+    elif price < 900000:            
+        return 5
+                                     
+    elif price < 1000000:            
+        return 6
+                                     
+    else:           
+        return 7   
 
 def housePriceHeatmap(price):
     price = int(price)
@@ -177,7 +205,8 @@ with open("data_all_formatted2.json", "r") as d:
                     else:
                         amount = -1
                 suburbs[suburb][data_type] = amount
-                
+               
+
 for suburb in sorted(suburbs.iterkeys()):
     # print suburb
     for data_type in "numSchools", "housePrice", "houseRentalPrice", "unitPrice", "unitRentalPrice", "timeToCbdPublic", "timeToCbdPrivate":
@@ -185,11 +214,14 @@ for suburb in sorted(suburbs.iterkeys()):
         if data_type == "numSchools":
             if int(suburbs[suburb][data_type]) > 6:
                 suburbs[suburb][data_type] = 7
-        if data_type == "housePrice" or data_type == "unitPrice":
+        if data_type == "housePrice":
             suburbs[suburb][data_type] = housePriceHeatmap(suburbs[suburb][data_type])
             
         if data_type == "houseRentalPrice":
             suburbs[suburb][data_type] = houseRentPriceHeatmap(suburbs[suburb][data_type])
+            
+        if data_type == "unitPrice":
+            suburbs[suburb][data_type] = unitPriceHeatmap(suburbs[suburb][data_type])
             
         if data_type == "unitRentalPrice":
             suburbs[suburb][data_type] = unitRentPriceHeatmap(suburbs[suburb][data_type])
