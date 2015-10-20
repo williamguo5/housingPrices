@@ -31,7 +31,7 @@
                 <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
-                        <h2 id="suburb">Select Suburb</h2>
+                        <h2 id="suburb">Select a Suburb</h2>
                     </div>
                 </div>
                 <div id="summary" class="fade in">
@@ -42,8 +42,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="house-price"><br></span>
-                            <span id="house-rent"><br></span>
+                            <span id="house-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#house-price')" onmouseout="mouseOutSpan('#house-price')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="house-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#house-rent')" onmouseout="mouseOutSpan('#house-rent')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -53,8 +53,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
-                            <span id="unit-price"><br></span>
-                            <span id="unit-rent"><br></span>
+                            <span id="unit-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#unit-price')" onmouseout="mouseOutSpan('#unit-price')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <span id="unit-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#unit-rent')" onmouseout="mouseOutSpan('#unit-rent')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -72,18 +72,15 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Travel Time</h3>
-                            <span id="travel-time-private"><br></span>
-                            <span id="travel-time-public"><br></span>
+                            <span id="travel-time-private" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#travel-time-private')" onmouseout="mouseOutSpan('#travel-time-private')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <span id="travel-time-public" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#travel-time-public')" onmouseout="mouseOutSpan('#travel-time-public')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
                         </div>
                     </div>
                 </div>
-                <div class="checkbox" data-placement="top" data-toggle="tooltip" title="Select another suburb to compare">
-                    <label>
-                        <input type="checkbox" name="suburb" id="cmp-checkbox"> Compare Suburb
-                        <br>
-                    </label>
-                </div>
-                <div class="divider"></div>
+                <!-- <div class = "checkbox" data-placement="top" data-toggle="tooltip" title="Select another suburb to compare">
+                    <label><input type="checkbox" name="suburb" id ="cmp-checkbox"> Compare Suburb<br></label>
+                </div> -->
+                <!-- <div class = "divider"></div> -->
             </div>
             <!-- end of container-fluid -->
             <div id="detailed-info" class="container-fluid sidebar-expanded">
@@ -215,7 +212,7 @@
                 <!-- start of container-fluid-->
                 <div class="row suburb-title">
                     <div class="col-md-12">
-                        <h2 id="cmp-suburb">Select Suburb</h2>
+                        <h2 id="cmp-suburb">Select a Suburb</h2>
                     </div>
                 </div>
                 <div id="cmp-summary" class="fade in">
@@ -226,8 +223,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="cmp-house-price"><br></span>
-                            <span id="cmp-house-rent"><br></span>
+                            <span id="cmp-house-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-house-price')" onmouseout="mouseOutSpan('#cmp-house-price')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="cmp-house-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-house-rent')" onmouseout="mouseOutSpan('#cmp-house-rent')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -237,8 +234,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
-                            <span id="cmp-unit-price"><br></span>
-                            <span id="cmp-unit-rent"><br></span>
+                            <span id="cmp-unit-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-unit-price')" onmouseout="mouseOutSpan('#cmp-unit-price')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <span id="cmp-unit-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-unit-rent')" onmouseout="mouseOutSpan('#cmp-unit-rent')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -256,8 +253,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Travel Time</h3>
-                            <span id="cmp-travel-time-private"><br></span>
-                            <span id="cmp-travel-time-public"><br></span>
+                            <span id="cmp-travel-time-private" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-travel-time-private')" onmouseout="mouseOutSpan('#cmp-travel-time-private')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <span id="cmp-travel-time-public" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-travel-time-public')" onmouseout="mouseOutSpan('#cmp-travel-time-public')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
                         </div>
                     </div>
                 </div>
@@ -355,7 +352,7 @@
                     <div class="col-md-12" id="lgd-0">
                                     <input type="checkbox" name="lgd-checkbox0"  id ="lgd-checkbox0"checked>
                             <span class="legend-color-box" style="background-color: #6FB33B;"></span>
-                                    <span id ="heatmap-value1" class="checkbox-label"> < 500K<br></span>
+                                    <span id ="heatmap-value0" class="checkbox-label"> < 500K<br></span>
                     </div>
                 </div>
                 <div class="row">
@@ -363,7 +360,7 @@
                               <span>
                                     <input type="checkbox" name="lgd-checkbox1" id ="lgd-checkbox1" checked>
                              <div class="legend-color-box" style="background-color: #94B846;"></div>
-                             <span id ="heatmap-value2" class="checkbox-label">500K - 750K<br></span>
+                             <span id ="heatmap-value1" class="checkbox-label">500K - 750K<br></span>
                         </span>
                     </div>
                 </div>
@@ -372,7 +369,7 @@
                                <span>
                                      <input type="checkbox" name="lgd-checkbox2" id ="lgd-checkbox2" checked>
                             <div class="legend-color-box" style="background-color: #b6bf2e;"></div>
-                            <span id ="heatmap-value3" class="checkbox-label">750K - 1M<br></span>
+                            <span id ="heatmap-value2" class="checkbox-label">750K - 1M<br></span>
                         <span>
                     </div>
                 </div>
@@ -380,35 +377,35 @@
                     <div class="col-md-12" id="lgd-3">
                                 <input type="checkbox" name="lgd-checkbox3" id ="lgd-checkbox3" checked>
                         <div class="legend-color-box" style="background-color: #bb9d24;"></div>
-                        <span id="heatmap-value4" class="checkbox-label">1M - 1.25M<br></span>
+                        <span id="heatmap-value3" class="checkbox-label">1M - 1.25M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-4">
                                 <input type="checkbox" name="lgd-checkbox4" id ="lgd-checkbox4" checked>
                         <div class="legend-color-box" style="background-color: #b7711b;"></div>
-                        <span id="heatmap-value5" class="checkbox-label">1.25M - 1.5M<br></span>
+                        <span id="heatmap-value4" class="checkbox-label">1.25M - 1.5M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-5">
                                 <input type="checkbox" name="lgd-checkbox5" id ="lgd-checkbox5" checked>
                         <div class="legend-color-box" style="background-color: #b34112;"></div>
-                        <span id = "heatmap-value6" class="checkbox-label">1.5M - 2M<br></span>
+                        <span id = "heatmap-value5" class="checkbox-label">1.5M - 2M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-6">
                                 <input type="checkbox" name="lgd-checkbox6" id ="lgd-checkbox6" checked>
                         <div class="legend-color-box" style="background-color: #af100a;"></div>
-                        <span id = "heatmap-value7" class="checkbox-label">2M - 3M<br></span>
+                        <span id = "heatmap-value6" class="checkbox-label">2M - 3M<br></span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12" id="lgd-7">
                                 <input type="checkbox" name="lgd-checkbox7" id ="lgd-checkbox7" checked>
                         <div class="legend-color-box" style="background-color: #9B0223;"></div>
-                        <span id = "heatmap-value8" class="checkbox-label"> > 3M<br></span>
+                        <span id = "heatmap-value7" class="checkbox-label"> > 3M<br></span>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,7 @@ html, body {
     /*margin-left: -250px;*/
     left: 0%;
     width: 20%;
-    z-index: 10000;
+    z-index: 1000;
     /*background: lightgrey;*/
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
@@ -55,10 +55,11 @@ html, body {
 
 }
 
-#cmp-sidebar-wrapper {
+#cmp-sidebar-wrapper{
+    /*margin-left: -250px;*/
     left: 20%;
     width: 20%;
-    z-index: 10000;
+    z-index: 1000;
     /*background: lightgrey;*/
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
@@ -74,8 +75,6 @@ html, body {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     font-size: 16px;
-    display:none;
-    visibility: none;
 
 }
 
@@ -216,7 +215,7 @@ html, body {
 	float:right;
 }
 
-/*#house-price::before {
+#house-price::before {
     content: "Buy: ";
     font-weight: bold;
 
@@ -278,7 +277,7 @@ html, body {
 #cmp-travel-time-public::before {
     content: "Public: ";
     font-weight: bold;
-}*/
+}
 
 .tab-content .col-md-6 {
     border: 1px solid lightgrey;
@@ -313,11 +312,13 @@ html, body {
 
 }
 
-.sidebar-open .row.info:hover {
+.sidebar-open .row.info .hover {
     /*background: rgb(29, 29, 31);*/
     /*color: dodgerblue;*/
-    background: #202020;
-    color: dodgerblue;
+    /*background: #202020;*/
+    /*color: dodgerblue;*/
+    background: #006699;
+    color: white;
     cursor: pointer;
 }
 
@@ -411,6 +412,7 @@ h2 {
 }
 
 #legend .row .checkbox-highlighted {
+    color: white;
     background-color: #006699;
 }
 
@@ -601,8 +603,12 @@ h2 {
     visibility: visible;
 }
 
-#wrapper.cmpChecked .divider {
-    /*transition-delay: 0.1s;*/
+
+#wrapper.cmpChecked #sidebar-wrapper {
+    border-right: 1px solid lightgrey;
+}
+/*#wrapper.cmpChecked .divider {
+    transition-delay: 0.1s;
     visibility: visible;
     -webkit-transition: all 0.5s ease 0.5s;
     -moz-transition: all 0.5s ease 0.5s;
@@ -610,7 +616,7 @@ h2 {
     -o-transition: all 0.5s ease 0.5s;
     transition: all 0.5s ease 0.5s;
 
-}
+}*/
 
 #wrapper.cmpChecked .close-sidebar{
     right : 10px;
@@ -723,6 +729,10 @@ h2 {
     padding-left: 5px;
 }
 
+.checkbox-label.highlight-text{
+    color: white;
+}
+
 .checkbox-highlight {
     background-color: #006699;
 }
@@ -767,4 +777,11 @@ h2 {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 300;
+}
+
+.highlight-heatmap-button {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
 }
