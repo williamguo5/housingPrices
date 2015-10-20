@@ -89,9 +89,10 @@ def school_list(request, format=None):
 @api_view(['GET'])
 def school_detail(request, name, format=None):
     """
-    Retrieve a school instance.
+    Return HTML formatted table of schools for a suburb
     """
     name = re.sub('_', ' ', name)
+
     try:
         suburb = Suburb.objects.get(name__iexact=name)
         school = suburb.schools.all()
@@ -105,6 +106,8 @@ def school_detail(request, name, format=None):
 
 @api_view(['GET'])
 def school_table(request, name, format=None):
+    name = re.sub('_', ' ', name)
+
     suburb = Suburb.objects.get(name__iexact=name)
     schools = suburb.schools.all().order_by('rank')
     schoolType = ''
