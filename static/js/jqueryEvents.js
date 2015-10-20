@@ -146,6 +146,7 @@ $(document).ready(function() {
             // stringSalary = document.getElementById('salary').innerHTML;
             // stringTravelTime = document.getElementById('travel-time').innerHTML;
 
+
             // document.getElementById('house-price').innerHTML = "";
             // document.getElementById('unit-price').innerHTML = "";
             // document.getElementById('salary').innerHTML = "";
@@ -229,7 +230,28 @@ $(document).ready(function() {
     });
 
     $("#add-suburb").click(function(event) {
+        $(this).find('i').toggleClass('fa-plus').toggleClass('fa-times');
+        $("#wrapper").toggleClass("clicked");
         // $("add-suburb").css("display", "none");
+
+        // IF !clicked that then you close this sidebar by replacing the data containe in it
+        if (!$("#wrapper").hasClass("clicked")) {
+            
+            document.getElementById('suburb').innerHTML = document.getElementById('cmp-suburb').innerHTML;
+            
+            document.getElementById('house-price').innerHTML = document.getElementById('cmp-house-price').innerHTML;
+            document.getElementById('house-rent').innerHTML = document.getElementById('cmp-house-rent').innerHTML;
+            
+            document.getElementById('unit-price').innerHTML = document.getElementById('cmp-unit-price').innerHTML;
+            document.getElementById('unit-rent').innerHTML = document.getElementById('cmp-unit-rent').innerHTML;
+            
+            document.getElementById('salary').innerHTML = document.getElementById('cmp-salary').innerHTML;
+
+            document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
+            document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
+            $("#add-suburb").css("display", "none");
+        }
+
         $("#wrapper").toggleClass("cmpChecked");
         if (!$("#wrapper").hasClass('cmpChecked')) {
             $("#wrapper").removeClass("cmpSuburbClicked");

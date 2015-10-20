@@ -102,7 +102,7 @@ html, body {
 }
 
 #page-content-toggle:hover {
-    background: #4099FF;
+    background: dodgerblue;
 }
 
 #close-sidebar {
@@ -112,7 +112,7 @@ html, body {
     background: transparent;
     border: transparent;
     /*left: 0%;*/
-    left: calc(20% - 45px);
+    left: calc(40% - 45px);
 
     -webkit-transition: all 0.5s ease ;
     -moz-transition:  all 0.5s ease ;
@@ -137,6 +137,10 @@ html, body {
     transition:  all 0.5s ease ;
     /*right : 10px;*/
     outline: none;
+}
+
+#add-suburb.clicked:hover .colour {
+    color: red;
 }
 
 #suburb-hover {
@@ -182,6 +186,7 @@ html, body {
 }
 
 .suburb-title {
+    padding-left: 15px;
     color: white;
     background: #006699;
 }
@@ -211,7 +216,7 @@ html, body {
 	float:right;
 }
 
-#house-price::before {
+/*#house-price::before {
     content: "Buy: ";
     font-weight: bold;
 
@@ -273,7 +278,7 @@ html, body {
 #cmp-travel-time-public::before {
     content: "Public: ";
     font-weight: bold;
-}
+}*/
 
 .tab-content .col-md-6 {
     border: 1px solid lightgrey;
@@ -299,7 +304,7 @@ html, body {
     align-items: center;
 }
 
-.sidebar-expanded .row.dschool-section {
+.sidebar-expanded .row.school-section {
     background-color: lightgrey;
 }
 .sidebar-expanded .row.school-prim-sec {
@@ -336,7 +341,7 @@ h2 {
 }
 
 .size-close {
-    font-size: 2.0em;
+    font-size: 2.5em;
 
 }
 
@@ -508,15 +513,15 @@ h2 {
 #wrapper.showSidebar #page-content-toggle {
     /*border: 1px solid black;*/
     /*background: #006699;*/
-    background: dodgerblue;
+    background: white;
     /*background: lightblue;*/
     left: 20%;
     z-index: 1000;
 }
 
 #wrapper.showSidebar #page-content-toggle:hover {
-    /*background: dodgerblue;*/
-    background: #006699;
+    background: dodgerblue;
+    /*background: #006699;*/
 
     /*-webkit-transition: color 0.2s ease ;*/
     /*-moz-transition:  color 0.2s ease ;*/
@@ -526,7 +531,8 @@ h2 {
 }
 
 
-#wrapper.showSidebar #page-content-toggle:hover .colour {
+#wrapper.showSidebar #page-content-toggle:hover .expand-colour {
+    /*background: white;    */
     color: white;
 }
 
@@ -555,6 +561,12 @@ h2 {
 .colour {
     color: white;
 }
+
+.expand-colour {
+    /*color: #006699;*/
+    color: dodgerblue;
+
+}
 #wrapper.showSidebar #close-sidebar:hover .colour{
     color: red;
 }
@@ -579,9 +591,9 @@ h2 {
 
 }
 
-#wrapper.cmpChecked #close-sidebar {
+#wrapper.cmpSuburbClicked #close-sidebar {
     left: calc(40% - 45px);
-
+    z-index: 1000;
     /*right: auto;*/
 }
 
@@ -624,6 +636,9 @@ h2 {
 
 }
 
+#wrapper.clicked #add-suburb:hover .colour {
+    color: red;
+}
 /* IF the sidebar is showing THEN
  * the button will become visible
  */
