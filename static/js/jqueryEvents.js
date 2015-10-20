@@ -191,7 +191,7 @@ $(document).ready(function() {
         if (!$("#wrapper").hasClass('cmpChecked')) {
             $("#wrapper").removeClass("cmpSuburbClicked");
 
-            document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
@@ -203,27 +203,51 @@ $(document).ready(function() {
 
     $("#close-sidebar").click(function(event){
         event.preventDefault();
-        if ($("#wrapper").hasClass('cmpSuburbClicked')) {
+        // if ($("#wrapper").hasClass('cmpSuburbClicked')) {
+        if ($("#wrapper").hasClass('cmpChecked')) {
+
+            $("#wrapper").toggleClass("cmpChecked");
 
             $("#wrapper").toggleClass("cmpSuburbClicked");
 
-            document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
+            document.getElementById('cmp-suburb').innerHTML = "";
+            
+            document.getElementById('cmp-house-price').innerHTML = "<br>";
+            document.getElementById('cmp-house-rent').innerHTML = "<br>";
+            
+            document.getElementById('cmp-unit-price').innerHTML = "<br>";
+            document.getElementById('cmp-unit-rent').innerHTML = "<br>";
+            
+            document.getElementById('cmp-salary').innerHTML = "<br>";
+
+            document.getElementById('cmp-travel-time-private').innerHTML = "<br>";
+            document.getElementById('cmp-travel-time-public').innerHTML = "<br>";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
                 lastClickedLayer = cmpLayer;
                 console.log("click here");
             }
+            $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
+            $("#wrapper").toggleClass("clicked");
 
-        } else {
-            if ($("#wrapper").hasClass("cmpChecked")) {
-                $("#wrapper").toggleClass("cmpChecked");
-                $('#cmp-checkbox').attr('checked', false);
-            }
-            $("#wrapper").toggleClass("showSidebar");
-            lastClickedLayer.feature.setProperty('isColorful', false);
-            console.log(cmpLayer);
-        }
+        } 
+        // else {
+        //     // $("#wrapper").toggleClass("cmpChecked");
+
+        //     // if (!$("#wrapper").hasClass("cmpChecked")) {
+        //     //     $("#wrapper").toggleClass("cmpChecked");
+        //     //     $("#wrapper").removeClass("cmpSuburbClicked");
+
+
+
+        //     //     $('#cmp-checkbox').attr('checked', false);
+        //     // }
+        //     $("#wrapper").toggleClass("showSidebar");
+        //     lastClickedLayer.feature.setProperty('isColorful', false);
+        //     console.log(cmpLayer);
+        // }
         //$("#wrapper").removeClass('#page-content-toggle');
 
 
@@ -249,7 +273,7 @@ $(document).ready(function() {
 
             document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
             document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
-            $("#add-suburb").css("display", "none");
+            // $("#add-suburb").css("display", "none");
         }
 
         $("#wrapper").toggleClass("cmpChecked");
