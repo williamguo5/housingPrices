@@ -572,6 +572,8 @@ function initMap(){
         // console.log(checkboxId);
         // $(checkboxId).toggleClass("checkbox-highlight");
         $(checkboxId).addClass("checkbox-highlight");
+        var heatmapValue = "#heatmap-value" + value;
+        $(heatmapValue).addClass("highlight-text");
         // $(checkboxId)
     });
 
@@ -579,6 +581,8 @@ function initMap(){
         var value = event.feature.getProperty(currHeatmap);
         var checkboxId = "#lgd-" + value;
         $(checkboxId).removeClass("checkbox-highlight");
+        var heatmapValue = "#heatmap-value" + value;
+        $(heatmapValue).removeClass("highlight-text");
         map.data.revertStyle();
         var suburbDisplay = document.getElementById('suburb-hover-id');
         suburbDisplay.innerHTML = "";
@@ -588,7 +592,7 @@ function initMap(){
 var count = 1;
 var map;
 var currHeatmap = "housePrice";
-colorValues = [
+var colorValues = [
 	"#6FB33B",  // 0
 	"#94B846",  // 1
 	"#b6bf2e",  // 2
@@ -600,7 +604,18 @@ colorValues = [
 	"#bbbbbb" 		// 8
 ];
 
-function changeHeatmap(heatmap, checkboxes){
+var heatmaps = {
+	"numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "houseRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "unitPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "unitRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
+};
+
+function changeHeatmap(heatmap){
+    console.log(heatmap);
 	// unchecking checkbox for heatmap ranges
 	map.data.setStyle(function(feature){
 		var value = feature.getProperty(heatmap);
@@ -611,7 +626,7 @@ function changeHeatmap(heatmap, checkboxes){
 	        // color = feature.getProperty(heatmap);
 			opacity = 0.88;
 	    }
-		if (!checkboxes[value]){
+		if (!heatmaps[currHeatmap][value]){
 			return{
 		        fillColor: color,
 				fillOpacity: 0.1,
@@ -629,6 +644,16 @@ function changeHeatmap(heatmap, checkboxes){
 		}
 	});
 }
+
+function mouseOverSpan(spanId){
+    console.log(spanId)
+    $(spanId).addClass('hover');
+}
+function mouseOutSpan(spanId){
+    $(spanId).removeClass('hover');
+}
+
+
 
 function capitaliseFirstLetter(string) {
     return string.replace(/\w\S*/g, function(txt) {

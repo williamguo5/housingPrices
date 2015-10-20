@@ -18,22 +18,12 @@ $(document).ready(function() {
 
     // when user clicks on the toggle heatmap button
 
-	var heatmaps = {
-		"numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "houseRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "unitPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "unitRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-	    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
-	};
-
 
 	$("#heatmap-housing").addClass('selected');
     $("#heatmap-housing").click(function(event){
 		currHeatmap = "housePrice";
 		replaceCheckboxes();
-        changeHeatmap("housePrice", heatmaps[currHeatmap]);
+        changeHeatmap("housePrice");
 
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
@@ -53,7 +43,7 @@ $(document).ready(function() {
     $("#heatmap-schools").click(function(event){
 		currHeatmap = "numSchools";
 		replaceCheckboxes();
-        changeHeatmap("numSchools", heatmaps[currHeatmap])
+        changeHeatmap("numSchools")
 
 		// $(this).css({background:"blue"});
 		$(this).addClass('selected');
@@ -74,7 +64,7 @@ $(document).ready(function() {
     $("#heatmap-transport").click(function(event){
 		currHeatmap = "timeToCbdPublic";
 		replaceCheckboxes();
-       	changeHeatmap("timeToCbdPublic", heatmaps[currHeatmap]);
+       	changeHeatmap("timeToCbdPublic");
 
 		$(this).addClass('selected');
 		$("#heatmap-schools").removeClass('selected');
@@ -299,7 +289,8 @@ $(document).ready(function() {
 
     $('.carousel').carousel({
         interval: 6000
-    })
+    });
+    
 
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
