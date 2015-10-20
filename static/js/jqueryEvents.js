@@ -297,6 +297,301 @@ $(document).ready(function() {
 
     });
 
+    $("#house-price").click(function(event){
+        if (!$("#house-price").hasClass("heatmap-selected")) {
+            $("#house-price").toggleClass("heatmap-selected");
+            $("#cmp-house-price").toggleClass("heatmap-selected");
+
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+            
+
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#house-rent").click(function(event){
+        if (!$("#house-rent").hasClass("heatmap-selected")) {
+            $("#house-rent").addClass("heatmap-selected");
+            $("#cmp-house-rent").toggleClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+        }
+    });
+
+    $("#cmp-house-rent").click(function(event){
+        if (!$("#cmp-house-rent").hasClass("heatmap-selected")) {
+            $("#house-rent").addClass("heatmap-selected");
+            $("#cmp-house-rent").toggleClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+        }
+    });
+
+    $("#unit-price").click(function(event){
+        if (!$("#unit-price").hasClass("heatmap-selected")) {
+            $("#unit-price").toggleClass("heatmap-selected");
+            $("#cmp-unit-price").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#cmp-unit-price").click(function(event){
+        if (!$("#unit-price").hasClass("heatmap-selected")) {
+            $("#unit-price").toggleClass("heatmap-selected");
+            $("#cmp-unit-price").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+
+    $("#unit-rent").click(function(event){
+        if (!$("#unit-rent").hasClass("heatmap-selected")) {
+            $("#unit-rent").toggleClass("heatmap-selected");
+            $("#cmp-unit-rent").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#cmp-unit-rent").click(function(event){
+        if (!$("#unit-rent").hasClass("heatmap-selected")) {
+            $("#unit-rent").toggleClass("heatmap-selected");
+            $("#cmp-unit-rent").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#travel-time-private").click(function(event){
+        if (!$("#travel-time-private").hasClass("heatmap-selected")) {
+            $("#travel-time-private").toggleClass("heatmap-selected");
+            $("#cmp-travel-time-private").toggleClass("heatmap-selected");
+
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#cmp-travel-time-private").click(function(event){
+        if (!$("#travel-time-private").hasClass("heatmap-selected")) {
+            $("#travel-time-private").toggleClass("heatmap-selected");
+            $("#cmp-travel-time-private").toggleClass("heatmap-selected");
+
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+
+            $("#travel-time-public").removeClass("heatmap-selected");
+            $("#cmp-travel-time-public").removeClass("heatmap-selected");
+
+
+
+        }
+    });
+
+    $("#travel-time-public").click(function(event){
+        if (!$("#salary").hasClass("heatmap-selected")) {
+            $("#travel-time-public").toggleClass("heatmap-selected");
+            $("#cmp-travel-time-public").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+        }
+    });
+
+    $("#cmp-travel-time-public").click(function(event){
+        if (!$("#salary").hasClass("heatmap-selected")) {
+            $("#travel-time-public").toggleClass("heatmap-selected");
+            $("#cmp-travel-time-public").toggleClass("heatmap-selected");
+
+            
+            $("#house-rent").removeClass("heatmap-selected");
+            $("#cmp-house-rent").removeClass("heatmap-selected");
+
+            
+            $("#unit-price").removeClass("heatmap-selected");
+            $("#cmp-unit-price").removeClass("heatmap-selected");
+
+            $("#unit-rent").removeClass("heatmap-selected");
+            $("#cmp-unit-rent").removeClass("heatmap-selected");
+
+            
+            $("#travel-time-private").removeClass("heatmap-selected");
+            $("#cmp-travel-time-private").removeClass("heatmap-selected");
+
+
+            $("#house-price").removeClass("heatmap-selected");
+            $("#cmp-house-price").removeClass("heatmap-selected");
+        }
+    });
+
+
     $('.carousel').carousel({
         interval: 6000
     });
