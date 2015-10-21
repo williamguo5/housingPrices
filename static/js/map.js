@@ -698,12 +698,16 @@ function highlightSelectedHeatmap(heatmap) {
     for (var key in heatmapButtonIds){
         tmp = "#" + heatmapButtonIds[key];
         $(tmp).removeClass("heatmap-selected");
+        $(tmp).parent().parent().find(".col-md-2").css("color", "#b5b5b7");
         tmp = "#cmp-" + heatmapButtonIds[key];
         $(tmp).removeClass("heatmap-selected");
+        $(tmp).parent().parent().find(".col-md-2").css("color", "#b5b5b7");
     }
 
     $(buttonId).addClass("heatmap-selected");
     $(cmpButtonId).addClass("heatmap-selected");
+    $(buttonId).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+    $(cmpButtonId).parent().parent().find(".col-md-2").css("color", "dodgerblue");
 }
 
 function capitaliseFirstLetter(string) {
