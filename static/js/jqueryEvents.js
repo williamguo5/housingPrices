@@ -129,24 +129,57 @@ $(document).ready(function() {
             $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
             $("#wrapper").toggleClass("clicked");
             $("#close-sidebar").css("display", "none");
+        } else {
+            var housePriceValue = (suburbData[cmpSuburbIndex].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var houseRentalValue = (suburbData[cmpSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitPriceValue = (suburbData[cmpSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitRentalValue = (suburbData[cmpSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var salaryValue = (suburbData[cmpSuburbIndex].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            if (housePriceValue == 0) {
+                housePriceValue = 'n/a';
+            } else {
+                housePriceValue = '$' + housePriceValue;
+            }
+            if (houseRentalValue == 0) {
+                houseRentalValue = 'n/a';
+            } else {
+                houseRentalValue = '$' + houseRentalValue + ' p/w';
+            }
+            if (unitPriceValue == 0) {
+                unitPriceValue = 'n/a';
+            } else {
+                unitPriceValue = '$' + unitPriceValue;
+            }
+            if (unitRentalValue == 0) {
+                unitRentalValue = 'n/a';
+            } else {
+                unitRentalValue = '$' + unitRentalValue + ' p/w';
+            }
+            if (salaryValue == 0) {
+                salaryValue = 'n/a';
+            } else {
+                salaryValue = '$' + salaryValue + ' p/a';
+            }
+            housePriceString = housePriceValue + '<br>';
+            houseRentString = houseRentalValue;
+            unitPriceString = unitPriceValue + '<br>';
+            unitRentString = unitRentalValue;
+            salaryString = salaryValue;
+            travelTimeStringPrivate = suburbData[cmpSuburbIndex].timeToCbdPrivate + '<br>';
+            travelTimeStringPublic = suburbData[cmpSuburbIndex].timeToCbdPublic;
+
+            document.getElementById('house-price').innerHTML = housePriceString;
+            document.getElementById('house-rent').innerHTML = houseRentString;
+
+            document.getElementById('unit-price').innerHTML = unitPriceString;
+            document.getElementById('unit-rent').innerHTML = unitRentString;
+
+            document.getElementById('salary').innerHTML = salaryString;
+
+            document.getElementById('travel-time-private').innerHTML = travelTimeStringPrivate;
+            document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
         }
-        // else {
-        //     // $("#wrapper").toggleClass("cmpChecked");
-
-        //     // if (!$("#wrapper").hasClass("cmpChecked")) {
-        //     //     $("#wrapper").toggleClass("cmpChecked");
-        //     //     $("#wrapper").removeClass("cmpSuburbClicked");
-
-
-
-        //     //     $('#cmp-checkbox').attr('checked', false);
-        //     // }
-        //     $("#wrapper").toggleClass("showSidebar");
-        //     lastClickedLayer.feature.setProperty('isColorful', false);
-        //     console.log(cmpLayer);
-        // }
-        //$("#wrapper").removeClass('#page-content-toggle');
-
 
     });
 
@@ -158,18 +191,57 @@ $(document).ready(function() {
         // IF !clicked that then you close this sidebar by replacing the data containe in it
         if (!$("#wrapper").hasClass("clicked")) {
 
+            var housePriceValue = (suburbData[lastClickedSuburbIndex].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var houseRentalValue = (suburbData[lastClickedSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var salaryValue = (suburbData[lastClickedSuburbIndex].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            if (housePriceValue == 0) {
+                housePriceValue = 'n/a';
+            } else {
+                housePriceValue = '$' + housePriceValue;
+            }
+            if (houseRentalValue == 0) {
+                houseRentalValue = 'n/a';
+            } else {
+                houseRentalValue = '$' + houseRentalValue + ' p/w';
+            }
+            if (unitPriceValue == 0) {
+                unitPriceValue = 'n/a';
+            } else {
+                unitPriceValue = '$' + unitPriceValue;
+            }
+            if (unitRentalValue == 0) {
+                unitRentalValue = 'n/a';
+            } else {
+                unitRentalValue = '$' + unitRentalValue + ' p/w';
+            }
+            if (salaryValue == 0) {
+                salaryValue = 'n/a';
+            } else {
+                salaryValue = '$' + salaryValue + ' p/a';
+            }
+            housePriceString = housePriceValue + '<br>';
+            houseRentString = houseRentalValue;
+            unitPriceString = unitPriceValue + '<br>';
+            unitRentString = unitRentalValue;
+            salaryString = salaryValue;
+            travelTimeStringPrivate = suburbData[lastClickedSuburbIndex].timeToCbdPrivate + '<br>';
+            travelTimeStringPublic = suburbData[lastClickedSuburbIndex].timeToCbdPublic;
+
             document.getElementById('suburb').innerHTML = document.getElementById('cmp-suburb').innerHTML;
 
-            document.getElementById('house-price').innerHTML = document.getElementById('cmp-house-price').innerHTML;
-            document.getElementById('house-rent').innerHTML = document.getElementById('cmp-house-rent').innerHTML;
+            document.getElementById('house-price').innerHTML = housePriceString;
+            document.getElementById('house-rent').innerHTML = houseRentString;
 
-            document.getElementById('unit-price').innerHTML = document.getElementById('cmp-unit-price').innerHTML;
-            document.getElementById('unit-rent').innerHTML = document.getElementById('cmp-unit-rent').innerHTML;
+            document.getElementById('unit-price').innerHTML = unitPriceString;
+            document.getElementById('unit-rent').innerHTML = unitRentString;
 
-            document.getElementById('salary').innerHTML = document.getElementById('cmp-salary').innerHTML;
+            document.getElementById('salary').innerHTML = salaryString;
 
-            document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
-            document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
+            document.getElementById('travel-time-private').innerHTML = travelTimeStringPrivate;
+            document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
             // $("#add-suburb").css("display", "none");
             console.log($("wrapper").hasClass("cmpSuburbClicked"));
             if (lastClickedLayer == cmpLayer) {
@@ -177,6 +249,19 @@ $(document).ready(function() {
                 $("#wrapper").removeClass("showSidebar");
 
             }
+        } else {
+            document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
+
+            document.getElementById('cmp-house-price').innerHTML = "<br>";
+            document.getElementById('cmp-house-rent').innerHTML = "<br>";
+
+            document.getElementById('cmp-unit-price').innerHTML = "<br>";
+            document.getElementById('cmp-unit-rent').innerHTML = "<br>";
+
+            document.getElementById('cmp-salary').innerHTML = "<br>";
+
+            document.getElementById('cmp-travel-time-private').innerHTML = "<br>";
+            document.getElementById('cmp-travel-time-public').innerHTML = "<br>";
         }
 
         $("#wrapper").toggleClass("cmpChecked");

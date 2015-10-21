@@ -382,13 +382,14 @@ function initMap() {
 
             console.log(cmpSuburbIndex);
 
-            if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000) {
+            if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000 && 
+                suburbData[i].housePrice > 0 && suburbData[cmpSuburbIndex].housePrice > 0) {
                 inRange = true;
             }
             // Comparing house prices
             // RED = More expensive
             // GREEN = Less expensive
-            if (!inRange) {
+            if (!inRange && suburbData[i].housePrice > 0 && suburbData[cmpSuburbIndex].housePrice > 0) {
                 if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].housePrice) {
                     console.log("I AM GREEN");
                     tempHousePriceString = '<span style="color: #7bc742;">' + housePriceValue + '</span>' + '<br>';
@@ -408,12 +409,13 @@ function initMap() {
 
             inRange = false;
 
-            if (Math.abs(suburbData[i].houseRentalPrice - suburbData[cmpSuburbIndex].houseRentalPrice) < 100) {
+            if (Math.abs(suburbData[i].houseRentalPrice - suburbData[cmpSuburbIndex].houseRentalPrice) < 100 &&
+                suburbData[i].houseRentalPrice > 0 && suburbData[cmpSuburbIndex].houseRentalPrice > 0) {
                 inRange = true;
             }
 
             // Comparing house rent prices
-            if (!inRange) {
+            if (!inRange && suburbData[i].houseRentalPrice > 0 && suburbData[cmpSuburbIndex].houseRentalPrice > 0) {
                 if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
                     console.log("I AM GREEN");
                     tempHouseRentString += '<span style="color: #7bc742;">' + houseRentalValue + '</span>';
@@ -436,11 +438,12 @@ function initMap() {
             }
 
             // Comparing unit prices
-            if (Math.abs(suburbData[i].unitPrice - suburbData[cmpSuburbIndex].unitPrice) < 100000) {
+            if (Math.abs(suburbData[i].unitPrice - suburbData[cmpSuburbIndex].unitPrice) < 100000 &&
+                suburbData[i].unitPrice > 0 && suburbData[cmpSuburbIndex].unitPrice > 0) {
                 inRange = true;
             }
 
-            if (!inRange) {
+            if (!inRange && suburbData[i].unitPrice > 0 && suburbData[cmpSuburbIndex].unitPrice > 0) {
                 if (suburbData[i].unitPrice < suburbData[cmpSuburbIndex].unitPrice) {
                     console.log("I AM GREEN");
                     tempUnitPriceString += '<span style="color: #7bc742;">' + unitPriceValue + '</span>' + '<br>';
@@ -465,7 +468,7 @@ function initMap() {
                 inRange = true;
             }
 
-            if (!inRange) {
+            if (!inRange && suburbData[i].unitRentalPrice > 0 && suburbData[cmpSuburbIndex].unitRentalPrice > 0) {
                 if (suburbData[i].unitRentalPrice < suburbData[cmpSuburbIndex].unitRentalPrice) {
                     console.log("I AM GREEN");
                     tempUnitRentString += '<span style="color: #7bc742;">' + unitRentalValue + '</span>';
