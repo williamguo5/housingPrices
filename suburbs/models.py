@@ -1,11 +1,6 @@
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
 
-class SuburbImages(models.Model):
-    imageUrl = ArrayField(
-        models.CharField(max_length=3000, blank=True),
-        )
-
 class Hospital(models.Model):
     name = models.CharField(max_length=100)
     street = models.CharField(max_length=100)
@@ -44,7 +39,7 @@ class Suburb(models.Model):
     longDescription = models.CharField(max_length=3300, blank=True)
     hospitals = models.ManyToManyField(Hospital, blank=True)
     schools = models.ManyToManyField(School, blank=True)
-    suburbImages = models.ManyToManyField(SuburbImages, blank=True)
+    suburbImages = ArrayField(models.CharField(max_length=2000), default=[])
 
     class Meta:
         ordering = ('name',)

@@ -16,7 +16,7 @@ class SuburbSerializer(serializers.ModelSerializer):
     hospitals = HospitalSerializer(many=True, read_only=True)
     class Meta:
         model = Suburb
-        fields = ('name', 'state', 'postcode', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription', 'hospitals', 'schools')
+        fields = ('name', 'state', 'postcode', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription', 'hospitals', 'schools', 'suburbImages')
 
 class SimpleSuburbSerializer(serializers.ModelSerializer):
     class Meta:

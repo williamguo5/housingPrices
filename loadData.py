@@ -20,11 +20,11 @@ import django
 django.setup()
 
 
-from suburbs.models import Hospital, School, Suburb, SuburbImages
+from suburbs.models import Hospital, School, Suburb
 import csv,math,re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
-next(realEstateReader, None)
+next(realEstateReader, None) # Skip first line, field names
 for row in realEstateReader:
     suburb = Suburb.objects.create(
         name = row[0],
@@ -96,12 +96,8 @@ for row in schoolReader:
     suburb.schools.add(school)
     suburb.save()
 
-suburbImagesReader = csv.read(open(suburbImages_filepathname), delimiter=',', quotechar='"')
-next(suburbImagesReader, None)
+suburbImagesReader = csv.reader(open(suburbImages_filepathname), delimiter=',', quotechar='"')
 for row in suburbImagesReader:
-    suburbImages = SuburbImages.objects.create(
-            imageUrl = row[1:]
-        )
     suburb = Suburb.objects.get(name__iexact=row[0])
-    suburb.suburbImages.add(suburbImages)
+    suburb.suburbImages.append(row[1:])
     suburb.save()
