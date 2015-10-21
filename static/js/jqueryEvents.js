@@ -243,16 +243,22 @@ $(document).ready(function() {
             document.getElementById('travel-time-private').innerHTML = travelTimeStringPrivate;
             document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
             // $("#add-suburb").css("display", "none");
-            console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            
             if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
 
             }
-
-            cmpLayer.feature.setProperty('isColorful', false);
-            cmpLayer = lastClickedLayer;
-
+            console.log("inner X clicked");
+           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+                cmpLayer.feature.setProperty('isColorful', false);
+                cmpLayer = lastClickedLayer;
+                // lastClickedLayer = cmpLayer;
+                // cmpLayer = undefined;
+            }
 
         } else {
             document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
@@ -275,7 +281,9 @@ $(document).ready(function() {
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
-            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            if (cmpLayer == undefined || cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
             }
             lastClickedLayer = cmpLayer;
