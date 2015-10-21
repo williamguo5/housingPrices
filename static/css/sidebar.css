@@ -32,7 +32,7 @@ html, body {
 
 
 /* Sidebar */
-#sidebar-wrapper{
+#sidebar-wrapper, #cmp-sidebar-wrapper{
     /*margin-left: -250px;*/
     left: 0%;
     width: 20%;
@@ -55,12 +55,12 @@ html, body {
 
 }
 
-#cmp-sidebar-wrapper{
-    /*margin-left: -250px;*/
-    left: 20%;
+/*#cmp-sidebar-wrapper{
+    margin-left: -250px;
+    left: 0%;
     width: 20%;
     z-index: 1000;
-    /*background: lightgrey;*/
+    background: lightgrey;
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
 
@@ -76,7 +76,7 @@ html, body {
     transition: all 0.5s ease;
     font-size: 16px;
 
-}
+}*/
 
 #page-content-toggle {
     position: absolute;
@@ -184,7 +184,7 @@ html, body {
 }
 
 .suburb-title {
-    padding-left: 15px;
+    /*padding-left: 2px;*/
     color: white;
     background: #006699;
 }
@@ -212,6 +212,13 @@ html, body {
 
 #lgd-checkbox {
 	float:right;
+}
+
+.heatmap-selected {
+    border-right: 10px solid white;
+    color: white;
+    /*background: dodgerblue;*/
+    background: #006699;
 }
 
 #house-price::before {
@@ -293,7 +300,7 @@ html, body {
 }
 
 .sidebar-open .row.info {
-    padding: 0px 15px 15px 15px;
+    padding: 0px 15px 0x 15px;
     /*padding: 12px;*/
     /*margin: 0;*/
     font-size: 18px;
@@ -316,7 +323,8 @@ html, body {
     /*color: dodgerblue;*/
     /*background: #202020;*/
     /*color: dodgerblue;*/
-    background: #006699;
+    background: dodgerblue;
+    /*background: #006699;*/
     color: white;
     cursor: pointer;
 }
@@ -330,6 +338,22 @@ h2 {
 
 .carousel {
     visibility: hidden;
+}
+
+.col-md-10 {
+    border-left: 1px solid lightgrey;
+    /*padding-bottom: 12px;*/
+    padding: 0px 0px 0px 0px;  
+
+}
+
+.col-md-10 h3 {
+    padding-left: 20px;
+}
+
+.col-md-10 span::before{
+    /*border-bottom: 1px solid lightgrey;*/
+    padding-left: 20px;
 }
 
 .col-md-2 .sidebar-open{
