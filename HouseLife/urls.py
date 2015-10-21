@@ -26,7 +26,7 @@ urlpatterns = [
     url(r'^schoolTable/(?P<name>[a-zA-Z_]+)$', views.school_table),
     url(r'^hospitalsTable/(?P<name>[a-zA-Z_]+)$', views.hospitals_table),
     url(r'^ageChart/(?P<name>[a-zA-Z_]+)$', views.age_chart),
+    url(r'^suburbImageCarousel/(?P<name>[a-zA-Z_]+)$', views.suburb_image_carousel),
 ]
-
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns = format_suffix_patterns(urlpatterns)

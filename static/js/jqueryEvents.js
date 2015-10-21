@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.getJSON('../suburbs.json?simple=True', function(data) {
         suburbData = data;
-        // console.log(suburbData);
+        console.log(suburbData);
     });
 
 
@@ -59,6 +59,8 @@ $(document).ready(function() {
             $("#primary-school-table").load("../schoolTable/" + suburbName + "?primary=True");
             $("#secondary-school-table").load("../schoolTable/" + suburbName + "?secondary=True");
             $("#hospital-table").load("../hospitalsTable/" + suburbName);
+            $("#suburb-images-carousel").load("../suburbImageCarousel/" + suburbName);
+
             var iframe = document.getElementById('age-chart');
             iframe.src = "../ageChart/" + suburbName;
             console.log(iframe.src);

@@ -139,6 +139,15 @@ def age_chart(request, name, format=None):
         return HttpResponse('')
     return render_to_response('ageChart.html', {'age': agePop, 'name': suburb.name})
 
+@api_view(['GET'])
+def suburb_image_carousel(request, name, format=None):
+    name = re.sub('_', ' ', name)
+    try:
+        suburb = Suburb.objects.get(name__iexact=name)
+    except Suburb.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+    return render_to_response('suburbImages.html', {'url0': suburb.suburbImages[0], 'url1': suburb.suburbImages[1], 'url2': suburb.suburbImages[2], 'url3': suburb.suburbImages[3], 'url4': suburb.suburbImages[4]})
+
 
 def getBoolValue(val):
     if (val.upper() == "TRUE"):
