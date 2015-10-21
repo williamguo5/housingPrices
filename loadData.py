@@ -12,6 +12,7 @@ travel_filepathname=dirName + "/Data/travel/travel.csv"
 wages_filepathname=dirName + "/Data/wages.csv"
 descriptions_filepathname=dirName + "/Data/suburbDescriptions.txt"
 hospitals_filepathname=dirName + "/Data/hospitals/hospitals.csv"
+suburbImages_filepathname=dirName + "/Data/suburbImages/suburbImages.csv"
 
 sys.path.append(dirName)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'HouseLife.settings'
@@ -23,7 +24,7 @@ from suburbs.models import Hospital, School, Suburb
 import csv,math,re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
-next(realEstateReader, None)
+next(realEstateReader, None) # Skip first line, field names
 for row in realEstateReader:
     suburb = Suburb.objects.create(
         name = row[0],
@@ -93,4 +94,11 @@ for row in schoolReader:
         )
     suburb = Suburb.objects.get(name__iexact=row[8])
     suburb.schools.add(school)
+    suburb.save()
+
+suburbImagesReader = csv.reader(open(suburbImages_filepathname), delimiter=',', quotechar='"')
+for row in suburbImagesReader:
+    suburb = Suburb.objects.get(name__iexact=row[0])
+    for i in range(1, len(row)):
+        suburb.suburbImages.append(row[i])
     suburb.save()
