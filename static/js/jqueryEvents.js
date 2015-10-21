@@ -249,6 +249,11 @@ $(document).ready(function() {
                 $("#wrapper").removeClass("showSidebar");
 
             }
+
+            cmpLayer.feature.setProperty('isColorful', false);
+            cmpLayer = lastClickedLayer;
+
+
         } else {
             document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
 
