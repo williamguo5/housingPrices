@@ -248,6 +248,17 @@ function initMap() {
             }
         }
 
+        var housePriceHrefLink = getBuyHouseURL();
+        var houseRentHrefLink = getRentHouseURL();
+        var unitPriceHrefLink = getBuyUnitURL();
+        var unitRentHrefLink = getRentUnitURL();
+
+        $("#house-price-redirect").attr('href', housePriceHrefLink);
+        $("#house-rent-redirect").attr('href', houseRentHrefLink);
+
+        $("#unit-price-redirect").attr('href', unitPriceHrefLink);
+        $("#unit-rent-redirect").attr('href', unitRentHrefLink);
+
         //Formatting the sidebar section
         if (housePriceValue == 0) {
             housePriceValue = 'n/a';
@@ -679,4 +690,46 @@ function capitaliseFirstLetter(string) {
     return string.replace(/\w\S*/g, function(txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
+}
+
+function getBuyHouseURL() {
+    var URL = "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+}
+
+function getRentHouseURL() {
+    var URL = "http://www.domain.com.au/search/rent/property/types/house/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+
+}
+
+function getBuyUnitURL() {
+    var URL = "http://www.domain.com.au/search/buy/property/types/apartment-unit-flat/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+}
+
+function getRentUnitURL() {
+    var URL = "http://www.domain.com.au/search/rent/property/types/apartment-unit-flat/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+
 }
