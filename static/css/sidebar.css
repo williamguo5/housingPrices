@@ -170,9 +170,9 @@ html, body {
 }
 
 #carousel-suburb, #cmp-carousel-suburb {
-    left: 10%;
-    right: 10%;
-    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    /*width: 80%;*/
 }
 
 #detailed-info {
@@ -417,7 +417,14 @@ h2 {
     /*margin-top: 30px;*/
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
+    /*border: 10px solid black;*/
     visibility: hidden;
+}
+
+.sidebar-expanded .row {
+    /*border: 10px solid black;*/
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #legend .container-fluid {
@@ -449,10 +456,10 @@ h2 {
     height: calc(100% - 20px);
 }
 
-.container-fluid .sidebar-expanded {
+/*.container-fluid .sidebar-expanded {
 
-    /*display:none;*/
-}
+    display:none;
+}*/
 
 /* Modifies the properties of the button with hidden visibility on load */
 .button {
