@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON('../suburbs.json?simple=True', function(data) {
+    $.getJSON('../suburbs.json?simple=False', function(data) {
         suburbData = data;
         console.log(suburbData);
     });

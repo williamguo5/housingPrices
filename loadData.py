@@ -99,5 +99,6 @@ for row in schoolReader:
 suburbImagesReader = csv.reader(open(suburbImages_filepathname), delimiter=',', quotechar='"')
 for row in suburbImagesReader:
     suburb = Suburb.objects.get(name__iexact=row[0])
-    suburb.suburbImages.append(row[1:])
+    for i in range(1, len(row)):
+        suburb.suburbImages.append(row[i])
     suburb.save()
