@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.getJSON('../suburbs.json?simple=True', function(data) {
         suburbData = data;
-        console.log(suburbData);
+        // console.log(suburbData);
     });
 
 
@@ -42,7 +42,7 @@ $(document).ready(function() {
             $("#summary").css("display", "none");
 
             var descriptionString = suburbData[lastClickedSuburbIndex].description;
-            console.log(descriptionString)
+            // console.log(descriptionString)
             var suburbName = suburbData[lastClickedSuburbIndex].name;
             suburbName = suburbName.replace(/ /g, "_");
 
@@ -92,7 +92,7 @@ $(document).ready(function() {
                 lastClickedLayer.feature.setProperty('isColorful', false);
                 lastClickedLayer = cmpLayer;
             }
-            console.log(lastClickedLayer, cmpLayer);
+            // console.log(lastClickedLayer, cmpLayer);
         }
     });
 
@@ -124,7 +124,7 @@ $(document).ready(function() {
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
                 lastClickedLayer = cmpLayer;
-                console.log("click here");
+                // console.log("click here");
             }
             $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
             $("#wrapper").toggleClass("clicked");
@@ -196,7 +196,7 @@ $(document).ready(function() {
             var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var salaryValue = (suburbData[lastClickedSuburbIndex].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            console.log("<<<<<<<<<<<<<<<<");
+            // console.log("<<<<<<<<<<<<<<<<");
             if (housePriceValue == 0) {
                 housePriceValue = 'n/a';
             } else {
@@ -244,7 +244,8 @@ $(document).ready(function() {
             document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
             // $("#add-suburb").css("display", "none");
             // console.log($("wrapper").hasClass("cmpSuburbClicked"));
-            
+            // $("#cmp-summary").css("display", "none");
+
             if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
@@ -261,6 +262,8 @@ $(document).ready(function() {
             }
 
         } else {
+            // $("#cmp-summary").css("display", "inline");
+
             document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
 
             document.getElementById('cmp-house-price').innerHTML = "<br>";
@@ -291,6 +294,159 @@ $(document).ready(function() {
 
     });
 
+
+    $("#house-price").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+    
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-house-price").click(function() {
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+    $("#house-rent").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-house-rent").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+    
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-house-rent").click(function() {
+        $("#house-rent").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+    
+    $("#unit-price").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-unit-price").click(function() {
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+    $("#unit-rent").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-unit-rent").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-unit-rent").click(function() {
+        $("#unit-rent").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+    $("#travel-time-private").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-travel-time-private").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-travel-time-private").click(function() {
+        $("#travel-time-private").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+    $("#travel-time-public").click(function() {
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $("#cmp-travel-time-public").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+
+
+    $("#cmp-travel-time-public").click(function() {
+        $("#travel-time-public").parent().parent().find(".col-md-2").css("color", "dodgerblue");
+        $(this).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+
+        $("#house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-house-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        
+        $("#unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+        $("#cmp-unit-price").parent().parent().find(".col-md-2").css("color", "#b5b5b7");
+
+    });
+    
 
 
 

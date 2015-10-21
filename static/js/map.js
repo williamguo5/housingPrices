@@ -509,8 +509,14 @@ function initMap() {
 
             if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                 $("#wrapper").removeClass("cmpSuburbClicked");
-                suburbName = "";
-                contentString = "";
+                suburbName = "Select a Suburb";
+                housePriceString = "<br>";
+                houseRentString = "";
+                unitPriceString = "<br>";
+                unitRentString = "";
+                salaryString = "<br>";
+                travelTimeStringPrivate = "<br>";
+                travelTimeStringPublic = "";
             }
         } else {
             isChecked = false;
