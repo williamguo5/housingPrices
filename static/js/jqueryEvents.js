@@ -42,6 +42,7 @@ $(document).ready(function() {
             $("#summary").css("display", "none");
 
             var descriptionString = suburbData[lastClickedSuburbIndex].description;
+            console.log(descriptionString)
             var suburbName = suburbData[lastClickedSuburbIndex].name;
             suburbName = suburbName.replace(/ /g, "_");
 
