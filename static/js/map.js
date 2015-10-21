@@ -184,9 +184,9 @@ function initMap() {
 
     var strictBounds = new google.maps.LatLngBounds(
         // SW corner
-        new google.maps.LatLng(-34.206766, 150.652075),
+        new google.maps.LatLng(-35.082775, 149.239453),
         // NE corner
-        new google.maps.LatLng(-33.428651, 151.392279)
+        new google.maps.LatLng(-32.625362, 152.655240)
     );
 
     // Listen for the dragend event
@@ -636,17 +636,19 @@ var heatmapButtonIds = {
 }
 
 var heatmaps = {
-    "numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "houseRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "unitPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "unitRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    "numSchools": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "housePrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "houseRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "unitPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "unitRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "timeToCbdPublic": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "timeToCbdPrivate": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1]
 };
 
 function changeHeatmap(heatmap) {
     // console.log(heatmap);
+    currHeatmap = heatmap;
+    replaceCheckboxes();
     changeLegendText(heatmap);
     highlightSelectedHeatmap(heatmap);
     // unchecking checkbox for heatmap ranges
@@ -677,7 +679,29 @@ function changeHeatmap(heatmap) {
     });
 }
 
+function replaceCheckboxes() {
+    for (var i = 0; i < 10; i++){
+        var checkbox = 'input:checkbox[name=lgd-checkbox' + i + ']';
+        // console.log(checkbox);
+        if (heatmaps[currHeatmap][i] == 1) {
+            $(checkbox).prop("checked", true);
+        } else {
+            $(checkbox).prop("checked", false);
+        }
+    }
+}
 
+function toggleCheckbox(checkboxId){
+    console.log(checkboxId);
+    if (checkboxId == 9){
+        heatmaps[currHeatmap] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+    }else{
+        heatmaps[currHeatmap][9] = 0;
+        heatmaps[currHeatmap][checkboxId] += 1;
+        heatmaps[currHeatmap][checkboxId] %= 2;
+    }
+    changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+}
 
 function changeLegendText(heatmap) {
     document.getElementById('units').innerHTML = '<b>' + legendText[heatmap][8] + '</b>';
