@@ -309,9 +309,9 @@ html, body {
     align-items: center;
 }
 
-.sidebar-expanded .row.school-section {
+/*.sidebar-expanded .row.school-section {
     background-color: lightgrey;
-}
+}*/
 .sidebar-expanded .row.school-prim-sec {
     font-size: 18px;
     border-bottom: 1px solid lightgrey;
@@ -417,15 +417,15 @@ h2 {
     visibility: hidden;
 }
 
-.nav-pills > li{
+./*nav-pills > li{
     float:none;
     display:inline-block;
-}
-.nav-pills {
+}*/
+/*.nav-pills {
     text-align: center;
     visibility: hidden;
 }
-
+*/
 .container-fluid.sidebar-expanded{
     /*margin-top: 30px;*/
     /*margin-left: 10px;*/
