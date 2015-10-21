@@ -358,7 +358,11 @@ h2 {
 }
 
 .col-md-2 .sidebar-open{
-    padding: 8px;
+    padding: 5px;
+}
+
+.row .col-md-2 {
+    padding: 20px;
 }
 
 /*.col-md-2 span{

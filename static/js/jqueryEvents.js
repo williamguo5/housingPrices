@@ -244,6 +244,7 @@ $(document).ready(function() {
             document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
             // $("#add-suburb").css("display", "none");
             // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            // $("#cmp-summary").css("display", "none");
             if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
@@ -255,6 +256,8 @@ $(document).ready(function() {
 
 
         } else {
+            // $("#cmp-summary").css("display", "inline");
+
             document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
 
             document.getElementById('cmp-house-price').innerHTML = "<br>";
