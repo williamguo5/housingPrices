@@ -248,6 +248,10 @@ function initMap() {
             }
         }
 
+        var hrefLink = getBuyHouseURL();
+
+        $("#house-redirect").attr('href', hrefLink);
+
         //Formatting the sidebar section
         if (housePriceValue == 0) {
             housePriceValue = 'n/a';
@@ -679,4 +683,13 @@ function capitaliseFirstLetter(string) {
     return string.replace(/\w\S*/g, function(txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
+}
+
+function getBuyHouseURL() {
+    var URL = "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
 }
