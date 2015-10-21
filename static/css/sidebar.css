@@ -666,7 +666,7 @@ h2 {
     visibility: hidden;
 }
 
-#wrapper.cmpSuburbClicked.sidebarExpanded #sidebar-wrapper {
+/*#wrapper.cmpSuburbClicked.sidebarExpanded #sidebar-wrapper {
     width: calc(50% - 16px);
 }
 
@@ -675,7 +675,7 @@ h2 {
     left: calc(50% - 16px);
     width: calc(50% - 16px);
 
-}
+}*/
 
 #wrapper.clicked #add-suburb:hover .colour {
     color: red;
