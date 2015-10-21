@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from suburbs.models import Suburb, School
 from suburbs.serializers import SuburbSerializer, SchoolSerializer, SimpleSuburbSerializer
 from django.shortcuts import render, render_to_response
+from django.http import HttpResponse
 
 import re
 
@@ -135,7 +136,7 @@ def age_chart(request, name, format=None):
     if suburb.ageDistribution.all().count() > 0:
         agePop = suburb.ageDistribution.all()[0]
     else:
-        return Response(status=status.HTTP_404_NOT_FOUND)
+        return HttpResponse('')
     return render_to_response('ageChart.html', {'age': agePop, 'name': suburb.name})
 
 

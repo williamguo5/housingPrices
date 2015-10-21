@@ -59,6 +59,10 @@ $(document).ready(function() {
             $("#primary-school-table").load("../schoolTable/" + suburbName + "?primary=True");
             $("#secondary-school-table").load("../schoolTable/" + suburbName + "?secondary=True");
             $("#hospital-table").load("../hospitalsTable/" + suburbName);
+            var iframe = document.getElementById('age-chart');
+            iframe.src = "../ageChart/" + suburbName;
+            console.log(iframe.src);
+            // document.getElementById('age-chart').contentWindow.location.reload(true);
 
             panelHousePrice.innerHTML = '$' + housePriceValue;
             panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
@@ -252,8 +256,8 @@ $(document).ready(function() {
 
             }
             console.log("inner X clicked");
-           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
-            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+                "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 cmpLayer.feature.setProperty('isColorful', false);
                 cmpLayer = lastClickedLayer;
@@ -284,8 +288,8 @@ $(document).ready(function() {
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
-           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
-            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+                "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
             if (cmpLayer == undefined || cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
             }
