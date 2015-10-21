@@ -418,15 +418,15 @@ h2 {
     visibility: hidden;
 }
 
-.nav-pills > li{
+./*nav-pills > li{
     float:none;
     display:inline-block;
-}
-.nav-pills {
+}*/
+/*.nav-pills {
     text-align: center;
     visibility: hidden;
 }
-
+*/
 .container-fluid.sidebar-expanded{
     /*margin-top: 30px;*/
     /*margin-left: 10px;*/
