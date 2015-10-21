@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.getJSON('../suburbs.json?simple=True', function(data) {
         suburbData = data;
-        console.log(suburbData);
+        // console.log(suburbData);
     });
 
 
@@ -42,7 +42,7 @@ $(document).ready(function() {
             $("#summary").css("display", "none");
 
             var descriptionString = suburbData[lastClickedSuburbIndex].description;
-            console.log(descriptionString)
+            // console.log(descriptionString)
             var suburbName = suburbData[lastClickedSuburbIndex].name;
             suburbName = suburbName.replace(/ /g, "_");
 
@@ -92,7 +92,7 @@ $(document).ready(function() {
                 lastClickedLayer.feature.setProperty('isColorful', false);
                 lastClickedLayer = cmpLayer;
             }
-            console.log(lastClickedLayer, cmpLayer);
+            // console.log(lastClickedLayer, cmpLayer);
         }
     });
 
@@ -124,7 +124,7 @@ $(document).ready(function() {
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
                 lastClickedLayer = cmpLayer;
-                console.log("click here");
+                // console.log("click here");
             }
             $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
             $("#wrapper").toggleClass("clicked");
@@ -196,7 +196,7 @@ $(document).ready(function() {
             var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var salaryValue = (suburbData[lastClickedSuburbIndex].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            console.log("<<<<<<<<<<<<<<<<");
+            // console.log("<<<<<<<<<<<<<<<<");
             if (housePriceValue == 0) {
                 housePriceValue = 'n/a';
             } else {
@@ -243,18 +243,27 @@ $(document).ready(function() {
             document.getElementById('travel-time-private').innerHTML = travelTimeStringPrivate;
             document.getElementById('travel-time-public').innerHTML = travelTimeStringPublic;
             // $("#add-suburb").css("display", "none");
-            console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            // $("#cmp-summary").css("display", "none");
+
             if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
 
             }
-
-            cmpLayer.feature.setProperty('isColorful', false);
-            cmpLayer = lastClickedLayer;
-
+            console.log("inner X clicked");
+           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+                cmpLayer.feature.setProperty('isColorful', false);
+                cmpLayer = lastClickedLayer;
+                // lastClickedLayer = cmpLayer;
+                // cmpLayer = undefined;
+            }
 
         } else {
+            // $("#cmp-summary").css("display", "inline");
+
             document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
 
             document.getElementById('cmp-house-price').innerHTML = "<br>";
@@ -275,16 +284,15 @@ $(document).ready(function() {
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
-            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+           console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+            "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+            if (cmpLayer == undefined || cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
             }
             lastClickedLayer = cmpLayer;
         }
 
     });
-
-
-
 
     $('.carousel').carousel({
         interval: 6000
@@ -294,88 +302,4 @@ $(document).ready(function() {
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
-    $('input:checkbox[name=lgd-checkbox0]').change(function(event) {
-        heatmaps[currHeatmap][0] += 1;
-        heatmaps[currHeatmap][0] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-
-    });
-    $('input:checkbox[name=lgd-checkbox1]').change(function(event) {
-        heatmaps[currHeatmap][1] += 1;
-        heatmaps[currHeatmap][1] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox2]').change(function(event) {
-        heatmaps[currHeatmap][2] += 1;
-        heatmaps[currHeatmap][2] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox3]').change(function(event) {
-        heatmaps[currHeatmap][3] += 1;
-        heatmaps[currHeatmap][3] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox4]').change(function(event) {
-        heatmaps[currHeatmap][4] += 1;
-        heatmaps[currHeatmap][4] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox5]').change(function(event) {
-        heatmaps[currHeatmap][5] += 1;
-        heatmaps[currHeatmap][5] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox6]').change(function(event) {
-        heatmaps[currHeatmap][6] += 1;
-        heatmaps[currHeatmap][6] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-    $('input:checkbox[name=lgd-checkbox7]').change(function(event) {
-        heatmaps[currHeatmap][7] += 1;
-        heatmaps[currHeatmap][7] %= 2;
-        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
-    });
-
-    function replaceCheckboxes() {
-        if (heatmaps[currHeatmap][0] == 1) {
-            $('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox0]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][1] == 1) {
-            $('input:checkbox[name=lgd-checkbox1]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox1]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][2] == 1) {
-            $('input:checkbox[name=lgd-checkbox2]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox2]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][3] == 1) {
-            $('input:checkbox[name=lgd-checkbox3]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox3]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][4] == 1) {
-            $('input:checkbox[name=lgd-checkbox4]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox4]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][5] == 1) {
-            $('input:checkbox[name=lgd-checkbox5]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox5]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][6] == 1) {
-            $('input:checkbox[name=lgd-checkbox6]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox6]').prop("checked", false);
-        }
-        if (heatmaps[currHeatmap][7] == 1) {
-            $('input:checkbox[name=lgd-checkbox7]').prop("checked", true);
-        } else {
-            $('input:checkbox[name=lgd-checkbox7]').prop("checked", false);
-        }
-    }
 });

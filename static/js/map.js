@@ -184,9 +184,9 @@ function initMap() {
 
     var strictBounds = new google.maps.LatLngBounds(
         // SW corner
-        new google.maps.LatLng(-34.206766, 150.652075),
+        new google.maps.LatLng(-35.082775, 149.239453),
         // NE corner
-        new google.maps.LatLng(-33.428651, 151.392279)
+        new google.maps.LatLng(-32.625362, 152.655240)
     );
 
     // Listen for the dragend event
@@ -248,10 +248,10 @@ function initMap() {
             }
         }
 
-        var housePriceHrefLink = getBuyHouseURL();
-        var houseRentHrefLink = getRentHouseURL();
-        var unitPriceHrefLink = getBuyUnitURL();
-        var unitRentHrefLink = getRentUnitURL();
+        var housePriceHrefLink = getExtURL("houseBuy");
+        var houseRentHrefLink = getExtURL("houseRent");
+        var unitPriceHrefLink = getExtURL("unitBuy");
+        var unitRentHrefLink = getExtURL("unitRent");
 
         $("#house-price-redirect").attr('href', housePriceHrefLink);
         $("#house-rent-redirect").attr('href', houseRentHrefLink);
@@ -316,7 +316,7 @@ function initMap() {
             $("#close-sidebar").css("display", "inline");
 
 
-            console.log("IM HERE!!!" + $("#wrapper").hasClass("cmpSuburbClicked"));
+            // console.log("IM HERE!!!" + $("#wrapper").hasClass("cmpSuburbClicked"));
 
 
             isChecked = true;
@@ -380,7 +380,7 @@ function initMap() {
                 cmpSalaryValue = '$' + cmpSalaryValue + ' p/a';
             }
 
-            console.log(cmpSuburbIndex);
+            // console.log(cmpSuburbIndex);/
 
             if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000 && 
                 suburbData[i].housePrice > 0 && suburbData[cmpSuburbIndex].housePrice > 0) {
@@ -391,11 +391,11 @@ function initMap() {
             // GREEN = Less expensive
             if (!inRange && suburbData[i].housePrice > 0 && suburbData[cmpSuburbIndex].housePrice > 0) {
                 if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].housePrice) {
-                    console.log("I AM GREEN");
+                    // console.log("I AM GREEN");
                     tempHousePriceString = '<span style="color: #7bc742;">' + housePriceValue + '</span>' + '<br>';
                     tempHousePriceStringCmp = '<span style="color: #af100a;">' + cmpHousePriceValue + '</span>' + '<br>';
                 } else {
-                    console.log("I AM RED");
+                    // console.log("I AM RED");
 
                     tempHousePriceString = '<span style="color: #af100a;">' + housePriceValue + '</span>' + '<br>';
                     tempHousePriceStringCmp = '<span style="color: #7bc742;">' + cmpHousePriceValue + '</span>' + '<br>';
@@ -417,14 +417,14 @@ function initMap() {
             // Comparing house rent prices
             if (!inRange && suburbData[i].houseRentalPrice > 0 && suburbData[cmpSuburbIndex].houseRentalPrice > 0) {
                 if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
-                    console.log("I AM GREEN");
+                    // console.log("I AM GREEN");
                     tempHouseRentString += '<span style="color: #7bc742;">' + houseRentalValue + '</span>';
                     tempHouseRentStringCmp += '<span style="color: #af100a;">' + cmpHouseRentalValue + '</span>';
 
 
 
                 } else {
-                    console.log("I AM RED");
+                    // console.log("I AM RED");
 
                     tempHouseRentString += '<span style="color: #af100a;">' + houseRentalValue + '</span>';
                     tempHouseRentStringCmp += '<span style="color: #7bc742;">' + cmpHouseRentalValue + '</span>';
@@ -445,12 +445,12 @@ function initMap() {
 
             if (!inRange && suburbData[i].unitPrice > 0 && suburbData[cmpSuburbIndex].unitPrice > 0) {
                 if (suburbData[i].unitPrice < suburbData[cmpSuburbIndex].unitPrice) {
-                    console.log("I AM GREEN");
+                    // console.log("I AM GREEN");
                     tempUnitPriceString += '<span style="color: #7bc742;">' + unitPriceValue + '</span>' + '<br>';
                     tempUnitPriceStringCmp += '<span style="color:  #af100a;">' + cmpUnitPriceValue + '</span>' + '<br>';
 
                 } else {
-                    console.log("I AM RED");
+                    // console.log("I AM RED");
 
                     tempUnitPriceString += '<span style="color: #af100a;">' + unitPriceValue + '</span>' + '<br>';
                     tempUnitPriceStringCmp += '<span style="color: #7bc742;">' + cmpUnitPriceValue + '</span>' + '<br>';
@@ -475,7 +475,7 @@ function initMap() {
                     tempUnitRentStringCmp += '<span style="color: #af100a;">' + cmpUnitRentalValue + '</span>';
 
                 } else {
-                    console.log("I AM RED");
+                    // console.log("I AM RED");
 
                     tempUnitRentString += '<span style="color: #af100a;">' + unitRentalValue + '</span>';
                     tempUnitRentStringCmp += '<span style="color: #7bc742;">' + cmpUnitRentalValue + '</span>';
@@ -509,8 +509,14 @@ function initMap() {
 
             if (cmpLayer.feature.getProperty('name') == event.feature.getProperty('name')) {
                 $("#wrapper").removeClass("cmpSuburbClicked");
-                suburbName = "";
-                contentString = "";
+                suburbName = "Select a Suburb";
+                housePriceString = "<br>";
+                houseRentString = "";
+                unitPriceString = "<br>";
+                unitRentString = "";
+                salaryString = "<br>";
+                travelTimeStringPrivate = "<br>";
+                travelTimeStringPublic = "";
             }
         } else {
             isChecked = false;
@@ -540,8 +546,13 @@ function initMap() {
             lastClickedLayer.feature.setProperty('isColorful', false);
         }
 
-        lastClickedLayer = event;
-        event.feature.setProperty('isColorful', true);
+        if (!$("#wrapper").hasClass("cmpChecked")){
+            console.log("wrapper - cmp not checked");
+        }
+        if (lastClickedLayer == undefined || !$("#wrapper").hasClass("cmpChecked") || event.feature.getProperty('name') != cmpLayer.feature.getProperty('name')){
+            lastClickedLayer = event;
+            event.feature.setProperty('isColorful', true);
+        }
 
 
         // Checks the state of the class showSidebar
@@ -550,6 +561,9 @@ function initMap() {
             $("#wrapper").toggleClass("showSidebar");
             $("#wrapper").toggleClass("showClose");
         }
+       console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
+        "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
+        map.data.revertStyle();
         // map.data.revertStyle();
     });
     map.data.addListener('mouseover', function(event) {
@@ -622,17 +636,19 @@ var heatmapButtonIds = {
 }
 
 var heatmaps = {
-    "numSchools": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "housePrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "houseRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "unitPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "unitRentalPrice": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "timeToCbdPublic": [1, 1, 1, 1, 1, 1, 1, 1, 1],
-    "timeToCbdPrivate": [1, 1, 1, 1, 1, 1, 1, 1, 1]
+    "numSchools": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "housePrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "houseRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "unitPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "unitRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "timeToCbdPublic": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "timeToCbdPrivate": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1]
 };
 
 function changeHeatmap(heatmap) {
     // console.log(heatmap);
+    currHeatmap = heatmap;
+    replaceCheckboxes();
     changeLegendText(heatmap);
     highlightSelectedHeatmap(heatmap);
     // unchecking checkbox for heatmap ranges
@@ -663,7 +679,33 @@ function changeHeatmap(heatmap) {
     });
 }
 
+function replaceCheckboxes() {
+    for (var i = 0; i < 10; i++){
+        var checkbox = 'input:checkbox[name=lgd-checkbox' + i + ']';
+        // console.log(checkbox);
+        if (heatmaps[currHeatmap][i] == 1) {
+            $(checkbox).prop("checked", true);
+        } else {
+            $(checkbox).prop("checked", false);
+        }
+    }
+}
 
+function toggleCheckbox(checkboxId){
+    console.log(checkboxId);
+    if (checkboxId == 9){
+        if (heatmaps[currHeatmap][checkboxId] == 0){
+            heatmaps[currHeatmap] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+        }else{
+            heatmaps[currHeatmap] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        }
+    }else{
+        heatmaps[currHeatmap][9] = 0;
+        heatmaps[currHeatmap][checkboxId] += 1;
+        heatmaps[currHeatmap][checkboxId] %= 2;
+    }
+    changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+}
 
 function changeLegendText(heatmap) {
     document.getElementById('units').innerHTML = '<b>' + legendText[heatmap][8] + '</b>';
@@ -684,12 +726,16 @@ function highlightSelectedHeatmap(heatmap) {
     for (var key in heatmapButtonIds){
         tmp = "#" + heatmapButtonIds[key];
         $(tmp).removeClass("heatmap-selected");
+        $(tmp).parent().parent().find(".col-md-2").css("color", "#b5b5b7");
         tmp = "#cmp-" + heatmapButtonIds[key];
         $(tmp).removeClass("heatmap-selected");
+        $(tmp).parent().parent().find(".col-md-2").css("color", "#b5b5b7");
     }
 
     $(buttonId).addClass("heatmap-selected");
     $(cmpButtonId).addClass("heatmap-selected");
+    $(buttonId).parent().parent().find(".col-md-2").css("color", "dodgerblue");
+    $(cmpButtonId).parent().parent().find(".col-md-2").css("color", "dodgerblue");
 }
 
 function capitaliseFirstLetter(string) {
@@ -698,44 +744,20 @@ function capitaliseFirstLetter(string) {
     });
 }
 
-function getBuyHouseURL() {
-    var URL = "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=";
-    var suburb = suburbData[lastClickedSuburbIndex].name;
-    suburb = suburb.toLowerCase();
-    suburb = suburb.replace(/\s/g, "-");
-    URL += suburb;
-    URL += "%2C+nsw";
-    return URL;
+var urlType = {
+    "houseBuy": "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=",
+    "houseRent": "http://www.domain.com.au/search/rent/property/types/house/state/nsw/?searchterm=",
+    "unitBuy": "http://www.domain.com.au/search/buy/property/types/apartment-unit-flat/state/nsw/?searchterm=",
+    "unitRent": "http://www.domain.com.au/search/rent/property/types/apartment-unit-flat/state/nsw/?searchterm=",
 }
 
-function getRentHouseURL() {
-    var URL = "http://www.domain.com.au/search/rent/property/types/house/state/nsw/?searchterm=";
+
+function getExtURL(type){
+    var URL = urlType[type];
     var suburb = suburbData[lastClickedSuburbIndex].name;
     suburb = suburb.toLowerCase();
     suburb = suburb.replace(/\s/g, "-");
     URL += suburb;
     URL += "%2C+nsw";
     return URL;
-
-}
-
-function getBuyUnitURL() {
-    var URL = "http://www.domain.com.au/search/buy/property/types/apartment-unit-flat/state/nsw/?searchterm=";
-    var suburb = suburbData[lastClickedSuburbIndex].name;
-    suburb = suburb.toLowerCase();
-    suburb = suburb.replace(/\s/g, "-");
-    URL += suburb;
-    URL += "%2C+nsw";
-    return URL;
-}
-
-function getRentUnitURL() {
-    var URL = "http://www.domain.com.au/search/rent/property/types/apartment-unit-flat/state/nsw/?searchterm=";
-    var suburb = suburbData[lastClickedSuburbIndex].name;
-    suburb = suburb.toLowerCase();
-    suburb = suburb.replace(/\s/g, "-");
-    URL += suburb;
-    URL += "%2C+nsw";
-    return URL;
-
 }
