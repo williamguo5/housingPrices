@@ -3,6 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from suburbs.models import Suburb, School
 from suburbs.serializers import SuburbSerializer, SchoolSerializer, SimpleSuburbSerializer
+from django.shortcuts import render, render_to_response
 
 import re
 
@@ -41,7 +42,7 @@ def suburb_list(request, format=None):
         suburbs = suburbs.filter(averageSalary__gte=request.query_params.get('averageSalaryMin',''))
 
     if (request.query_params.get('simple','')):
-        if (request.query_params.get('simple','') == "False"):
+        if (getBoolValue(request.query_params.get('simple','')) == "1"):
             serializer = SimpleSuburbSerializer(suburbs, many=True)
         else:
             serializer = SuburbSerializer(suburbs, many=True)
@@ -88,16 +89,35 @@ def school_list(request, format=None):
 @api_view(['GET'])
 def school_detail(request, name, format=None):
     """
-    Retrieve a school instance.
+    Return HTML formatted table of schools for a suburb
     """
     name = re.sub('_', ' ', name)
+
     try:
-        school = School.objects.get(name__iexact=name)
+        suburb = Suburb.objects.get(name__iexact=name)
+        school = suburb.schools.all()
     except School.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
 
-    serializer = SchoolSerializer(school)
+    serializer = SchoolSerializer(school, many=True)
     return Response(serializer.data)
+
+
+
+@api_view(['GET'])
+def school_table(request, name, format=None):
+    name = re.sub('_', ' ', name)
+
+    suburb = Suburb.objects.get(name__iexact=name)
+    schools = suburb.schools.all().order_by('rank')
+    schoolType = ''
+    if (request.query_params.get('primary','')):
+        schools = schools.filter(primary__exact=getBoolValue(request.query_params.get('primary','')))
+        schoolType = 'Primary'
+    if (request.query_params.get('secondary','')):
+        schools = schools.filter(secondary__exact=getBoolValue(request.query_params.get('secondary','')))
+        schoolType = 'Secondary'
+    return render_to_response('schoolsTable.html', {'schools': schools, 'schoolType': schoolType, 'suburb': suburb.name, 'postcode': suburb.postcode})
 
 
 def getBoolValue(val):

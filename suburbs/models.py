@@ -1,5 +1,14 @@
 from django.db import models
 
+class Hospital(models.Model):
+    name = models.CharField(max_length=100)
+    street = models.CharField(max_length=100)
+    phone = models.CharField(max_length=20)
+    lhd = models.CharField(max_length=100)
+
+    class Meta:
+        ordering = ('name',)
+
 class School(models.Model):
     rank = models.IntegerField()
     name = models.CharField(max_length=100)
@@ -27,6 +36,7 @@ class Suburb(models.Model):
     averageSalary = models.IntegerField(default=0)
     description = models.CharField(max_length=500, blank=True)
     longDescription = models.CharField(max_length=3300, blank=True)
+    hospitals = models.ManyToManyField(Hospital, blank=True)
     schools = models.ManyToManyField(School, blank=True)
 
     class Meta:

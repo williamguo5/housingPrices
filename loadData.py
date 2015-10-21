@@ -11,6 +11,7 @@ realEstate_filepathname=dirName + "/Data/realEstate/suburbPricing.csv"
 travel_filepathname=dirName + "/Data/travel/travel.csv"
 wages_filepathname=dirName + "/Data/wages.csv"
 descriptions_filepathname=dirName + "/Data/suburbDescriptions.txt"
+hospitals_filepathname=dirName + "/Data/hospitals/hospitals.csv"
 
 sys.path.append(dirName)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'HouseLife.settings'
@@ -18,7 +19,7 @@ import django
 django.setup()
 
 
-from suburbs.models import School, Suburb
+from suburbs.models import Hospital, School, Suburb
 import csv,math,re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
@@ -37,10 +38,24 @@ for row in realEstateReader:
 descriptionReader = csv.reader(open(descriptions_filepathname), delimiter='|', quotechar='"')
 next(descriptionReader, None)
 for row in descriptionReader:
-    suburb = Suburb.objects.get(name=row[0])
+    suburb = Suburb.objects.get(name__iexact=row[0])
     suburb.description = row[1]
     suburb.longDescription = row[2]
     suburb.save()
+
+hospitalReader = csv.reader(open(hospitals_filepathname), delimiter=',', quotechar='"')
+next(hospitalReader, None)
+for row in hospitalReader:
+    if (Suburb.objects.filter(name__iexact=row[2])):
+        hospital = Hospital.objects.create(
+            name = row[0],
+            street = row[1],
+            phone = row[4],
+            lhd = row[6]
+            )
+        suburb = Suburb.objects.get(name__iexact=row[2])
+        suburb.hospitals.add(hospital)
+        suburb.save()
 
 wagesReader = csv.reader(open(wages_filepathname), delimiter=',', quotechar='"')
 for row in wagesReader:
@@ -56,7 +71,7 @@ for row in wagesReader:
 travelReader = csv.reader(open(travel_filepathname), delimiter=',', quotechar='"')
 next(travelReader, None)
 for row in travelReader:
-    suburb = Suburb.objects.get(name=row[0])
+    suburb = Suburb.objects.get(name__iexact=row[0])
     suburb.timeToCbdPublic = row[2]
     suburb.timeToCbdPrivate = row[1]
     suburb.save()
@@ -76,6 +91,6 @@ for row in schoolReader:
         street = row[7],
         description = row[11]
         )
-    suburb = Suburb.objects.get(name=row[8])
+    suburb = Suburb.objects.get(name__iexact=row[8])
     suburb.schools.add(school)
     suburb.save()

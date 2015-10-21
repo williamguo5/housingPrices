@@ -6,70 +6,18 @@ $(document).ready(function() {
     });
 
 
-    var contentString = "";
+    var stringHousePrice = "";
+    var stringUnitPrice = "";
+    var stringSalary = "";
+    var stringTravelTime = "";
     var cmpContentString = "";
 
     $('[data-toggle="tooltip"]').tooltip();
 
     $('[data-toggle="map-tooltip"]').tooltip();
 
-    // when user clicks on the toggle heatmap button
-	$("#heatmap-housing").addClass('selected');
-    $("#heatmap-housing").click(function(event){
-        heatmapHousing();
-		$(this).addClass('selected');
-		$("#heatmap-schools").removeClass('selected');
-		$("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend ($)' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '< 500K';
-        document.getElementById('heatmap-value2').innerHTML = '500K - 750K';
-        document.getElementById('heatmap-value3').innerHTML = '750K - 1M';
-        document.getElementById('heatmap-value4').innerHTML = '1M - 1.25M';
-        document.getElementById('heatmap-value5').innerHTML = '1.25M - 1.5M';
-        document.getElementById('heatmap-value6').innerHTML = '1.5M - 2M';
-        document.getElementById('heatmap-value7').innerHTML = '2M - 3M';
-        document.getElementById('heatmap-value8').innerHTML = '> 3M';
-
-    });
-
-    $("#heatmap-schools").click(function(event){
-        heatmapSchools();
-		// $(this).css({background:"blue"});
-		$(this).addClass('selected');
-		$("#heatmap-housing").removeClass('selected');
-		$("#heatmap-transport").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend (# of Schools)' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '0';
-        document.getElementById('heatmap-value2').innerHTML = '1';
-        document.getElementById('heatmap-value3').innerHTML = '2';
-        document.getElementById('heatmap-value4').innerHTML = '3';
-        document.getElementById('heatmap-value5').innerHTML = '4';
-        document.getElementById('heatmap-value6').innerHTML = '5';
-        document.getElementById('heatmap-value7').innerHTML = '6';
-        document.getElementById('heatmap-value8').innerHTML = '> 6';
-
-    });
-
-    $("#heatmap-transport").click(function(event){
-        heatmapHospitals();
-		$(this).addClass('selected');
-		$("#heatmap-schools").removeClass('selected');
-		$("#heatmap-housing").removeClass('selected');
-        document.getElementById('units').innerHTML = '<b>' + 'Legend (mins)' + '</b>';
-        document.getElementById('heatmap-value1').innerHTML = '0 - 30';
-        document.getElementById('heatmap-value2').innerHTML = '30 - 45';
-        document.getElementById('heatmap-value3').innerHTML = '45 - 60';
-        document.getElementById('heatmap-value4').innerHTML = '60 - 75';
-        document.getElementById('heatmap-value5').innerHTML = '75 - 90';
-        document.getElementById('heatmap-value6').innerHTML = '90 - 105';
-        document.getElementById('heatmap-value7').innerHTML = '105 - 120';
-        document.getElementById('heatmap-value8').innerHTML = '> 120';
-
-    });
-
-
     // When the user clicks on the page-content-wrapper button it will toggle the sidebarExpanded class
-    $("#page-content-toggle").click(function(event){
+    $("#page-content-toggle").click(function(event) {
         // Prevents the default action linked to this event
         // e.g. href="#" is not activated on click
         event.preventDefault();
@@ -77,206 +25,309 @@ $(document).ready(function() {
         $(this).find('i').toggleClass('fa-chevron-right').toggleClass('fa-chevron-left');
         $("#wrapper").toggleClass("sidebarExpanded");
 
-        var pricesInfo = document.getElementById('prices-info');
-        var schoolsInfo = document.getElementById('schools-info');
-        var transportInfo = document.getElementById('transport-info');
-
+        var description = document.getElementById('description');
+        // var schoolsInfo = document.getElementById('schools-info');
+        // var transportInfo = document.getElementById('transport-info');
 
 
         // Gets the id of the html element and clears the text
         if ($("#wrapper").hasClass('sidebarExpanded')) {
-            var pricesString = 'Randwick was named after the village of Randwick, ' +
-                'Gloucestershire, England, birthplace of Simeon Henry Pearce, ' +
-                'who became Mayor of Randwick no less than six times.[3] Simeon and his brother James, ' +
-                'who migrated to Australia in 1842, were responsible for the early development of Randwick as ' +
-                'well as suburb Coogee.. Simeon lived in a house called Blenheim, which can still be seen ' +
-                'in Blenheim Street. It was neglected for some time but was eventually acquired by' +
-                ' Randwick Council and then restored.';
+
+            $("#sidebar-wrapper").css({
+                "background-color": "white",
+                "color": "black"
+            });
+            $("#detailed-info").css("display", "inline");
+
+            $("#summary").css("display", "none");
+
+            var descriptionString = suburbData[lastClickedSuburbIndex].description;
+            var suburbName = suburbData[lastClickedSuburbIndex].name;
+            suburbName = suburbName.replace(/ /g, "_");
+
+            var panelHousePrice = document.getElementById('panel-house-price');
+            var panelHouseRent = document.getElementById('panel-house-rent');
+            var panelUnitPrice = document.getElementById('panel-unit-price');
+            var panelUnitRent = document.getElementById('panel-unit-rent');
+
+            var housePriceValue = (suburbData[lastClickedSuburbIndex].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var houseRentalValue = (suburbData[lastClickedSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            $("#primary-school-table").load("../schoolTable/" + suburbName + "?primary=True");
+            $("#secondary-school-table").load("../schoolTable/" + suburbName + "?secondary=True");
+
+            panelHousePrice.innerHTML = '$' + housePriceValue;
+            panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
+            panelUnitPrice.innerHTML = '$' + unitPriceValue;
+            panelUnitRent.innerHTML = '$' + unitRentalValue + ' p/w';
+
+            description.innerHTML = descriptionString;
+
+            // var schoolsString = '';
+
+            // schoolsInfo.innerHTML = schoolsString;
 
 
+            // var transportString = '';
+
+            // transportInfo.innerHTML = transportString;
+
+            // stringHousePrice = document.getElementById('house-price').innerHTML;
+            // stringUnitPrice = document.getElementById('unit-price').innerHTML;
+            // stringSalary = document.getElementById('salary').innerHTML;
+            // stringTravelTime = document.getElementById('travel-time').innerHTML;
 
 
-
-            pricesInfo.innerHTML = pricesString;
-
-            var schoolsString = 'Primary schools in the area include Our Lady Of The Sacred Heart,[33] Coogee Public School,' +
-                '[34] Claremont College,[35] Randwick Public School,[36] Coogee Preparatory School,' +
-                '[37] The Joseph Varga School [38] and Rainbow Street Primary.[39] ' +
-                'Secondary schools include two systemic Catholic schools, Brigidine College and Marcellin College,' +
-                '[40] a Jewish day school Emanuel School [41] and three state schools, Randwick Boys High School,' +
-                '[42] Randwick Girls\' High School,[43] and the Open High School.[44] ' +
-                'Randwick North High School was closed in 2001 and the site was divided between Open High School and Randwick Public School.' +
-                'There are branch campuses of the University of New South Wales and Sydney Institute of TAFE located in the area.[45]';
-
-            schoolsInfo.innerHTML = schoolsString;
+            // document.getElementById('house-price').innerHTML = "";
+            // document.getElementById('unit-price').innerHTML = "";
+            // document.getElementById('salary').innerHTML = "";
+            // document.getElementById('travel-time').innerHTML = "";
 
 
-            var transportString = 'Randwick is currently only served by buses. ' +
-                'The main bus corridor is Belmore Rd with buses to Bondi Junction, ' +
-                'Burwood, Campsie, Coogee, Eastgardens, Maroubra, Sydney Airport and Sydney CBD.' +
-                'On 13 December 2012, the NSW Government announced a commitment to build the ' +
-                'CBD and South East Light Rail from Circular Quay down George Street to Central Station, ' +
-                'then across to Moore Park and down Anzac Parade. South of Moore Park the line will spit into two branches' +
-                ' - one of which will head to Randwick via Alison Road.[46] A bus/tram interchange will be established in Randwick' +
-                ' and many of the bus routes that currently traverse Anzac Parade to access the city would be replaced by feeder routes' +
-                ' connecting to the light rail.[47] In April 2014, Randwick City Council put forward a $68 million funding package' +
-                ' in its bid to force significant changes to the state government\'s tram line from Circular Quay to the eastern suburbs,' +
-                ' including Randwick suburb.[48]';
-
-            transportInfo.innerHTML = transportString;
-
-            contentString = document.getElementById('summary').innerHTML;
-            cmpContentString = document.getElementById('cmp-summary').innerHTML;
-            document.getElementById('summary').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // cmpContentString = document.getElementById('cmp-summary').innerHTML;
+            // document.getElementById('summary').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
         } else {
 
-            document.getElementById('summary').innerHTML = contentString;
-            document.getElementById('cmp-summary').innerHTML = cmpContentString;
+            $("#summary").css("display", "inline");
+            $("#detailed-info").css("display", "none");
 
-            pricesInfo.innerHTML = "";
-            schoolsInfo.innerHTML = "";
-            transportInfo.innerHTML = "";
+            $("#sidebar-wrapper").css({
+                "background-color": "rgb(60, 60, 60)",
+                "color": "#b5b5b7"
+            });
+
+
+
+
+            // $("#sidebar-wrapper").delay(500);
+            // $(".sidebar-open").css("display", "inline");
+
+            // document.getElementById('house-price').innerHTML = stringHousePrice;
+            // document.getElementById('unit-price').innerHTML = stringUnitPrice;
+            // document.getElementById('salary').innerHTML = stringSalary;
+            // document.getElementById('travel-time').innerHTML = stringTravelTime;
+
+            // document.getElementById('summary').innerHTML = contentString;
+            // document.getElementById('cmp-summary').innerHTML = cmpContentString;
+
+            // // pricesInfo.innerHTML = "";
+            // description.innerHTML = "";
+            // schoolsInfo.innerHTML = "";
+            // transportInfo.innerHTML = "";
         }
 
     });
 
     // When the user clicks on the checkbox the class cmpChecked will toggle on
-    $('input:checkbox[name=suburb]').click(function(event){
+    $('input:checkbox[name=suburb]').click(function(event) {
         $("#wrapper").toggleClass("cmpChecked");
         if (!$("#wrapper").hasClass('cmpChecked')) {
             $("#wrapper").removeClass("cmpSuburbClicked");
 
-            document.getElementById('cmp-suburb').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
+                lastClickedLayer = cmpLayer;
             }
-            lastClickedLayer = cmpLayer;
+            console.log(lastClickedLayer, cmpLayer);
         }
     });
 
-    $("#close-sidebar").click(function(event){
+    $("#close-sidebar").click(function(event) {
         event.preventDefault();
-        if ($("#wrapper").hasClass('cmpSuburbClicked')) {
+        // if ($("#wrapper").hasClass('cmpSuburbClicked')) {
+        if ($("#wrapper").hasClass('cmpChecked')) {
 
-            $("#wrapper").toggleClass("cmpSuburbClicked");
+            $("#wrapper").toggleClass("cmpChecked");
 
-            document.getElementById('cmp-suburb').innerHTML = "";
-            document.getElementById('cmp-summary').innerHTML = "";
+            // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+
+            // $("#wrapper").toggleClass("cmpSuburbClicked");
+
+            // document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
+            document.getElementById('cmp-suburb').innerHTML = "Select a Suburb";
+
+            document.getElementById('cmp-house-price').innerHTML = "<br>";
+            document.getElementById('cmp-house-rent').innerHTML = "<br>";
+
+            document.getElementById('cmp-unit-price').innerHTML = "<br>";
+            document.getElementById('cmp-unit-rent').innerHTML = "<br>";
+
+            document.getElementById('cmp-salary').innerHTML = "<br>";
+
+            document.getElementById('cmp-travel-time-private').innerHTML = "<br>";
+            document.getElementById('cmp-travel-time-public').innerHTML = "<br>";
             if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
+                lastClickedLayer = cmpLayer;
+                console.log("click here");
             }
-            lastClickedLayer = cmpLayer;
+            $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
+            $("#wrapper").toggleClass("clicked");
 
-        } else {
-            if ($("#wrapper").hasClass("cmpChecked")) {
-                $("#wrapper").toggleClass("cmpChecked");
-                $('#cmp-checkbox').attr('checked', false);
-            }
-            $("#wrapper").toggleClass("showSidebar");
-            lastClickedLayer.feature.setProperty('isColorful', false);
         }
+        // else {
+        //     // $("#wrapper").toggleClass("cmpChecked");
 
+        //     // if (!$("#wrapper").hasClass("cmpChecked")) {
+        //     //     $("#wrapper").toggleClass("cmpChecked");
+        //     //     $("#wrapper").removeClass("cmpSuburbClicked");
+
+
+
+        //     //     $('#cmp-checkbox').attr('checked', false);
+        //     // }
+        //     $("#wrapper").toggleClass("showSidebar");
+        //     lastClickedLayer.feature.setProperty('isColorful', false);
+        //     console.log(cmpLayer);
+        // }
         //$("#wrapper").removeClass('#page-content-toggle');
 
 
     });
 
+    $("#add-suburb").click(function(event) {
+        $(this).find('i').toggleClass('fa-plus').toggleClass('fa-times');
+        $("#wrapper").toggleClass("clicked");
+        // $("add-suburb").css("display", "none");
+
+        // IF !clicked that then you close this sidebar by replacing the data containe in it
+        if (!$("#wrapper").hasClass("clicked")) {
+
+            document.getElementById('suburb').innerHTML = document.getElementById('cmp-suburb').innerHTML;
+
+            document.getElementById('house-price').innerHTML = document.getElementById('cmp-house-price').innerHTML;
+            document.getElementById('house-rent').innerHTML = document.getElementById('cmp-house-rent').innerHTML;
+
+            document.getElementById('unit-price').innerHTML = document.getElementById('cmp-unit-price').innerHTML;
+            document.getElementById('unit-rent').innerHTML = document.getElementById('cmp-unit-rent').innerHTML;
+
+            document.getElementById('salary').innerHTML = document.getElementById('cmp-salary').innerHTML;
+
+            document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
+            document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
+            // $("#add-suburb").css("display", "none");
+            console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            if (lastClickedLayer == cmpLayer) {
+                $("#add-suburb").css("display", "none");
+                $("#wrapper").removeClass("showSidebar");
+
+            }
+        }
+
+        $("#wrapper").toggleClass("cmpChecked");
+        if (!$("#wrapper").hasClass('cmpChecked')) {
+            $("#wrapper").removeClass("cmpSuburbClicked");
+
+            // document.getElementById('cmp-suburb').innerHTML = "";
+            // document.getElementById('cmp-summary').innerHTML = "";
+            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+                lastClickedLayer.feature.setProperty('isColorful', false);
+            }
+            lastClickedLayer = cmpLayer;
+        }
+
+    });
+
+
+
+
     $('.carousel').carousel({
         interval: 6000
-    })
+    });
+
 
     $('ul.nav.nav-pills li a').click(function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
+    $('input:checkbox[name=lgd-checkbox0]').change(function(event) {
+        heatmaps[currHeatmap][0] += 1;
+        heatmaps[currHeatmap][0] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
 
-	$('input:checkbox[name=lgd-checkbox0]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox1]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox2]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox3]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox4]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox5]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox6]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
-	$('input:checkbox[name=lgd-checkbox7]').change(function(event){
-		if ($("#heatmap-housing").hasClass('selected')){
-			heatmapHousing();
-		}
-		if ($("#heatmap-schools").hasClass('selected')){
-			heatmapSchools();
-		}
-		if ($("#heatmap-transport").hasClass('selected')){
-			heatmapTransport();
-		}
-	});
+    });
+    $('input:checkbox[name=lgd-checkbox1]').change(function(event) {
+        heatmaps[currHeatmap][1] += 1;
+        heatmaps[currHeatmap][1] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox2]').change(function(event) {
+        heatmaps[currHeatmap][2] += 1;
+        heatmaps[currHeatmap][2] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox3]').change(function(event) {
+        heatmaps[currHeatmap][3] += 1;
+        heatmaps[currHeatmap][3] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox4]').change(function(event) {
+        heatmaps[currHeatmap][4] += 1;
+        heatmaps[currHeatmap][4] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox5]').change(function(event) {
+        heatmaps[currHeatmap][5] += 1;
+        heatmaps[currHeatmap][5] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox6]').change(function(event) {
+        heatmaps[currHeatmap][6] += 1;
+        heatmaps[currHeatmap][6] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+    $('input:checkbox[name=lgd-checkbox7]').change(function(event) {
+        heatmaps[currHeatmap][7] += 1;
+        heatmaps[currHeatmap][7] %= 2;
+        changeHeatmap(currHeatmap, heatmaps[currHeatmap]);
+    });
+
+    function replaceCheckboxes() {
+        if (heatmaps[currHeatmap][0] == 1) {
+            $('input:checkbox[name=lgd-checkbox0]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox0]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][1] == 1) {
+            $('input:checkbox[name=lgd-checkbox1]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox1]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][2] == 1) {
+            $('input:checkbox[name=lgd-checkbox2]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox2]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][3] == 1) {
+            $('input:checkbox[name=lgd-checkbox3]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox3]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][4] == 1) {
+            $('input:checkbox[name=lgd-checkbox4]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox4]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][5] == 1) {
+            $('input:checkbox[name=lgd-checkbox5]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox5]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][6] == 1) {
+            $('input:checkbox[name=lgd-checkbox6]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox6]').prop("checked", false);
+        }
+        if (heatmaps[currHeatmap][7] == 1) {
+            $('input:checkbox[name=lgd-checkbox7]').prop("checked", true);
+        } else {
+            $('input:checkbox[name=lgd-checkbox7]').prop("checked", false);
+        }
+    }
+
 });

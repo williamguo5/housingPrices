@@ -2,10 +2,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Roboto, Arial, sans-serif;
+
 }
 
 #map {
-    width: 100%;
+    width: 80%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -32,10 +34,13 @@ html, body {
 /* Sidebar */
 #sidebar-wrapper, #cmp-sidebar-wrapper{
     /*margin-left: -250px;*/
-    left: -20%;
+    left: 0%;
     width: 20%;
+    z-index: 1000;
     /*background: lightgrey;*/
-    background-color: white;
+    background-color: rgb(60, 60, 60);
+    color: #b5b5b7;
+
     position: fixed;
     height: 100%;
     overflow-y: auto;
@@ -46,19 +51,44 @@ html, body {
     -ms-transition:  all 0.5s ease ;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    font-size: 16px;
 
 }
+
+/*#cmp-sidebar-wrapper{
+    margin-left: -250px;
+    left: 0%;
+    width: 20%;
+    z-index: 1000;
+    background: lightgrey;
+    background-color: rgb(60, 60, 60);
+    color: #b5b5b7;
+
+    position: fixed;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 100;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -moz-transition: all 0.5s ease;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 16px;
+
+}*/
 
 #page-content-toggle {
     position: absolute;
     z-index: -1;
-    left: 0;
+    left: 20%;
     /*top: 50%;*/
     height: 100%;
     /*border: 1px solid black;*/
     /*background: #4099FF;*/
     border: transparent;
-    background: transparent;
+    /*background: transparent;*/
+    /*background: dodgerblue;*/
     /*transition-delay: 0.5s;*/
     -webkit-transition: left 0.5s ease;
     -moz-transition: left 0.5s ease;
@@ -71,7 +101,7 @@ html, body {
 }
 
 #page-content-toggle:hover {
-    background: #4099FF;
+    background: dodgerblue;
 }
 
 #close-sidebar {
@@ -80,7 +110,8 @@ html, body {
     top : 20px;
     background: transparent;
     border: transparent;
-    left: 0%;
+    /*left: 0%;*/
+    left: calc(40% - 45px);
 
     -webkit-transition: all 0.5s ease ;
     -moz-transition:  all 0.5s ease ;
@@ -91,28 +122,50 @@ html, body {
     outline: none;
 }
 
+#add-suburb {
+    position: absolute;
+    z-index: -1;
+    background: transparent;
+    border: transparent;
+    top: 20px;
+    left: calc(20% - 45px);
+    -webkit-transition: all 0.5s ease ;
+    -moz-transition:  all 0.5s ease ;
+    -ms-transition:  all 0.5s ease ;
+    -o-transition:  all 0.5s ease ;
+    transition:  all 0.5s ease ;
+    /*right : 10px;*/
+    outline: none;
+}
+
+#add-suburb.clicked:hover .colour {
+    color: red;
+}
+
 #suburb-hover {
     position: fixed;
     z-index: 100;
-    right: 5%;
-    width: 240px;
-    bottom: calc(13% + 250px);
-    height: 4%;
+    right: 50px;
+    width: 220px;
+    bottom: 320px;
+    height: 3.5rem;
     background: white;
     text-align: center;
     border: 1px solid black;
 }
 
 #title {
-	 position: fixed;
+    position: fixed;
     background: width;
-    right: 5%;
-    bottom: calc(9% + 239px);
-    width: 240px;
-	 z-index: 100;
-    height: 4%;
-	 text-align: center;
-    background: white;
+    right: 50px;
+    bottom: 264px;
+    width: 220px;
+    z-index: 100;
+    height: 40px;
+    min-height: 3.5rem;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+    color: #b5b5b7;
     border: 1px solid black;
 }
 
@@ -122,48 +175,202 @@ html, body {
     width: 80%;
 }
 
+#detailed-info {
+    /*visibility: hidden;*/
+    display: none;
+}
+#summary {
+    /*transition-delay: 1.0s;*/
+}
+
+.suburb-title {
+    /*padding-left: 2px;*/
+    color: white;
+    background: #006699;
+}
+
 #legend {
-	 padding-top: 20px;
-	 padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
     position: fixed;
-    background: white;
-    width: 240px;
+    background-color: rgb(60, 60, 60);
+    color: #b5b5b7;
+    width: 220px;
     height: 240px;
     z-index: 100;
-    right: 5%;
-    bottom: 9%;
+    right: 50px;
+    bottom: 24px;
     border: 1px solid black;
+    border-top: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+#description {
+    /*font-size: 28px;*/
+    font-family: Museo-Sans-500, sans-serif;
 }
 
 #lgd-checkbox {
 	float:right;
 }
 
-.legend-color-box {
-    height:20px;
-    width:20px;
-    border-radius:3px;
-    float:left;
-	 margin-left:10px;
-    border:1px solid black;
-    margin-right:6px;
+.heatmap-selected {
+    border-right: 10px solid white;
+    color: white;
+    /*background: dodgerblue;*/
+    background: #006699;
 }
 
+#house-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+
+}
+
+#house-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+
+}
+
+#unit-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+}
+
+#unit-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+}
+
+#travel-time-private::before {
+    content: "Private: ";
+    font-weight: bold;
+}
+
+#travel-time-public::before {
+    content: "Public: ";
+    font-weight: bold;
+}
+
+#cmp-house-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+
+}
+
+#cmp-house-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+
+}
+
+#cmp-unit-price::before {
+    content: "Buy: ";
+    font-weight: bold;
+}
+
+#cmp-unit-rent::before {
+    content: "Rent: ";
+    font-weight: bold;
+}
+
+#cmp-travel-time-private::before {
+    content: "Private: ";
+    font-weight: bold;
+}
+
+#cmp-travel-time-public::before {
+    content: "Public: ";
+    font-weight: bold;
+}
+
+.tab-content .col-md-6 {
+    border: 1px solid lightgrey;
+}
+
+.legend-color-box {
+    height:22px;
+    width:22px;
+    border-radius:0.8rem;
+    float:left;
+	margin-left:0px;
+    border:1px solid black;
+    margin-right:8px;
+}
+
+.sidebar-open .row.info {
+    padding: 0px 15px 0x 15px;
+    /*padding: 12px;*/
+    /*margin: 0;*/
+    font-size: 18px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-expanded .row.school-section {
+    background-color: lightgrey;
+}
+.sidebar-expanded .row.school-prim-sec {
+    font-size: 18px;
+    border-bottom: 1px solid lightgrey;
+
+}
+
+.sidebar-open .row.info .hover {
+    /*background: rgb(29, 29, 31);*/
+    /*color: dodgerblue;*/
+    /*background: #202020;*/
+    /*color: dodgerblue;*/
+    background: dodgerblue;
+    /*background: #006699;*/
+    color: white;
+    cursor: pointer;
+}
+
+.pos {
+    padding-bottom: 23px;
+}
 h2 {
     height: 50px;
 }
+
 .carousel {
     visibility: hidden;
 }
 
+.col-md-10 {
+    border-left: 1px solid lightgrey;
+    /*padding-bottom: 12px;*/
+    padding: 0px 0px 0px 0px;  
+
+}
+
+.col-md-10 h3 {
+    padding-left: 20px;
+}
+
+.col-md-10 span::before{
+    /*border-bottom: 1px solid lightgrey;*/
+    padding-left: 20px;
+}
+
+.col-md-2 .sidebar-open{
+    padding: 8px;
+}
 
 .size {
     font-size: 1.5em;
 }
 
 .size-close {
-    font-size: 2.0em;
+    font-size: 2.5em;
 
+}
+
+.size-plus {
+    font-size: 2.5em;
 }
 
 .col-style {
@@ -179,8 +386,8 @@ h2 {
 .divider {
     position:absolute;
     left: calc(100% - 1px);
-    top: 10px;
-    bottom: 10px;
+    /*top: 10px;*/
+    /*bottom: 10px;*/
     border-left:1px solid lightgrey;
     visibility: hidden;
     /*transition-delay: 0.5s;*/
@@ -206,10 +413,10 @@ h2 {
     visibility: hidden;
 }
 
-.container-fluid {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+.container-fluid.sidebar-expanded{
+    /*margin-top: 30px;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
     visibility: hidden;
 }
 
@@ -225,6 +432,11 @@ h2 {
 #legend .row {
     /*border: solid 1px red;*/
     height: 24px;
+}
+
+#legend .row .checkbox-highlighted {
+    color: white;
+    background-color: #006699;
 }
 
 .cont.sidebar-open {
@@ -299,15 +511,17 @@ h2 {
 /* IF the showSidebar is toggled on THEN
  *  set the width to 20 % AND add 20 px padding
  */
-#wrapper.showSidebar #sidebar-wrapper {
-    /*width: 20%;*/
+/*#wrapper.showSidebar #sidebar-wrapper {
+    width: 20%;
     z-index: 100;
     left: 0%;
 
-}
+}*/
 
 #wrapper.showSidebar .container-fluid.sidebar-open {
-    visibility: visible;
+    /*visibility: visible;*/
+    /*display: inline;
+    z-index: 1000;*/
     -webkit-transition: all 0.5s ease 0.5s;
     -moz-transition: all 0.5s ease 0.5s;
     -ms-transition: all 0.5s ease 0.5s;
@@ -323,14 +537,17 @@ h2 {
 
 #wrapper.showSidebar #page-content-toggle {
     /*border: 1px solid black;*/
-    background: lightskyblue;
+    /*background: #006699;*/
+    background: white;
     /*background: lightblue;*/
     left: 20%;
     z-index: 1000;
 }
 
 #wrapper.showSidebar #page-content-toggle:hover {
-    background: paleturquoise;
+    background: dodgerblue;
+    /*background: #006699;*/
+
     /*-webkit-transition: color 0.2s ease ;*/
     /*-moz-transition:  color 0.2s ease ;*/
     /*-ms-transition:  color 0.2s ease ;*/
@@ -339,15 +556,42 @@ h2 {
 }
 
 
-#wrapper.showSidebar #page-content-toggle:hover .colour {
+#wrapper.showSidebar #page-content-toggle:hover .expand-colour {
+    /*background: white;    */
     color: white;
 }
 
 #wrapper.showSidebar #close-sidebar {
-    z-index: 1000;
-    left: calc(20%- 45px);
+    /*z-index: 1000;*/
+    /*display: inline;*/
+    /*left: calc(20%- 45px);*/
 }
 
+#wrapper.showSidebar #add-suburb {
+    z-index: 1000;
+    display: inline;
+}
+
+#wrapper.showSidebar #add-suburb:hover .colour {
+    color: #7bc742;
+    /*background: white;*/
+}
+
+.center {
+
+    vertical-align: middle;
+    /*align-self:;*/
+}
+
+.colour {
+    color: white;
+}
+
+.expand-colour {
+    /*color: #006699;*/
+    color: dodgerblue;
+
+}
 #wrapper.showSidebar #close-sidebar:hover .colour{
     color: red;
 }
@@ -358,21 +602,23 @@ h2 {
     width: calc(80% - 32px);
 }
 
-#wrapper.cmpSuburbClicked #page-content-toggle {
+#wrapper.cmpChecked #page-content-toggle {
     left: 40%;
     right: auto;
 
 }
 
-#wrapper.cmpSuburbClicked #cmp-sidebar-wrapper {
-    left: 20%;
-    right: auto;
+#wrapper.cmpChecked #cmp-sidebar-wrapper {
+    /*left: 20%;*/
+    /*right: auto;*/
+    visibility: visible;
+    display: inline;
 
 }
 
 #wrapper.cmpSuburbClicked #close-sidebar {
     left: calc(40% - 45px);
-
+    z-index: 1000;
     /*right: auto;*/
 }
 
@@ -380,8 +626,12 @@ h2 {
     visibility: visible;
 }
 
-#wrapper.cmpSuburbClicked .divider {
-    /*transition-delay: 0.1s;*/
+
+#wrapper.cmpChecked #sidebar-wrapper {
+    border-right: 1px solid lightgrey;
+}
+/*#wrapper.cmpChecked .divider {
+    transition-delay: 0.1s;
     visibility: visible;
     -webkit-transition: all 0.5s ease 0.5s;
     -moz-transition: all 0.5s ease 0.5s;
@@ -389,14 +639,14 @@ h2 {
     -o-transition: all 0.5s ease 0.5s;
     transition: all 0.5s ease 0.5s;
 
-}
+}*/
 
 #wrapper.cmpChecked .close-sidebar{
     right : 10px;
 
 }
 
-#wrapper.cmpSuburbClicked #map {
+#wrapper.cmpChecked #map {
     width: calc(60% - 24px);
 }
 
@@ -415,6 +665,9 @@ h2 {
 
 }
 
+#wrapper.clicked #add-suburb:hover .colour {
+    color: red;
+}
 /* IF the sidebar is showing THEN
  * the button will become visible
  */
@@ -495,7 +748,17 @@ h2 {
     background-color:#019ad2;
 }
 
+.checkbox-label {
+    padding-left: 5px;
+}
 
+.checkbox-label.highlight-text{
+    color: white;
+}
+
+.checkbox-highlight {
+    background-color: #006699;
+}
 
 .controls {
   margin-top: 10px;
@@ -537,4 +800,11 @@ h2 {
     font-family: Roboto;
     font-size: 13px;
     font-weight: 300;
+}
+
+.highlight-heatmap-button {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
 }

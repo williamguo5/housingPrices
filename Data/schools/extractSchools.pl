@@ -18,7 +18,7 @@ foreach my $file (glob "pages/*.html") {
 	my $address = "";
 	my $type = "";
 	my $description = "";
-	
+
 
 	while (<F>) {
 		if (m/There was an error locating the location you chose/i) {
@@ -56,7 +56,7 @@ foreach my $file (glob "pages/*.html") {
 		##### Description #####
 		if ($descFlag) {
 			chomp $_;
-			
+
 			$description = "$_";
 			$description =~ s/<.*$//;
 			$description =~ s/^\s+//;
@@ -105,6 +105,7 @@ foreach my $file (glob "pages/*.html") {
 
 				if ($type =~ m/([a-z]+\-denominational|anglican|catholic|christian|islamic|jewish|presbyterian|seventh day adventist|uniting church|[a-z]+ Orthodox|baptist|church of england|assyrian|multi-faith)/i) {
 					$religion = $1;
+					$religion =~ s/[a-z]+\-denominational/None/i;
 				}
 
 				if ($type =~ m/(co[\-]?ed|girls|boys)/i) {
@@ -117,13 +118,13 @@ foreach my $file (glob "pages/*.html") {
 				if ($address =~ m/NSW/i) {
 					# Print line to file
 					if ($school eq "") {
-						print "FUDGELYKLES $suburbName\n"
+						print "FUDGELYKLES $suburbName\n";
 					}
 					if ($type eq "") {
-						print "DO A BARREL ROLL $suburbName\n"
+						print "DO A BARREL ROLL $suburbName\n";
 					}
 					if ($address eq "") {
-						print "NO $suburbName\n"
+						print "NO $suburbName\n";
 					}
 					print CSV "$rank|$school|$isGovernment|$isPrimary|$isSecondary|$religion|$gender|$street|$suburbName|$state|$postcode|$description\n";
 				}
@@ -131,7 +132,7 @@ foreach my $file (glob "pages/*.html") {
 				$addressFlag = FALSE;
 				$schoolFlag = FALSE;
 				$descFlag = FALSE;
-				
+
 				# Reset variables
 				$school = "";
 				$address = "";
@@ -145,7 +146,7 @@ foreach my $file (glob "pages/*.html") {
 			next;
 		}
 	}
-	
+
 	close F;
 }
 close CSV;
@@ -209,6 +210,6 @@ sub findSchoolRank {
 		$subRank = -1;
 	}
 	close SCHOOL;
-	
+
 	return $subRank;
 }
