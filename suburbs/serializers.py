@@ -21,8 +21,4 @@ class SuburbSerializer(serializers.ModelSerializer):
 class SimpleSuburbSerializer(serializers.ModelSerializer):
     class Meta:
         model = Suburb
-<<<<<<< HEAD
-        fields = ('name', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription')
-=======
         fields = ('name', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription', 'suburbImages')
->>>>>>> master
