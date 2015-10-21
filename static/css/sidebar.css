@@ -310,9 +310,9 @@ html, body {
     align-items: center;
 }
 
-.sidebar-expanded .row.school-section {
+/*.sidebar-expanded .row.school-section {
     background-color: lightgrey;
-}
+}*/
 .sidebar-expanded .row.school-prim-sec {
     font-size: 18px;
     border-bottom: 1px solid lightgrey;
