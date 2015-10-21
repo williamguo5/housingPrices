@@ -42,7 +42,7 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="house-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="house-price" class="highlight-heatmap-button heatmap-selected" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
                             <span id="house-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Average Salary</h3>
-                            <span id="salary"><br></span>
+                            <span id="salary" style="padding-left: 20px"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -186,12 +186,12 @@
                 <div class="row school-section">
                     <div class="container">
                         <div class="row school-prim-sec">
-                            <div class="col-md-6">
+                     <!--        <div class="col-md-6">
                                 <h2 style="text-align: center">Primary</h2>
                             </div>
                             <div class="col-md-6">
                                 <h2 style="text-align: center">Secondary</h2>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="row">
                             <div class="col-md-6 primary-section">
@@ -223,8 +223,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
-                            <span id="cmp-house-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-house-price')" onmouseout="mouseOutSpan('#cmp-house-price')" onclick="changeHeatmap('housePrice')"><br></span>
-                            <span id="cmp-house-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-house-rent')" onmouseout="mouseOutSpan('#cmp-house-rent')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
+                            <span id="cmp-house-price" class="highlight-heatmap-button heatmap-selected" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <span id="cmp-house-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -234,8 +234,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
-                            <span id="cmp-unit-price" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-unit-price')" onmouseout="mouseOutSpan('#cmp-unit-price')" onclick="changeHeatmap('unitPrice')"><br></span>
-                            <span id="cmp-unit-rent" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-unit-rent')" onmouseout="mouseOutSpan('#cmp-unit-rent')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
+                            <span id="cmp-unit-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <span id="cmp-unit-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -244,7 +244,7 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Average Salary</h3>
-                            <span id="cmp-salary"><br></span>
+                            <span id="cmp-salary" style="padding-left: 20px"><br></span>
                         </div>
                     </div>
                     <div class="row info">
@@ -253,8 +253,8 @@
                         </div>
                         <div class="col-md-10">
                             <h3>Travel Time</h3>
-                            <span id="cmp-travel-time-private" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-travel-time-private')" onmouseout="mouseOutSpan('#cmp-travel-time-private')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
-                            <span id="cmp-travel-time-public" class="highlight-heatmap-button" onmouseover="mouseOverSpan('#cmp-travel-time-public')" onmouseout="mouseOutSpan('#cmp-travel-time-public')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
+                            <span id="cmp-travel-time-private" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <span id="cmp-travel-time-public" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
                         </div>
                     </div>
                 </div>

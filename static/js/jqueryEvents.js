@@ -42,7 +42,8 @@ $(document).ready(function() {
             $("#summary").css("display", "none");
 
             var descriptionString = suburbData[lastClickedSuburbIndex].description;
-            var suburbName = suburbData[lastClickedSuburbIndex].name.replace(/ /g, "_");
+            var suburbName = suburbData[lastClickedSuburbIndex].name;
+            suburbName = suburbName.replace(/ /g, "_");
 
             var panelHousePrice = document.getElementById('panel-house-price');
             var panelHouseRent = document.getElementById('panel-house-rent');
@@ -232,6 +233,9 @@ $(document).ready(function() {
         }
 
     });
+
+
+
 
     $('.carousel').carousel({
         interval: 6000
