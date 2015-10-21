@@ -13,6 +13,7 @@ wages_filepathname=dirName + "/Data/wages.csv"
 descriptions_filepathname=dirName + "/Data/suburbDescriptions.txt"
 hospitals_filepathname=dirName + "/Data/hospitals/hospitals.csv"
 suburbImages_filepathname=dirName + "/Data/suburbImages/suburbImages.csv"
+age_filepathname=dirName + "/Data/age.csv"
 
 sys.path.append(dirName)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'HouseLife.settings'
@@ -20,7 +21,7 @@ import django
 django.setup()
 
 
-from suburbs.models import Hospital, School, Suburb
+from suburbs.models import Hospital, School, Suburb, AgePop
 import csv,math,re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
@@ -102,3 +103,23 @@ for row in suburbImagesReader:
     for i in range(1, len(row)):
         suburb.suburbImages.append(row[i])
     suburb.save()
+
+ageReader = csv.reader(open(age_filepathname), delimiter=',', quotechar='"')
+next(ageReader, None)
+for row in ageReader:
+    suburbs = Suburb.objects.filter(name__iexact=row[0])
+    if suburbs.count() > 0:
+        agePop = AgePop.objects.create(
+            zeroToTen = row[1],
+            tenToNineteen = row[2],
+            twentyToTwentyNine = row[3],
+            thirtyToThirtyNine = row[4],
+            fortyToFortyNine = row[5],
+            fiftyToFiftyNine = row[6],
+            sixtyToSixtyNine = row[7],
+            seventyToSeventyNine = row[8],
+            eightyPlus = row[9]
+            )
+        suburb = suburbs[0]
+        suburb.ageDistribution.add(agePop)
+        suburb.save()

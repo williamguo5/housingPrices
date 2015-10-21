@@ -1,6 +1,21 @@
 from django.db import models
 from django.contrib.postgres.fields import ArrayField
 
+class AgePop(models.Model):
+    zeroToTen = models.IntegerField(default=0)
+    tenToNineteen = models.IntegerField(default=0)
+    twentyToTwentyNine = models.IntegerField(default=0)
+    thirtyToThirtyNine = models.IntegerField(default=0)
+    fortyToFortyNine = models.IntegerField(default=0)
+    fiftyToFiftyNine = models.IntegerField(default=0)
+    sixtyToSixtyNine = models.IntegerField(default=0)
+    seventyToSeventyNine = models.IntegerField(default=0)
+    eightyPlus = models.IntegerField(default=0)
+
+    class Meta:
+        ordering = ('zeroToTen',)
+
+
 class Hospital(models.Model):
     name = models.CharField(max_length=100)
     street = models.CharField(max_length=100)
@@ -40,6 +55,7 @@ class Suburb(models.Model):
     hospitals = models.ManyToManyField(Hospital, blank=True)
     schools = models.ManyToManyField(School, blank=True)
     suburbImages = ArrayField(models.CharField(max_length=2000), default=[])
+    ageDistribution = models.ManyToManyField(AgePop, blank=True)
 
     class Meta:
         ordering = ('name',)

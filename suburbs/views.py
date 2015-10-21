@@ -127,6 +127,16 @@ def hospitals_table(request, name, format=None):
     hospitals = suburb.hospitals.all().order_by('name')
     return render_to_response('hospitalsTable.html', {'hospitals': hospitals, 'suburb': suburb.name, 'postcode': suburb.postcode})
 
+@api_view(['GET'])
+def age_chart(request, name, format=None):
+    name = re.sub('_', ' ', name)
+
+    suburb = Suburb.objects.get(name__iexact=name)
+    if suburb.ageDistribution.all().count() > 0:
+        agePop = suburb.ageDistribution.all()[0]
+    else:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+    return render_to_response('ageChart.html', {'age': agePop, 'name': suburb.name})
 
 
 def getBoolValue(val):

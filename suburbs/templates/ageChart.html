@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Age Group', 'Number of People'],
+          ['0-9',   {{age.zeroToTen}}],
+          ['10-19', {{age.tenToNineteen}}],
+          ['20-29', {{age.twentyToTwentyNine}}],
+          ['30-39', {{age.thirtyToThirtyNine}}],
+          ['40-49', {{age.fortyToFortyNine}}],
+          ['50-59', {{age.fiftyToFiftyNine}}],
+          ['60-69', {{age.sixtyToSixtyNine}}],
+          ['70-79', {{age.seventyToSeventyNine}}],
+          ['80+', {{age.eightyPlus}}],
+        ]);
+
+        var options = {
+          title: '% Population Per Age Group',
+          pieHole: 0.4,
+          chartArea:{left:0,top:50,width:'100%',height:'100%'},
+          fontSize: 25,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="donutchart" style="width: 1400px; height: 800px; align: middle;"></div>
+  </body>
+</html>

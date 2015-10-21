@@ -378,5 +378,4 @@ $(document).ready(function() {
             $('input:checkbox[name=lgd-checkbox7]').prop("checked", false);
         }
     }
-
 });
