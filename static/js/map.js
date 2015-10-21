@@ -627,7 +627,6 @@ function changeLegendText(heatmap) {
 
 
 function mouseOverSpan(spanId) {
-    console.log(spanId)
     $(spanId).addClass('hover');
 }
 
