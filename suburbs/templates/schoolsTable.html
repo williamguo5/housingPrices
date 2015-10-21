@@ -22,17 +22,17 @@
             {% else %}
             <td>{{school.rank}}</td>
             {% endif %} {% if school.government %}
-            <td><span class="label label-default" style="background-color:#ffb81c">Public</span></td>
+            <td><span class="label label-default" style="background-color:#E6A619; font-size:95%; line-height:2">Public</span></td>
             {% else %}
-            <td><span class="label label-default" style="background-color:#675089">Private</span></td>
+            <td><span class="label label-default" style="background-color:#675089; font-size:95%; line-height:2">Private</span></td>
             {% endif %}
             <td>{{school.religion|title}}</td>
             {% if school.gender == "Boys" %}
-            <td><span class="label label-default" style="background-color:#2896db">{{school.gender}}</span></td>
+            <td><span class="label label-default" style="background-color:#2896db; font-size:95%; line-height:2">{{school.gender}}</span></td>
             {% elif school.gender == "Girls" %}
-            <td><span class="label label-default" style="background-color:#b42b70">{{school.gender}}</span></td>
+            <td><span class="label label-default" style="background-color:#b42b70; font-size:95%; line-height:2">{{school.gender}}</span></td>
             {% else %}
-            <td><span class="label label-default" style="background-color:#3e8400">{{school.gender}}</span></td>
+            <td><span class="label label-default" style="background-color:#3e8400; font-size:95%; line-height:2">{{school.gender}}</span></td>
             {% endif %}
             <td>{{school.street}}, {{suburb|title}}, {{postcode}}</td>
         </tr>
