@@ -247,22 +247,17 @@ function initMap() {
                 break;
             }
         }
-        // var housePriceHrefLink = getBuyHouseURL();
-        // var houseRentHrefLink = getRentHouseURL();
-        // var unitPriceHrefLink = getBuyUnitURL();
-        // var unitRentHrefLink = getRentUnitURL();
 
-        var housePriceHrefLink = getExtURL("houseBuy");
-        var houseRentHrefLink = getExtURL("houseRent");
-        var unitPriceHrefLink = getExtURL("unitBuy");
-        var unitRentHrefLink = getExtURL("unitRent");
-        
+        var housePriceHrefLink = getBuyHouseURL();
+        var houseRentHrefLink = getRentHouseURL();
+        var unitPriceHrefLink = getBuyUnitURL();
+        var unitRentHrefLink = getRentUnitURL();
+
         $("#house-price-redirect").attr('href', housePriceHrefLink);
         $("#house-rent-redirect").attr('href', houseRentHrefLink);
 
         $("#unit-price-redirect").attr('href', unitPriceHrefLink);
         $("#unit-rent-redirect").attr('href', unitRentHrefLink);
-
 
         //Formatting the sidebar section
         if (housePriceValue == 0) {
@@ -318,7 +313,10 @@ function initMap() {
                 $("#wrapper").toggleClass("cmpSuburbClicked");
             }
 
-            // console.log("IM HERE!!!" + $("#wrapper").hasClass("cmpSuburbClicked"));
+            $("#close-sidebar").css("display", "inline");
+
+
+            console.log("IM HERE!!!" + $("#wrapper").hasClass("cmpSuburbClicked"));
 
 
             isChecked = true;
@@ -382,7 +380,7 @@ function initMap() {
                 cmpSalaryValue = '$' + cmpSalaryValue + ' p/a';
             }
 
-            // console.log(cmpSuburbIndex);
+            console.log(cmpSuburbIndex);
 
             if (Math.abs(suburbData[i].housePrice - suburbData[cmpSuburbIndex].housePrice) < 100000) {
                 inRange = true;
@@ -392,11 +390,11 @@ function initMap() {
             // GREEN = Less expensive
             if (!inRange) {
                 if (suburbData[i].housePrice < suburbData[cmpSuburbIndex].housePrice) {
-                    // console.log("I AM GREEN");
+                    console.log("I AM GREEN");
                     tempHousePriceString = '<span style="color: #7bc742;">' + housePriceValue + '</span>' + '<br>';
                     tempHousePriceStringCmp = '<span style="color: #af100a;">' + cmpHousePriceValue + '</span>' + '<br>';
                 } else {
-                    // console.log("I AM RED");
+                    console.log("I AM RED");
 
                     tempHousePriceString = '<span style="color: #af100a;">' + housePriceValue + '</span>' + '<br>';
                     tempHousePriceStringCmp = '<span style="color: #7bc742;">' + cmpHousePriceValue + '</span>' + '<br>';
@@ -417,14 +415,14 @@ function initMap() {
             // Comparing house rent prices
             if (!inRange) {
                 if (suburbData[i].houseRentalPrice < suburbData[cmpSuburbIndex].houseRentalPrice) {
-                    // console.log("I AM GREEN");
+                    console.log("I AM GREEN");
                     tempHouseRentString += '<span style="color: #7bc742;">' + houseRentalValue + '</span>';
                     tempHouseRentStringCmp += '<span style="color: #af100a;">' + cmpHouseRentalValue + '</span>';
 
 
 
                 } else {
-                    // console.log("I AM RED");
+                    console.log("I AM RED");
 
                     tempHouseRentString += '<span style="color: #af100a;">' + houseRentalValue + '</span>';
                     tempHouseRentStringCmp += '<span style="color: #7bc742;">' + cmpHouseRentalValue + '</span>';
@@ -444,12 +442,12 @@ function initMap() {
 
             if (!inRange) {
                 if (suburbData[i].unitPrice < suburbData[cmpSuburbIndex].unitPrice) {
-                    // console.log("I AM GREEN");
+                    console.log("I AM GREEN");
                     tempUnitPriceString += '<span style="color: #7bc742;">' + unitPriceValue + '</span>' + '<br>';
                     tempUnitPriceStringCmp += '<span style="color:  #af100a;">' + cmpUnitPriceValue + '</span>' + '<br>';
 
                 } else {
-                    // console.log("I AM RED");
+                    console.log("I AM RED");
 
                     tempUnitPriceString += '<span style="color: #af100a;">' + unitPriceValue + '</span>' + '<br>';
                     tempUnitPriceStringCmp += '<span style="color: #7bc742;">' + cmpUnitPriceValue + '</span>' + '<br>';
@@ -469,12 +467,12 @@ function initMap() {
 
             if (!inRange) {
                 if (suburbData[i].unitRentalPrice < suburbData[cmpSuburbIndex].unitRentalPrice) {
-                    // console.log("I AM GREEN");
+                    console.log("I AM GREEN");
                     tempUnitRentString += '<span style="color: #7bc742;">' + unitRentalValue + '</span>';
                     tempUnitRentStringCmp += '<span style="color: #af100a;">' + cmpUnitRentalValue + '</span>';
 
                 } else {
-                    // console.log("I AM RED");
+                    console.log("I AM RED");
 
                     tempUnitRentString += '<span style="color: #af100a;">' + unitRentalValue + '</span>';
                     tempUnitRentStringCmp += '<span style="color: #7bc742;">' + cmpUnitRentalValue + '</span>';
@@ -538,14 +536,10 @@ function initMap() {
 
             lastClickedLayer.feature.setProperty('isColorful', false);
         }
-        
-        if (!$("#wrapper").hasClass("cmpChecked")){
-            console.log("wrapper - cmp not checked");
-        }
-        if (lastClickedLayer == undefined || !$("#wrapper").hasClass("cmpChecked") || event.feature.getProperty('name') != cmpLayer.feature.getProperty('name')){
-            lastClickedLayer = event;
-            event.feature.setProperty('isColorful', true);
-        }
+
+        lastClickedLayer = event;
+        event.feature.setProperty('isColorful', true);
+
 
         // Checks the state of the class showSidebar
         // If the it is not toggled, then it will be toggled as the map layer has been clicked
@@ -553,10 +547,6 @@ function initMap() {
             $("#wrapper").toggleClass("showSidebar");
             $("#wrapper").toggleClass("showClose");
         }
-
-       console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),
-        "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
-        map.data.revertStyle();
         // map.data.revertStyle();
     });
     map.data.addListener('mouseover', function(event) {
@@ -705,20 +695,44 @@ function capitaliseFirstLetter(string) {
     });
 }
 
-var urlType = {
-    "houseBuy": "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=",
-    "houseRent": "http://www.domain.com.au/search/rent/property/types/house/state/nsw/?searchterm=",
-    "unitBuy": "http://www.domain.com.au/search/buy/property/types/apartment-unit-flat/state/nsw/?searchterm=",
-    "unitRent": "http://www.domain.com.au/search/rent/property/types/apartment-unit-flat/state/nsw/?searchterm=",
-}
-
-
-function getExtURL(type){
-    var URL = urlType[type];
+function getBuyHouseURL() {
+    var URL = "http://www.domain.com.au/search/buy/property/types/house/state/nsw/?searchterm=";
     var suburb = suburbData[lastClickedSuburbIndex].name;
     suburb = suburb.toLowerCase();
     suburb = suburb.replace(/\s/g, "-");
     URL += suburb;
     URL += "%2C+nsw";
     return URL;
+}
+
+function getRentHouseURL() {
+    var URL = "http://www.domain.com.au/search/rent/property/types/house/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+
+}
+
+function getBuyUnitURL() {
+    var URL = "http://www.domain.com.au/search/buy/property/types/apartment-unit-flat/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+}
+
+function getRentUnitURL() {
+    var URL = "http://www.domain.com.au/search/rent/property/types/apartment-unit-flat/state/nsw/?searchterm=";
+    var suburb = suburbData[lastClickedSuburbIndex].name;
+    suburb = suburb.toLowerCase();
+    suburb = suburb.replace(/\s/g, "-");
+    URL += suburb;
+    URL += "%2C+nsw";
+    return URL;
+
 }

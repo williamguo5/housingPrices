@@ -149,7 +149,8 @@ html, body {
     width: 220px;
     bottom: 320px;
     height: 3.5rem;
-    background: white;
+    background: rgb(60, 60, 60);
+    color: #b5b5b7;
     text-align: center;
     border: 1px solid black;
 }
@@ -215,7 +216,7 @@ html, body {
 }
 
 .heatmap-selected {
-    border-right: 10px solid white;
+    /*border-right: 10px solid white;*/
     color: white;
     /*background: dodgerblue;*/
     background: #006699;
@@ -611,12 +612,13 @@ h2 {
  * Set the map width to be 80%
  */
 #wrapper.showSidebar #map {
-    width: calc(80% - 32px);
+    width: calc(80% - 36px);
 }
 
 #wrapper.cmpChecked #page-content-toggle {
-    left: 40%;
-    right: auto;
+    /*left: 40%;*/
+    /*right: auto;*/
+    display: none;
 
 }
 
@@ -659,7 +661,7 @@ h2 {
 }
 
 #wrapper.cmpChecked #map {
-    width: calc(60% - 24px);
+    width: 60%;
 }
 
 #wrapper.cmpSuburbClicked.sidebarExpanded .divider {

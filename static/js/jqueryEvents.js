@@ -105,7 +105,7 @@ $(document).ready(function() {
 
             // console.log($("wrapper").hasClass("cmpSuburbClicked"));
 
-            // $("#wrapper").toggleClass("cmpSuburbClicked");
+            $("#wrapper").removeClass("cmpSuburbClicked");
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
@@ -128,7 +128,7 @@ $(document).ready(function() {
             }
             $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
             $("#wrapper").toggleClass("clicked");
-
+            $("#close-sidebar").css("display", "none");
         }
         // else {
         //     // $("#wrapper").toggleClass("cmpChecked");
@@ -171,44 +171,30 @@ $(document).ready(function() {
             document.getElementById('travel-time-private').innerHTML = document.getElementById('cmp-travel-time-private').innerHTML;
             document.getElementById('travel-time-public').innerHTML = document.getElementById('cmp-travel-time-public').innerHTML;
             // $("#add-suburb").css("display", "none");
-            // console.log($("wrapper").hasClass("cmpSuburbClicked"));
+            console.log($("wrapper").hasClass("cmpSuburbClicked"));
             if (lastClickedLayer == cmpLayer) {
                 $("#add-suburb").css("display", "none");
                 $("#wrapper").removeClass("showSidebar");
 
             }
-            console.log("inner X clicked");
-           
-            // lastClickedLayer = cmpLayer;
-            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
-                // cmpLayer.feature.setProperty('isColorful', false);
-                // lastClickedLayer.feature.setProperty('isColorful', true);
-                // console.log("")
-                // var temp = cmpLayer;
-                // lastClickedLayer = temp;
-                lastClickedLayer = cmpLayer;
-                cmpLayer = undefined;
-               // console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'),"lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
-            }
-            // console.log("cmpLayer: ", cmpLayer.feature.getProperty('name'), "lastClickedLayer: ", lastClickedLayer.feature.getProperty('name'));
-            // changeHeatmap(currHeatmap);
-            // map.data.revertStyle();
         }
 
         $("#wrapper").toggleClass("cmpChecked");
-        
         if (!$("#wrapper").hasClass('cmpChecked')) {
             $("#wrapper").removeClass("cmpSuburbClicked");
 
             // document.getElementById('cmp-suburb').innerHTML = "";
             // document.getElementById('cmp-summary').innerHTML = "";
-            if (cmpLayer == undefined || cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
+            if (cmpLayer.feature.getProperty('name') != lastClickedLayer.feature.getProperty('name')) {
                 lastClickedLayer.feature.setProperty('isColorful', false);
             }
             lastClickedLayer = cmpLayer;
         }
 
     });
+
+
+
 
     $('.carousel').carousel({
         interval: 6000
