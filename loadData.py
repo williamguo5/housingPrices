@@ -12,6 +12,7 @@ travel_filepathname=dirName + "/Data/travel/travel.csv"
 wages_filepathname=dirName + "/Data/wages.csv"
 descriptions_filepathname=dirName + "/Data/suburbDescriptions.txt"
 hospitals_filepathname=dirName + "/Data/hospitals/hospitals.csv"
+suburbImages_filepathname=dirName + "/Data/suburbImages/suburbImages.csv"
 
 sys.path.append(dirName)
 os.environ['DJANGO_SETTINGS_MODULE'] = 'HouseLife.settings'
@@ -19,7 +20,7 @@ import django
 django.setup()
 
 
-from suburbs.models import Hospital, School, Suburb
+from suburbs.models import Hospital, School, Suburb, SuburbImages
 import csv,math,re
 
 realEstateReader = csv.reader(open(realEstate_filepathname), delimiter=',', quotechar='"')
@@ -94,3 +95,11 @@ for row in schoolReader:
     suburb = Suburb.objects.get(name__iexact=row[8])
     suburb.schools.add(school)
     suburb.save()
+
+suburbImagesReader = csv.read(open(suburbImages_filepathname), delimiter=',', quotechar='"')
+next(suburbImagesReader, None)
+for row in schoolReader:
+    suburb = Suburb.objects.create(
+        name = row[0],
+        images = [1:]
+    }

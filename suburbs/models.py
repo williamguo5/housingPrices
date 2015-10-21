@@ -1,5 +1,17 @@
 from django.db import models
+from django.contrib.postgres.fields import ArrayField
 
+class SuburbImages(models.Model):
+    name = models.CharField(max_length=100)
+    imageUrl = ArrayField(
+        models.CharField(max_length=3000, blank=True),
+        size=8,
+        )
+    
+    class Meta:
+        ordering = ('name',)
+
+    
 class Hospital(models.Model):
     name = models.CharField(max_length=100)
     street = models.CharField(max_length=100)
