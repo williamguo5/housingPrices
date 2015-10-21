@@ -438,7 +438,7 @@ function initMap() {
             }
 
             // Comparing unit prices
-            if (Math.abs(suburbData[i].unitPrice - suburbData[cmpSuburbIndex].unitPrice) < 100000 &&
+            if (Math.abs(suburbData[i].unitPrice - suburbData[cmpSuburbIndex].unitPrice) < 75000 &&
                 suburbData[i].unitPrice > 0 && suburbData[cmpSuburbIndex].unitPrice > 0) {
                 inRange = true;
             }

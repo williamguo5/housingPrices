@@ -129,7 +129,7 @@ $(document).ready(function() {
             $("#add-suburb").find('i').toggleClass('fa-plus').toggleClass('fa-times');
             $("#wrapper").toggleClass("clicked");
             $("#close-sidebar").css("display", "none");
-        } else {
+
             var housePriceValue = (suburbData[cmpSuburbIndex].housePrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var houseRentalValue = (suburbData[cmpSuburbIndex].houseRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitPriceValue = (suburbData[cmpSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -196,7 +196,7 @@ $(document).ready(function() {
             var unitPriceValue = (suburbData[lastClickedSuburbIndex].unitPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var unitRentalValue = (suburbData[lastClickedSuburbIndex].unitRentalPrice).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
             var salaryValue = (suburbData[lastClickedSuburbIndex].averageSalary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-
+            console.log("<<<<<<<<<<<<<<<<");
             if (housePriceValue == 0) {
                 housePriceValue = 'n/a';
             } else {

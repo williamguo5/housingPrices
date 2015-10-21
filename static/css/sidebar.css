@@ -361,6 +361,10 @@ h2 {
     padding: 8px;
 }
 
+/*.col-md-2 span{
+    color: dodgerblue;
+}*/
+
 .size {
     font-size: 1.5em;
 }
@@ -821,4 +825,8 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
     display: block;
+}
+
+.salary-col {
+    padding-bottom: 5px;
 }
