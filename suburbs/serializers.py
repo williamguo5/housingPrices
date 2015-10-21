@@ -25,7 +25,6 @@ class SuburbSerializer(serializers.ModelSerializer):
         fields = ('name', 'state', 'postcode', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription', 'hospitals', 'schools', 'suburbImages', 'ageDistribution')
 
 class SimpleSuburbSerializer(serializers.ModelSerializer):
-    ageDistribution = AgePopSerializer(many=True, read_only=True)
     class Meta:
         model = Suburb
         fields = ('name', 'housePrice', 'houseRentalPrice', 'unitPrice', 'unitRentalPrice', 'timeToCbdPublic', 'timeToCbdPrivate', 'averageSalary', 'description', 'longDescription', 'suburbImages')
