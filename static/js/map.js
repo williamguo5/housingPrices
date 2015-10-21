@@ -694,7 +694,11 @@ function replaceCheckboxes() {
 function toggleCheckbox(checkboxId){
     console.log(checkboxId);
     if (checkboxId == 9){
-        heatmaps[currHeatmap] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+        if (heatmaps[currHeatmap][checkboxId] == 0){
+            heatmaps[currHeatmap] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+        }else{
+            heatmaps[currHeatmap] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        }
     }else{
         heatmaps[currHeatmap][9] = 0;
         heatmaps[currHeatmap][checkboxId] += 1;
