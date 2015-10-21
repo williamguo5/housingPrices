@@ -1,0 +1,24 @@
+<!-- Default panel contents -->
+<div class="panel-heading">
+    <h3>Hospitals</h3></div>
+<!-- Table -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Local Health District</th>
+            <th>Phone</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for hospital in hospitals %}
+        <tr>
+            <td>{{hospital.name}}</td>
+            <td>{{hospital.lhd}}</td>
+            <td>{{hospital.phone}}</td>
+            <td>{{hospital.street}}, {{suburb|title}}, {{postcode}}</td>
+        </tr>
+    </tbody>
+    {% endfor %}
+</table>

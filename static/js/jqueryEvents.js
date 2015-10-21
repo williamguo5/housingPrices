@@ -57,6 +57,7 @@ $(document).ready(function() {
 
             $("#primary-school-table").load("../schoolTable/" + suburbName + "?primary=True");
             $("#secondary-school-table").load("../schoolTable/" + suburbName + "?secondary=True");
+            $("#hospital-table").load("../hospitalsTable/" + suburbName);
 
             panelHousePrice.innerHTML = '$' + housePriceValue;
             panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
@@ -65,30 +66,6 @@ $(document).ready(function() {
 
             description.innerHTML = descriptionString;
 
-            // var schoolsString = '';
-
-            // schoolsInfo.innerHTML = schoolsString;
-
-
-            // var transportString = '';
-
-            // transportInfo.innerHTML = transportString;
-
-            // stringHousePrice = document.getElementById('house-price').innerHTML;
-            // stringUnitPrice = document.getElementById('unit-price').innerHTML;
-            // stringSalary = document.getElementById('salary').innerHTML;
-            // stringTravelTime = document.getElementById('travel-time').innerHTML;
-
-
-            // document.getElementById('house-price').innerHTML = "";
-            // document.getElementById('unit-price').innerHTML = "";
-            // document.getElementById('salary').innerHTML = "";
-            // document.getElementById('travel-time').innerHTML = "";
-
-
-            // cmpContentString = document.getElementById('cmp-summary').innerHTML;
-            // document.getElementById('summary').innerHTML = "";
-            // document.getElementById('cmp-summary').innerHTML = "";
         } else {
 
             $("#summary").css("display", "inline");
@@ -98,25 +75,6 @@ $(document).ready(function() {
                 "background-color": "rgb(60, 60, 60)",
                 "color": "#b5b5b7"
             });
-
-
-
-
-            // $("#sidebar-wrapper").delay(500);
-            // $(".sidebar-open").css("display", "inline");
-
-            // document.getElementById('house-price').innerHTML = stringHousePrice;
-            // document.getElementById('unit-price').innerHTML = stringUnitPrice;
-            // document.getElementById('salary').innerHTML = stringSalary;
-            // document.getElementById('travel-time').innerHTML = stringTravelTime;
-
-            // document.getElementById('summary').innerHTML = contentString;
-            // document.getElementById('cmp-summary').innerHTML = cmpContentString;
-
-            // // pricesInfo.innerHTML = "";
-            // description.innerHTML = "";
-            // schoolsInfo.innerHTML = "";
-            // transportInfo.innerHTML = "";
         }
 
     });

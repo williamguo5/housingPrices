@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^schools/$', views.school_list),
     url(r'^schools/(?P<name>[a-zA-Z_]+)$', views.school_detail),
     url(r'^schoolTable/(?P<name>[a-zA-Z_]+)$', views.school_table),
+    url(r'^hospitalsTable/(?P<name>[a-zA-Z_]+)$', views.hospitals_table),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

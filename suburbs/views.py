@@ -119,6 +119,15 @@ def school_table(request, name, format=None):
         schoolType = 'Secondary'
     return render_to_response('schoolsTable.html', {'schools': schools, 'schoolType': schoolType, 'suburb': suburb.name, 'postcode': suburb.postcode})
 
+@api_view(['GET'])
+def hospitals_table(request, name, format=None):
+    name = re.sub('_', ' ', name)
+
+    suburb = Suburb.objects.get(name__iexact=name)
+    hospitals = suburb.hospitals.all().order_by('name')
+    return render_to_response('hospitalsTable.html', {'hospitals': hospitals, 'suburb': suburb.name, 'postcode': suburb.postcode})
+
+
 
 def getBoolValue(val):
     if (val.upper() == "TRUE"):
