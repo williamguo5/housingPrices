@@ -9,7 +9,7 @@ class HospitalSerializer(serializers.ModelSerializer):
 class SchoolSerializer(serializers.ModelSerializer):
     class Meta:
         model = School
-        fields = ('rank', 'name', 'government', 'primary', 'secondary', 'religion', 'gender', 'street', 'description')
+        fields = ('name', 'rank', 'government', 'primary', 'secondary', 'religion', 'gender', 'street')
 
 class SuburbSerializer(serializers.ModelSerializer):
     schools = SchoolSerializer(many=True, read_only=True)
