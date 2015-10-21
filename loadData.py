@@ -98,8 +98,10 @@ for row in schoolReader:
 
 suburbImagesReader = csv.read(open(suburbImages_filepathname), delimiter=',', quotechar='"')
 next(suburbImagesReader, None)
-for row in schoolReader:
-    suburb = Suburb.objects.create(
-        name = row[0],
-        images = [1:]
-    }
+for row in suburbImagesReader:
+    suburbImages = SuburbImages.objects.create(
+            imageUrl = row[1:]
+        )
+    suburb = Suburb.objects.get(name__iexact=row[0])
+    suburb.suburbImages.add(suburbImages)
+    suburb.save()
