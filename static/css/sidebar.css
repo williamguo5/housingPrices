@@ -465,16 +465,21 @@ h2 {
  */
 #wrapper.showSidebar.sidebarExpanded #sidebar-wrapper {
     z-index: 1000;
-    width: calc(100% - 32px);
+    width: calc(100% - 36px);
     /*right: 24px;*/
 }
 
+#wrapper.showSidebar.sidebarExpanded #add-suburb {
+    /*display: none;*/
+    left: calc(100% - 36px);
+    z-index: -1;
+}
 /* IF the sidebar is showing THEN
  * move the page-content-toggle button to follow as the page-content-wrapper expands
  */
 #wrapper.showSidebar.sidebarExpanded #page-content-toggle {
     /*right: 0;*/
-    left: calc(100% - 32px);
+    left: calc(100% - 36px);
 }
 
 #wrapper.showSidebar.sidebarExpanded .checkbox {
