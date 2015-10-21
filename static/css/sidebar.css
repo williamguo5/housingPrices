@@ -412,10 +412,10 @@ h2 {
 
 }
 
-.nav-pills {
+/*.nav-pills {
     text-align: center;
     visibility: hidden;
-}
+}*/
 
 ./*nav-pills > li{
     float:none;
