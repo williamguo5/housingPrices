@@ -66,10 +66,31 @@ $(document).ready(function() {
             console.log(iframe.src);
             // document.getElementById('age-chart').contentWindow.location.reload(true);
 
-            panelHousePrice.innerHTML = '$' + housePriceValue;
-            panelHouseRent.innerHTML = '$' + houseRentalValue + ' p/w';
-            panelUnitPrice.innerHTML = '$' + unitPriceValue;
-            panelUnitRent.innerHTML = '$' + unitRentalValue + ' p/w';
+            if (housePriceValue == 0) {
+               housePriceValue = 'n/a';
+            } else {
+                housePriceValue = '$' + housePriceValue;
+            }
+            if (houseRentalValue == 0) {
+                houseRentalValue = 'n/a';
+            } else {
+                houseRentalValue = '$' + houseRentalValue + ' p/w';
+            }
+            if (unitPriceValue == 0) {
+                unitPriceValue = 'n/a';
+            } else {
+                unitPriceValue = '$' + unitPriceValue;
+            }
+            if (unitRentalValue == 0) {
+                unitRentalValue = 'n/a';
+            } else {
+                unitRentalValue = '$' + unitRentalValue + ' p/w';
+            }
+
+            panelHousePrice.innerHTML = housePriceValue;
+            panelHouseRent.innerHTML = houseRentalValue;
+            panelUnitPrice.innerHTML = unitPriceValue;
+            panelUnitRent.innerHTML = unitRentalValue;
 
             description.innerHTML = descriptionString;
 
