@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -18,7 +19,6 @@ html, body {
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-
 }
 
 #wrapper {
@@ -31,7 +31,9 @@ html, body {
 
 
 /* Sidebar */
-#sidebar-wrapper, #cmp-sidebar-wrapper{
+
+#sidebar-wrapper,
+#cmp-sidebar-wrapper {
     /*margin-left: -250px;*/
     left: 0%;
     width: 20%;
@@ -39,20 +41,19 @@ html, body {
     /*background: lightgrey;*/
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
-
     position: fixed;
     height: 100%;
     overflow-y: auto;
     z-index: 100;
     -webkit-transition: all 0.5s ease;
-    -ms-transition:  all 0.5s ease ;
+    -ms-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
-    -ms-transition:  all 0.5s ease ;
+    -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     font-size: 16px;
-
 }
+
 
 /*#cmp-sidebar-wrapper{
     margin-left: -250px;
@@ -91,12 +92,10 @@ html, body {
     /*transition-delay: 0.5s;*/
     -webkit-transition: left 0.5s ease;
     -moz-transition: left 0.5s ease;
-    -ms-transition:  left 0.5s ease ;
+    -ms-transition: left 0.5s ease;
     -o-transition: left 0.5s ease;
     transition: left 0.5s ease;
-
     outline: none;
-
 }
 
 #page-content-toggle:hover {
@@ -106,17 +105,16 @@ html, body {
 #close-sidebar {
     position: absolute;
     z-index: -1;
-    top : 20px;
+    top: 20px;
     background: transparent;
     border: transparent;
     /*left: 0%;*/
     left: calc(40% - 45px);
-
-    -webkit-transition: all 0.5s ease ;
-    -moz-transition:  all 0.5s ease ;
-    -ms-transition:  all 0.5s ease ;
-    -o-transition:  all 0.5s ease ;
-    transition:  all 0.5s ease ;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     /*right : 10px;*/
     outline: none;
 }
@@ -128,11 +126,11 @@ html, body {
     border: transparent;
     top: 20px;
     left: calc(20% - 45px);
-    -webkit-transition: all 0.5s ease ;
-    -moz-transition:  all 0.5s ease ;
-    -ms-transition:  all 0.5s ease ;
-    -o-transition:  all 0.5s ease ;
-    transition:  all 0.5s ease ;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     /*right : 10px;*/
     outline: none;
 }
@@ -169,7 +167,8 @@ html, body {
     border: 1px solid black;
 }
 
-#carousel-suburb, #cmp-carousel-suburb {
+#carousel-suburb,
+#cmp-carousel-suburb {
     padding-left: 10%;
     padding-right: 10%;
     /*width: 80%;*/
@@ -179,6 +178,7 @@ html, body {
     /*visibility: hidden;*/
     display: none;
 }
+
 #summary {
     /*transition-delay: 1.0s;*/
 }
@@ -190,8 +190,8 @@ html, body {
 }
 
 #legend {
-	padding-top: 10px;
-	padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     position: fixed;
     background-color: rgb(60, 60, 60);
     color: #b5b5b7;
@@ -211,7 +211,7 @@ html, body {
 }
 
 #lgd-checkbox {
-	float:right;
+    float: right;
 }
 
 .heatmap-selected {
@@ -224,13 +224,11 @@ html, body {
 #house-price::before {
     content: "Buy: ";
     font-weight: bold;
-
 }
 
 #house-rent::before {
     content: "Rent: ";
     font-weight: bold;
-
 }
 
 #unit-price::before {
@@ -256,13 +254,11 @@ html, body {
 #cmp-house-price::before {
     content: "Buy: ";
     font-weight: bold;
-
 }
 
 #cmp-house-rent::before {
     content: "Rent: ";
     font-weight: bold;
-
 }
 
 #cmp-unit-price::before {
@@ -290,13 +286,13 @@ html, body {
 }
 
 .legend-color-box {
-    height:22px;
-    width:22px;
-    border-radius:0.8rem;
-    float:left;
-	margin-left:0px;
-    border:1px solid black;
-    margin-right:8px;
+    height: 22px;
+    width: 22px;
+    border-radius: 0.8rem;
+    float: left;
+    margin-left: 0px;
+    border: 1px solid black;
+    margin-right: 8px;
 }
 
 .sidebar-open .row.info {
@@ -309,13 +305,14 @@ html, body {
     align-items: center;
 }
 
+
 /*.sidebar-expanded .row.school-section {
     background-color: lightgrey;
 }*/
+
 .sidebar-expanded .row.school-prim-sec {
     font-size: 18px;
     border-bottom: 1px solid lightgrey;
-
 }
 
 .sidebar-open .row.info .hover {
@@ -332,6 +329,7 @@ html, body {
 .pos {
     padding-bottom: 23px;
 }
+
 h2 {
     height: 50px;
 }
@@ -339,29 +337,34 @@ h2 {
 .carousel {
     /*visibility: hidden;*/
     overflow: hidden;
-    height: 500px;
-    max-height: 500px;
+    height: 450px;
+    max-height: 450px;
 }
+
 .carousel img {
-  /*  position: relative;
+    /*  position: relative;
     top: -120px;
     min-width: 100%;
     max-height: 400px;
     max-width: none;
     vertical-align: top;*/
-    min-width: 100%;
-    /*width: auto;*/
+    /*min-width: 100%;*/
+    /*width: auto;
     min-height: 100%;
-  /*height: 450px;*/
-  /*max-height: 500px;*/
+    height: 500px;
+    max-height: 500*/
+    /*px;*/
     margin: 0 auto;
+}
+.carousel-inner>.item>img {
+    height: 450px;
+    max-width: none;
 }
 
 .col-md-10 {
     border-left: 1px solid lightgrey;
     /*padding-bottom: 12px;*/
     padding: 0px 0px 0px 0px;
-
 }
 
 .col-md-12 {
@@ -372,12 +375,12 @@ h2 {
     padding-left: 20px;
 }
 
-.col-md-10 span::before{
+.col-md-10 span::before {
     /*border-bottom: 1px solid lightgrey;*/
     padding-left: 20px;
 }
 
-.col-md-2 .sidebar-open{
+.col-md-2 .sidebar-open {
     padding: 5px;
 }
 
@@ -385,6 +388,7 @@ h2 {
     /*padding: 20px;*/
     text-align: left;
 }
+
 
 /*.col-md-2 span{
     color: dodgerblue;
@@ -396,7 +400,6 @@ h2 {
 
 .size-close {
     font-size: 2.5em;
-
 }
 
 .size-plus {
@@ -414,11 +417,11 @@ h2 {
 }
 
 .divider {
-    position:absolute;
+    position: absolute;
     left: calc(100% - 1px);
     /*top: 10px;*/
     /*bottom: 10px;*/
-    border-left:1px solid lightgrey;
+    border-left: 1px solid lightgrey;
     visibility: hidden;
     /*transition-delay: 0.5s;*/
     /*-webkit-transition: all 0.5s ease;*/
@@ -426,24 +429,28 @@ h2 {
     /*-ms-transition: all 0.5s ease;*/
     /*-o-transition: all 0.5s ease;*/
     /*transition: all 0.5s ease;*/
-
 }
+
 
 /*.nav-pills {
     text-align: center;
     visibility: hidden;
 }*/
 
-./*nav-pills > li{
+.
+/*nav-pills > li{
     float:none;
     display:inline-block;
 }*/
+
+
 /*.nav-pills {
     text-align: center;
     visibility: hidden;
 }
 */
-.container-fluid.sidebar-expanded{
+
+.container-fluid.sidebar-expanded {
     /*margin-top: 30px;*/
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
@@ -460,12 +467,13 @@ h2 {
 #legend .container-fluid {
     margin: 5px;
     /*margin-left: 10px;*/
-
     visibility: visible;
 }
-#legend h4{
+
+#legend h4 {
     text-align: center;
 }
+
 #legend .row {
     /*border: solid 1px red;*/
     height: 24px;
@@ -486,20 +494,25 @@ h2 {
     height: calc(100% - 20px);
 }
 
+
 /*.container-fluid .sidebar-expanded {
 
     display:none;
 }*/
 
+
 /* Modifies the properties of the button with hidden visibility on load */
+
 .button {
     /*transition-delay: 0.5s;*/
     visibility: hidden;
 }
 
+
 /* IF the sidebar is showing THEN
  * expanded the page-content-wrapper IF sidebarExpanded is toggled on
  */
+
 #wrapper.showSidebar.sidebarExpanded #sidebar-wrapper {
     z-index: 1000;
     width: calc(100% - 36px);
@@ -511,9 +524,12 @@ h2 {
     left: calc(100% - 36px);
     z-index: -1;
 }
+
+
 /* IF the sidebar is showing THEN
  * move the page-content-toggle button to follow as the page-content-wrapper expands
  */
+
 #wrapper.showSidebar.sidebarExpanded #page-content-toggle {
     /*right: 0;*/
     left: calc(100% - 36px);
@@ -526,7 +542,6 @@ h2 {
 #wrapper.showSidebar.sidebarExpanded .carousel {
     visibility: visible;
     transition-delay: 0.5s;
-
 }
 
 #wrapper.showSidebar.sidebarExpanded .container-fluid.sidebar-expanded {
@@ -543,16 +558,19 @@ h2 {
     /*left: auto;*/
     /*right: 12px;*/
     /*visibility: hidden;*/
-    display:none;
+    display: none;
 }
 
 #wrapper.showSidebar.sidebarExpanded .row {
     transition-delay: 0.5s
 }
 
+
 /* IF the showSidebar is toggled on THEN
  *  set the width to 20 % AND add 20 px padding
  */
+
+
 /*#wrapper.showSidebar #sidebar-wrapper {
     width: 20%;
     z-index: 100;
@@ -589,14 +607,12 @@ h2 {
 #wrapper.showSidebar #page-content-toggle:hover {
     background: dodgerblue;
     /*background: #006699;*/
-
     /*-webkit-transition: color 0.2s ease ;*/
     /*-moz-transition:  color 0.2s ease ;*/
     /*-ms-transition:  color 0.2s ease ;*/
     /*-o-transition:  color 0.2s ease ;*/
     /*transition:  color 0.2s ease ;*/
 }
-
 
 #wrapper.showSidebar #page-content-toggle:hover .expand-colour {
     /*background: white;    */
@@ -620,7 +636,6 @@ h2 {
 }
 
 .center {
-
     vertical-align: middle;
     /*align-self:;*/
 }
@@ -632,14 +647,17 @@ h2 {
 .expand-colour {
     /*color: #006699;*/
     color: dodgerblue;
-
 }
-#wrapper.showSidebar #close-sidebar:hover .colour{
+
+#wrapper.showSidebar #close-sidebar:hover .colour {
     color: red;
 }
+
+
 /* IF the sidebar is showing THEN
  * Set the map width to be 80%
  */
+
 #wrapper.showSidebar #map {
     width: calc(80% - 36px);
 }
@@ -648,7 +666,6 @@ h2 {
     /*left: 40%;*/
     /*right: auto;*/
     display: none;
-
 }
 
 #wrapper.cmpChecked #cmp-sidebar-wrapper {
@@ -656,7 +673,6 @@ h2 {
     /*right: auto;*/
     visibility: visible;
     display: inline;
-
 }
 
 #wrapper.cmpSuburbClicked #close-sidebar {
@@ -669,10 +685,11 @@ h2 {
     visibility: visible;
 }
 
-
 #wrapper.cmpChecked #sidebar-wrapper {
     border-right: 1px solid lightgrey;
 }
+
+
 /*#wrapper.cmpChecked .divider {
     transition-delay: 0.1s;
     visibility: visible;
@@ -684,9 +701,8 @@ h2 {
 
 }*/
 
-#wrapper.cmpChecked .close-sidebar{
-    right : 10px;
-
+#wrapper.cmpChecked .close-sidebar {
+    right: 10px;
 }
 
 #wrapper.cmpChecked #map {
@@ -696,6 +712,7 @@ h2 {
 #wrapper.cmpSuburbClicked.sidebarExpanded .divider {
     visibility: hidden;
 }
+
 
 /*#wrapper.cmpSuburbClicked.sidebarExpanded #sidebar-wrapper {
     width: calc(50% - 16px);
@@ -711,10 +728,13 @@ h2 {
 #wrapper.clicked #add-suburb:hover .colour {
     color: red;
 }
+
+
 /* IF the sidebar is showing THEN
  * the button will become visible
  */
-#wrapper.showSidebar .button{
+
+#wrapper.showSidebar .button {
     /*transition-delay: 1.0s;*/
     visibility: visible;
 }
@@ -722,8 +742,6 @@ h2 {
 #wrapper.showClose .button {
     visibility: visible;
 }
-
-
 
 #heatmap-housing {
     position: fixed;
@@ -742,60 +760,62 @@ h2 {
     bottom: 4%;
     height: 5%;
 }
- #heatmap-transport {
-	position: fixed;
-	z-index: 100;
-	right: 5%;
-	width: 80px;
-	bottom: 4%;
-	height: 5%;
- }
+
+#heatmap-transport {
+    position: fixed;
+    z-index: 100;
+    right: 5%;
+    width: 80px;
+    bottom: 4%;
+    height: 5%;
+}
+
 .heatmap-button {
-    cursor:pointer;
+    cursor: pointer;
     text-align: center;
     /*margin-top: 5px;*/
     padding-top: 5px;
     -moz-box-shadow: 0px 1px 0px 0px #f0f7fa;
     -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa;
     box-shadow: 0px 1px 0px 0px #f0f7fa;
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
-    background:-moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-    background:-webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-    background:-o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-    background:-ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
-    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2',GradientType=0);
-    background-color:#33bdef;
-    border:1px solid #057fd0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33bdef), color-stop(1, #019ad2));
+    background: -moz-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background: -webkit-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background: -o-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background: -ms-linear-gradient(top, #33bdef 5%, #019ad2 100%);
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#33bdef', endColorstr='#019ad2', GradientType=0);
+    background-color: #33bdef;
+    border: 1px solid #057fd0;
 }
 
 .heatmap-button:hover {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
-    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
-    background-color:#019ad2;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef', GradientType=0);
+    background-color: #019ad2;
 }
 
 .heatmap-button.selected {
-    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
-    background:-moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:-ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
-    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
-    background-color:#019ad2;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
+    background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -webkit-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -o-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: -ms-linear-gradient(top, #019ad2 5%, #33bdef 100%);
+    background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef', GradientType=0);
+    background-color: #019ad2;
 }
 
 .checkbox-label {
     padding-left: 5px;
 }
 
-.checkbox-label.highlight-text{
+.checkbox-label.highlight-text {
     color: white;
 }
 
@@ -804,39 +824,39 @@ h2 {
 }
 
 .controls {
-  margin-top: 10px;
-  border: 1px solid transparent;
-  border-radius: 2px 0 0 2px;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  height: 32px;
-  outline: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 #pac-input {
-  background-color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 300;
-  margin-right: 20px;
-  padding: 0 11px 0 13px;
-  text-overflow: ellipsis;
-  width: 300px;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right: 20px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
 }
 
 #pac-input:focus {
-  border-color: #4d90fe;
+    border-color: #4d90fe;
 }
 
 .pac-container {
-  font-family: Roboto;
+    font-family: Roboto;
 }
 
 #type-selector {
-  color: #fff;
-  background-color: #4d90fe;
-  padding: 5px 11px 0px 11px;
+    color: #fff;
+    background-color: #4d90fe;
+    padding: 5px 11px 0px 11px;
 }
 
 #type-selector label {
