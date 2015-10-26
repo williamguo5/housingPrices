@@ -630,7 +630,8 @@ var legendText = {
     "unitPrice": ['< 400K','400K - 500K', '500K - 600K', '600K - 700K', '700K - 800K', '800K - 900K', '900K - 1M', '> 1M', 'Unit Price ($)'],
     "unitRentalPrice": ['< 400','400 - 450', '450 - 500', '500 - 550', '550 - 600', '600 - 650', '650 - 700', '> 700', 'Unit Rent Price ($)'],
     "timeToCbdPublic": ['0 - 30', '30 - 45', '45 - 60', '60 - 75', '75 - 90', '90 - 105', '105 - 120', '> 120', 'Time to CBD (mins)'],
-    "timeToCbdPrivate": ['0 - 10', '10 - 20', '20 - 30', '30 - 40', '40 - 50', '50 - 60', '60 - 70', '> 70', 'Time to CBD (mins)']
+    "timeToCbdPrivate": ['0 - 10', '10 - 20', '20 - 30', '30 - 40', '40 - 50', '50 - 60', '60 - 70', '> 70', 'Time to CBD (mins)'],
+    "custom": ['0', '1', '2', '3', '4', '5', '6', '> 6', '# of Categories Satisfied']
 }
 
 var heatmapButtonIds = {
@@ -649,8 +650,18 @@ var heatmaps = {
     "unitPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
     "unitRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
     "timeToCbdPublic": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
-    "timeToCbdPrivate": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1]
+    "timeToCbdPrivate": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
+    "custom": [0, 1, 1, 1,  1, 1, 1, 0,  0, 0]
 };
+
+var customSelected = {
+    "housePrice": 1,
+    "houseRentalPrice": 1,
+    "unitPrice": 1,
+    "unitRentalPrice": 1,
+    "timeToCbdPublic": 1,
+    "timeToCbdPrivate": 1,
+}
 
 function changeHeatmap(heatmap) {
     // console.log(heatmap);
@@ -668,6 +679,11 @@ function changeHeatmap(heatmap) {
             // color = feature.getProperty(heatmap);
             opacity = 0.88;
         }
+        if (currHeatmap === "custom"){
+            // console.log(currHeatmap);
+            value = displayCustom(feature)
+            color = colorValues[value];
+        }
         if (!heatmaps[currHeatmap][value]) {
             return {
                 fillColor: color,
@@ -684,6 +700,19 @@ function changeHeatmap(heatmap) {
             };
         }
     });
+}
+var numberSelected = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+function displayCustom(feature){
+    var toDisplay = 0;
+    for (var key in customSelected){
+        if (customSelected[key] == 1){
+            value = feature.getProperty(key);
+            toDisplay += heatmaps[key][value];
+        }
+    }
+    numberSelected[toDisplay]++;
+    feature.setProperty("custom", toDisplay);
+    return (toDisplay)
 }
 
 function replaceCheckboxes() {
