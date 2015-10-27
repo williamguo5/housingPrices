@@ -631,7 +631,7 @@ var legendText = {
     "unitRentalPrice": ['< 400','400 - 450', '450 - 500', '500 - 550', '550 - 600', '600 - 650', '650 - 700', '> 700', 'Unit Rent Price ($)'],
     "timeToCbdPublic": ['0 - 30', '30 - 45', '45 - 60', '60 - 75', '75 - 90', '90 - 105', '105 - 120', '> 120', 'Time to CBD (mins)'],
     "timeToCbdPrivate": ['0 - 10', '10 - 20', '20 - 30', '30 - 40', '40 - 50', '50 - 60', '60 - 70', '> 70', 'Time to CBD (mins)'],
-    "custom": ['0', '1', '2', '3', '4', '5', '6', '> 6', '# of Categories Satisfied']
+    "custom": ['0 - MAX', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', 'N/A', '# of Categories Satisfied']
 }
 
 var heatmapButtonIds = {
@@ -641,6 +641,7 @@ var heatmapButtonIds = {
     "unitRentalPrice": "unit-rent",
     "timeToCbdPublic": "travel-time-public",
     "timeToCbdPrivate": "travel-time-private",
+    "custom": "custom"
 }
 
 var heatmaps = {
@@ -651,16 +652,16 @@ var heatmaps = {
     "unitRentalPrice": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
     "timeToCbdPublic": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
     "timeToCbdPrivate": [1, 1, 1, 1,  1, 1, 1, 1,  1, 1],
-    "custom": [0, 1, 1, 1,  1, 1, 1, 0,  0, 0]
+    "custom": [0, 0, 0, 0,  0, 0, 0, 0,  0, 0]
 };
 
 var customSelected = {
-    "housePrice": 1,
-    "houseRentalPrice": 1,
-    "unitPrice": 1,
-    "unitRentalPrice": 1,
-    "timeToCbdPublic": 1,
-    "timeToCbdPrivate": 1,
+    "housePrice": 0,
+    "houseRentalPrice": 0,
+    "unitPrice": 0,
+    "unitRentalPrice": 0,
+    "timeToCbdPublic": 0,
+    "timeToCbdPrivate": 0,
 }
 
 function changeHeatmap(heatmap) {
@@ -679,7 +680,7 @@ function changeHeatmap(heatmap) {
             // color = feature.getProperty(heatmap);
             opacity = 0.88;
         }
-        if (currHeatmap === "custom"){
+        if (currHeatmap == "custom"){
             // console.log(currHeatmap);
             value = displayCustom(feature)
             color = colorValues[value];
@@ -701,7 +702,39 @@ function changeHeatmap(heatmap) {
         }
     });
 }
-var numberSelected = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+function addToCustom(heatmap, checkboxId){
+    var checkbox = 'input:checkbox[name=hm-checkbox' + checkboxId + ']';
+    var checkbox2 = 'input:checkbox[name=cmp-hm-checkbox' + checkboxId + ']';
+    customSelected[heatmap] += 1;
+    customSelected[heatmap] %= 2;
+    if (customSelected[heatmap] == 1){
+        $(checkbox).prop("checked", true);
+        $(checkbox2).prop("checked", true);
+    }else{
+        $(checkbox).prop("checked", false);
+        $(checkbox2).prop("checked", false);
+    }
+    if (currHeatmap == "custom"){
+        var numSelected = 0;
+        for (var key in customSelected){
+            numSelected += customSelected[key];
+        }
+        heatmaps["custom"] = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+        heatmaps["custom"][numSelected] = 1;
+        for(var i = 0; i < 10; i++){
+            if( i < numSelected){
+                legendText["custom"][i] = i.toString();
+            }else if(i == numSelected){
+                legendText["custom"][i] += i.toString() + " - MAX";
+            }else{
+                legendText["custom"][i] = 'N/A';
+            }
+        }
+        changeHeatmap(currHeatmap);
+    }
+}
+
 function displayCustom(feature){
     var toDisplay = 0;
     for (var key in customSelected){
@@ -710,7 +743,6 @@ function displayCustom(feature){
             toDisplay += heatmaps[key][value];
         }
     }
-    numberSelected[toDisplay]++;
     feature.setProperty("custom", toDisplay);
     return (toDisplay)
 }
@@ -728,7 +760,6 @@ function replaceCheckboxes() {
 }
 
 function toggleCheckbox(checkboxId){
-    console.log(checkboxId);
     if (checkboxId == 9){
         if (heatmaps[currHeatmap][checkboxId] == 0){
             heatmaps[currHeatmap] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];

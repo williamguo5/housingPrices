@@ -42,7 +42,9 @@
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
                             <span id="house-price" class="highlight-heatmap-button heatmap-selected" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <input type="checkbox" name="hm-checkbox0"  id ="hm-checkbox0" onchange="addToCustom('housePrice', 0)" unchecked>
                             <span id="house-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
+                            <input type="checkbox" name="hm-checkbox1"  id ="hm-checkbox1" onchange="addToCustom('houseRentalPrice', 1)" unchecked>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -53,7 +55,9 @@
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
                             <span id="unit-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <input type="checkbox" name="hm-checkbox2"  id ="hm-checkbox2" onchange="addToCustom('unitPrice', 2)" unchecked>
                             <span id="unit-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
+                            <input type="checkbox" name="hm-checkbox3"  id ="hm-checkbox3" onchange="addToCustom('unitRentalPrice', 3)" unchecked>
                         </div>
                     </div>
                     <div class="row info">
@@ -63,7 +67,9 @@
                         <div class="col-md-10">
                             <h3>Time To CBD</h3>
                             <span id="travel-time-private" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <input type="checkbox" name="hm-checkbox4"  id ="hm-checkbox4" onchange="addToCustom('timeToCbdPrivate', 4)" unchecked>
                             <span id="travel-time-public" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
+                            <input type="checkbox" name="hm-checkbox5"  id ="hm-checkbox5" onchange="addToCustom('timeToCbdPublic', 5)" unchecked>
                         </div>
                     </div>
                     <div class="row info">
@@ -170,7 +176,9 @@
                         <div class="col-md-10">
                             <h3>Median House Price</h3>
                             <span id="cmp-house-price" class="highlight-heatmap-button heatmap-selected" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('housePrice')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox0"  id ="cmp-hm-checkbox0" onchange="addToCustom('housePrice', 0)" unchecked>
                             <span id="cmp-house-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('houseRentalPrice')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox1"  id ="cmp-hm-checkbox1" onchange="addToCustom('houseRentalPrice', 1)" unchecked>
                         </div>
                     </div>
                     <!-- end of row -->
@@ -181,7 +189,9 @@
                         <div class="col-md-10">
                             <h3>Median Unit Price</h3>
                             <span id="cmp-unit-price" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitPrice')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox2"  id ="cmp-hm-checkbox2" onchange="addToCustom('unitPrice', 2)" unchecked>
                             <span id="cmp-unit-rent" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('unitRentalPrice')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox3"  id ="cmp-hm-checkbox3" onchange="addToCustom('unitRentalPrice', 3)" unchecked>
                         </div>
                     </div>
                     <div class="row info">
@@ -191,7 +201,9 @@
                         <div class="col-md-10">
                             <h3>Time To CBD</h3>
                             <span id="cmp-travel-time-private" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPrivate')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox4"  id ="cmp-hm-checkbox4" onchange="addToCustom('timeToCbdPrivate', 4)" unchecked>
                             <span id="cmp-travel-time-public" class="highlight-heatmap-button" onmouseover="$('#' + this.id).addClass('hover')" onmouseout="$('#' + this.id).removeClass('hover')" onclick="changeHeatmap('timeToCbdPublic')"><br></span>
+                            <input type="checkbox" name="cmp-hm-checkbox5"  id ="cmp-hm-checkbox5" onchange="addToCustom('timeToCbdPublic', 5)" unchecked>
                         </div>
                     </div>
                     <div class="row info">
