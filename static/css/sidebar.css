@@ -281,6 +281,18 @@ body {
     font-weight: bold;
 }
 
+#custom::before {
+    content: "Selected: ";
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+#cmp-custom::before {
+    content: "Selected: ";
+    font-weight: bold;
+    font-size: 13pt;
+}
+
 .tab-content .col-md-6 {
     border: 1px solid lightgrey;
 }

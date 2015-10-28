@@ -680,8 +680,8 @@ function changeHeatmap(heatmap) {
             // color = feature.getProperty(heatmap);
             opacity = 0.88;
         }
+        // console.log(currHeatmap)
         if (currHeatmap == "custom"){
-            // console.log(currHeatmap);
             value = displayCustom(feature)
             color = colorValues[value];
         }
@@ -708,6 +708,28 @@ function addToCustom(heatmap, checkboxId){
     var checkbox2 = 'input:checkbox[name=cmp-hm-checkbox' + checkboxId + ']';
     customSelected[heatmap] += 1;
     customSelected[heatmap] %= 2;
+    document.getElementById('custom').innerHTML = ' ';
+    document.getElementById('cmp-custom').innerHTML = ' ';
+    for (var key in customSelected){
+        if (customSelected[key] == 1){
+            if (key == "housePrice"){
+                key = "House(Buy)";
+            }else if (key == "houseRentalPrice"){
+                key = "House(Rent)";
+            }else if (key == "unitPrice"){
+                key = "Unit(Buy)"
+            }else if (key == "unitRentalPrice"){
+                key = "Unit(Rent)"
+            }else if (key == "timeToCbdPrivate"){
+                key = "Time to CBD(Private)"
+            }else if (key == "timeToCbdPublic"){
+                key = "Time to CBD(Public)"
+            }
+            document.getElementById('custom').innerHTML += key + "<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+            document.getElementById('cmp-custom').innerHTML += key + "<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+        }
+    }
+    
     if (customSelected[heatmap] == 1){
         $(checkbox).prop("checked", true);
         $(checkbox2).prop("checked", true);
@@ -715,22 +737,22 @@ function addToCustom(heatmap, checkboxId){
         $(checkbox).prop("checked", false);
         $(checkbox2).prop("checked", false);
     }
+    var numSelected = 0;
+    for (var key in customSelected){
+        numSelected += customSelected[key];
+    }
+    heatmaps["custom"] = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+    heatmaps["custom"][numSelected] = 1;
+    for(var i = 0; i < 9; i++){
+        if( i < numSelected){
+            legendText["custom"][i] = i.toString();
+        }else if(i == numSelected){
+            legendText["custom"][i] = i.toString() + " - MAX";
+        }else{
+            legendText["custom"][i] = 'N/A';
+        }
+    }
     if (currHeatmap == "custom"){
-        var numSelected = 0;
-        for (var key in customSelected){
-            numSelected += customSelected[key];
-        }
-        heatmaps["custom"] = [0, 0, 0, 0, 0, 0, 0, 0, 0];
-        heatmaps["custom"][numSelected] = 1;
-        for(var i = 0; i < 10; i++){
-            if( i < numSelected){
-                legendText["custom"][i] = i.toString();
-            }else if(i == numSelected){
-                legendText["custom"][i] += i.toString() + " - MAX";
-            }else{
-                legendText["custom"][i] = 'N/A';
-            }
-        }
         changeHeatmap(currHeatmap);
     }
 }
